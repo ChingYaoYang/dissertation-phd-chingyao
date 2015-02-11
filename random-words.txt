@@ -17,6 +17,9 @@ important as I really don't have time to do so.
 This line is now added by MacVim. Git is synced to Googel Drive. Remember to
 use "\ " for space in the liuux system.
 
-NOw the infrastructure is set up. All I need to do is write and write and
+Now the infrastructure is set up. All I need to do is write and write and
 write! 
+
+Last time to do is to add branch to the master branch so that most of
+documents can be tracked properly.
 
