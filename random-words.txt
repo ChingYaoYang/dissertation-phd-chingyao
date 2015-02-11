@@ -13,3 +13,10 @@ edit my dissertation.
 
 Second thing that I have to do is set up my schedule. This is extremely
 important as I really don't have time to do so. 
+
+This line is now added by MacVim. Git is synced to Googel Drive. Remember to
+use "\ " for space in the liuux system.
+
+NOw the infrastructure is set up. All I need to do is write and write and
+write! 
+
