@@ -1,10 +1,15 @@
 this is a new start my dissertation. Now I have to learn all techniques that I
 need and process my fuckign dissertation as soon as possible. At the same
-time, I am using Github and MacVim to help me process my writing and keepeing
-meslef organized. 
+time, I am using Github and MacVim to help me process my writing and keeping
+myself organized. 
 
 Voila! 
 
-Jsut did this one from my pte-imac.
+Just did this one from my pte-imac.
 Date: 2/10/2015
 
+Today, I want to see if I can import bibtex into the git and also using tex to
+edit my dissertation.
+
+Second thing that I have to do is set up my schedule. This is extremely
+important as I really don't have time to do so. 
