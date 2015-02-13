@@ -1,13 +1,15 @@
 Chapter one 
 
-this document is only for idea and simeple wiritng purpose. 
+this document is only for idea and simple writing purpose. 
 
 outline:
 - Introduction
  Rosetta and protein engineering
+ Computational tools are widely used for protein engineering [ref]. Rosetta suite was first developed in University of Washington [ref]. Baker et al. adapted this suite for prediction of three dimentional structure of proteins. This suite provides a handful of proteols for analyzing and mutating protein stuctures. The simulation replies heavily on knowledge-based potentials 
+
  Phosphotriesterase
  Incorporation of uaa
- Flurinatd amino acid
+ Fluorinated amino acid
 
 - Materials and Methods
  General
