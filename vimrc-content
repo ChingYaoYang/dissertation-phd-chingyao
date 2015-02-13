@@ -1,0 +1,143 @@
+" An example for a vimrc file.
+"
+" Maintainer:	Bram Moolenaar <Bram@vim.org>
+" Last change:	2002 Sep 19
+"
+" To use it, copy it to
+"     for Unix and OS/2:  ~/.vimrc
+"	      for Amiga:  s:.vimrc
+"  for MS-DOS and Win32:  $VIM\_vimrc
+"	    for OpenVMS:  sys$login:.vimrc
+
+" When started as "evim", evim.vim will already have done these settings.
+if v:progname =~? "evim"
+  finish
+endif
+
+" Use Vim settings, rather then Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" ADDED BY ME
+" softtabstop controls how many columns vim uses when you hit Tab in insert
+" mode
+set softtabstop=4
+" shiftwidth controls how many columns text is indented with the reindent
+" operations (<<and>>) and automatic C-style indentation
+set shiftwidth=4
+" tabstop tells vim how many columns a tab counts for
+set tabstop=4
+" Use spaces instead of tabs
+set expandtab
+colorscheme ron
+set guifont=monospace\ 13
+" line numbering
+set number
+set ignorecase
+set vb " turns off visual bell
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+if has("vms")
+  set nobackup		" do not keep a backup file, use versions instead
+else
+  set backup		" keep a backup file
+endif
+set history=50		" keep 50 lines of command line history
+set ruler		" show the cursor position all the time
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
+
+" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
+" let &guioptions = substitute(&guioptions, "t", "", "g")
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
+
+" This is an alternative that also works in block mode, but the deleted
+" text is lost and it only works for putting the current register.
+"vnoremap p "_dp
+
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if &t_Co > 2 || has("gui_running")
+  syntax on
+  set hlsearch
+endif
+
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+
+    filetype plugin on
+    set ofu=syntaxcomplete#Complete
+  " Enable file type detection.
+  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+  " 'cindent' is on in C files, etc.
+  " Also load indent files, to automatically do language-dependent indenting.
+  filetype plugin indent on
+
+  " Put these in an autocmd group, so that we can delete them easily.
+  augroup vimrcEx
+  au!
+
+  " For all text files set 'textwidth' to 78 characters.
+  autocmd FileType text setlocal textwidth=78
+
+  " When editing a file, always jump to the last known cursor position.
+  " Don't do it when the position is invalid or when inside an event handler
+  " (happens when dropping a file on gvim).
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
+  augroup END
+
+else
+
+  set autoindent		" always set autoindenting on
+
+endif " has("autocmd")
+
+"MacVim Settings
+set transparency=5
+
+" Setting system clipboard accessible.
+set clipboard=unnamed
+
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1 
+
+autocmd vimenter * if !argc() | NERDTree | endif
+
+map <F2> :NERDTreeToggle<CR>
+
+set mouse=a
+map <Up> <C-y>
+map <Down> <C-e>
+map <Left> <C-u>
+map <Right> <C-d>
+
+set backupdir=~/vim_temp/
+set directory=~/vim_temp/
+
+" Vim-Latex Settings
+set grepprg=grep\ -nH\ $*
+set spell
+let g:tex_flavor='latex'
+let g:Tex_ViewRule_pdf = '/Applications/Skim.app/Contents/MacOS/Skim'
+let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 -interaction=nonstopmode $*'
+let g:Tex_TreatMacViewerAsUnix = '0'
+:map <F3> :w !detex \| wc -w<CR>
+let g:Tex_MultipleCompileFormats='pdf'
+
+hi SpellBad guisp=#ffffff
+
+" Press F4 to toggle highlighting on/off, and show current value.
+:noremap <F4> :set hlsearch! hlsearch?<CR>
+
+:noremap <C-a> 70li<Space><CR><Esc>
+
