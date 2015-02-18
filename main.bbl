@@ -1,0 +1,151 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist{entry}{none}
+    \entry{Ghanem2005a}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=6b58fc637b391cdb96f57f0dcf1eeb0c}{Ghanem}{G\bibinitperiod}{Eman}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b42f9816c8e8551b98214b9fd7a9ca7f}{Raushel}{R\bibinitperiod}{Frank\bibnamedelima M.}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=6b58fc637b391cdb96f57f0dcf1eeb0c}{Ghanem}{G\bibinitperiod}{Eman}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b42f9816c8e8551b98214b9fd7a9ca7f}{Raushel}{R\bibinitperiod}{Frank\bibnamedelima M.}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d4950ef7d3eb75eebe1a2bd63a725503}
+      \strng{fullhash}{d4950ef7d3eb75eebe1a2bd63a725503}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Detoxification of organophosphate nerve agents by bacterial phosphotriesterase}}
+      \field{abstract}{Organophosphates have been widely used as insecticides and chemical warfare agents. The health risks associated with these agents have necessitated the need for better detoxification and bioremediation tools. Bacterial enzymes capable of hydrolyzing the lethal organophosphate nerve agents are of special interest. Phosphotriesterase (PTE) isolated from the soil bacteria Pseudomonas diminuta displays a significant rate enhancement and substrate promiscuity for the hydrolysis of organophosphate triesters. Directed evolution and rational redesign of the active site of PTE have led to the identification of new variants with enhanced catalytic efficiency and stereoselectivity toward the hydrolysis of organophosphate neurotoxins. PTE has been utilized to protect against organophosphate poisoning in vivo. Biotechnological applications of PTE for detection and decontamination of insecticides and chemical warfare agents are developing into useful tools. In this review, the catalytic properties and potential applications of this remarkable enzyme are discussed. ?? 2005 Elsevier Inc. All rights reserved.}
+      \field{booktitle}{Toxicology and Applied Pharmacology}
+      \field{isbn}{1096-0333 (Electronic)$\backslash$n0041-008X (Linking)}
+      \field{issn}{0041008X}
+      \field{title}{{Detoxification of organophosphate nerve agents by bacterial phosphotriesterase}}
+      \field{volume}{207}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1016/j.taap.2005.02.025
+      \endverb
+      \keyw{Detoxification,Organophosphates,Phosphotriesterase}
+    \endentry
+    \entry{Soreq2001}{misc}{}
+      \name{labelname}{2}{}{%
+        {{hash=6e27a62d5367dc947ad7daee28dbd94f}{Soreq}{S\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=2cd72c982507723380f3751bc431d061}{Seidman}{S\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=6e27a62d5367dc947ad7daee28dbd94f}{Soreq}{S\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=2cd72c982507723380f3751bc431d061}{Seidman}{S\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0a435de2692bb818d40687dc51f1671d}
+      \strng{fullhash}{0a435de2692bb818d40687dc51f1671d}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Acetylcholinesterase--new roles for an old actor.}}
+      \field{abstract}{The discovery of the first neurotransmitter--acetylcholine--was soon followed by the discovery of its hydrolysing enzyme, acetylcholinesterase. The role of acetylcholinesterase in terminating acetylcholine-mediated neurotransmission made it the focus of intense research for much of the past century. But the complexity of acetylcholinesterase gene regulation and recent evidence for some of the long-suspected 'non-classical' actions of this enzyme have more recently driven a profound revolution in acetylcholinesterase research. Although our understanding of the additional roles of acetylcholinesterase is incomplete, the time is ripe to summarize the evidence on a remarkable diversity of acetylcholinesterase functions.}
+      \field{booktitle}{Nature reviews. Neuroscience}
+      \field{isbn}{14710048 (ISSN)}
+      \field{issn}{1471-003X}
+      \field{title}{{Acetylcholinesterase--new roles for an old actor.}}
+      \field{volume}{2}
+      \field{year}{2001}
+      \field{pages}{294\bibrangedash 302}
+      \verb{doi}
+      \verb 10.1038/35067589
+      \endverb
+    \endentry
+    \entry{Yang2014a}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=56c9f3fd2e9f0de957a56fc7aff3aef4}{Yang}{Y\bibinitperiod}{Ching-Yao}{C\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=26c706eae457b41824bf95c986fe5f9a}{Renfrew}{R\bibinitperiod}{P.\bibnamedelimi Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=1a183e2d07c55a124473b2332c321f38}{Olsen}{O\bibinitperiod}{Andrew\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=f446a4846dd72c6cef8ce06477d50acb}{Zhang}{Z\bibinitperiod}{Michelle}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8d6af1033c6e3dccc0a51794d26dc793}{Yuvienco}{Y\bibinitperiod}{Carlo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=371fcb8879619e36e49d026d0e692c12}{Bonneau}{B\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=56c9f3fd2e9f0de957a56fc7aff3aef4}{Yang}{Y\bibinitperiod}{Ching-Yao}{C\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=26c706eae457b41824bf95c986fe5f9a}{Renfrew}{R\bibinitperiod}{P.\bibnamedelimi Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=1a183e2d07c55a124473b2332c321f38}{Olsen}{O\bibinitperiod}{Andrew\bibnamedelima J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=f446a4846dd72c6cef8ce06477d50acb}{Zhang}{Z\bibinitperiod}{Michelle}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=8d6af1033c6e3dccc0a51794d26dc793}{Yuvienco}{Y\bibinitperiod}{Carlo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=371fcb8879619e36e49d026d0e692c12}{Bonneau}{B\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{e4526c90b9bbe053d30d251d74545fb5}
+      \strng{fullhash}{e4526c90b9bbe053d30d251d74545fb5}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Improved stability and half-life of fluorinated phosphotriesterase using Rosetta}}
+      \field{abstract}{Recently we demonstrated that incorporating p-fluorophenylalanine (pFF) into phosphotriesterase dramatically improved folding, thereby leading to enhanced stability and function at elevated temperatures. To further improve the stability of the fluorinated enzyme, Rosetta was used to identify multiple potential stabilizing mutations. One such variant, pFF-F104A, exhibited enhanced activity at elevated temperature and maintained activity over many days in solution at room temperature.}
+      \field{annotation}{this is my paper on PTE}
+      \field{issn}{1439-7633}
+      \field{journaltitle}{Chembiochem: A European Journal of Chemical Biology}
+      \field{month}{08}
+      \field{number}{12}
+      \field{title}{{Improved stability and half-life of fluorinated phosphotriesterase using Rosetta}}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{pages}{1761\bibrangedash 1764}
+      \verb{doi}
+      \verb 10.1002/cbic.201402062
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Yang et al. - 2014 - Improved stability and half-life of fluorinated phosphotriesterase using Rosetta.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/25066940
+      \endverb
+    \endentry
+    \entry{Mahto2011}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=d2fef4123d5d1c554548b1b628e45c5f}{Mahto}{M\bibinitperiod}{Santosh\bibnamedelima K.}{S\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=5b5f3227399c554105a12bc2727c6c11}{Howard}{H\bibinitperiod}{Cecil\bibnamedelima J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=24bb0174edd940dd1739e4d9428257cc}{Shimko}{S\bibinitperiod}{John\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=2125ef553672fe976c22c607a6b9807c}{Ottesen}{O\bibinitperiod}{Jennifer\bibnamedelima J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=d2fef4123d5d1c554548b1b628e45c5f}{Mahto}{M\bibinitperiod}{Santosh\bibnamedelima K.}{S\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=5b5f3227399c554105a12bc2727c6c11}{Howard}{H\bibinitperiod}{Cecil\bibnamedelima J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=24bb0174edd940dd1739e4d9428257cc}{Shimko}{S\bibinitperiod}{John\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=2125ef553672fe976c22c607a6b9807c}{Ottesen}{O\bibinitperiod}{Jennifer\bibnamedelima J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b1b926e75d26d787ba448c642d901e8a}
+      \strng{fullhash}{b1b926e75d26d787ba448c642d901e8a}
+      \field{sortinit}{0}
+      \field{labeltitle}{{A reversible protection strategy to improve Fmoc-SPPS of peptide thioesters by the N-acylurea approach}}
+      \field{abstract}{C-terminal peptide thioesters are an essential component of the native chemical ligation approach for the preparation of fully or semisynthetic proteins. However, the efficient generation of C-terminal thioesters by Fmoc solid-phase peptide synthesis remains a challenge. The recent N-acylurea approach to thioester synthesis relies on the deactivation of one amine of 3,4-diaminobenzoic acid (Dbz) during Fmoc SPPS. Here, we demonstrate that this approach results in the formation of side products through the over-acylation of Dbz, particularly when applied to Gly-rich sequences. We find that orthogonal allyloxycarbonyl (Alloc) protection of a single Dbz amine eliminates these side products. We introduce a protected Fmoc-Dbz(Alloc) base resin that may be directly used for synthesis with most C-terminal amino acids. Following synthesis, quantitative removal of the Alloc group allows conversion to the active N-acyl-benzimidazolinone (Nbz) species, which can be purified and converted in situ to thioester under ligation conditions. This method is compatible with the automated preparation of peptide-Nbz conjugates. We demonstrate that Dbz protection improves the synthetic purity of Gly-rich peptide sequences derived from histone H4, as well as a 44-residue peptide from histone H3.}
+      \field{isbn}{1439-7633 (Electronic)$\backslash$r1439-4227 (Linking)}
+      \field{issn}{14394227}
+      \field{journaltitle}{ChemBioChem}
+      \field{title}{{A reversible protection strategy to improve Fmoc-SPPS of peptide thioesters by the N-acylurea approach}}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2488\bibrangedash 2494}
+      \verb{doi}
+      \verb 10.1002/cbic.201100472
+      \endverb
+      \keyw{Native chemical ligation,Peptides,Solid-phase synthesis,Thioesters}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
