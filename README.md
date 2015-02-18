@@ -15,3 +15,8 @@ ver 2.0
 - .vimrc is modified with "set autochdir" (automatically change working dictionary).
 - aux files will be generated after compiled.
 
+ver 2.1
+- add aux, bbl, bcf, blg, lof, log, lot, out, pdf, xml, gz, toc files in the system.
+- add branch chap1v21
+- branch chap1v2 is now reserved for future use.  
+
