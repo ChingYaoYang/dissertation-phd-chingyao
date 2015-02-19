@@ -1,17 +1,17 @@
-[1] Config.pm:318> INFO - This is Biber 1.8
+[0] Config.pm:318> INFO - This is Biber 1.8
 [1] Config.pm:321> INFO - Logfile is 'main.blg'
-[133] biber-darwin:275> INFO - === Wed Feb 18, 2015, 22:27:51
-[133] Biber.pm:333> INFO - Reading 'main.bcf'
-[244] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
-[245] Biber.pm:630> INFO - Found 4 citekeys in bib section 1
-[245] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
-[282] Biber.pm:3053> INFO - Processing section 1
-[321] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis.bib' for section 1
-[329] bibtex.pm:812> INFO - Found BibTeX data source 'thesis.bib'
-[358] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/61/b5yxnvh116z7wsc92kq4qgw40000gp/T/TR85Ylr6gr/thesis.bib_986.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[426] Biber.pm:2939> INFO - Overriding locale 'en_US' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[426] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[426] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US'
-[442] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'ascii'
-[445] bbl.pm:555> INFO - Output to main.bbl
-[445] Biber.pm:105> INFO - WARNINGS: 1
+[121] biber-darwin:275> INFO - === Thu Feb 19, 2015, 16:57:59
+[121] Biber.pm:333> INFO - Reading 'main.bcf'
+[231] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[231] Biber.pm:630> INFO - Found 4 citekeys in bib section 1
+[231] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[265] Biber.pm:3053> INFO - Processing section 1
+[293] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis.bib' for section 1
+[300] bibtex.pm:812> INFO - Found BibTeX data source 'thesis.bib'
+[330] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/61/b5yxnvh116z7wsc92kq4qgw40000gp/T/oXpnVb4lWW/thesis.bib_4818.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[377] Biber.pm:2939> INFO - Overriding locale 'en_US' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[377] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[377] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US'
+[391] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'ascii'
+[395] bbl.pm:555> INFO - Output to main.bbl
+[395] Biber.pm:105> INFO - WARNINGS: 1
