@@ -1,0 +1,259 @@
+\chapter{Improved Stability and Half-Life of Fluorinated Phosphotriesterase
+Using Rosetta} 
+\label{chap:rosetta} 
+\begin{refsection}
+
+\section{Introduction}
+
+\subsection{Rosetta and Protein Engineering}
+\label{sec:rosetta}
+
+% Introduce Rosetta and protein engineering. Also focus on protein engineering.
+Computational tools are widely used for protein engineering [ref]. Rosetta
+suite was first developed in University of Washington [ref]. Baker et al.
+adapted this suite for prediction of three dimensional structure of proteins.
+This suite provides a handful of protocols for analyzing and mutating protein
+structures. The simulation replies heavily on knowledge-based potentials. It is
+a suite of libraries and tools for macromolecular ligand docking, to
+thermo-stabilize proteins, to design a hydrogen-bond network, to design novel
+protein folds, to create novel protein interfaces, and to design enzymes,
+including some containing unnatural amino acids in the active sites. 
+
+\subsection{Phosphotriesterase} 
+\label{sec:pte}
+
+% This section focuses on PTE.
+PTE is a homodimeric protein composed of two monomers, each of which contains a
+metallo-active site.Phosphotriesterase (PTE) are enzymes, which hydrolyze
+organophosphates (OPs) as well as synthetic esters.\cite{Ghanem2005a} OPs are a
+synthetic class of small molecule that irreversibly inactivate
+acetylcholinesterase (AChE), disrupting neural transmission. AChE is an enzyme
+that degrades the neurotransmitter, acetylcholine, at the neuromuscular
+junction in the cholinergic nervous system. After the acetylcholine is
+hydrolyzed, the synaptic transmission would be terminated. Inhibition of AChE
+lead to hyper-stimulation from toxic accumulation of
+acetylcholine.\cite{Soreq2001} Army also adapted this protein for chemical
+weapons neutralization. \cite{Yang2014a}
+
+\subsection{Incorporation of non-natural amino acids}
+\label{sec:rsi}
+
+Several methods have been developed for the incorporation of unnatural amino
+acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, in vivo and
+in vitro site-specific incorporation, 16 and residue-specific incorporation
+(Fig. 1)1d, 17. In SPPS, activated amino acids are immobilized on a solid
+support and synthesized step-by-step in the reactant solution. This method is
+convenient for the introduction of functional groups into peptides, but it is
+still restricted to the yield and the expense of peptides. For example, if each
+coupling step has 99\% yield, a 26-amino acid peptide would be synthesized in
+77\% final yield. To synthesis longer chain peptides and proteins bearing UAAs,
+biosynthetic methods have been developed.  There exists two contemporary
+methods to biosynthetically incorporate non-natural amino acids into proteins:
+site-specific incorporation and residue-specific incorporation. Schultz and
+their coworkers18 have developed a general approach for the in vitro synthesis
+of proteins. The approach relies on the suppression of an amber termination
+codon (UAG) in the mRNA by an amber suppressor tRNA charged with the amino acid
+analog. This method has been well studied and developed in research of protein
+structures and functions19. 
+
+
+Methods to incorporate amino acid analogues site-specifically into proteins in
+vivo greatly expand research of unnatural amino acids. We are not only able to
+synthesize large amounts of protein, but capable of overcoming potential
+problems including post translational modifications. An in vivo site-specific
+method to incorporation UAAs was developed by Schultz and coworkers21. A stop
+codon at the position of interest is encoded in the mRNA. For in vivo
+site-specific UAA incorporation, an orthogonal aminoacyl-tRNA synthetase
+charges an orthogonal tRNA with particular UAA, and the suppressor tRNA would
+help the incorporation of UAA with recognition of a stop codon. As cells
+contain 20 aminoacyl-tRNA synthetase/suppressor tRNA pairs, a new one is
+required for the incorporation. An orthogonal aminoacyl-tRNA
+synthetase/suppressor tRNA pair based on a TyrRS/tRNATyr pair in the
+\emph{Methanococcus jannaschii} has been engineered for use in \emph{E. coli}
+for the incorporation of tyrosine analogs21a.
+
+As an alternative to site-specific incorporation, residue-specific
+incorporation has been developed in which a natural amino acid is replaced with
+an UAA. Auxotrophic strains or organisms that cannot biosynthesize a particular
+natural amino acid, has been used to introduce multiple UAAs throughout the
+protein sequence. UAAs that are isosteric to natural amino acids are capable of
+being recognized by the natural aminoacyl-tRNA synthetase (aaRS), charging the
+appropriate tRNA enabling the introduction of UAA into the protein sequence
+without alteration of the biosynthetic machinery. However, to introduce UAAs
+with gross differences from the natural amino acids, further engineering of the
+aaRS is required. To incorporate refractory methionine analogs, Tirrell and
+coworkers engineered additional copied of the methionyl-tRNA synthetase (MetRS)
+by adding the MetRS gene under constitutive promotor22. Alternatively, Schimmel
+and coworkers mutated editing pocket of valyl-tRNA synthetase (ValRS) to
+facilitate the incorporation of analogs that normally would not be accepted by
+endogenous aaRS23. Finally, Kast and coworkers generated a mutated
+phenylalanyl-tRNA synthetase (PheRS), ePheRS* under a constitutive promoter,
+with a large binding pocket (T251G) and showed relaxed specificity.24
+
+\subsection{Fluorinated amino acids in proteins} 
+\label{sec:faa}
+
+% Describe the properties of faa in the proteins.
+Fluorinated amino acids (FAAs), represent a unique class of UAAs. They have
+different bond energies, electron distributions, and hydrophobzgicity 26 as
+compared to their hydrogenated counterparts. As we compare the structure of
+fluorocarbon groups, t(Bh)e C-F bond is highly dipolar while the hydrocarbon is
+less. The C-F bond is roughly 0.24Å longer than C-H bond26 (Table 1). While in
+some cases the global replacement of hydrophobic amino acids with fluorinated
+analogs has led to the stabilization of protein structure27, it has all been
+shown that in some cases they can reduce the thermodynamic stability28.
+
+\subsection{Scope of work}
+
+The primary goals of this work were to done adapt Rosetta for
+phosphotriesterase. Overall, with incorporation of \emph{p}FF into protein, we
+will be able evaluate the performance of scoring function. In advance, we would
+evaluate the shelf life and thermo-stability of phosphotriesterase.
+
+\section{Methods}
+
+\subsection{General}
+
+All chemicals, reagents, and substrate were purchased from Sigma. T4 DNA ligase
+was purchased from Roche. DNA sequence was confirmed by Eurofins MWG Operon.
+96-well plates were purchased from Thermo Fisher Scientific (Waltham, MA).
+
+\subsection{Recombinant gene construction}
+
+pQE30-S5 was used as described before. The pQE30-104A plasmid was prepared with
+forward primers (5’-GATGTGTCGACTGCCGATATCGGTCG-3’, Fisher Scientific), reverse
+primers (5’-CGACCGATATCGGCAGTCGACACA-3’, Fisher Scientific). The PCR parameters
+were set as follow for 18 cycles: initial denaturation in \SI{95}{\celsius}
+for 30 seconds, sequential denaturation in \SI{95}{\celsius} for 30
+seconds, annealing in \SI{55}{\celsius} for 1 minute, and extension in
+\SI{68}{\celsius} for 4 minutes. The mixture was then incubated
+\SI{37}{\celsius} °C overnight with DpnI to digest methylated parent DNA
+strands, which lack the desired mutation. DNA sequence was further confirmed by
+Eurofins MWG Operon.
+
+\subsection{Protein Expression}
+Mutant and wild type plasmids were transformed into E. coli phenylalanine
+auxotrophic strains (AF-IQ cells).[5] Electroporation was done at 25 μF, 100
+Ohms, 2.5 kV (Biorad Gene Pulser II). Cells were plated on agar plates
+containing 200 μg/mL ampicillin, 34 μg/mL chloramphenicol. A Single colony was
+picked and grown in medium (M9 medium supplemented with 0.2 wt \% glucose, 35
+mg/L thiamine, 1mM \ch{MgSO4}, 0.1mM \ch{CaCl2}, 200 μg/mL ampicillin, and 34 μg/mL
+chloramphenicol) with 20 mg/L of 20 amino acids at 37 °C, 300 r.p.m.
+Afterwards, 250 mL of M9 medium for large-scale expression was innoculated 1:50
+with an overnight culture. After optical density reached 1.0 at 600 nm, media
+shift was carried out by washing the cells three times with 0.9\%
+\SI{4}{\celsius}<++> \ch{NaCl}.  Cells were then transferred to M9 minimal
+medium containing either 20 amino acids or 19 amino acids (-Phe). pFF-PTE and
+pFF-104A expression media were supplemented with and 3 mM of pFF and 1 mM
+isopropyl- beta-D-thiogalactopyranoside (IPTG) to induce protein expression.
+1mM of \ch{CoCl2} was added in each post-induction medium. After three hours
+incubation at 37 °C, 300 r.p.m., the cells were harvested and then resuspended
+with 20 mM Tris-HCl, 500 mM \ch{NaCl}, 5 mM imidazole, 10\% glycerol (pH 8.0) and
+\SI{1}{\micro\moLar}<++> \ch{CoCl2}. Cell lysate was sonicated on ice for 1.5
+minutes and then a clarification spin was performed (20, 000 g,
+\SI{4}{\celsius}<++>, 30 min).  Clarified supernatants were loaded into a His
+Trap column (G.E Healthcare, Piscataway, NJ) using ÄKTA FPLC purifier (G.E.
+Healthcare, Piscataway, NJ).  Protein elution was generated using elution
+buffer B (20 mM Tris- HCl, 500 mM sodium chloride, 500 mM imidazole (pH 8.0)).
+The purified samples were then transferred for buffer exchange using 3X 4L 20
+mM phosphate buffer (pH 8.0).  Dialyzed protein was subjected to kinetic assays
+immediately.
+
+\subsection{Thermo-stability and secondary structure of phosphotriesterase}
+\label{sec:thermo}
+
+\subsubsection{Nano-DSC}
+
+DSC (Nano-DSC, TA instrument, USA) was preformed by using 600 μL (0.1 mg/mL) of
+protein right after dialysis. Measurements were conducted at a scan rate of
+1°C/min. Signals was blanked with buffer under the same condition. The observed
+diagram was then analyzed by using NanoAnalyze software.
+
+\subsubsection{Circular dichroism}
+
+CD spectra were recorded on a JASCO J-815 Spectropolarimeter (Easton, MD) using
+Spectra Manager software. Temperature was controlled using a Fisher Isotemp
+Model 3016S water bath. Proteins concentrations were 10 μM in 20 mM phosphate
+buffer (pH 8.0). 20 mM phosphate buffer was used for blanking signals. To
+calculate ellipticities, the following formula was used:
+
+θmrw = MRW(θobs) / (10 * c * l)
+where \emph{MRW} is the mean residue weight of the specific phosphotriesterase, θobs
+is the observed ellipticities (mdeg), \emph{l} is the path length (cm), \emph{c} is the
+concentration in μM. Spectra was recorded from 190 nm to 250 nm with a scan
+speed of 1 nm/min.
+
+\subsection{Enzyme Kinetics}
+
+The protein was diluted to a final concentration of 30 nM in 20 mM sodium
+phosphate (pH 8.0) by using the extinction coefficient 29,280
+M\textsuperscript{-1} cm\textsuperscript{-1}. Reactions were monitored
+spectrophotometrically (Synergy H1, Bio-Tek, Winooski VT) at 405 nm for
+paraoxon (coefficient = 17,000 M\textsuperscript{-1}  cm\textsuperscript{-1} ).
+Reactions for paraoxon (13 – 104 μM) was done in 0.4\% methanol. KM and kcat
+values were determined by a Lineweaver-Burk plot (1/v vs 1/[S]).[5] The
+equation used is shown below: 
+
+1/v = (KM/ VMax) ? (1/[S]) + 1/VMax S2
+where [S] represents substrate concentration; KM represents the substrate
+concentration at which the reaction rate is half of Vmax. The data reported is
+the average of three trials and the error represents the standard deviation of
+those trials.
+
+\section{Results}
+
+\subsection{Biosynthesis of phosphotriesterase}
+
+The \emph{p}FF-F104A variant and the \emph{p}FF-PTE parent were biosynthesized
+by residue-specific incorporation with the phenylalanine auxotrophic
+\emph{Escherichia coli} strain AFIQ.[6] As controls, the non-fluorinated
+counterparts, PTE and F104A, were expressed under conventional conditions. As
+expected, all four proteins exhibited good expression in the presence of
+phenylalanine or \emph{p}FF. \emph{p}FF-F104A and \emph{p}FF-PTE exhibited 80
+and 92\% incorporation, respectively, as determined by MALDI-TOF mass
+spectrometry. Notably, purified yields of \emph{p}FF-F104A were twofold higher
+than for \emph{p}FF-PTE, thus indicating more soluble protein yield.
+
+\section{Discussion}
+
+Circular dichroism (CD) was performed to determine whether the mutation had an
+impact on the overall secondary structure and stability. Far-UV wavelength
+scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at 208 and
+222 nm (\SI{25}{\celsius}), as expected for a (b/a)8 -barrel protein, thus
+suggesting that the mutation did not affect the overall structure (Figure S3).
+Surprisingly, comparison of the non-fluorinated counterparts revealed that
+F104A was less structured than PTE (Figure S3). To assess the stability,
+differential scanning calorimetry (DSC) was performed (Figure 2). Upon heating
+the sample from 0 to 708C, pFF-PTE exhibited two transitions (Tm1:
+($42.0\pm0.1$)\SI{}{\celsius}; Tm2 : $48.6 \pm 0.2$\SI{}{\celsius}; Table
+S1); this is consistent with our previous studies.[6] This biphasic unfolding
+was also observed by Grimsley et al. in a study of organophosphorus hy- drolase
+(EC 3.1.8.1), and was attributed to the presence of a dimeric unfolded
+intermediate.[17] In contrast, \emph{p}FF-F104A exhibited a single transition
+at (49.7 ± 0.2) 8C, which was higher than both pFF-PTE values (by 7.7 and
+1.18C; Figure 2B, Table S1).  Remarkably, after heating, pFF-F104A retained the
+single Tm of (49.2 ± 0.1) \SI{8}{\celsius}, thus demonstrating regaining of
+structure after undergoing thermal unfolding.  In the absence of \emph{p}FF,
+F104A demonstrated two transitions similar to \emph{p}FF-PTE (Figure 2A), thus
+suggesting that fluorination was critical for stability. These data demonstrate
+the overall thermodynamic stability of \emph{p}FF-F104A.
+
+\subsection{Protein design}
+
+Although methods enabling the biosynthesis of artificial proteins bearing NCAAs
+are abundant,[1] tools to help further improve the overall activity and
+stability are needed. Mutagenesis and evolutionary approaches have been
+employed successfully to identify variants with enhanced function; however,
+these rely heavily on testing or screening several to millions of
+constructs.[3c, 5, 20] We demonstrate the use of computational methods to
+identify a fluorinated protein variant that exhibits superior heat stability
+and half-life. Notably, the \emph{p}FF-F104A variant is only functional in the
+fluorinated form, thus validating Rossetta-based design with \emph{p}FF. This
+provides another useful tool for protein design and could be employed in
+conjunction with the abov ementioned approaches.
+
+\subsection{Future work}
+
+\printbibliography[heading=subbibliography]
+
+\end{refsection}
