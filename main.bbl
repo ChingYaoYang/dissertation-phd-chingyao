@@ -145,6 +145,36 @@
       \endverb
       \keyw{Native chemical ligation,Peptides,Solid-phase synthesis,Thioesters}
     \endentry
+    \entry{Baker2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=95b05704b8d88a1143a2f803eb28af7b}{Baker}{B\bibinitperiod}{Peter\bibnamedelima James}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=95b05704b8d88a1143a2f803eb28af7b}{Baker}{B\bibinitperiod}{Peter\bibnamedelima James}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{30dd748251e142a68c6c3858cbd44f77}
+      \strng{fullhash}{30dd748251e142a68c6c3858cbd44f77}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Enhanced refoldability and thermoactivity of fluorinated phosphotriesterase.}}
+      \field{annotation}{Peter's paper on PTE}
+      \field{issn}{1439-7633}
+      \field{journaltitle}{Chembiochem : a European journal of chemical biology}
+      \field{month}{08}
+      \field{number}{12}
+      \field{title}{{Enhanced refoldability and thermoactivity of fluorinated phosphotriesterase.}}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{1845\bibrangedash 8}
+      \verb{doi}
+      \verb 10.1002/cbic.201100221
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/21710682
+      \endverb
+      \keyw{Amino Acids,Amino Acids: chemistry,Amino Acids: metabolism,Calorimetry,Differential Scanning,Circular Dichroism,Cloning,Molecular,Dimerization,Electrophoresis,Polyacrylamide Gel,Enzyme Stability,Escherichia coli,Escherichia coli Proteins,Escherichia coli Proteins: chemistry,Escherichia coli Proteins: genetics,Escherichia coli Proteins: metabolism,Halogenation,Hot Temperature,Insecticides,Insecticides: metabolism,Kinetics,Models,Molecular,Paraoxon,Paraoxon: metabolism,Phosphoric Triester Hydrolases,Phosphoric Triester Hydrolases: chemistry,Phosphoric Triester Hydrolases: genetics,Phosphoric Triester Hydrolases: metabolism,Protein Engineering,Protein Engineering: methods,Protein Folding,Recombinant Proteins,Recombinant Proteins: chemistry,Recombinant Proteins: genetics,Recombinant Proteins: metabolism,Spectrometry,Mass,Matrix-Assisted Laser Desorpti,Substrate Specificity,pff,pte}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

@@ -36,7 +36,7 @@ lead to hyper-stimulation from toxic accumulation of
 acetylcholine.\cite{Soreq2001} Army also adapted this protein for chemical
 weapons neutralization. \cite{Yang2014a}
 
-\subsection{Incorporation of non-natural amino acids}
+\subsection{Incorporation of Non-natural Amino Acids}
 \label{sec:rsi}
 
 Several methods have been developed for the incorporation of unnatural amino
@@ -56,7 +56,6 @@ of proteins. The approach relies on the suppression of an amber termination
 codon (UAG) in the mRNA by an amber suppressor tRNA charged with the amino acid
 analog. This method has been well studied and developed in research of protein
 structures and functions19. 
-
 
 Methods to incorporate amino acid analogues site-specifically into proteins in
 vivo greatly expand research of unnatural amino acids. We are not only able to
@@ -91,7 +90,7 @@ endogenous aaRS23. Finally, Kast and coworkers generated a mutated
 phenylalanyl-tRNA synthetase (PheRS), ePheRS* under a constitutive promoter,
 with a large binding pocket (T251G) and showed relaxed specificity.24
 
-\subsection{Fluorinated amino acids in proteins} 
+\subsection{Fluorinated Amino Acids In Proteins} 
 \label{sec:faa}
 
 % Describe the properties of faa in the proteins.
@@ -104,7 +103,7 @@ some cases the global replacement of hydrophobic amino acids with fluorinated
 analogs has led to the stabilization of protein structure27, it has all been
 shown that in some cases they can reduce the thermodynamic stability28.
 
-\subsection{Scope of work}
+\subsection{Scope of Work}
 
 The primary goals of this work were to done adapt Rosetta for
 phosphotriesterase. Overall, with incorporation of \emph{p}FF into protein, we
@@ -119,65 +118,66 @@ All chemicals, reagents, and substrate were purchased from Sigma. T4 DNA ligase
 was purchased from Roche. DNA sequence was confirmed by Eurofins MWG Operon.
 96-well plates were purchased from Thermo Fisher Scientific (Waltham, MA).
 
-\subsection{Recombinant gene construction}
+\subsection{Recombinant Gene Construction}
 
-pQE30-S5 was used as described before. The pQE30-104A plasmid was prepared with
-forward primers (5’-GATGTGTCGACTGCCGATATCGGTCG-3’, Fisher Scientific), reverse
-primers (5’-CGACCGATATCGGCAGTCGACACA-3’, Fisher Scientific). The PCR parameters
-were set as follow for 18 cycles: initial denaturation in \SI{95}{\celsius}
-for 30 seconds, sequential denaturation in \SI{95}{\celsius} for 30
-seconds, annealing in \SI{55}{\celsius} for 1 minute, and extension in
-\SI{68}{\celsius} for 4 minutes. The mixture was then incubated
-\SI{37}{\celsius} °C overnight with DpnI to digest methylated parent DNA
+pQE30-S5 was used as described before.\cite{Baker2011} The pQE30-104A plasmid
+was prepared with forward primers (5’-GATGTGTCGACTGCCGATATCGGTCG-3’, Fisher
+Scientific), reverse primers (5’-CGACCGATATCGGCAGTCGACACA-3’, Fisher
+Scientific). The PCR parameters were set as follow for 18 cycles: initial
+denaturation in \SI{95}{\celsius} for 30 seconds, sequential denaturation in
+\SI{95}{\celsius} for 30 seconds, annealing in \SI{55}{\celsius} for 1 minute,
+and extension in \SI{68}{\celsius} for 4 minutes. The mixture was then
+incubated \SI{37}{\celsius} overnight with DpnI to digest methylated parent DNA
 strands, which lack the desired mutation. DNA sequence was further confirmed by
 Eurofins MWG Operon.
 
 \subsection{Protein Expression}
-Mutant and wild type plasmids were transformed into E. coli phenylalanine
-auxotrophic strains (AF-IQ cells).[5] Electroporation was done at 25 μF, 100
-Ohms, 2.5 kV (Biorad Gene Pulser II). Cells were plated on agar plates
-containing 200 μg/mL ampicillin, 34 μg/mL chloramphenicol. A Single colony was
-picked and grown in medium (M9 medium supplemented with 0.2 wt \% glucose, 35
-mg/L thiamine, 1mM \ch{MgSO4}, 0.1mM \ch{CaCl2}, 200 μg/mL ampicillin, and 34 μg/mL
-chloramphenicol) with 20 mg/L of 20 amino acids at 37 °C, 300 r.p.m.
-Afterwards, 250 mL of M9 medium for large-scale expression was innoculated 1:50
-with an overnight culture. After optical density reached 1.0 at 600 nm, media
-shift was carried out by washing the cells three times with 0.9\%
-\SI{4}{\celsius}<++> \ch{NaCl}.  Cells were then transferred to M9 minimal
-medium containing either 20 amino acids or 19 amino acids (-Phe). pFF-PTE and
-pFF-104A expression media were supplemented with and 3 mM of pFF and 1 mM
-isopropyl- beta-D-thiogalactopyranoside (IPTG) to induce protein expression.
+Mutant and wild type plasmids were transformed into \latin{E. coli} phenylalanine
+auxotrophic strains (AF-IQ cells).[5] Electroporation was done at
+\SI{25}{\micro\farad}, \SI{100}{\ohm}, 2.5 kV (Biorad Gene Pulser II). Cells were
+plated on agar plates containing 200 μg/mL ampicillin, 34 μg/mL
+chloramphenicol. A Single colony was picked and grown in medium (M9 medium
+supplemented with 0.2 wt \% glucose, 35 mg/L thiamine, 1mM \ch{MgSO4}, 0.1 mM
+\ch{CaCl2}, 200 μg/mL ampicillin, and 34 μg/mL chloramphenicol) with 20 mg/L of
+20 amino acids at \SI{37}{\celsius}, 300 r.p.m.  Afterwards, 250 mL of M9
+medium for large-scale expression was innoculated 1:50 with an overnight
+culture. After optical density reached 1.0 at 600 nm, media shift was carried
+out by washing the cells three times with 0.9\% \SI{4}{\celsius} \ch{NaCl}.
+Cells were then transferred to M9 minimal medium containing either 20 amino
+acids or 19 amino acids (-Phe). \emph{p}FF-PTE and \emph{p}FF-104A expression
+media were supplemented with and 3 mM of \emph{p}FF and 1 mM
+isopropyl-$\beta$-D-thiogalactopyranoside (IPTG) to induce protein expression.
 1mM of \ch{CoCl2} was added in each post-induction medium. After three hours
 incubation at 37 °C, 300 r.p.m., the cells were harvested and then resuspended
-with 20 mM Tris-HCl, 500 mM \ch{NaCl}, 5 mM imidazole, 10\% glycerol (pH 8.0) and
-\SI{1}{\micro\moLar}<++> \ch{CoCl2}. Cell lysate was sonicated on ice for 1.5
+with 20 mM Tris-HCl, 500 mM \ch{NaCl}, 5 mM imidazole, 10\% glycerol (pH 8.0)
+and \SI{1}{\micro\moLar} \ch{CoCl2}. Cell lysate was sonicated on ice for 1.5
 minutes and then a clarification spin was performed (20, 000 g,
-\SI{4}{\celsius}<++>, 30 min).  Clarified supernatants were loaded into a His
+\SI{4}{\celsius}, 30 min).  Clarified supernatants were loaded into a His
 Trap column (G.E Healthcare, Piscataway, NJ) using ÄKTA FPLC purifier (G.E.
 Healthcare, Piscataway, NJ).  Protein elution was generated using elution
 buffer B (20 mM Tris- HCl, 500 mM sodium chloride, 500 mM imidazole (pH 8.0)).
-The purified samples were then transferred for buffer exchange using 3X 4L 20
-mM phosphate buffer (pH 8.0).  Dialyzed protein was subjected to kinetic assays
-immediately.
+The purified samples were then transferred for buffer exchange using
+\SI{12}{\liter} 20 mM phosphate buffer (pH 8.0).  Dialyzed protein was
+subjected to kinetic assays immediately.
 
-\subsection{Thermo-stability and secondary structure of phosphotriesterase}
+\subsection{Thermo-stability and Secondary Structure of Phosphotriesterase}
 \label{sec:thermo}
 
 \subsubsection{Nano-DSC}
 
 DSC (Nano-DSC, TA instrument, USA) was preformed by using 600 μL (0.1 mg/mL) of
 protein right after dialysis. Measurements were conducted at a scan rate of
-1°C/min. Signals was blanked with buffer under the same condition. The observed
-diagram was then analyzed by using NanoAnalyze software.
+\SI{1}{\celsius}/min. Signals was blanked with buffer under the same condition.
+The observed diagram was then analyzed by using NanoAnalyze software.
 
-\subsubsection{Circular dichroism}
+\subsubsection{Circular Dichroism}
 
 CD spectra were recorded on a JASCO J-815 Spectropolarimeter (Easton, MD) using
 Spectra Manager software. Temperature was controlled using a Fisher Isotemp
 Model 3016S water bath. Proteins concentrations were 10 μM in 20 mM phosphate
 buffer (pH 8.0). 20 mM phosphate buffer was used for blanking signals. To
 calculate ellipticities, the following formula was used:
-
+% use equation here
 θmrw = MRW(θobs) / (10 * c * l)
 where \emph{MRW} is the mean residue weight of the specific phosphotriesterase, θobs
 is the observed ellipticities (mdeg), \emph{l} is the path length (cm), \emph{c} is the
@@ -194,14 +194,32 @@ paraoxon (coefficient = 17,000 M\textsuperscript{-1}  cm\textsuperscript{-1} ).
 Reactions for paraoxon (13 – 104 μM) was done in 0.4\% methanol. KM and kcat
 values were determined by a Lineweaver-Burk plot (1/v vs 1/[S]).[5] The
 equation used is shown below: 
-
+% use equation here 
 1/v = (KM/ VMax) ? (1/[S]) + 1/VMax S2
 where [S] represents substrate concentration; KM represents the substrate
 concentration at which the reaction rate is half of Vmax. The data reported is
 the average of three trials and the error represents the standard deviation of
 those trials.
 
-\section{Results}
+\subsection{MALDI-TOF Mass Spectrometry}
+
+To determine level of \emph{p}FF incorporation, \SI{20}{\micro\liter} of
+purified PTE pFF-PTE, F104A, or \emph{p}FF-104A was incubated with 12.5 ng/μL
+of trypsin solution (in 50 mM of ammonium bicarbonate) at \SI{37}{\celsius}
+overnight. 2 μL of 10\% trifluoroacetic acid (TFA) was used to quench each
+reaction. Reaction was then purified with a C\textsubscript{18} packed zip-tip
+(Millipore, Billerica, MA).  Tips were wetted in 50\% acetonitirile (ACN),
+equilibrated in 0.1\% TFA, and eluted with 0.1\% TFA in 75\% ACN. Matrix was
+dissolved in 10 mg/mL $\alpha$-cyano-4-hydrocinnamic acid (CCA) in 50\% ACN,
+0.05\% TFA. Theoretical trypsin digest were calculated from Peptide Mass
+(www.expasy.org/tools/peptide-mass.html). Samples were added to the matrix at a
+1:1 ratio and spotted on MALDI plate. Five standards were spotted separately
+for calibration: angiotensin I (MW = 1295.69 g/mol), neurotensin (MW =
+1671.92g/mol), ACTH (1-17) (MW = 2092.09 g/mol), ACTH (18-39) (MW = 2464.20
+g/mol), and ACTH (7-38) (MW =3656.93 g/mol). Compass 1.4 for flex software was
+then used to analyze the MALDI spectra (www.bruker.com/).
+
+\section{Results and Discussion}
 
 \subsection{Biosynthesis of phosphotriesterase}
 
@@ -215,31 +233,34 @@ and 92\% incorporation, respectively, as determined by MALDI-TOF mass
 spectrometry. Notably, purified yields of \emph{p}FF-F104A were twofold higher
 than for \emph{p}FF-PTE, thus indicating more soluble protein yield.
 
-\section{Discussion}
+\subsection{Thermo-stability And Secondary Structure}
 
 Circular dichroism (CD) was performed to determine whether the mutation had an
 impact on the overall secondary structure and stability. Far-UV wavelength
 scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at 208 and
-222 nm (\SI{25}{\celsius}), as expected for a (beta/alpha)8-barrel protein, thus
-suggesting that the mutation did not affect the overall structure (Figure S3).
-Surprisingly, comparison of the non-fluorinated counterparts revealed that
-F104A was less structured than PTE (Figure S3). To assess the stability,
-differential scanning calorimetry (DSC) was performed (Figure 2). Upon heating
-the sample from 0 to 708C, pFF-PTE exhibited two transitions (Tm1:
-42.0 ± 0.1; T m 2 : 48.6 ± 0.2 ; Table
+222 nm (\SI{25}{\celsius}), as expected for a
+($\beta$/$\alpha$)\textsubscript{8}-barrel protein, thus suggesting that the
+mutation did not affect the overall structure (Figure S3).  Surprisingly,
+comparison of the non-fluorinated counterparts revealed that F104A was less
+structured than PTE (Figure S3). To assess the stability, differential scanning
+calorimetry (DSC) was performed (Figure 2). Upon heating the sample from 0 to
+\SI{70}{\celsius}, \emph{p}FF-PTE exhibited two transitions
+(T\textsubscript{m}1: 42.0 $\pm$ 0.1; T\textsubscript{m}2 : 48.6 ± 0.2 ; Table
 S1); this is consistent with our previous studies.[6] This biphasic unfolding
-was also observed by Grimsley et al. in a study of organophosphorus hy- drolase
+was also observed by Grimsley et al. in a study of organophosphorus hydrolase
 (EC 3.1.8.1), and was attributed to the presence of a dimeric unfolded
 intermediate.[17] In contrast, \emph{p}FF-F104A exhibited a single transition
-at (49.7 ± 0.2) 8C, which was higher than both pFF-PTE values (by 7.7 and
-1.18C; Figure 2B, Table S1).  Remarkably, after heating, pFF-F104A retained the
-single Tm of (49.2 ± 0.1) \SI{8}{\celsius}, thus demonstrating regaining of
+at (49.7 ± 0.2) 8C, which was higher than both \emph{p}FF-PTE values (by 7.7
+and 1.18C; Figure 2B, Table S1).  Remarkably, after heating, pFF-F104A retained
+the single Tm of (49.2 ± 0.1) \SI{8}{\celsius}, thus demonstrating regaining of
 structure after undergoing thermal unfolding.  In the absence of \emph{p}FF,
 F104A demonstrated two transitions similar to \emph{p}FF-PTE (Figure 2A), thus
-suggesting that fluorination was critical for stability. These data demonstrate
-the overall thermodynamic stability of \emph{p}FF-F104A.
+suggesting that fluorination was critical for stability.  These data
+demonstrate the overall thermodynamic stability of \emph{p}FF-F104A.
 
-\subsection{Protein design}
+\subsection{Enzymatic Kinetics of PTE}
+
+\subsection{Protein Design}
 
 Although methods enabling the biosynthesis of artificial proteins bearing NCAAs
 are abundant,[1] tools to help further improve the overall activity and
@@ -253,7 +274,7 @@ fluorinated form, thus validating Rossetta-based design with \emph{p}FF. This
 provides another useful tool for protein design and could be employed in
 conjunction with the abov ementioned approaches.
 
-\subsection{Future work}
+\subsection{Future Work}
 
 \printbibliography[heading=subbibliography]
 
