@@ -6,16 +6,16 @@
 \contentsline {subsection}{\numberline {1.1.3}Incorporation of non-natural amino acids}{2}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Fluorinated amino acids in proteins}{4}{subsection.1.1.4}
 \contentsline {subsection}{\numberline {1.1.5}Scope of work}{4}{subsection.1.1.5}
-\contentsline {section}{\numberline {1.2}Methods}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}General}{5}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.2}Methods}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}General}{4}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Recombinant gene construction}{5}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Protein Expression}{5}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Thermo-stability and secondary structure of phosphotriesterase}{6}{subsection.1.2.4}
 \contentsline {subsubsection}{\numberline {1.2.4a}Nano-DSC}{6}{subsubsection.1.2.4.1}
-\contentsline {subsubsection}{\numberline {1.2.4b}Circular dichroism}{7}{subsubsection.1.2.4.2}
+\contentsline {subsubsection}{\numberline {1.2.4b}Circular dichroism}{6}{subsubsection.1.2.4.2}
 \contentsline {subsection}{\numberline {1.2.5}Enzyme Kinetics}{7}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}Results}{8}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Biosynthesis of phosphotriesterase}{8}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.3}Results}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Biosynthesis of phosphotriesterase}{7}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}Discussion}{8}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Protein design}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Protein design}{8}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Future work}{9}{subsection.1.4.2}
