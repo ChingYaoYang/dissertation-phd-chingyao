@@ -566,7 +566,7 @@
       \endverb
       \keyw{Biological Transport,Biological Transport: drug effects,Crystallography,X-Ray,Fluorine,Fluorine: chemistry,Glucose,Glucose: analogs \& derivatives,Glucose: chemistry,Glucose: metabolism,Hydrophobic and Hydrophilic Interactions,Models,Molecular,Molecular Conformation,Organic Chemicals,Organic Chemicals: chemical synthesis,Organic Chemicals: chemistry,Organic Chemicals: pharmacology,Thrombin,Thrombin: antagonists \& inhibitors,faa,hydrophobicity,uaa}
     \endentry
-    \entry{Panchenko2006}{article}{}
+    \entry{Panchenko2006b}{article}{}
       \name{labelname}{3}{}{%
         {{hash=086219d26207143dab2ce80476851a87}{Panchenko}{P\bibinitperiod}{Tatyana}{T\bibinitperiod}{}{}{}{}}%
         {{hash=74fe11af9fff747d12bf150ae1761b06}{Zhu}{Z\bibinitperiod}{Wan\bibnamedelima Wen}{W\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -582,8 +582,10 @@
       \field{sortinit}{0}
       \field{labeltitle}{{Influence of global fluorination on chloramphenicol acetyltransferase activity and stability}}
       \field{abstract}{Varied levels of fluorinated amino acid have been introduced biosynthetically to test the functional limits of global substitution on enzymatic activity and stability. Replacement of all the leucine (LEU) residues in the enzyme chloramphenicol acetyltransferase (CAT) with the analog, 5',5',5'-trifluoroleucine (TFL), results in the maintenance of enzymatic activity under ambient temperatures as well as an enhancement in secondary structure but loss in stability against heat and denaturants or organic co-solvents. Although catalytic activity of the fully substituted CAT is preserved under standard reaction conditions compared to the wild-type enzyme both in vitro and in vivo, as the incorporation levels increase, a concomitant reduction in thermostability and chemostability is observed. Circular dichroism (CD) studies reveal that although fluorination greatly improves the secondary structure of CAT, a large structural destabilization upon increased levels of TFL incorporation occurs at elevated temperatures. These data suggest that enhanced secondary structure afforded by TFL incorporation does not necessarily lead to an improvement in stability.}
+      \field{isbn}{0006-3592 (Print) 0006-3592 (Linking)}
       \field{issn}{00063592}
-      \field{journaltitle}{Biotechnology and Bioengineering}
+      \field{journaltitle}{Biotechnol Bioeng}
+      \field{number}{5}
       \field{title}{{Influence of global fluorination on chloramphenicol acetyltransferase activity and stability}}
       \field{volume}{94}
       \field{year}{2006}
@@ -591,7 +593,10 @@
       \verb{doi}
       \verb 10.1002/bit.20910
       \endverb
-      \keyw{Activity,Non-natural amino acid,Protein engineering,Residue-specific incorporation,Thermostability,Trifluoroleucine}
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/16548001
+      \endverb
+      \keyw{Activity,Chloramphenicol O-Acetyltransferase/*analysis/*che,Enzyme Activation,Enzyme Stability,Escherichia coli/*enzymology,Fluorine/*chemistry,Leucine/*analogs \& derivatives/chemistry,Non-natural amino acid,Protein engineering,Residue-specific incorporation,Temperature,Thermostability,Trifluoroleucine}
     \endentry
     \entry{Voloshchuk2010}{article}{}
       \name{labelname}{2}{}{%
@@ -625,7 +630,7 @@
       \endverb
       \keyw{Amino Acids/*chemistry/genetics/*metabolism,Biology/*methods,Genetic,Models,Models- Genetic,Models- Theoretical,Protein Engineering/*methods,Theoretical}
     \endentry
-    \entry{Montclare2009}{article}{}
+    \entry{Montclare2009b}{article}{}
       \name{labelname}{5}{}{%
         {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
         {{hash=64794d6e0c0bb351d9844fb1b65ba125}{Son}{S\bibinitperiod}{Soojin}{S\bibinitperiod}{}{}{}{}}%
@@ -643,22 +648,23 @@
       \strng{namehash}{548de6fe43e7834eaa741da7b3980eb6}
       \strng{fullhash}{548de6fe43e7834eaa741da7b3980eb6}
       \field{sortinit}{0}
-      \field{labeltitle}{{Biosynthesis and stability of coiled-coil peptides containing (2S,4R)-5,5,5-trifluoroleucine and (2S,4S)-5,5,5-trifluoroleucine.}}
+      \field{labeltitle}{{Biosynthesis and stability of coiled-coil peptides containing (2S,4R)-5,5,5-trifluoroleucine and (2S,4S)-5,5,5-trifluoroleucine}}
+      \field{isbn}{1439-7633 (Electronic) 1439-4227 (Linking)}
       \field{issn}{1439-7633}
-      \field{journaltitle}{Chembiochem : a European journal of chemical biology}
+      \field{journaltitle}{Chembiochem}
       \field{month}{01}
       \field{number}{1}
-      \field{title}{{Biosynthesis and stability of coiled-coil peptides containing (2S,4R)-5,5,5-trifluoroleucine and (2S,4S)-5,5,5-trifluoroleucine.}}
+      \field{title}{{Biosynthesis and stability of coiled-coil peptides containing (2S,4R)-5,5,5-trifluoroleucine and (2S,4S)-5,5,5-trifluoroleucine}}
       \field{volume}{10}
       \field{year}{2009}
-      \field{pages}{84\bibrangedash 6}
+      \field{pages}{84\bibrangedash 86}
       \verb{doi}
       \verb 10.1002/cbic.200800164
       \endverb
       \verb{url}
-      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3212351%5C&tool=pmcentrez%5C&rendertype=abstract
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3212351%5C&tool=pmcentrez%5C&rendertype=abstract%20http://www.ncbi.nlm.nih.gov/pubmed/19090517
       \endverb
-      \keyw{Amino Acid Sequence,Dimerization,Escherichia coli,Escherichia coli: genetics,Escherichia coli: metabolism,Kinetics,Leucine,Leucine: analogs \& derivatives,Leucine: chemistry,Molecular Sequence Data,Peptide Biosynthesis,Peptides,Peptides: chemistry,Protein Stability,Stereoisomerism,Temperature,jin,tirrell,uaa}
+      \keyw{*Peptide Biosynthesis,Amino Acid Sequence,Dimerization,Escherichia coli,Escherichia coli/genetics/metabolism,Escherichia coli: genetics,Escherichia coli: metabolism,Kinetics,Leucine,Leucine/*analogs \& derivatives/chemistry,Leucine: analogs \& derivatives,Leucine: chemistry,Molecular Sequence Data,Peptide Biosynthesis,Peptides,Peptides/*chemistry,Peptides: chemistry,Protein Stability,Stereoisomerism,Temperature,jin,tirrell,uaa}
     \endentry
     \entry{Voloshchuk2009}{article}{}
       \name{labelname}{4}{}{%
@@ -696,7 +702,7 @@
       \endverb
       \keyw{*Protein Engineering,Animals,Enzyme Stability,Histone Acetyltransferases/chemistry/*metabolism,Models,Models- Molecular,Molecular,Phenylalanine/*analogs \& derivatives/chemistry,Protein Conformation,Tetrahymena thermophila/*enzymology,p-Fluorophenylalanine/*chemistry}
     \endentry
-    \entry{Voloshchuk2007}{article}{}
+    \entry{Voloshchuk2007b}{article}{}
       \name{labelname}{5}{}{%
         {{hash=bceec599a36bce739afe0b45372191db}{Voloshchuk}{V\bibinitperiod}{Natalya}{N\bibinitperiod}{}{}{}{}}%
         {{hash=90505a909b8d0059a8ea65c72758aad7}{Lee}{L\bibinitperiod}{Man\bibnamedelima Xia}{M\bibinitperiod\bibinitdelim X\bibinitperiod}{}{}{}{}}%
@@ -714,16 +720,18 @@
       \strng{namehash}{528a70a0ac0ac0915d8407f75e2488c4}
       \strng{fullhash}{528a70a0ac0ac0915d8407f75e2488c4}
       \field{sortinit}{0}
-      \field{labeltitle}{{Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant.}}
+      \field{labeltitle}{{Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant}}
       \field{abstract}{A lysate-based thermostability and activity profile is described for chloramphenicol acetyltransferase (CAT) expressed in trifluoroleucine, T (CAT T). CAT and 13 single-isoleucine CAT mutants were expressed in medium supplemented with T and assayed for thermostability on cell lysates. Although fluorinated mutants, L82I T and L208I T, showed losses in thermostability, the L158I T fluorinated mutant demonstrated an enhanced thermostability relative to CAT T. Further characterization of L158I T suggested that T at position 158 contributed to a portion of the observed loss in thermostability upon global fluorination.}
+      \field{annotation}{From Duplicate 2 (Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant - Voloshchuk, N; Lee, M X; Zhu, W W; Tanrikulu, I C; Montclare, J K)}
+      \field{isbn}{0960-894X (Print) 0960-894X (Linking)}
       \field{issn}{0960-894X}
-      \field{journaltitle}{Bioorganic \& medicinal chemistry letters}
+      \field{journaltitle}{Bioorg Med Chem Lett}
       \field{month}{11}
       \field{number}{21}
-      \field{title}{{Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant.}}
+      \field{title}{{Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant}}
       \field{volume}{17}
       \field{year}{2007}
-      \field{pages}{5907\bibrangedash 11}
+      \field{pages}{5907\bibrangedash 5911}
       \verb{doi}
       \verb 10.1016/j.bmcl.2007.07.107
       \endverb
@@ -731,47 +739,9 @@
       \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Voloshchuk et al. - 2007 - Fluorinated chloramphenicol acetyltransferase thermostability and activity profile improved thermostability b.pdf:pdf
       \endverb
       \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0960894X07009195
+      \verb http://www.sciencedirect.com/science/article/pii/S0960894X07009195%20http://www.ncbi.nlm.nih.gov/pubmed/17845847
       \endverb
-      \keyw{CAT,Chloramphenicol O-Acetyltransferase,Chloramphenicol O-Acetyltransferase: chemistry,Chloramphenicol O-Acetyltransferase: genetics,Chloramphenicol O-Acetyltransferase: metabolism,Enzyme Stability,Fluorine,Fluorine: chemistry,Isoleucine,Isoleucine: genetics,Models,Molecular,Mutation,Temperature,faa,thermostability,uaa}
-    \endentry
-    \entry{Mehta2011}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=d6c045fd0e6edcb50885d5080b82d60e}{Mehta}{M\bibinitperiod}{Kinjal\bibnamedelima Rajesh}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=deb6f86388b12a5e395974e65b28e1b1}{Yang}{Y\bibinitperiod}{Ching\bibnamedelima Yao}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
-        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=d6c045fd0e6edcb50885d5080b82d60e}{Mehta}{M\bibinitperiod}{Kinjal\bibnamedelima Rajesh}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=deb6f86388b12a5e395974e65b28e1b1}{Yang}{Y\bibinitperiod}{Ching\bibnamedelima Yao}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
-        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {The Royal Society of Chemistry}%
-      }
-      \strng{namehash}{f5165bad2b3f0b302a48910463cf1080}
-      \strng{fullhash}{f5165bad2b3f0b302a48910463cf1080}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Modulating substrate specificity of histone acetyltransferase with unnatural amino acids.}}
-      \field{abstract}{Controlling the substrate specificity of enzymes is a major challenge for protein engineers. Here we explore the effects of residue-specific incorporation of ortho-, meta- and para-fluorophenylalanine (oFF, mFF, pFF) on the selectivity of human histone acetyltransferase (HAT) protein, p300/CBP associated factor (PCAF). Varying the position of the fluorine group in the phenylalanine ring confers different effects on the ability of PCAF to acetylate target histone H3 as well as non-histone p53. Surprisingly, pFF-PCAF exhibits an increase in activity for non-histone p53, while mFF-PCAF is selective for histone H3. These results suggest that global incorporation of unnatural amino acids may be used to re-engineer protein specificity.}
-      \field{issn}{1742-2051}
-      \field{journaltitle}{Molecular bioSystems}
-      \field{month}{11}
-      \field{number}{11}
-      \field{title}{{Modulating substrate specificity of histone acetyltransferase with unnatural amino acids.}}
-      \field{volume}{7}
-      \field{year}{2011}
-      \field{pages}{3050\bibrangedash 5}
-      \verb{doi}
-      \verb 10.1039/c1mb05148b
-      \endverb
-      \verb{url}
-      \verb http://pubs.rsc.org/en/content/articlehtml/2011/mb/c1mb05148b
-      \endverb
-      \keyw{Acetylation,Amino Acids,Amino Acids: chemistry,Anilino Naphthalenesulfonates,Anilino Naphthalenesulfonates: chemistry,Circular Dichroism,Histone Acetyltransferases,Histone Acetyltransferases: chemistry,Histone Acetyltransferases: metabolism,Histones,Histones: chemistry,Histones: metabolism,Humans,Phenylalanine,Phenylalanine: analogs \& derivatives,Phenylalanine: chemistry,Protein Conformation,Substrate Specificity,faa,gcn5,hat,p-Fluorophenylalanine,p-Fluorophenylalanine: chemistry,p300-CBP Transcription Factors,p300-CBP Transcription Factors: chemistry,p300-CBP Transcription Factors: metabolism,uaa}
+      \keyw{*Mutation,CAT,Chloramphenicol O-Acetyltransferase,Chloramphenicol O-Acetyltransferase/chemistry/gene,Chloramphenicol O-Acetyltransferase: chemistry,Chloramphenicol O-Acetyltransferase: genetics,Chloramphenicol O-Acetyltransferase: metabolism,Enzyme Stability,Fluorine,Fluorine/*chemistry,Fluorine: chemistry,Isoleucine,Isoleucine/*genetics,Isoleucine: genetics,Models,Molecular,Mutation,Temperature,faa,thermostability,uaa}
     \endentry
     \entry{Hammill2007}{article}{}
       \name{labelname}{5}{}{%
@@ -813,107 +783,33 @@
       \endverb
       \keyw{Alcohol Oxidoreductases,Alcohol Oxidoreductases: analysis,Alcohol Oxidoreductases: chemistry,Alcohol Oxidoreductases: genetics,Bacterial Proteins,Bacterial Proteins: analysis,Bacterial Proteins: chemistry,Bacterial Proteins: genetics,Electrophoresis,Polyacrylamide Gel,Escherichia coli,Escherichia coli: genetics,Fluorine,Fluorine: analysis,Halogenation,Isotopes,Nitroreductases,Nitroreductases: analysis,Nitroreductases: chemistry,Nitroreductases: genetics,Nuclear Magnetic Resonance,Biomolecular,Nuclear Magnetic Resonance,Biomolecular: methods,PII Nitrogen Regulatory Proteins,PII Nitrogen Regulatory Proteins: analysis,PII Nitrogen Regulatory Proteins: chemistry,PII Nitrogen Regulatory Proteins: genetics,Plasmids,Plasmids: chemistry,Plasmids: genetics,Protein Engineering,Protein Engineering: methods,Salmonella typhimurium,Salmonella typhimurium: genetics,faa,nmr,uaa}
     \endentry
-    \entry{Voloshchuk2007b}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=f997040999daa9b2fe1b5423152e7453}{Voloshchuk}{V\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=79232193eb9e5274316a7f9e0bd31d7d}{Lee}{L\bibinitperiod}{M\bibnamedelima X}{M\bibinitperiod\bibinitdelim X\bibinitperiod}{}{}{}{}}%
-        {{hash=1dfcc99104bfab716c54a75f1532bd9a}{Zhu}{Z\bibinitperiod}{W\bibnamedelima W}{W\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=7258ee3e612dbfbdd7944983dd6a44a7}{Tanrikulu}{T\bibinitperiod}{I\bibnamedelima C}{I\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=b5ebdd926a928c8e46ae8cc9cf9d9b0d}{Montclare}{M\bibinitperiod}{J\bibnamedelima K}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=f997040999daa9b2fe1b5423152e7453}{Voloshchuk}{V\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=79232193eb9e5274316a7f9e0bd31d7d}{Lee}{L\bibinitperiod}{M\bibnamedelima X}{M\bibinitperiod\bibinitdelim X\bibinitperiod}{}{}{}{}}%
-        {{hash=1dfcc99104bfab716c54a75f1532bd9a}{Zhu}{Z\bibinitperiod}{W\bibnamedelima W}{W\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=7258ee3e612dbfbdd7944983dd6a44a7}{Tanrikulu}{T\bibinitperiod}{I\bibnamedelima C}{I\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=b5ebdd926a928c8e46ae8cc9cf9d9b0d}{Montclare}{M\bibinitperiod}{J\bibnamedelima K}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{7ba7b7d97b4e09d7f9a15816be187bbb}
-      \strng{fullhash}{7ba7b7d97b4e09d7f9a15816be187bbb}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant}}
-      \field{abstract}{A lysate-based thermostability and activity profile is described for chloramphenicol acetyltransferase (CAT) expressed in trifluoroleucine, T (CAT T). CAT and 13 single-isoleucine CAT mutants were expressed in medium supplemented with T and assayed for thermostability on cell lysates. Although fluorinated mutants, L82I T and L208I T, showed losses in thermostability, the L158I T fluorinated mutant demonstrated an enhanced thermostability relative to CAT T. Further characterization of L158I T suggested that T at position 158 contributed to a portion of the observed loss in thermostability upon global fluorination.}
-      \field{isbn}{0960-894X (Print) 0960-894X (Linking)}
-      \field{journaltitle}{Bioorg Med Chem Lett}
-      \field{number}{21}
-      \field{title}{{Fluorinated chloramphenicol acetyltransferase thermostability and activity profile: improved thermostability by a single-isoleucine mutant}}
-      \field{volume}{17}
-      \field{year}{2007}
-      \field{pages}{5907\bibrangedash 5911}
-      \verb{doi}
-      \verb 10.1016/j.bmcl.2007.07.107
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/17845847
-      \endverb
-      \keyw{*Mutation,Chloramphenicol O-Acetyltransferase/chemistry/gene,Enzyme Stability,Fluorine/*chemistry,Isoleucine/*genetics,Models,Molecular,Temperature}
-    \endentry
-    \entry{Baker2011}{article}{}
+    \entry{Montclare2006b}{article}{}
       \name{labelname}{2}{}{%
-        {{hash=95b05704b8d88a1143a2f803eb28af7b}{Baker}{B\bibinitperiod}{Peter\bibnamedelima James}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=b5ebdd926a928c8e46ae8cc9cf9d9b0d}{Montclare}{M\bibinitperiod}{J\bibnamedelima K}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=e017e6f9e08500e6ff89282f725893a8}{Tirrell}{T\bibinitperiod}{D\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
-        {{hash=95b05704b8d88a1143a2f803eb28af7b}{Baker}{B\bibinitperiod}{Peter\bibnamedelima James}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=b5ebdd926a928c8e46ae8cc9cf9d9b0d}{Montclare}{M\bibinitperiod}{J\bibnamedelima K}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=e017e6f9e08500e6ff89282f725893a8}{Tirrell}{T\bibinitperiod}{D\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{30dd748251e142a68c6c3858cbd44f77}
-      \strng{fullhash}{30dd748251e142a68c6c3858cbd44f77}
+      \strng{namehash}{cf3ff63dd612a0af7bc503fc4151e9d1}
+      \strng{fullhash}{cf3ff63dd612a0af7bc503fc4151e9d1}
       \field{sortinit}{0}
-      \field{labeltitle}{{Enhanced refoldability and thermoactivity of fluorinated phosphotriesterase.}}
-      \field{annotation}{Peter's paper on PTE}
-      \field{issn}{1439-7633}
-      \field{journaltitle}{Chembiochem : a European journal of chemical biology}
-      \field{month}{08}
-      \field{number}{12}
-      \field{title}{{Enhanced refoldability and thermoactivity of fluorinated phosphotriesterase.}}
-      \field{volume}{12}
-      \field{year}{2011}
-      \field{pages}{1845\bibrangedash 8}
+      \field{labeltitle}{{Evolving proteins of novel composition}}
+      \field{isbn}{1433-7851 (Print) 1433-7851 (Linking)}
+      \field{journaltitle}{Angew Chem Int Ed Engl}
+      \field{number}{27}
+      \field{title}{{Evolving proteins of novel composition}}
+      \field{volume}{45}
+      \field{year}{2006}
+      \field{pages}{4518\bibrangedash 4521}
       \verb{doi}
-      \verb 10.1002/cbic.201100221
+      \verb 10.1002/anie.200600088
       \endverb
       \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/21710682
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/16763955
       \endverb
-      \keyw{Amino Acids,Amino Acids: chemistry,Amino Acids: metabolism,Calorimetry,Differential Scanning,Circular Dichroism,Cloning,Molecular,Dimerization,Electrophoresis,Polyacrylamide Gel,Enzyme Stability,Escherichia coli,Escherichia coli Proteins,Escherichia coli Proteins: chemistry,Escherichia coli Proteins: genetics,Escherichia coli Proteins: metabolism,Halogenation,Hot Temperature,Insecticides,Insecticides: metabolism,Kinetics,Models,Molecular,Paraoxon,Paraoxon: metabolism,Phosphoric Triester Hydrolases,Phosphoric Triester Hydrolases: chemistry,Phosphoric Triester Hydrolases: genetics,Phosphoric Triester Hydrolases: metabolism,Protein Engineering,Protein Engineering: methods,Protein Folding,Recombinant Proteins,Recombinant Proteins: chemistry,Recombinant Proteins: genetics,Recombinant Proteins: metabolism,Spectrometry,Mass,Matrix-Assisted Laser Desorpti,Substrate Specificity,pff,pte}
-    \endentry
-    \entry{Grimsley1997}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=ad4c9a0f4340ec81a2336f55ec03960c}{Grimsley}{G\bibinitperiod}{J\bibnamedelima K}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-        {{hash=59f2381510b526a63787738604e0dd24}{Scholtz}{S\bibinitperiod}{J\bibnamedelima M}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=56cca9a58912272d5570dc5c6d81b410}{Pace}{P\bibinitperiod}{C\bibnamedelima N}{C\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=5ef953e23181cd15c7f805a9a9e5f40d}{Wild}{W\bibinitperiod}{J\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=ad4c9a0f4340ec81a2336f55ec03960c}{Grimsley}{G\bibinitperiod}{J\bibnamedelima K}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-        {{hash=59f2381510b526a63787738604e0dd24}{Scholtz}{S\bibinitperiod}{J\bibnamedelima M}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=56cca9a58912272d5570dc5c6d81b410}{Pace}{P\bibinitperiod}{C\bibnamedelima N}{C\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=5ef953e23181cd15c7f805a9a9e5f40d}{Wild}{W\bibinitperiod}{J\bibnamedelima R}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{6da5933a8bf129ba8f7f297e861f3f4e}
-      \strng{fullhash}{6da5933a8bf129ba8f7f297e861f3f4e}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Organophosphorus hydrolase is a remarkably stable enzyme that unfolds through a homodimeric intermediate.}}
-      \field{abstract}{Organophosphorus hydrolase (OPH, EC 8.1.3.1) is a homodimeric enzyme that catalyzes the hydrolysis of organophosphorus pesticides and nerve agents. We have analyzed the urea- and guanidinium chloride-induced equilibrium unfolding of OPH as monitored by far-ultraviolet circular dichroism and intrinsic tryptophan fluorescence. These spectral methods, which monitor primarily the disruption of protein secondary structure and tertiary structure, respectively, reveal biphasic unfolding transitions with evidence for an intermediate form of OPH. By investigating the protein concentration dependence of the unfolding curves, it is clear that the second transition involves dissociation of the monomeric polypeptide chains and that the intermediate is clearly dimeric. The dimeric intermediate form of OPH is devoid of enzymatic activity, yet clearly behaves as a partially folded, dimeric protein by gel filtration. Therefore, we propose an unfolding mechanism in which the native dimer converts to an inactive, well-populated dimeric intermediate which finally dissociates and completely unfolds to individual monomeric polypeptides. The denaturant-induced unfolding data are described well by a three-state mechanism with delta G for the interconversion between the native homodimer (N2) and the inactive dimeric intermediate (I2) of 4.3 kcal/mol while the overall standard state stability of the native homodimer relative to the unfolded monomers (2U) is more than 40 kcal/mol. Thus, OPH is a remarkably stable protein that folds through an inactive, dimeric intermediate and will serve as a good model system for investigating the energetics of protein association and folding in a system where we can clearly resolve these two steps.}
-      \field{issn}{0006-2960}
-      \field{journaltitle}{Biochemistry}
-      \field{month}{11}
-      \field{number}{47}
-      \field{title}{{Organophosphorus hydrolase is a remarkably stable enzyme that unfolds through a homodimeric intermediate.}}
-      \field{volume}{36}
-      \field{year}{1997}
-      \field{pages}{14366\bibrangedash 74}
-      \verb{doi}
-      \verb 10.1021/bi971596e
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1021/bi971596e
-      \endverb
-      \keyw{Aryldialkylphosphatase,Calorimetry,Chromatography,Gel,Computer Graphics,Computer Simulation,Dimerization,Escherichia coli,Esterases,Esterases: chemistry,Esterases: metabolism,Guanidine,Kinetics,Models,Chemical,Models,Molecular,Protein Denaturation,Protein Folding,Protein Structure,Secondary,Recombinant Proteins,Recombinant Proteins: chemistry,Recombinant Proteins: metabolism,Thermodynamics,Urea,dimer,pte}
+      \keyw{*Amino Acid Substitution/genetics,*Chloramphenicol O-Acetyltransferase/chemistry/gen,Amino Acids/*genetics,Enzyme Stability,Models,Molecular,Mutagenesis,Temperature}
     \endentry
     \entry{Fan2008}{article}{}
       \name{labelname}{4}{}{%
@@ -988,9 +884,11 @@
       \keyw{Amino Acid Sequence,Amino Acid Substitution,Bacterial Proteins,Bacterial Proteins: metabolism,DNA Primers,Directed Molecular Evolution,Escherichia coli,Escherichia coli: genetics,Flow Cytometry,Genetic Variation,Green Fluorescent Proteins,Green Fluorescent Proteins: chemistry,Green Fluorescent Proteins: genetics,Green Fluorescent Proteins: metabolism,Kinetics,Protein Denaturation,Protein Folding,Recombinant Proteins,Recombinant Proteins: chemistry,Recombinant Proteins: metabolism,Solubility,faa,gfp,tirrell,uaa}
     \endentry
   \endsortlist
+  \missing{Yuvienco2012b}
   \missing{Tsytlonok2013}
-  \missing{Yuvienco2012}
-  \missing{Montclare2006b}
+  \missing{Baker2011}
+  \missing{Grimsley1997}
+  \missing{Mehta2011}
 \endrefsection
 \endinput
 
