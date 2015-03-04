@@ -157,6 +157,7 @@ strands, which lack the desired mutation. DNA sequence was further confirmed by
 Eurofins MWG Operon.
 
 \subsection{Protein Expression}
+
 Mutant and wild type plasmids were transformed into \latin{E. coli} phenylalanine
 auxotrophic strains (AF-IQ cells).[5] Electroporation was done at
 \SI{25}{\micro\farad}, \SI{100}{\ohm}, 2.5 kV (Biorad Gene Pulser II). Cells were
@@ -188,6 +189,37 @@ imidazole (pH 8.0)).  The purified samples were then transferred for buffer
 exchange using \SI{12}{\L} \SI{20}{\milli\Molar} phosphate buffer (pH 8.0).
 Dialyzed protein was subjected to kinetic assays immediately.
 
+\subsection{PyRosetta Design}
+\label{sec:rosetta}
+
+Rosetta[1] was used to generate a symmetric, \emph{p}FF-incorporated PTE
+structure used by all simulations. The Holden and coworkers structure (PDB
+code: 1HZY) of wild type PTE was used as the input. In addition to the
+phenylalanine positions being mutated to \emph{p}FF, three positions in the
+wild-type PTE sequence were mutated (K185R, D208G, and R319S) to generate
+\emph{p}FF-PTE.[2] Mutations were made using the Rosetta \emph{fixbb}
+application and were followed by side chain repacking and minimization. The
+amino acids directly interacting with the \ch{Co^{2+}} ions are crucial in
+binding the necessary divalent cation for PTE activity,[3] so they were fixed
+in their native rotamers during repacking and minimization. PyRosetta, a python
+interface to the Rosetta libraries,[4] was used to make and characterize point
+mutations. Every \emph{p}FF position was individually mutated into any natural
+amino acid minus phenylalanine. To simulate a mutation, a single \emph{p}FF
+position would be mutated and neighboring amino acid within 10\AA (as measured
+by C$\alpha$-C$\alpha$ atom distance) was allowed to repack and minimize to
+accommodate the point mutation to fill in potential high-cost-energy voids or
+to supplement the hydrophobicity, polarity, or charge in the vicinity. For each
+\emph{p}FF position, 500 decoys were generated. After the mutations were made,
+representative structures of each mutation were chosen based on the overall
+stability of the enzyme, reflected by the total score. The binding energy is
+the total energy minus the energy of both monomers separated by 1000\AA. Point
+mutations were chosen based on the difference between relative total and
+predicted binding energies of the mutant and \emph{p}FF-PTE sequence. As above,
+amino acids directly interacting with the \ch{Co^{2+}} ions were fixed in their
+native rotamers during repacking and minimization. All Rosetta and PyRosetta
+calculations were done using the \emph{score12} score function, and included
+extra rotamer sampling, including the native rotamers.
+
 \subsection{Thermo-stability and Secondary Structure of Phosphotriesterase}
 \label{sec:thermo}
 
@@ -202,6 +234,7 @@ using NanoAnalyze software.
 
 \subsubsection{Circular Dichroism}
 \label{sec:cd}
+
 CD spectra were recorded on a JASCO J-815 Spectropolarimeter (Easton, MD) using
 Spectra Manager software. Temperature was controlled using a Fisher Isotemp
 Model 3016S water bath. Proteins concentrations were \SI{10}{\micro\Molar} in
@@ -217,43 +250,45 @@ where \emph{MRW} is the mean residue weight of the specific phosphotriesterase,
 \SIrange{190}{250}{\nm} with a scan speed of \SI{1}{\nano\meter\per\minute}.
 
 \subsection{Enzyme Kinetics}
+\label{sec:kinetics}
 
 The protein was diluted to a final concentration of \SI{30}{\nano\Molar} in
 \SI{20}{\milli\Molar} sodium phosphate (pH 8.0) by using the extinction
 coefficient \SI{29280}{\per\Molar\per\cm}. Reactions were monitored
-spectrophotometrically (Synergy H1, Bio-Tek, Winooski VT) at \SI{405}{\nm} for
+spectrophotometrically (Synergy H1, BioTek, Winooski VT) at \SI{405}{\nm} for
 paraoxon (coefficient = \SI{17000}{\per\Molar\per\cm}).  Reactions for paraoxon
-(\SIrange{13}{104}{\micro\Molar}) was done in 0.4\% methanol. KM and kcat
+(\SIrange{13}{104}{\micro\Molar}) was done in 0.4\% methanol. K\textsubscript{M} and k\textsubscript{cat}
 values were determined by a Lineweaver-Burk plot.\cite{Baker2011b} The
 equation used is shown below (Eq.~\ref{eqn:MM}):
 \begin{equation} 
-    \frac{1}{v} = AA \label{eqn:MM}
+    \frac{1}{v} =
+    \frac{K\textsubscript{M}}{V\textsubscript{max}}\times\frac{1}{S} +
+    \frac{1}{V\textsubscript{max}} \label{eqn:MM}
 \end{equation}
-1/v = (K\textsubscript{M}/VMax) * (1/[S]) + 1/VMax S2 where [S] represents
-substrate concentration; K\textsubscript{M} represents the substrate
-concentration at which the reaction rate is half of Vmax. The data reported is
-the average of three trials and the error represents the standard deviation of
-those trials.
+where S represents substrate concentration; K\textsubscript{M} represents the substrate
+concentration at which the reaction rate is half of V\textsubscript{max}. The
+data reported is the average of three trials and the error represents the
+standard deviation of those trials.
 
 \subsection{MALDI-TOF Mass Spectrometry}
 
 To determine level of \emph{p}FF incorporation, \SI{20}{\micro\liter} of
 purified PTE \emph{p}FF-PTE, F104A, or \emph{p}FF-104A was incubated with
-\SI{12.5}{\ng\per\uL} of trypsin solution (in \SI{50}{\milli\Molar} of ammonium bicarbonate) at
-\SI{37}{\celsius} overnight. \SI{2}{\uL} of 10\% trifluoroacetic acid (TFA) was used
-to quench each reaction. Reaction was then purified with a C\textsubscript{18}
-packed zip-tip (Millipore, Billerica, MA).  Tips were wetted in 50\%
-acetonitirile (ACN), equilibrated in 0.1\% TFA, and eluted with 0.1\% TFA in
-75\% ACN. Matrix was dissolved in \SI{10}{\mg\per\mL} $\alpha$-cyano-4-hydrocinnamic acid
-(CCA) in 50\% ACN, 0.05\% TFA. Theoretical trypsin digest were calculated from
-Peptide Mass (www.expasy.org/tools/peptide-mass.html). Samples were added to
-the matrix at a 1:1 ratio and spotted on MALDI plate. Five standards were
-spotted separately for calibration: angiotensin I (MW =
-\SI{1295.69}{\g\per\mole}), neurotensin (MW = \SI{1671.92}{\g\per\mole}), ACTH
-(1-17) (MW = \SI{2092.09}{\g\per\mole}), ACTH (18-39) (MW =
-\SI{2464.20}{\g\per\mole}), and ACTH (7-38) (MW = \SI{3656.93}{\g\per\mole}).
-Compass 1.4 for flex software was then used to analyze the MALDI spectra
-(www.bruker.com/).
+\SI{12.5}{\ng\per\uL} of trypsin solution (in \SI{50}{\milli\Molar} of ammonium
+bicarbonate) at \SI{37}{\celsius} overnight. \SI{2}{\uL} of 10\%
+trifluoroacetic acid (TFA) was used to quench each reaction. Reaction was then
+purified with a C\textsubscript{18} packed zip-tip (Millipore, Billerica, MA).
+Tips were wetted in 50\% acetonitirile (ACN), equilibrated in 0.1\% TFA, and
+eluted with 0.1\% TFA in 75\% ACN. Matrix was dissolved in \SI{10}{\mg\per\mL}
+$\alpha$-cyano-4-hydrocinnamic acid (CCA) in 50\% ACN, 0.05\% TFA. Theoretical
+trypsin digest were calculated from Peptide Mass
+(www.expasy.org/tools/peptide-mass.html). Samples were added to the matrix at a
+1:1 ratio and spotted on MALDI plate. Five standards were spotted separately
+for calibration: angiotensin I (MW = \SI{1295.69}{\g\per\mole}), neurotensin
+(MW = \SI{1671.92}{\g\per\mole}), ACTH (1-17) (MW = \SI{2092.09}{\g\per\mole}),
+ACTH (18-39) (MW = \SI{2464.20}{\g\per\mole}), and ACTH (7-38) (MW =
+\SI{3656.93}{\g\per\mole}).  Compass 1.4 for flex software was then used to
+analyze the MALDI spectra (www.bruker.com/).
 
 \section{Results and Discussion}
 
@@ -332,24 +367,25 @@ Table 1); \emph{p}FF-F104A was slightly lower
 non-fluorinated PTE exhibited k\textsubscript{cat}/K\textsubscript{M} of
 \SI{200000}{\per\Molar\per\second},similar to those both fluorinated proteins;
 however, F104A was dramatically less active
-(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second}). Thus, the
-fluorinated amino acids appear to be necessary for \emph{p}FF-F104A activity.
-Proteins were then incubated at \SIlist{35;45;55}{\celsius} for one hour, and
-then cooled to room temperature to determine residual activity. A decline in
-residual activity was observed for all proteins as a function of elevated
-temperature. \emph{p}FF-F104A, which was designed to stabilize the fluorinated
-protein, exhibited 50\% retention of activity at \SI{55}{\celsius} (Figure 3A,
-Table 1). In contrast, at \SI{55}{\celsius}, \emph{p}FF-PTE and PTE exhibited
-24\% and 23\% initial activity, respectively; F104A exhibited a significant
-loss in activity at or above \SI{45}{\celsius} (Figure 3A, Table 1). As
-\emph{p}FF-F104A retained substantial activity after elevated temperatures, we
-then investigated the half-life of the activity. The parent \emph{p}FF-PTE
-exhibited more than 50\% loss of activity after three days, whereas the
-non-fluorinated PTE showed more than 50\% activity reduction after seven days
-(Figure 3B, Table 2). Remarkably, \emph{p}FF-F104A retained 66\% activity after
-seven days. The non-fluorinated counterpart F104A failed to exhibit activity
-after one day. Together these data confirm that \emph{p}FF-F104A is able to
-delay heat inactivation while maintaining function after one week.
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second}).
+Thus, the fluorinated amino acids appear to be necessary for \emph{p}FF-F104A
+activity.  Proteins were then incubated at \SIlist{35;45;55}{\celsius} for one
+hour, and then cooled to room temperature to determine residual activity. A
+decline in residual activity was observed for all proteins as a function of
+elevated temperature. \emph{p}FF-F104A, which was designed to stabilize the
+fluorinated protein, exhibited 50\% retention of activity at \SI{55}{\celsius}
+(Figure 3A, Table 1). In contrast, at \SI{55}{\celsius}, \emph{p}FF-PTE and PTE
+exhibited 24\% and 23\% initial activity, respectively; F104A exhibited a
+significant loss in activity at or above \SI{45}{\celsius} (Figure 3A, Table
+1). As \emph{p}FF-F104A retained substantial activity after elevated
+temperatures, we then investigated the half-life of the activity. The parent
+\emph{p}FF-PTE exhibited more than 50\% loss of activity after three days,
+whereas the non-fluorinated PTE showed more than 50\% activity reduction after
+seven days (Figure 3B, Table 2). Remarkably, \emph{p}FF-F104A retained 66\%
+activity after seven days. The non-fluorinated counterpart F104A failed to
+exhibit activity after one day. Together these data confirm that
+\emph{p}FF-F104A is able to delay heat inactivation while maintaining function
+after one week.
 
 \subsection{Protein Design}
 

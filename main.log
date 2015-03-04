@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAR 2015 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAR 2015 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2214,7 +2214,7 @@ Chapter 1.
 \blx@sectionciteorder@1=\count428
 Package biblatex Info: Reference section=1 on input line 5.
 Package biblatex Info: Setting label 'refsection:1' on input line 5.
-<fig1_01.png, id=170, 717.68124pt x 531.9875pt>
+<fig1_01.png, id=175, 717.68124pt x 531.9875pt>
 File: fig1_01.png Graphic file (type png)
  <use fig1_01.png>
 Package pdftex.def Info: fig1_01.png used on input line 24.
@@ -2272,7 +2272,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no „ in font cmr12!
 
-Overfull \hbox (5.91423pt too wide) in paragraph at lines 197--202
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Overfull \hbox (5.91423pt too wide) in paragraph at lines 226--231
 \OT1/cmr/m/n/12 DSC (Nano-DSC, TA in-stru-ment, USA) was pre-formed by us-ing [
 ][] ([][])
  []
@@ -2283,7 +2290,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[7]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¸ in font cmr12!
 Missing character: There is no Î in font cmr12!
@@ -2297,8 +2304,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
-Overfull \hbox (14.07675pt too wide) in paragraph at lines 240--257
+[8]
+Overfull \hbox (14.07675pt too wide) in paragraph at lines 272--289
 \OT1/cmr/m/n/12 ret-i-cal trypsin di-gest were cal-cu-lated from Pep-tide Mass 
 (www.expasy.org/tools/peptide-
  []
@@ -2309,23 +2316,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [9]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-
-Overfull \hbox (9.2999pt too wide) in paragraph at lines 326--353
-\OT1/cmr/m/n/12 = [][]); non-fluorinated PTE ex-hib-ited k$[]$/K$[]$ of [][],si
-milar
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2333,6 +2324,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Overfull \hbox (9.2999pt too wide) in paragraph at lines 358--386
+\OT1/cmr/m/n/12 = [][]); non-fluorinated PTE ex-hib-ited k$[]$/K$[]$ of [][],si
+milar
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2361,13 +2361,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Overfull \hbox (10.85178pt too wide) in paragraph at lines 369--369
-\OT1/cmr/m/n/12 cherichia coli trig-ger fac-tor stud-ied by ultra-sensitive dif
--fer-en-tial scan-ning calorime-
- []
-
-Package biblatex Info: Reference section=0 on input line 371.
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2375,25 +2368,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
+Overfull \hbox (10.85178pt too wide) in paragraph at lines 402--402
+\OT1/cmr/m/n/12 cherichia coli trig-ger fac-tor stud-ied by ultra-sensitive dif
+-fer-en-tial scan-ning calorime-
+ []
+
+Package biblatex Info: Reference section=0 on input line 404.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FCC3190F53AE2B370FFAF8DABCF2ED68;1661.
+(rerunfilecheck)             Checksum: CCC9A4C06322372EC35ECD84AC310775;1731.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38623 strings out of 493117
- 793294 string characters out of 6135433
- 1130946 words of memory out of 5000000
- 41419 multiletter control sequences out of 15000+600000
+ 38627 strings out of 493117
+ 793349 string characters out of 6135433
+ 1131995 words of memory out of 5000000
+ 41421 multiletter control sequences out of 15000+600000
  16550 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,62p,10342b,1730s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,62p,10342b,1736s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -2405,10 +2412,10 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (26 pages, 852376 bytes).
+Output written on main.pdf (27 pages, 856611 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

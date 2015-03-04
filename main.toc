@@ -10,13 +10,14 @@
 \contentsline {subsection}{\numberline {1.2.1}General}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Recombinant Gene Construction}{5}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Protein Expression}{6}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Thermo-stability and Secondary Structure of Phosphotriesterase}{7}{subsection.1.2.4}
-\contentsline {subsubsection}{\numberline {1.2.4a}Nano-DSC}{7}{subsubsection.1.2.4.1}
-\contentsline {subsubsection}{\numberline {1.2.4b}Circular Dichroism}{7}{subsubsection.1.2.4.2}
-\contentsline {subsection}{\numberline {1.2.5}Enzyme Kinetics}{7}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}MALDI-TOF Mass Spectrometry}{8}{subsection.1.2.6}
-\contentsline {section}{\numberline {1.3}Results and Discussion}{9}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Biosynthesis of phosphotriesterase}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Thermo-stability And Secondary Structure}{9}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Enzymatic Kinetics of PTE}{11}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Protein Design}{11}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.2.4}PyRosetta Design}{7}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Thermo-stability and Secondary Structure of Phosphotriesterase}{8}{subsection.1.2.5}
+\contentsline {subsubsection}{\numberline {1.2.5a}Nano-DSC}{8}{subsubsection.1.2.5.1}
+\contentsline {subsubsection}{\numberline {1.2.5b}Circular Dichroism}{8}{subsubsection.1.2.5.2}
+\contentsline {subsection}{\numberline {1.2.6}Enzyme Kinetics}{8}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}MALDI-TOF Mass Spectrometry}{9}{subsection.1.2.7}
+\contentsline {section}{\numberline {1.3}Results and Discussion}{10}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Biosynthesis of phosphotriesterase}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Thermo-stability And Secondary Structure}{10}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Enzymatic Kinetics of PTE}{12}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Protein Design}{12}{subsection.1.3.4}
