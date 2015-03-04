@@ -221,18 +221,19 @@ where \emph{MRW} is the mean residue weight of the specific phosphotriesterase,
 The protein was diluted to a final concentration of \SI{30}{\nano\Molar} in
 \SI{20}{\milli\Molar} sodium phosphate (pH 8.0) by using the extinction
 coefficient \SI{29280}{\per\Molar\per\cm}. Reactions were monitored
-spectrophotometrically (Synergy H1, Bio-Tek, Winooski VT) at 405 nm for
+spectrophotometrically (Synergy H1, Bio-Tek, Winooski VT) at \SI{405}{\nm} for
 paraoxon (coefficient = \SI{17000}{\per\Molar\per\cm}).  Reactions for paraoxon
 (\SIrange{13}{104}{\micro\Molar}) was done in 0.4\% methanol. KM and kcat
-values were determined by a Lineweaver-Burk plot (1/v vs 1/[S]).[5] The
+values were determined by a Lineweaver-Burk plot.\cite{Baker2011b} The
 equation used is shown below (Eq.~\ref{eqn:MM}):
 \begin{equation} 
-    \frac{1}{v} = AA \label{eqn:MM} 
+    \frac{1}{v} = AA \label{eqn:MM}
 \end{equation}
-1/v = (KM/VMax) * (1/[S]) + 1/VMax S2 where [S] represents substrate concentration; KM
-represents the substrate concentration at which the reaction rate is half of
-Vmax. The data reported is the average of three trials and the error represents
-the standard deviation of those trials.
+1/v = (K\textsubscript{M}/VMax) * (1/[S]) + 1/VMax S2 where [S] represents
+substrate concentration; K\textsubscript{M} represents the substrate
+concentration at which the reaction rate is half of Vmax. The data reported is
+the average of three trials and the error represents the standard deviation of
+those trials.
 
 \subsection{MALDI-TOF Mass Spectrometry}
 
@@ -274,20 +275,20 @@ than for \emph{p}FF-PTE, thus indicating more soluble protein yield.
 % add figure of DSC and CD.
 Circular dichroism (CD) was performed to determine whether the mutation had an
 impact on the overall secondary structure and stability. Far-UV wavelength
-scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at 208 and
-222 nm (\SI{25}{\celsius}), as expected for a
+scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at
+\SIlist{208;222}{\nm} (\SI{25}{\celsius}), as expected for a
 ($\beta$/$\alpha$)\textsubscript{8}-barrel protein, thus suggesting that the
 mutation did not affect the overall structure (Figure S3).  Surprisingly,
 comparison of the non-fluorinated counterparts revealed that F104A was less
 structured than PTE (Figure S3). To assess the stability, differential scanning
-calorimetry (DSC) was performed (Figure 2). Upon heating the sample from 0 to
-\SI{70}{\celsius}, \emph{p}FF-PTE exhibited two transitions
+calorimetry (DSC) was performed (Figure 2). Upon heating the sample from
+\SIrange{0}{70}{\celsius}, \emph{p}FF-PTE exhibited two transitions
 (T\textsubscript{m}1: 42.0 $\pm$ \SI{0.1}{\celsius}; T\textsubscript{m}2 : 48.6
 $\pm$ \SI{0.2}{\celsius}; Table S1); this is consistent with our previous
-studies.\cite{Baker2011} This biphasic unfolding was also observed by Grimsley
+studies.\cite{Baker2011b} This biphasic unfolding was also observed by Grimsley
 \latin{et al.}  in a study of organophosphorus hydrolase, and was attributed to
-the presence of a dimeric unfolded intermediate.\cite{Grimsley1997} In contrast,
-\emph{p}FF-F104A exhibited a single transition at 49.7 $\pm$
+the presence of a dimeric unfolded intermediate.\cite{Grimsley1997b} In
+contrast, \emph{p}FF-F104A exhibited a single transition at 49.7 $\pm$
 \SI{0.2}{\celsius}, which was higher than both \emph{p}FF-PTE values (by 7.7
 and \SI{1.1}{\celsius}); Figure 2B, Table S1).  Remarkably, after heating,
 \emph{p}FF-F104A retained the single T\textsubscript{m} of 49.2 $\pm$
@@ -324,28 +325,31 @@ coupling exists between subdomains.\cite{Tsytlonok2013}
 % add table 
 To assess function, we determined the Michaelis–Menten kinetics of
 \emph{p}FF-F104A, \emph{p}FF-PTE, F104A, and PTE with paraoxon. At
-\SI{25}{\celsius}, \emph{p}FF-PTE exhibited the highest activity (kcat/KM =
-327,000 s-1 M-1; Table 1); \emph{p}FF-F104A was slightly lower (kcat/KM=223,000
-s-1 M-1); non-fluorinated PTE exhibited kcat/KM of 200,000 s-1 M-1, similar to
-those both fluorinated proteins; however, F104A was dramatically less active
-(kcat/KM = 23,000 s-1 M-1 ). Thus, the fluorinated amino acids appear to be
-necessary for \emph{p}FF-F104A activity. Proteins were then incubated at
-\SIlist{35;45;55}{\celsius} for one hour, and then cooled to room temperature
-to determine residual activity. A decline in residual activity was observed for
-all proteins as a function of elevated temperature. \emph{p}FF-F104A, which was
-designed to stabilize the fluorinated protein, exhibited 50\% retention of
-activity at \SI{55}{\celsius} (Figure 3A, Table 1). In contrast, at
-\SI{55}{\celsius}, \emph{p}FF-PTE and PTE exhibited 24\% and 23\% initial
-activity, respectively; F104A exhibited a significant loss in activity at or
-above \SI{45}{\celsius} (Figure 3A, Table 1). As \emph{p}FF-F104A retained
-substantial activity after elevated temperatures, we then investigated the
-half-life of the activity. The parent \emph{p}FF-PTE exhibited more than 50\% loss of
-activity after three days, whereas the non-fluorinated PTE showed more than
-50\% activity reduction after seven days (Figure 3B, Table 2). Remarkably,
-\emph{p}FF-F104A retained 66\% activity after seven days. The non-fluorinated
-counterpart F104A failed to exhibit activity after one day. Together these data
-confirm that \emph{p}FF-F104A is able to delay heat inactivation while
-maintaining function after one week.
+\SI{25}{\celsius}, \emph{p}FF-PTE exhibited the highest activity
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{327000}{\per\Molar\per\second};
+Table 1); \emph{p}FF-F104A was slightly lower
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{223000}{\per\Molar\per\second});
+non-fluorinated PTE exhibited k\textsubscript{cat}/K\textsubscript{M} of
+\SI{200000}{\per\Molar\per\second},similar to those both fluorinated proteins;
+however, F104A was dramatically less active
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second}). Thus, the
+fluorinated amino acids appear to be necessary for \emph{p}FF-F104A activity.
+Proteins were then incubated at \SIlist{35;45;55}{\celsius} for one hour, and
+then cooled to room temperature to determine residual activity. A decline in
+residual activity was observed for all proteins as a function of elevated
+temperature. \emph{p}FF-F104A, which was designed to stabilize the fluorinated
+protein, exhibited 50\% retention of activity at \SI{55}{\celsius} (Figure 3A,
+Table 1). In contrast, at \SI{55}{\celsius}, \emph{p}FF-PTE and PTE exhibited
+24\% and 23\% initial activity, respectively; F104A exhibited a significant
+loss in activity at or above \SI{45}{\celsius} (Figure 3A, Table 1). As
+\emph{p}FF-F104A retained substantial activity after elevated temperatures, we
+then investigated the half-life of the activity. The parent \emph{p}FF-PTE
+exhibited more than 50\% loss of activity after three days, whereas the
+non-fluorinated PTE showed more than 50\% activity reduction after seven days
+(Figure 3B, Table 2). Remarkably, \emph{p}FF-F104A retained 66\% activity after
+seven days. The non-fluorinated counterpart F104A failed to exhibit activity
+after one day. Together these data confirm that \emph{p}FF-F104A is able to
+delay heat inactivation while maintaining function after one week.
 
 \subsection{Protein Design}
 

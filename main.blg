@@ -1,22 +1,20 @@
-[0] Config.pm:318> INFO - This is Biber 1.8
+[1] Config.pm:318> INFO - This is Biber 1.8
 [1] Config.pm:321> INFO - Logfile is 'main.blg'
-[143] biber-darwin:275> INFO - === Wed Mar  4, 2015, 17:00:59
-[144] Biber.pm:333> INFO - Reading 'main.bcf'
-[253] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
-[254] Biber.pm:630> INFO - Found 31 citekeys in bib section 1
-[254] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
-[293] Biber.pm:3053> INFO - Processing section 1
-[325] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis.bib' for section 1
-[348] bibtex.pm:812> INFO - Found BibTeX data source 'thesis.bib'
-[452] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/61/b5yxnvh116z7wsc92kq4qgw40000gp/T/K_t5ZzFAOE/thesis.bib_8783.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[452] Utils.pm:169> WARN - I didn't find a database entry for 'Mehta2011' (section 1)
-[453] Utils.pm:169> WARN - I didn't find a database entry for 'Yuvienco2012b' (section 1)
-[453] Utils.pm:169> WARN - I didn't find a database entry for 'Baker2011' (section 1)
-[453] Utils.pm:169> WARN - I didn't find a database entry for 'Grimsley1997' (section 1)
-[454] Utils.pm:169> WARN - I didn't find a database entry for 'Tsytlonok2013' (section 1)
-[549] Biber.pm:2939> INFO - Overriding locale 'en_US' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[549] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[549] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US'
-[643] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'ascii'
-[656] bbl.pm:555> INFO - Output to main.bbl
-[656] Biber.pm:105> INFO - WARNINGS: 6
+[133] biber-darwin:275> INFO - === Wed Mar  4, 2015, 17:40:38
+[134] Biber.pm:333> INFO - Reading 'main.bcf'
+[244] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[245] Biber.pm:630> INFO - Found 31 citekeys in bib section 1
+[245] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[289] Biber.pm:3053> INFO - Processing section 1
+[327] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis.bib' for section 1
+[347] bibtex.pm:812> INFO - Found BibTeX data source 'thesis.bib'
+[481] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/61/b5yxnvh116z7wsc92kq4qgw40000gp/T/puefKU9G7m/thesis.bib_8895.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[481] Utils.pm:169> WARN - I didn't find a database entry for 'Mehta2011' (section 1)
+[482] Utils.pm:169> WARN - I didn't find a database entry for 'Yuvienco2012b' (section 1)
+[482] Utils.pm:169> WARN - I didn't find a database entry for 'Tsytlonok2013' (section 1)
+[582] Biber.pm:2939> INFO - Overriding locale 'en_US' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[582] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[582] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US'
+[689] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'ascii'
+[703] bbl.pm:555> INFO - Output to main.bbl
+[703] Biber.pm:105> INFO - WARNINGS: 4
