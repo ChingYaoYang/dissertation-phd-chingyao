@@ -26,3 +26,9 @@ ver 2.3
 - edit vita, acknowledgement, and signature info.
 - branch chap1v23
 
+ver 3.0
+- figure and tables are all functional.
+- add .gitignore in this repo
+- untrack the following file: .DS_Store and .vimrc
+- chapter 1 is fully functional
+
