@@ -17,6 +17,12 @@ ver 2.0
 
 ver 2.1
 - add aux, bbl, bcf, blg, lof, log, lot, out, pdf, xml, gz, toc files in the system.
-- add branch chap1v21
+- add branch chap1v21.
 - branch chap1v2 is now reserved for future use.  
+
+ver 2.3
+- add packages of mhchem and textcomp.
+- chap 1 and chap 2 are now working with bibtex.
+- edit vita, acknowledgement, and signature info.
+- branch chap1v23
 

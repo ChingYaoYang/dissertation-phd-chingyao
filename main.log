@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  2 MAR 2015 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  5 MAR 2015 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,308 +385,72 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2013/11/25 v2.8a programmable bibliographies (PK/JW/AB)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex2.sty
-Package: biblatex2 2013/11/25 v2.8a programmable bibliographies (biber) (PK/JW/
-AB)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-\etb@tempcnta=\count135
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count136
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-\c@tabx@nest=\count137
-\c@listtotal=\count138
-\c@listcount=\count139
-\c@liststart=\count140
-\c@liststop=\count141
-\c@citecount=\count142
-\c@citetotal=\count143
-\c@multicitecount=\count144
-\c@multicitetotal=\count145
-\c@instcount=\count146
-\c@maxnames=\count147
-\c@minnames=\count148
-\c@maxitems=\count149
-\c@minitems=\count150
-\c@citecounter=\count151
-\c@savedcitecounter=\count152
-\c@uniquelist=\count153
-\c@uniquename=\count154
-\c@refsection=\count155
-\c@refsegment=\count156
-\c@maxextratitle=\count157
-\c@maxextratitleyear=\count158
-\c@maxextrayear=\count159
-\c@maxextraalpha=\count160
-\c@abbrvpenalty=\count161
-\c@highnamepenalty=\count162
-\c@lownamepenalty=\count163
-\c@maxparens=\count164
-\c@parenlevel=\count165
-\blx@tempcnta=\count166
-\blx@tempcntb=\count167
-\blx@tempcntc=\count168
-\blx@maxsection=\count169
-\blx@maxsegment@0=\count170
-\blx@notetype=\count171
-\blx@parenlevel@text=\count172
-\blx@parenlevel@foot=\count173
-\blx@sectionciteorder@0=\count174
-\labelnumberwidth=\skip70
-\labelalphawidth=\skip71
-\shorthandwidth=\skip72
-\biblabelsep=\skip73
-\bibitemsep=\skip74
-\bibnamesep=\skip75
-\bibinitsep=\skip76
-\bibparsep=\skip77
-\bibhang=\skip78
-\blx@bcfin=\read1
-\blx@bcfout=\write3
-\c@mincomprange=\count175
-\c@maxcomprange=\count176
-\c@mincompwidth=\count177
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex citestyle data model...
-Package biblatex Info: ... file 'numeric-comp.dbx' not found.
-Package biblatex Info: Trying to load biblatex bibstyle data model...
-Package biblatex Info: ... file 'nature.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count178
-\c@savedafterword=\count179
-\c@annotator=\count180
-\c@savedannotator=\count181
-\c@author=\count182
-\c@savedauthor=\count183
-\c@bookauthor=\count184
-\c@savedbookauthor=\count185
-\c@commentator=\count186
-\c@savedcommentator=\count187
-\c@editor=\count188
-\c@savededitor=\count189
-\c@editora=\count190
-\c@savededitora=\count191
-\c@editorb=\count192
-\c@savededitorb=\count193
-\c@editorc=\count194
-\c@savededitorc=\count195
-\c@foreword=\count196
-\c@savedforeword=\count197
-\c@holder=\count198
-\c@savedholder=\count199
-\c@introduction=\count200
-\c@savedintroduction=\count201
-Normal \count register pool exhausted, switching to extended pool.
-\c@namea=\count277
-\c@savednamea=\count278
-\c@nameb=\count279
-\c@savednameb=\count280
-\c@namec=\count281
-\c@savednamec=\count282
-\c@shortauthor=\count283
-\c@savedshortauthor=\count284
-\c@shorteditor=\count285
-\c@savedshorteditor=\count286
-\c@translator=\count287
-\c@savedtranslator=\count288
-\c@labelname=\count289
-\c@savedlabelname=\count290
-\c@institution=\count291
-\c@savedinstitution=\count292
-\c@lista=\count293
-\c@savedlista=\count294
-\c@listb=\count295
-\c@savedlistb=\count296
-\c@listc=\count297
-\c@savedlistc=\count298
-\c@listd=\count299
-\c@savedlistd=\count300
-\c@liste=\count301
-\c@savedliste=\count302
-\c@listf=\count303
-\c@savedlistf=\count304
-\c@location=\count305
-\c@savedlocation=\count306
-\c@organization=\count307
-\c@savedorganization=\count308
-\c@origlocation=\count309
-\c@savedoriglocation=\count310
-\c@origpublisher=\count311
-\c@savedorigpublisher=\count312
-\c@publisher=\count313
-\c@savedpublisher=\count314
-\c@language=\count315
-\c@savedlanguage=\count316
-\c@pageref=\count317
-\c@savedpageref=\count318
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 
-\c@textcitecount=\count319
-\c@textcitetotal=\count320
-\c@textcitemaxnames=\count321
-\c@biburlnumpenalty=\count322
-\c@biburlucpenalty=\count323
-\c@biburllcpenalty=\count324
-\c@smartand=\count325
-)
-Package biblatex Info: Trying to load bibliography style 'nature'...
-Package biblatex Info: ... file 'nature.bbx' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex-nature/nature.bbx
-File: nature.bbx 2013/05/20 v1.2e biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count326
-\c@bbx:relatedtotal=\count327
-))))
-Package biblatex Info: Trying to load citation style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count328
-\c@cbx@tempcntb=\count329
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
-)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count330
-\l__xparse_m_args_int=\count331
-\l__xparse_mandatory_args_int=\count332
-\l__xparse_processor_int=\count333
-\l__xparse_v_nesting_int=\count334
+\l__xparse_current_arg_int=\count135
+\l__xparse_m_args_int=\count136
+\l__xparse_mandatory_args_int=\count137
+\l__xparse_processor_int=\count138
+\l__xparse_v_nesting_int=\count139
 )
 Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen149
-\extrarowheight=\dimen150
+\col@sep=\dimen147
+\extrarowheight=\dimen148
 \NC@list=\toks24
-\extratabsurround=\skip79
-\backup@length=\skip80
+\extratabsurround=\skip70
+\backup@length=\skip71
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2014/05/05 v4740 LaTeX2e option processing using LaTeX3 keys
 )
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box48
-\l__siunitx_tmp_dim=\dimen151
-\l__siunitx_tmp_int=\count335
+\l__siunitx_tmp_dim=\dimen149
+\l__siunitx_tmp_int=\count140
 Variant \prop_get:NVNT already defined; not changing it on line 371
 Variant \prop_get:NVNF already defined; not changing it on line 372
 Variant \prop_get:NVNTF already defined; not changing it on line 373
-\l__siunitx_number_mantissa_length_int=\count336
-\l__siunitx_number_uncert_length_int=\count337
-\l__siunitx_round_int=\count338
-\l__siunitx_process_decimal_int=\count339
-\l__siunitx_process_uncertainty_int=\count340
-\l__siunitx_process_fixed_int=\count341
-\l__siunitx_process_integer_min_int=\count342
-\l__siunitx_process_precision_int=\count343
-\l__siunitx_group_min_int=\count344
+\l__siunitx_number_mantissa_length_int=\count141
+\l__siunitx_number_uncert_length_int=\count142
+\l__siunitx_round_int=\count143
+\l__siunitx_process_decimal_int=\count144
+\l__siunitx_process_uncertainty_int=\count145
+\l__siunitx_process_fixed_int=\count146
+\l__siunitx_process_integer_min_int=\count147
+\l__siunitx_process_precision_int=\count148
+\l__siunitx_group_min_int=\count149
 \l__siunitx_angle_marker_box=\box49
 \l__siunitx_angle_unit_box=\box50
-\l__siunitx_angle_marker_dim=\dimen152
-\l__siunitx_angle_unit_dim=\dimen153
-\l__siunitx_unit_int=\count345
-\l__siunitx_unit_denominator_int=\count346
-\l__siunitx_unit_numerator_int=\count347
-\l__siunitx_unit_prefix_int=\count348
-\l__siunitx_unit_prefix_base_int=\count349
-\l__siunitx_unit_prefix_gram_int=\count350
-\l__siunitx_number_product_int=\count351
-\c__siunitx_one_fill_skip=\skip81
-\l__siunitx_table_unit_align_skip=\skip82
-\l__siunitx_table_exponent_dim=\dimen154
-\l__siunitx_table_integer_dim=\dimen155
-\l__siunitx_table_mantissa_dim=\dimen156
-\l__siunitx_table_marker_dim=\dimen157
-\l__siunitx_table_result_dim=\dimen158
-\l__siunitx_table_uncert_dim=\dimen159
-\l__siunitx_table_fill_pre_dim=\dimen160
-\l__siunitx_table_fill_post_dim=\dimen161
-\l__siunitx_table_fill_mid_dim=\dimen162
+\l__siunitx_angle_marker_dim=\dimen150
+\l__siunitx_angle_unit_dim=\dimen151
+\l__siunitx_unit_int=\count150
+\l__siunitx_unit_denominator_int=\count151
+\l__siunitx_unit_numerator_int=\count152
+\l__siunitx_unit_prefix_int=\count153
+\l__siunitx_unit_prefix_base_int=\count154
+\l__siunitx_unit_prefix_gram_int=\count155
+\l__siunitx_number_product_int=\count156
+\c__siunitx_one_fill_skip=\skip72
+\l__siunitx_table_unit_align_skip=\skip73
+\l__siunitx_table_exponent_dim=\dimen152
+\l__siunitx_table_integer_dim=\dimen153
+\l__siunitx_table_mantissa_dim=\dimen154
+\l__siunitx_table_marker_dim=\dimen155
+\l__siunitx_table_result_dim=\dimen156
+\l__siunitx_table_uncert_dim=\dimen157
+\l__siunitx_table_fill_pre_dim=\dimen158
+\l__siunitx_table_fill_post_dim=\dimen159
+\l__siunitx_table_fill_mid_dim=\dimen160
 \l__siunitx_table_pre_box=\box51
 \l__siunitx_table_post_box=\box52
 \l__siunitx_table_mantissa_box=\box53
 \l__siunitx_table_result_box=\box54
-\l__siunitx_table_number_align_skip=\skip83
-\l__siunitx_table_text_align_skip=\skip84
+\l__siunitx_table_number_align_skip=\skip74
+\l__siunitx_table_text_align_skip=\skip75
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -818,12 +582,248 @@ Variant \prop_get:NVNTF already defined; not changing it on line 373
 . Defining document command \__siunitx_bookmark_si:w with arg. spec. 'om' on
 . line 7271.
 .................................................
-\g__file_internal_ior=\read2
+\g__file_internal_ior=\read1
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2013/11/25 v2.8a programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2013/11/25 v2.8a programmable bibliographies (biber) (PK/JW/
+AB)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count157
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count158
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count159
+\c@listtotal=\count160
+\c@listcount=\count161
+\c@liststart=\count162
+\c@liststop=\count163
+\c@citecount=\count164
+\c@citetotal=\count165
+\c@multicitecount=\count166
+\c@multicitetotal=\count167
+\c@instcount=\count168
+\c@maxnames=\count169
+\c@minnames=\count170
+\c@maxitems=\count171
+\c@minitems=\count172
+\c@citecounter=\count173
+\c@savedcitecounter=\count174
+\c@uniquelist=\count175
+\c@uniquename=\count176
+\c@refsection=\count177
+\c@refsegment=\count178
+\c@maxextratitle=\count179
+\c@maxextratitleyear=\count180
+\c@maxextrayear=\count181
+\c@maxextraalpha=\count182
+\c@abbrvpenalty=\count183
+\c@highnamepenalty=\count184
+\c@lownamepenalty=\count185
+\c@maxparens=\count186
+\c@parenlevel=\count187
+\blx@tempcnta=\count188
+\blx@tempcntb=\count189
+\blx@tempcntc=\count190
+\blx@maxsection=\count191
+\blx@maxsegment@0=\count192
+\blx@notetype=\count193
+\blx@parenlevel@text=\count194
+\blx@parenlevel@foot=\count195
+\blx@sectionciteorder@0=\count196
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\shorthandwidth=\skip78
+\biblabelsep=\skip79
+\bibitemsep=\skip80
+\bibnamesep=\skip81
+\bibinitsep=\skip82
+\bibparsep=\skip83
+\bibhang=\skip84
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\c@mincomprange=\count197
+\c@maxcomprange=\count198
+\c@mincompwidth=\count199
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'nature.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count200
+\c@savedafterword=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\c@annotator=\count277
+\c@savedannotator=\count278
+\c@author=\count279
+\c@savedauthor=\count280
+\c@bookauthor=\count281
+\c@savedbookauthor=\count282
+\c@commentator=\count283
+\c@savedcommentator=\count284
+\c@editor=\count285
+\c@savededitor=\count286
+\c@editora=\count287
+\c@savededitora=\count288
+\c@editorb=\count289
+\c@savededitorb=\count290
+\c@editorc=\count291
+\c@savededitorc=\count292
+\c@foreword=\count293
+\c@savedforeword=\count294
+\c@holder=\count295
+\c@savedholder=\count296
+\c@introduction=\count297
+\c@savedintroduction=\count298
+\c@namea=\count299
+\c@savednamea=\count300
+\c@nameb=\count301
+\c@savednameb=\count302
+\c@namec=\count303
+\c@savednamec=\count304
+\c@shortauthor=\count305
+\c@savedshortauthor=\count306
+\c@shorteditor=\count307
+\c@savedshorteditor=\count308
+\c@translator=\count309
+\c@savedtranslator=\count310
+\c@labelname=\count311
+\c@savedlabelname=\count312
+\c@institution=\count313
+\c@savedinstitution=\count314
+\c@lista=\count315
+\c@savedlista=\count316
+\c@listb=\count317
+\c@savedlistb=\count318
+\c@listc=\count319
+\c@savedlistc=\count320
+\c@listd=\count321
+\c@savedlistd=\count322
+\c@liste=\count323
+\c@savedliste=\count324
+\c@listf=\count325
+\c@savedlistf=\count326
+\c@location=\count327
+\c@savedlocation=\count328
+\c@organization=\count329
+\c@savedorganization=\count330
+\c@origlocation=\count331
+\c@savedoriglocation=\count332
+\c@origpublisher=\count333
+\c@savedorigpublisher=\count334
+\c@publisher=\count335
+\c@savedpublisher=\count336
+\c@language=\count337
+\c@savedlanguage=\count338
+\c@pageref=\count339
+\c@savedpageref=\count340
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count341
+\c@textcitetotal=\count342
+\c@textcitemaxnames=\count343
+\c@biburlnumpenalty=\count344
+\c@biburlucpenalty=\count345
+\c@biburllcpenalty=\count346
+\c@smartand=\count347
+)
+Package biblatex Info: Trying to load bibliography style 'nature'...
+Package biblatex Info: ... file 'nature.bbx' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+File: nature.bbx 2013/05/20 v1.2e biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count348
+\c@bbx:relatedtotal=\count349
+))))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count350
+\c@cbx@tempcntb=\count351
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/chemmacros/chemmacros.sty
 Package: chemmacros 2014/04/08 v4.5 loads of little helpers for chemists (CN)
 Variant \prop_if_in:NVTF already defined; not changing it on line 54
@@ -1927,7 +1927,7 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 \@quotelevel=\count408
 \@quotereset=\count409
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 112.
+h' as default language. on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/chemmacros/ghsystem.sty
 Package: ghsystem 2014/04/08 v4.5 globally harmonised system
@@ -1987,28 +1987,28 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 (./cover.aux) (./contents.aux) (./chap1.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2038,19 +2038,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'ascii'.
-\openout3 = `main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
-
-(./main.bbl)
-Package biblatex Info: Reference section=0 on input line 112.
-Package biblatex Info: Reference segment=0 on input line 112.
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -2059,13 +2046,25 @@ Dictionary: translator-basic-dictionary, Language: English
 ons.cfg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 113.
+Package biblatex Info: Reference segment=0 on input line 113.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -2075,9 +2074,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count423
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -2157,22 +2156,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `contents.aux'.
 
- (./contents.tex (./main.toc)
+ (./contents.tex (./main.toc [8
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [8
 
-
-
-]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] (./main.lof)
+[9] (./main.lof
+Missing character: There is no Â in font cmr12!
+Missing character: There is no   in font cmr12!
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2193,7 +2195,21 @@ Chapter 1.
 \blx@sectionciteorder@1=\count428
 Package biblatex Info: Reference section=1 on input line 5.
 Package biblatex Info: Setting label 'refsection:1' on input line 5.
-[1
+<fig1_01.png, id=193, 436.63126pt x 546.04pt>
+File: fig1_01.png Graphic file (type png)
+ <use fig1_01.png>
+Package pdftex.def Info: fig1_01.png used on input line 24.
+(pdftex.def)             Requested size: 303.53267pt x 379.59251pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig1_02.png, id=198, 640.3925pt x 447.6725pt>
+File: fig1_02.png Graphic file (type png)
+ <use fig1_02.png>
+Package pdftex.def Info: fig1_02.png used on input line 52.
+(pdftex.def)             Requested size: 303.53267pt x 212.18896pt.
+ [1
 
 
 
@@ -2204,14 +2220,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
+[2 <./fig1_01.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
+[3 <./fig1_02.png>] <fig1_03.pdf, id=231, 663.47874pt x 666.60616pt>
+File: fig1_03.pdf Graphic file (type pdf)
+
+<use fig1_03.pdf>
+Package pdftex.def Info: fig1_03.pdf used on input line 109.
+(pdftex.def)             Requested size: 303.53267pt x 304.96423pt.
+Missing character: There is no Â in font cmr12!
+Missing character: There is no   in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no   in font cmr12!
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2219,59 +2248,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no „ in font cmr12!
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¸ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¸ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¸ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-
+[5 <./fig1_03.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2281,17 +2264,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ± in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no „ in font cmr12!
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2307,8 +2291,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-Package biblatex Info: Reference section=0 on input line 260.
-)
+Overfull \hbox (5.91423pt too wide) in paragraph at lines 281--286
+\OT1/cmr/m/n/12 DSC (Nano-DSC, TA in-stru-ment, USA) was pre-formed by us-ing [
+][] ([][])
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2316,38 +2303,138 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¸ in font cmr12!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¸ in font cmr12!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ¸ in font cmr12!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+Overfull \hbox (14.07675pt too wide) in paragraph at lines 330--347
+\OT1/cmr/m/n/12 ret-i-cal trypsin di-gest were cal-cu-lated from Pep-tide Mass 
+(www.expasy.org/tools/peptide-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Overfull \hbox (9.2999pt too wide) in paragraph at lines 416--444
+\OT1/cmr/m/n/12 = [][]); non-fluorinated PTE ex-hib-ited k$[]$/K$[]$ of [][],si
+milar
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+Overfull \hbox (10.85178pt too wide) in paragraph at lines 460--460
+\OT1/cmr/m/n/12 cherichia coli trig-ger fac-tor stud-ied by ultra-sensitive dif
+-fer-en-tial scan-ning calorime-
+ []
+
+Package biblatex Info: Reference section=0 on input line 462.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B175E07E6526B96799F7A04E70B6ABB1;1514.
+(rerunfilecheck)             Checksum: 0602B6EE4330E4B4A29432B97947D12A;1746.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38279 strings out of 493117
- 783385 string characters out of 6135433
- 1124254 words of memory out of 5000000
- 41112 multiletter control sequences out of 15000+600000
- 16249 words of font info for 58 fonts, out of 8000000 for 9000
+ 38740 strings out of 493117
+ 796739 string characters out of 6135433
+ 1135195 words of memory out of 5000000
+ 41519 multiletter control sequences out of 15000+600000
+ 16550 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,62p,10342b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,62p,10342b,1739s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (20 pages, 133906 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (30 pages, 1208520 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 
