@@ -501,6 +501,37 @@
       \endverb
       \keyw{Aromatic amino acid binding site,Oligonucleotide-directed mutagenesis p-fluoro-phen,Phenylalanine-tRNA synthetase,pheS gene mutations}
     \endentry
+    \entry{Biffinger2004}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=fb6f693e46672705b215f86966d1f5be}{Biffinger}{B\bibinitperiod}{Justin\bibnamedelima C}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=453375b01e0f1241a9f10ce0454dbcc6}{Kim}{K\bibinitperiod}{Hong\bibnamedelima Woo}{H\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=dbe4d3b6010d7677e8736be5e8c1c77f}{DiMagno}{D\bibinitperiod}{Stephen\bibnamedelima G}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=fb6f693e46672705b215f86966d1f5be}{Biffinger}{B\bibinitperiod}{Justin\bibnamedelima C}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=453375b01e0f1241a9f10ce0454dbcc6}{Kim}{K\bibinitperiod}{Hong\bibnamedelima Woo}{H\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=dbe4d3b6010d7677e8736be5e8c1c77f}{DiMagno}{D\bibinitperiod}{Stephen\bibnamedelima G}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{32087501131a501eae7d13249a6d71f9}
+      \strng{fullhash}{32087501131a501eae7d13249a6d71f9}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The polar hydrophobicity of fluorinated compounds.}}
+      \field{issn}{1439-4227}
+      \field{journaltitle}{Chembiochem : a European journal of chemical biology}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{{The polar hydrophobicity of fluorinated compounds.}}
+      \field{volume}{5}
+      \field{year}{2004}
+      \field{pages}{622\bibrangedash 7}
+      \verb{doi}
+      \verb 10.1002/cbic.200300910
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/15122633
+      \endverb
+      \keyw{Biological Transport,Biological Transport: drug effects,Crystallography,X-Ray,Fluorine,Fluorine: chemistry,Glucose,Glucose: analogs \& derivatives,Glucose: chemistry,Glucose: metabolism,Hydrophobic and Hydrophilic Interactions,Models,Molecular,Molecular Conformation,Organic Chemicals,Organic Chemicals: chemical synthesis,Organic Chemicals: chemistry,Organic Chemicals: pharmacology,Thrombin,Thrombin: antagonists \& inhibitors,faa,hydrophobicity,uaa}
+    \endentry
     \entry{Tang2001}{article}{}
       \name{labelname}{6}{}{%
         {{hash=b7162b4bb9ed9244aff1f8e7ca05b10f}{Tang}{T\bibinitperiod}{Yi}{Y\bibinitperiod}{}{}{}{}}%
@@ -534,37 +565,6 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/11317312
       \endverb
       \keyw{faa,tirrell,uaa}
-    \endentry
-    \entry{Biffinger2004}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=fb6f693e46672705b215f86966d1f5be}{Biffinger}{B\bibinitperiod}{Justin\bibnamedelima C}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=453375b01e0f1241a9f10ce0454dbcc6}{Kim}{K\bibinitperiod}{Hong\bibnamedelima Woo}{H\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=dbe4d3b6010d7677e8736be5e8c1c77f}{DiMagno}{D\bibinitperiod}{Stephen\bibnamedelima G}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=fb6f693e46672705b215f86966d1f5be}{Biffinger}{B\bibinitperiod}{Justin\bibnamedelima C}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=453375b01e0f1241a9f10ce0454dbcc6}{Kim}{K\bibinitperiod}{Hong\bibnamedelima Woo}{H\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=dbe4d3b6010d7677e8736be5e8c1c77f}{DiMagno}{D\bibinitperiod}{Stephen\bibnamedelima G}{S\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{32087501131a501eae7d13249a6d71f9}
-      \strng{fullhash}{32087501131a501eae7d13249a6d71f9}
-      \field{sortinit}{0}
-      \field{labeltitle}{{The polar hydrophobicity of fluorinated compounds.}}
-      \field{issn}{1439-4227}
-      \field{journaltitle}{Chembiochem : a European journal of chemical biology}
-      \field{month}{05}
-      \field{number}{5}
-      \field{title}{{The polar hydrophobicity of fluorinated compounds.}}
-      \field{volume}{5}
-      \field{year}{2004}
-      \field{pages}{622\bibrangedash 7}
-      \verb{doi}
-      \verb 10.1002/cbic.200300910
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/15122633
-      \endverb
-      \keyw{Biological Transport,Biological Transport: drug effects,Crystallography,X-Ray,Fluorine,Fluorine: chemistry,Glucose,Glucose: analogs \& derivatives,Glucose: chemistry,Glucose: metabolism,Hydrophobic and Hydrophilic Interactions,Models,Molecular,Molecular Conformation,Organic Chemicals,Organic Chemicals: chemical synthesis,Organic Chemicals: chemistry,Organic Chemicals: pharmacology,Thrombin,Thrombin: antagonists \& inhibitors,faa,hydrophobicity,uaa}
     \endentry
     \entry{Panchenko2006b}{article}{}
       \name{labelname}{3}{}{%
@@ -743,6 +743,50 @@
       \endverb
       \keyw{*Mutation,CAT,Chloramphenicol O-Acetyltransferase,Chloramphenicol O-Acetyltransferase/chemistry/gene,Chloramphenicol O-Acetyltransferase: chemistry,Chloramphenicol O-Acetyltransferase: genetics,Chloramphenicol O-Acetyltransferase: metabolism,Enzyme Stability,Fluorine,Fluorine/*chemistry,Fluorine: chemistry,Isoleucine,Isoleucine/*genetics,Isoleucine: genetics,Models,Molecular,Mutation,Temperature,faa,thermostability,uaa}
     \endentry
+    \entry{Mehta2011b}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=d6c045fd0e6edcb50885d5080b82d60e}{Mehta}{M\bibinitperiod}{Kinjal\bibnamedelima Rajesh}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=deb6f86388b12a5e395974e65b28e1b1}{Yang}{Y\bibinitperiod}{Ching\bibnamedelima Yao}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=4e0df6ee5df7203d681f9eaec1bff92f}{{KR\bibnamedelimb Mehta}}{K\bibinitperiod}{CY\bibnamedelima Yang}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=aaa06e17084c00296fae41c9728f3e9a}{Montclare.}{M\bibinitperiod}{JK}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=d6c045fd0e6edcb50885d5080b82d60e}{Mehta}{M\bibinitperiod}{Kinjal\bibnamedelima Rajesh}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=deb6f86388b12a5e395974e65b28e1b1}{Yang}{Y\bibinitperiod}{Ching\bibnamedelima Yao}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=4e0df6ee5df7203d681f9eaec1bff92f}{{KR\bibnamedelimb Mehta}}{K\bibinitperiod}{CY\bibnamedelima Yang}{C\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=aaa06e17084c00296fae41c9728f3e9a}{Montclare.}{M\bibinitperiod}{JK}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{ba21b1849c19da3567b5f2ac96ea5aa8}
+      \strng{fullhash}{ba21b1849c19da3567b5f2ac96ea5aa8}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Modulating substrate specificity of histone acetyltransferase with unnatural amino acids}}
+      \field{abstract}{Controlling the substrate specificity of enzymes is a major challenge for protein engineers. Here we explore the effects of residue-specific incorporation of ortho-, meta- and para-fluorophenylalanine (oFF, mFF, pFF) on the selectivity of human histone acetyltransferase (HAT) protein, p300/CBP associated factor (PCAF). Varying the position of the fluorine group in the phenylalanine ring confers different effects on the ability of PCAF to acetylate target histone H3 as well as non-histone p53. Surprisingly, pFF-PCAF exhibits an increase in activity for non-histone p53, while mFF-PCAF is selective for histone H3. These results suggest that global incorporation of unnatural amino acids may be used to re-engineer protein specificity.}
+      \field{annotation}{From Duplicate 1 (Modulating substrate specificity of histone acetyltransferase with unnatural amino acids - Mehta, K R; Yang, C Y; Montclare, J K; KR Mehta, CY Yang, and JK Montclare.)}
+      \field{isbn}{1742-2051 (Electronic) 1742-2051 (Linking)}
+      \field{issn}{1742-2051}
+      \field{journaltitle}{Mol Biosyst}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{{Modulating substrate specificity of histone acetyltransferase with unnatural amino acids}}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{pages}{3050\bibrangedash 3055}
+      \verb{doi}
+      \verb 10.1039/c1mb05148b
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/21881678%20http://pubs.rsc.org/en/content/articlehtml/2011/mb/c1mb05148b
+      \endverb
+      \keyw{Acetylation,Amino Acids,Amino Acids/*chemistry,Amino Acids: chemistry,Anilino Naphthalenesulfonates,Anilino Naphthalenesulfonates/chemistry,Anilino Naphthalenesulfonates: chemistry,Circular Dichroism,Histone Acetyltransferases,Histone Acetyltransferases/*chemistry/metabolism,Histone Acetyltransferases: chemistry,Histone Acetyltransferases: metabolism,Histones,Histones/chemistry/metabolism,Histones: chemistry,Histones: metabolism,Humans,Phenylalanine,Phenylalanine/*analogs \& derivatives/*chemistry,Phenylalanine: analogs \& derivatives,Phenylalanine: chemistry,Protein Conformation,Substrate Specificity,faa,gcn5,hat,p-Fluorophenylalanine,p-Fluorophenylalanine/chemistry,p-Fluorophenylalanine: chemistry,p300-CBP Transcription Factors,p300-CBP Transcription Factors/chemistry/metabolis,p300-CBP Transcription Factors: chemistry,p300-CBP Transcription Factors: metabolism,uaa}
+    \endentry
     \entry{Hammill2007}{article}{}
       \name{labelname}{5}{}{%
         {{hash=83d466f9960cb8ad632484d9f92a70b1}{Hammill}{H\bibinitperiod}{Jared\bibnamedelima T}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
@@ -782,6 +826,49 @@
       \verb http://dx.doi.org/10.1038/nprot.2007.379
       \endverb
       \keyw{Alcohol Oxidoreductases,Alcohol Oxidoreductases: analysis,Alcohol Oxidoreductases: chemistry,Alcohol Oxidoreductases: genetics,Bacterial Proteins,Bacterial Proteins: analysis,Bacterial Proteins: chemistry,Bacterial Proteins: genetics,Electrophoresis,Polyacrylamide Gel,Escherichia coli,Escherichia coli: genetics,Fluorine,Fluorine: analysis,Halogenation,Isotopes,Nitroreductases,Nitroreductases: analysis,Nitroreductases: chemistry,Nitroreductases: genetics,Nuclear Magnetic Resonance,Biomolecular,Nuclear Magnetic Resonance,Biomolecular: methods,PII Nitrogen Regulatory Proteins,PII Nitrogen Regulatory Proteins: analysis,PII Nitrogen Regulatory Proteins: chemistry,PII Nitrogen Regulatory Proteins: genetics,Plasmids,Plasmids: chemistry,Plasmids: genetics,Protein Engineering,Protein Engineering: methods,Salmonella typhimurium,Salmonella typhimurium: genetics,faa,nmr,uaa}
+    \endentry
+    \entry{Yuvienco2012b}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8d6af1033c6e3dccc0a51794d26dc793}{Yuvienco}{Y\bibinitperiod}{Carlo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b349bdaa43c548ba85ae2ab4e075268a}{More}{M\bibinitperiod}{Haresh\bibnamedelima T}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=dc69eff1635c17a858eb67585f230cd3}{Haghpanah}{H\bibinitperiod}{Jennifer\bibnamedelima S}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=e38b8bb4bfa932dc6af43734a1e19265}{Tu}{T\bibinitperiod}{Raymond\bibnamedelima S}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8d6af1033c6e3dccc0a51794d26dc793}{Yuvienco}{Y\bibinitperiod}{Carlo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b349bdaa43c548ba85ae2ab4e075268a}{More}{M\bibinitperiod}{Haresh\bibnamedelima T}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=dc69eff1635c17a858eb67585f230cd3}{Haghpanah}{H\bibinitperiod}{Jennifer\bibnamedelima S}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=e38b8bb4bfa932dc6af43734a1e19265}{Tu}{T\bibinitperiod}{Raymond\bibnamedelima S}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=8fd4e10a15dc5746c74ac9a2da5e17c2}{Montclare}{M\bibinitperiod}{Jin\bibnamedelima Kim}{J\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{04a1a63491d0eac0f8dbf36d062a344a}
+      \strng{fullhash}{04a1a63491d0eac0f8dbf36d062a344a}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Modulating supramolecular assemblies and mechanical properties of engineered protein materials by fluorinated amino acids}}
+      \field{abstract}{Here we describe the biosynthesis and characterization of fluorinated protein block polymers comprised of the two self-assembling domains (SADs): elastin (E) and the coiled-coil region of cartilage oligomeric matrix proteins (C). Fluorination is achieved by residue-specific incorporation of p-fluorophenylalanine (pFF) to create pFF-EC, pFF-CE, and pFF-ECE. Global fluorination results in downstream effects on the temperature-dependent secondary structure, supramolecular assembly, and bulk mechanical properties. The impact of fluorination on material properties also differs depending on the orientation of the block configurations as well as the number of domains in the fusion. These studies suggest that integration of fluorinated amino acids within protein materials can be employed to tune the material properties, especially mechanical integrity.}
+      \field{isbn}{1526-4602 (Electronic) 1525-7797 (Linking)}
+      \field{issn}{1526-4602}
+      \field{journaltitle}{Biomacromolecules}
+      \field{month}{08}
+      \field{number}{8}
+      \field{title}{{Modulating supramolecular assemblies and mechanical properties of engineered protein materials by fluorinated amino acids}}
+      \field{volume}{13}
+      \field{year}{2012}
+      \field{pages}{2273\bibrangedash 2278}
+      \verb{doi}
+      \verb 10.1021/bm3005116
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Yuvienco et al. - 2012 - Modulating supramolecular assemblies and mechanical properties of engineered protein materials by fluorinated a.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/22789174%20http://dx.doi.org/10.1021/bm3005116
+      \endverb
+      \keyw{Amino Acid Sequence,Amino Acid Substitution,Amino Acids,Amino Acids/chemistry,Amino Acids: chemistry,Elastic Modulus,Elastin,Elastin/biosynthesis/*chemistry/genetics,Elastin: biosynthesis,Elastin: chemistry,Elastin: genetics,Escherichia coli,Extracellular Matrix Proteins,Extracellular Matrix Proteins/biosynthesis/*chemis,Extracellular Matrix Proteins: biosynthesis,Extracellular Matrix Proteins: chemistry,Extracellular Matrix Proteins: genetics,Fluorocarbon Polymers,Fluorocarbon Polymers/*chemistry,Fluorocarbon Polymers: chemistry,Glycoproteins,Glycoproteins/biosynthesis/*chemistry/genetics,Glycoproteins: biosynthesis,Glycoproteins: chemistry,Glycoproteins: genetics,Matrilin Proteins,Molecular Sequence Data,Phenylalanine,Phenylalanine/*chemistry,Phenylalanine: chemistry,Protein,Protein Engineering,Protein Structure,Quaternary,Rheology,Secondary,Sequence Analysis,Transition Temperature,Viscosity,assembly,faa,uaa,yuvienco}
     \endentry
     \entry{Montclare2006b}{article}{}
       \name{labelname}{2}{}{%
@@ -844,6 +931,173 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/21710682%20http://onlinelibrary.wiley.com/store/10.1002/cbic.201100221/asset/1845%5C_ftp.pdf?v=1%5C&t=hhs34pa3%5C&s=a5f94dc1bfa342a0448fb3bddfee71e55e7dc527
       \endverb
       \keyw{Amino Acids,Amino Acids/chemistry/metabolism,Amino Acids: chemistry,Amino Acids: metabolism,Calorimetry,Circular Dichroism,Cloning,Differential Scanning,Dimerization,Electrophoresis,Enzyme Stability,Escherichia coli,Escherichia coli Proteins,Escherichia coli Proteins/*chemistry/genetics/meta,Escherichia coli Proteins: chemistry,Escherichia coli Proteins: genetics,Escherichia coli Proteins: metabolism,Halogenation,Hot Temperature,Insecticides,Insecticides/*metabolism,Insecticides: metabolism,Kinetics,Mass,Matrix-Assisted Laser Desorpti,Models,Molecular,Paraoxon,Paraoxon/metabolism,Paraoxon: metabolism,Phosphoric Triester Hydrolases,Phosphoric Triester Hydrolases/*chemistry/genetics,Phosphoric Triester Hydrolases: chemistry,Phosphoric Triester Hydrolases: genetics,Phosphoric Triester Hydrolases: metabolism,Polyacrylamide Gel,Protein Engineering,Protein Engineering/*methods,Protein Engineering: methods,Protein Folding,Recombinant Proteins,Recombinant Proteins/*chemistry/genetics/metabolis,Recombinant Proteins: chemistry,Recombinant Proteins: genetics,Recombinant Proteins: metabolism,Spectrometry,Substrate Specificity,pff,pte}
+    \endentry
+    \entry{Leaver-Fay2011}{article}{}
+      \name{labelname}{32}{}{%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5c86dfba8aa6295fd08e2a88a5c2be74}{Tyka}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9bfd99f9958aa2b20f8d3e880b65604c}{Lewis}{L\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=28dba76cf0cbd473bb4d59a89f006765}{Lange}{L\bibinitperiod}{Oliver\bibnamedelima F}{O\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9e17fe0d7ec695a61004a3cea4b58b1f}{Kaufman}{K\bibinitperiod}{Kristian}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=f75e279936565baef9575ef886ecf9c2}{Renfrew}{R\bibinitperiod}{P\bibnamedelima Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c1bc07fa5c4e3f275178edcd88a8e796}{Smith}{S\bibinitperiod}{Colin\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c22f7c3db42028b76079ad152d7c0ecf}{Sheffler}{S\bibinitperiod}{Will}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=5159ae341139f12e9afb0208d2027cf3}{Cooper}{C\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ba718e08bbfe996fbb65aa6061705be1}{Treuille}{T\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fbc2c5a1d7ca2691b7701bf7e0298eb8}{Mandell}{M\bibinitperiod}{Daniel\bibnamedelima J}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=13b854802e36f4d41d658ca803f7a1e2}{Richter}{R\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=53f280685ede675574e825298b5b63f0}{Ban}{B\bibinitperiod}{Yih-En\bibnamedelima Andrew}{Y\bibinithyphendelim E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f14ab87a9b333ccec38acb2cb70122d0}{Fleishman}{F\bibinitperiod}{Sarel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d4453bff98735621854b14fe83c372a3}{Corn}{C\bibinitperiod}{Jacob\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=339e12ef3231908dc13e1e8d9f327d03}{Kim}{K\bibinitperiod}{David\bibnamedelima E}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2096cebe4c1849304324b019f46d1fbd}{Berrondo}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b095a2b3eb2192e6cd7c0a5a031297db}{Mentzer}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1381b94133394452a48f4ee2c2648bf1}{Popovi\'{c}}{P\bibinitperiod}{Zoran}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0396fd9497028c978467e3563e3b69dc}{Karanicolas}{K\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=042adfc06dcb8612e991febd27bc8f65}{Das}{D\bibinitperiod}{Rhiju}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{Bradley}{B\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{32}{}{%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5c86dfba8aa6295fd08e2a88a5c2be74}{Tyka}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9bfd99f9958aa2b20f8d3e880b65604c}{Lewis}{L\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=28dba76cf0cbd473bb4d59a89f006765}{Lange}{L\bibinitperiod}{Oliver\bibnamedelima F}{O\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9e17fe0d7ec695a61004a3cea4b58b1f}{Kaufman}{K\bibinitperiod}{Kristian}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=f75e279936565baef9575ef886ecf9c2}{Renfrew}{R\bibinitperiod}{P\bibnamedelima Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c1bc07fa5c4e3f275178edcd88a8e796}{Smith}{S\bibinitperiod}{Colin\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c22f7c3db42028b76079ad152d7c0ecf}{Sheffler}{S\bibinitperiod}{Will}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=5159ae341139f12e9afb0208d2027cf3}{Cooper}{C\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ba718e08bbfe996fbb65aa6061705be1}{Treuille}{T\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fbc2c5a1d7ca2691b7701bf7e0298eb8}{Mandell}{M\bibinitperiod}{Daniel\bibnamedelima J}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=13b854802e36f4d41d658ca803f7a1e2}{Richter}{R\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=53f280685ede675574e825298b5b63f0}{Ban}{B\bibinitperiod}{Yih-En\bibnamedelima Andrew}{Y\bibinithyphendelim E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f14ab87a9b333ccec38acb2cb70122d0}{Fleishman}{F\bibinitperiod}{Sarel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d4453bff98735621854b14fe83c372a3}{Corn}{C\bibinitperiod}{Jacob\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=339e12ef3231908dc13e1e8d9f327d03}{Kim}{K\bibinitperiod}{David\bibnamedelima E}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2096cebe4c1849304324b019f46d1fbd}{Berrondo}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b095a2b3eb2192e6cd7c0a5a031297db}{Mentzer}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1381b94133394452a48f4ee2c2648bf1}{Popovi\'{c}}{P\bibinitperiod}{Zoran}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0396fd9497028c978467e3563e3b69dc}{Karanicolas}{K\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=042adfc06dcb8612e991febd27bc8f65}{Das}{D\bibinitperiod}{Rhiju}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{Bradley}{B\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2e1f89064d975e13e003e676b05f34d3}
+      \strng{fullhash}{9178e2ba1957b1ed5a2665d4493d333c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules.}}
+      \field{abstract}{We have recently completed a full re-architecturing of the ROSETTA molecular modeling program, generalizing and expanding its existing functionality. The new architecture enables the rapid prototyping of novel protocols by providing easy-to-use interfaces to powerful tools for molecular modeling. The source code of this rearchitecturing has been released as ROSETTA3 and is freely available for academic use. At the time of its release, it contained 470,000 lines of code. Counting currently unpublished protocols at the time of this writing, the source includes 1,285,000 lines. Its rapid growth is a testament to its ease of use. This chapter describes the requirements for our new architecture, justifies the design decisions, sketches out central classes, and highlights a few of the common tasks that the new software can perform.}
+      \field{issn}{1557-7988}
+      \field{journaltitle}{Methods in enzymology}
+      \field{month}{01}
+      \field{title}{{ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules.}}
+      \field{volume}{487}
+      \field{year}{2011}
+      \field{pages}{545\bibrangedash 74}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-381270-4.00019-6
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Leaver-Fay et al. - 2011 - ROSETTA3 an object-oriented software suite for the simulation and design of macromolecules.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4083816%5C&tool=pmcentrez%5C&rendertype=abstract
+      \endverb
+      \keyw{Computer Simulation,DNA,DNA: chemistry,Macromolecular Substances,Macromolecular Substances: chemistry,Models,Molecular,Software,rosetta}
+    \endentry
+    \entry{DiMaio2011a}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=f9f9a0449d05ad7ef605919b7a84c894}{DiMaio}{D\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1b2e3cb4bbfd80ce3439b6d706c54526}{Bradley}{B\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a78e6c0dc1d0a795e5b6e0a5e55aad9e}{Andr\'{e}}{A\bibinitperiod}{Ingemar}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=f9f9a0449d05ad7ef605919b7a84c894}{DiMaio}{D\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1b2e3cb4bbfd80ce3439b6d706c54526}{Bradley}{B\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a78e6c0dc1d0a795e5b6e0a5e55aad9e}{Andr\'{e}}{A\bibinitperiod}{Ingemar}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5abfec81461731b590b0e09b6bd27275}
+      \strng{fullhash}{5abfec81461731b590b0e09b6bd27275}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Modeling symmetric macromolecular structures in Rosetta3.}}
+      \field{abstract}{Symmetric protein assemblies play important roles in many biochemical processes. However, the large size of such systems is challenging for traditional structure modeling methods. This paper describes the implementation of a general framework for modeling arbitrary symmetric systems in Rosetta3. We describe the various types of symmetries relevant to the study of protein structure that may be modeled using Rosetta's symmetric framework. We then describe how this symmetric framework is efficiently implemented within Rosetta, which restricts the conformational search space by sampling only symmetric degrees of freedom, and explicitly simulates only a subset of the interacting monomers. Finally, we describe structure prediction and design applications that utilize the Rosetta3 symmetric modeling capabilities, and provide a guide to running simulations on symmetric systems.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PloS one}
+      \field{month}{01}
+      \field{number}{6}
+      \field{title}{{Modeling symmetric macromolecular structures in Rosetta3.}}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{e20450}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0020450
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/DiMaio et al. - 2011 - Modeling symmetric macromolecular structures in Rosetta3.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020450
+      \endverb
+      \keyw{Computational Biology,Computational Biology: methods,Databases,Protein,Macromolecular Substances,Macromolecular Substances: chemistry,Models,Molecular,Protein Structure,Secondary,Proteins,Proteins: chemistry,Software,Structural Homology,Protein,Thermodynamics,rosetta,simulation}
+    \endentry
+    \entry{Roodveldt2005}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=b8650d4fa5258d13574180ecd80c4a29}{Roodveldt}{R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7c4ded075b7c2afd91b8f7175fb147e1}{Tawfik}{T\bibinitperiod}{D.\bibnamedelimi S.}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b8650d4fa5258d13574180ecd80c4a29}{Roodveldt}{R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=7c4ded075b7c2afd91b8f7175fb147e1}{Tawfik}{T\bibinitperiod}{D.\bibnamedelimi S.}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{80760b6f15c544063a45ffbb35b3f70b}
+      \strng{fullhash}{80760b6f15c544063a45ffbb35b3f70b}
+      \field{sortinit}{0}
+      \field{labeltitle}{Directed evolution of phosphotriesterase from Pseu}
+      \field{abstract}{Phosphotriesterase from Pseudomonas diminuta (PTE) is an extremely efficient metalloenzyme that hydrolyses a variety of compounds including organophosphorus nerve agents. Study of PTE has been hampered by difficulties with efficient expression of the recombinant form of this highly interesting and potentially useful enzyme. We identified a low-level esterolytic activity of PTE and then screened PTE gene libraries for improvements in 2-naphthyl acetate hydrolysis. However, the attempt to evolve this promiscuous esterase activity led to a variant (S5) containing three point mutations that resulted in a 20-fold increase in functional expression. Interestingly, the zinc holoenzyme form of S5 appears to be more sensitive than wild-type PTE to both thermal denaturation and addition of metal chelators. Higher functional expression of the S5 variant seems to lie in a higher stability of the metal-free apoenzyme. The results obtained in this work point out another-and often overlooked-possible determinant of protein expression and purification yields, i.e. the stability of intermediates during protein folding and processing.}
+      \field{annotation}{From Duplicate 2 (Directed evolution of phosphotriesterase from Pseudomonas diminuta for heterologous expression in Escherichia coli results in stabilization of the metal-free state - Roodveldt, C.; Tawfik, D. S.)}
+      \field{isbn}{1741-0126 (Print)$\backslash$r1741-0126 (Linking)}
+      \field{issn}{17410126}
+      \field{journaltitle}{Protein Engineering, Design and Selection}
+      \field{month}{01}
+      \field{number}{1}
+      \field{shorttitle}{Directed evolution of phosphotriesterase from Pseu}
+      \field{title}{{Directed evolution of phosphotriesterase from Pseudomonas diminuta for heterologous expression in Escherichia coli results in stabilization of the metal-free state}}
+      \field{volume}{18}
+      \field{year}{2005}
+      \field{pages}{51\bibrangedash 58}
+      \verb{doi}
+      \verb 10.1093/protein/gzi005
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Roodveldt, Tawfik - 2005 - Directed evolution of phosphotriesterase from Pseudomonas diminuta for heterologous expression in Escherichia.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/15790580%20http://peds.oxfordjournals.org/content/18/1/51.full.pdf%20http://www.ncbi.nlm.nih.gov/pubmed/15790580%20http://peds.oxfordjournals.org/content/18/1/51.full.pdf
+      \endverb
+      \keyw{*Directed Molecular Evolution,Apoenzyme,Chelating Agents/chemistry,Directed evolution,Electrophoresis,Electrophoresis- Polyacrylamide Gel,Escherichia coli,Escherichia coli/*genetics,Heterologous expression,Organophosphorus hydrolase,Phosphoric Triester Hydrolases/chemistry/*genetics,Phosphotriesterase,Polyacrylamide Gel,Promiscuity,Protein Denaturation,Pseudomonas/*enzymology,Recombinant,Recombinant Fusion Proteins/chemistry/genetics/met}
     \endentry
     \entry{Grimsley1997b}{article}{}
       \name{labelname}{4}{}{%
@@ -924,6 +1178,39 @@
       \endverb
       \keyw{Calorimetry,Differential Scanning,Calorimetry,Differential Scanning: methods,Cross-Linking Reagents,Cross-Linking Reagents: pharmacology,Dimerization,Escherichia coli,Escherichia coli Proteins,Escherichia coli Proteins: chemistry,Escherichia coli Proteins: metabolism,Escherichia coli: enzymology,Heat-Shock Response,Heat-Shock Response: physiology,Models,Chemical,Mutant Proteins,Mutant Proteins: analysis,Mutant Proteins: chemistry,Mutant Proteins: metabolism,Peptidylprolyl Isomerase,Peptidylprolyl Isomerase: chemistry,Peptidylprolyl Isomerase: metabolism,Protein Binding,Protein Binding: drug effects,Protein Folding,Protein Structure,Tertiary,Sensitivity and Specificity,Temperature,Thermodynamics,dsc,folding,thermostability}
     \endentry
+    \entry{Tsytlonok2013}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=2cfa04b53f36e021b46420dffe1ec797}{Tsytlonok}{T\bibinitperiod}{Maksym}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4d44d6029e88aff976e300b2d8c83c08}{Itzhaki}{I\bibinitperiod}{Laura\bibnamedelima S}{L\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=2cfa04b53f36e021b46420dffe1ec797}{Tsytlonok}{T\bibinitperiod}{Maksym}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4d44d6029e88aff976e300b2d8c83c08}{Itzhaki}{I\bibinitperiod}{Laura\bibnamedelima S}{L\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1eadff329dd8130b40bcc16d8e1bc99b}
+      \strng{fullhash}{1eadff329dd8130b40bcc16d8e1bc99b}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The how's and why's of protein folding intermediates.}}
+      \field{abstract}{The nature and role of intermediates have been the subject of much heated debate in the field of protein folding. Historically, intermediates were viewed as essential stepping-stones that guide a protein through the folding process to the native state. However, with the experimental identification of numerous small proteins that fold rapidly without intermediates, and the emergence from computational studies of new conceptual frameworks, came the thinking that intermediates can act as energy sinks, kinetic traps that result in less efficient folding. Whether 'good' or 'bad', it is without doubt that folding intermediates provide valuable information to protein chemists: at equilibrium they help to delineate the subdomain architecture of a protein and the hierarchy of subdomain stabilities; under kinetic conditions they provide experimentalists with additional snapshots of the folding reaction and, thereby, fundamental mechanistic details that are often lacking in the case of two-state folders. Intermediates give us valuable insights into the fluctuations from the native structure that may be important in regulating biological function. Lastly, intermediates are often the critical species in misfolding processes that lead to aggregation and disease. Here we review what we have learnt after almost half a century of protein-folding research, and we question two fundamental tests of our understanding: do we know enough about how proteins fold to design folding mechanisms de novo and can we exploit our knowledge to modulate protein-folding mechanisms in the cell for therapeutic benefit?}
+      \field{issn}{1096-0384}
+      \field{journaltitle}{Archives of biochemistry and biophysics}
+      \field{month}{03}
+      \field{number}{1-2}
+      \field{title}{{The how's and why's of protein folding intermediates.}}
+      \field{volume}{531}
+      \field{year}{2013}
+      \field{pages}{14\bibrangedash 23}
+      \verb{doi}
+      \verb 10.1016/j.abb.2012.10.006
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Tsytlonok, Itzhaki - 2013 - The how's and why's of protein folding intermediates.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0003986112003748
+      \endverb
+      \keyw{Kinetics,Protein Folding,folding}
+    \endentry
     \entry{Yoo2007}{article}{}
       \name{labelname}{3}{}{%
         {{hash=030c986f5881f0cb471c0fcf4de71e52}{Yoo}{Y\bibinitperiod}{Tae\bibnamedelima Hyeon}{T\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
@@ -960,9 +1247,6 @@
       \keyw{Amino Acid Sequence,Amino Acid Substitution,Bacterial Proteins,Bacterial Proteins: metabolism,DNA Primers,Directed Molecular Evolution,Escherichia coli,Escherichia coli: genetics,Flow Cytometry,Genetic Variation,Green Fluorescent Proteins,Green Fluorescent Proteins: chemistry,Green Fluorescent Proteins: genetics,Green Fluorescent Proteins: metabolism,Kinetics,Protein Denaturation,Protein Folding,Recombinant Proteins,Recombinant Proteins: chemistry,Recombinant Proteins: metabolism,Solubility,faa,gfp,tirrell,uaa}
     \endentry
   \endsortlist
-  \missing{Yuvienco2012b}
-  \missing{Tsytlonok2013}
-  \missing{Mehta2011}
 \endrefsection
 \endinput
 

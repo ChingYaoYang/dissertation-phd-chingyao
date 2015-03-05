@@ -19,14 +19,18 @@ a suite of libraries and tools for macromolecular ligand docking, to
 thermo-stabilize proteins, to design a hydrogen-bond network, to design novel
 protein folds, to create novel protein interfaces, and to design enzymes,
 including some containing unnatural amino acids in the active sites. (see
-Figure \ref{fig:test})
+Figure \ref{fig:rosetta-scheme})
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
-    \caption[This is test]{Rosetta Test}\label{fig:test}
+    \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
+    Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
+electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
+    function of Rosetta. 1: Lennard-Jones Potential; 2: implicit solvent model;
+3: hydrogen bonding; 4: electrostatics; 5: PDB drived torsion potential.}
+\label{fig:rosetta-scheme}
 
 \end{figure}
 % --------------------------
-% fig1_01: need a real sketch of Rosetta
 
 \subsection{Phosphotriesterase} 
 \label{sec:pte}
@@ -44,9 +48,28 @@ lead to hyper-stimulation from toxic accumulation of
 acetylcholine.\cite{Soreq2001} Army also adapted this protein for chemical
 weapons neutralization. \cite{Yang2014a}
 % fig1_02: insert of crystal structure of PTE. Maybe add synapse photo?
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_02}
+    \caption[Structure of
+    and active site of phosphotriesterase: (A) Crystal structure of PTE (PDB
+1HZY). Wild-type PTE consists of two monomers. Shown in light blue is one of
+them, and dark blue is the other. Yellow dots represent zinc atoms; (B)
+Substrates that PTE hydrolyzed: (1) paraoxon, (2) 2-naphthyl acetate, and (3)
+chloropyfios. (C) Small pocket residues are labeled in red: G60,I106, L303,
+S308; large pocket residues are labeled in blue: H254, H257, M317, while
+leaving group residues are labeled in grey: W131, F132, F306, Y309.]{Structure of
+    and active site of phosphotriesterase: (A) Crystal structure of PTE (PDB
+1HZY). Wild-type PTE consists of two monomers. Shown in light blue is one of
+them, and dark blue is the other. Yellow dots represent zinc atoms; (B)
+Substrates that PTE hydrolyzed: (1) paraoxon, (2) 2-naphthyl acetate, and (3)
+chloropyfios. (C) Small pocket residues are labeled in red: G60,I106, L303,
+S308; large pocket residues are labeled in blue: H254, H257, M317, while
+leaving group residues are labeled in grey: W131, F132, F306, Y309.}
+\label{fig:pte-structure} 
+\end{figure} 
+% --------------------------
 
-\subsection{Incorporation of Non-natural Amino Acids}
-\label{sec:rsi}
+\subsection{Incorporation of Non-natural Amino Acids} \label{sec:rsi}
 
 Several methods have been developed for the incorporation of unnatural amino
 acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, in vivo and
@@ -82,6 +105,16 @@ aminoacyl-tRNA synthetase/suppressor tRNA pair based on a TyrRS/tRNATyr pair in
 the \emph{Methanococcus jannaschii} has been engineered for use in \emph{E.
 coli} for the incorporation of tyrosine analogs.\cite{Wang2001}
 % fig1_03: add scheme of rsi
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_03} 
+    \caption[Illustration  of NAA incorporation via (a) RSI using auxotrophic
+    strain, (b) engineering additional copies of endogenous AARS, (c) expanding
+the AARS binding pocket and (d) shrinking the AARS editing
+pocket.]{Illustration  of NAA incorporation via (a) RSI using auxotrophic
+strain, (b) engineering additional copies of endogenous AARS, (c) expanding the
+AARS binding pocket and (d) shrinking the AARS editing pocket.} \label{fig:rsi}
+\end{figure}
+% --------------------------
 
 As an alternative to site-specific incorporation, residue-specific
 incorporation has been developed in which a natural amino acid is replaced with
@@ -107,19 +140,20 @@ relaxed specificity.\cite{Kast1991}
 
 % Describe the properties of faa in the proteins.
 Fluorinated amino acids (FAAs), represent a unique class of UAAs. They have
-different bond energies, electron distributions, and hydrophobzgicity 26 as
-compared to their hydrogenated counterparts. As we compare the structure of
-fluorocarbon groups, the C-F bond is highly dipolar while the hydrocarbon is
-less. The C-F bond is roughly 0.24 {\AA} longer than C-H bond.\cite{Tang2001}
-While in some cases the global replacement of hydrophobic amino acids with
-fluorinated analogs has led to the stabilization of protein
-structure\cite{Biffinger2004}, it has all been shown that in some cases they
-can reduce the thermodynamic stability.\cite{Panchenko2006b} The expansion of
-the genetic code has led to the biosynthetic incorporation of a wide range of
-noncanonical amino acids (NCAAs) into proteins.\cite{Voloshchuk2010} In
-particular, fluorinated amino acids (FAAs) have been integrated into small
-coiled-coil proteins,\cite{Montclare2009b,Tang2001}a range of
-enzymes,\cite{Voloshchuk2009,Panchenko2006b,Voloshchuk2007b,Mehta2011,Hammill2007}
+different bond energies, electron distributions, and
+hydrophobicity\cite{Biffinger2004} as compared to their hydrogenated
+counterparts. As we compare the structure of fluorocarbon groups, the C-F bond
+is highly dipolar while the hydrocarbon is less. The C-F bond is roughly 0.24
+{\AA} longer than C-H bond.\cite{Tang2001} While in some cases the global
+replacement of hydrophobic amino acids with fluorinated analogs has led to the
+stabilization of protein structure\cite{Biffinger2004}, it has all been shown
+that in some cases they can reduce the thermodynamic
+stability.\cite{Panchenko2006b} The expansion of the genetic code has led to
+the biosynthetic incorporation of a wide range of noncanonical amino acids
+(NCAAs) into proteins.\cite{Voloshchuk2010} In particular, fluorinated amino
+acids (FAAs) have been integrated into small coiled-coil
+proteins,\cite{Montclare2009b,Tang2001}a range of
+enzymes,\cite{Voloshchuk2009,Panchenko2006b,Voloshchuk2007b,Mehta2011b,Hammill2007}
 and biomaterials.\cite{Yuvienco2012b} Although incorporation of FAAs into a
 target protein can lead to enhanced function or stability, in some cases loss
 of activity or stability occurs, and further improvements to the artificial
@@ -127,6 +161,23 @@ protein have been made by rational mutagenesis\cite{Voloshchuk2007b} and
 directed evolution strategies.\cite{Montclare2006b}
 % fig1_04: add comparison of phe vs pFF
 % table1_01: bond length comparison
+% --------------------------
+\begin{table}[h!]
+    \centering
+\begin{tabular}{ cccc }
+  \hline
+  Bond & Length & Van der Waals radius &Total size \\
+  \hline
+
+  C-H & 1.09 & 1.2 & 2.29 \\
+  C-F & 1.35 & 1.7 & 2.82 \\
+
+  \hline
+\end{tabular}
+\caption{(A) physical properties of the C-F bond. (B) comparison of C-H and C-F
+bonds, van der Waals radius, and total size} \label{tab:c-fbond}
+\end{table}
+% --------------------------
 
 \subsection{Scope of Work}
 
@@ -190,7 +241,7 @@ exchange using \SI{12}{\L} \SI{20}{\milli\Molar} phosphate buffer (pH 8.0).
 Dialyzed protein was subjected to kinetic assays immediately.
 
 \subsection{PyRosetta Design}
-\label{sec:rosetta}
+\label{sec:rosetta-method}
 
 Rosetta\cite{Leaver-Fay2011,DiMaio2011a} was used to generate a symmetric,
 \emph{p}FF-incorporated PTE structure used by all simulations. The Holden and
