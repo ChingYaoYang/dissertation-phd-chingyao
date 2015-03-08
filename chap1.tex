@@ -9,7 +9,6 @@ Using Rosetta}
 \subsection{Rosetta and Protein Engineering}
 \label{sec:rosetta}
 
-% Introduce Rosetta and protein engineering. Also focus on protein engineering.
 Computational tools are widely used for protein engineering [ref]. Rosetta
 suite was first developed in University of Washington [ref]. Baker et al.
 adapted this suite for prediction of three: dimensional structure of proteins.
@@ -38,16 +37,15 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 % This section focuses on PTE.
 PTE is a homodimeric protein composed of two monomers, each of which contains a
 metallo-active site.Phosphotriesterase (PTE) are enzymes, which hydrolyze
-organophosphates (OPs) as well as synthetic esters.\cite{Ghanem2005a} OPs are a
-synthetic class of small molecule that irreversibly inactivate
-acetylcholinesterase (AChE), disrupting neural transmission. AChE is an enzyme
-that degrades the neurotransmitter, acetylcholine, at the neuromuscular
-junction in the cholinergic nervous system. After the acetylcholine is
-hydrolyzed, the synaptic transmission would be terminated. Inhibition of AChE
-lead to hyper-stimulation from toxic accumulation of
-acetylcholine.\cite{Soreq2001} Army also adapted this protein for chemical
-weapons neutralization. \cite{Yang2014a}
-% fig1_02: insert of crystal structure of PTE. Maybe add synapse photo?
+organophosphates (OPs) as well as synthetic esters (Figure
+\ref{fig:pte-structure}).\cite{Ghanem2005a} OPs are a synthetic class of small
+molecule that irreversibly inactivate acetylcholinesterase (AChE), disrupting
+neural transmission. AChE is an enzyme that degrades the neurotransmitter,
+acetylcholine, at the neuromuscular junction in the cholinergic nervous system.
+After the acetylcholine is hydrolyzed, the synaptic transmission would be
+terminated. Inhibition of AChE lead to hyper-stimulation from toxic
+accumulation of acetylcholine.\cite{Soreq2001} Army also adapted this protein
+for chemical weapons neutralization. \cite{Yang2014a}
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_02}
     \caption[Structure of
@@ -74,29 +72,29 @@ leaving group residues are labeled in grey: W131, F132, F306, Y309.}
 Several methods have been developed for the incorporation of unnatural amino
 acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, in vivo and
 in vitro site-specific incorporation,\cite{Cellitti2008,Hassan2008} and
-residue-specific incorporation (Fig. 1)1d.\cite{Johnson2010} In SPPS, activated
-amino acids are immobilized on a solid support and synthesized step-by-step in
-the reactant solution. This method is convenient for the introduction of
-functional groups into peptides, but it is still restricted to the yield and
-the expense of peptides. For example, if each coupling step has 99\% yield, a
-26-amino acid peptide would be synthesized in 77\% final yield. To synthesis
-longer chain peptides and proteins bearing UAAs, biosynthetic methods have been
-developed.  There exists two contemporary methods to biosynthetically
-incorporate non-natural amino acids into proteins: site-specific incorporation
-and residue-specific incorporation. Bain \latin{et al.} have developed a
-general approach for the in vitro synthesis of proteins.\cite{Bain1991} The
-approach relies on the suppression of an amber termination codon (UAG) in the
-mRNA by an amber suppressor tRNA charged with the amino acid analog. This
-method has been well studied and developed in research of protein structures
-and functions.\cite{Martoglio1995,Eichler1997} 
+residue-specific incorporation (Figure \ref{fig:rsi}).\cite{Johnson2010} In
+SPPS, activated amino acids are immobilized on a solid support and synthesized
+step-by-step in the reactant solution. This method is convenient for the
+introduction of functional groups into peptides, but it is still restricted to
+the yield and the expense of peptides. For example, if each coupling step has
+99\% yield, a 26-amino acid peptide would be synthesized in 77\% final yield.
+To synthesis longer chain peptides and proteins bearing UAAs, biosynthetic
+methods have been developed.  There exists two contemporary methods to
+biosynthetically incorporate non-natural amino acids into proteins:
+site-specific incorporation and residue-specific incorporation. Bain \latin{et
+al.} have developed a general approach for the \latin{in vitro} synthesis of
+proteins.\cite{Bain1991} The approach relies on the suppression of an amber
+termination codon (UAG) in the mRNA by an amber suppressor tRNA charged with
+the amino acid analog. This method has been well studied and developed in
+research of protein structures and functions.\cite{Martoglio1995,Eichler1997} 
 
 Methods to incorporate amino acid analogues site-specifically into proteins in
 vivo greatly expand research of unnatural amino acids. We are not only able to
 synthesize large amounts of protein, but capable of overcoming potential
-problems including post translational modifications. An in vivo site-specific
+problems including post translational modifications. An \latin{in vivo} site-specific
 method to incorporation UAAs was developed by Schultz and
 coworkers.\cite{Wang2001,Wang2002} A stop codon at the position of interest is
-encoded in the mRNA. For in vivo site-specific UAA incorporation, an orthogonal
+encoded in the mRNA. For \latin{in vivo} site-specific UAA incorporation, an orthogonal
 aminoacyl-tRNA synthetase charges an orthogonal tRNA with particular UAA, and
 the suppressor tRNA would help the incorporation of UAA with recognition of a
 stop codon. As cells contain 20 aminoacyl-tRNA synthetase/suppressor tRNA
@@ -104,7 +102,7 @@ pairs, a new one is required for the incorporation. An orthogonal
 aminoacyl-tRNA synthetase/suppressor tRNA pair based on a TyrRS/tRNATyr pair in
 the \emph{Methanococcus jannaschii} has been engineered for use in \emph{E.
 coli} for the incorporation of tyrosine analogs.\cite{Wang2001}
-% fig1_03: add scheme of rsi
+
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_03} 
     \caption[Illustration  of NAA incorporation via (a) RSI using auxotrophic
@@ -144,10 +142,10 @@ different bond energies, electron distributions, and
 hydrophobicity\cite{Biffinger2004} as compared to their hydrogenated
 counterparts. As we compare the structure of fluorocarbon groups, the C-F bond
 is highly dipolar while the hydrocarbon is less. The C-F bond is roughly 0.24
-{\AA} longer than C-H bond.\cite{Tang2001} While in some cases the global
-replacement of hydrophobic amino acids with fluorinated analogs has led to the
-stabilization of protein structure\cite{Biffinger2004}, it has all been shown
-that in some cases they can reduce the thermodynamic
+{\AA} longer than C-H bond (Table \ref{tab:c-fbond}).\cite{Tang2001} While in
+some cases the global replacement of hydrophobic amino acids with fluorinated
+analogs has led to the stabilization of protein structure\cite{Biffinger2004},
+it has all been shown that in some cases they can reduce the thermodynamic
 stability.\cite{Panchenko2006b} The expansion of the genetic code has led to
 the biosynthetic incorporation of a wide range of noncanonical amino acids
 (NCAAs) into proteins.\cite{Voloshchuk2010} In particular, fluorinated amino
@@ -163,8 +161,8 @@ directed evolution strategies.\cite{Montclare2006b}
 % table1_01: bond length comparison
 % --------------------------
 \begin{table}[h!]
-    \centering
-\begin{tabular}{ cccc }
+\centering
+\begin{tabular}{ llll }
   \hline
   Bond & Length & Van der Waals radius &Total size \\
   \hline
@@ -349,7 +347,6 @@ analyze the MALDI spectra (www.bruker.com/).
 
 \subsection{Biosynthesis of Phosphotriesterase}
 
-% add gel of PTE.
 The \emph{p}FF-F104A variant and the \emph{p}FF-PTE parent were biosynthesized
 by residue-specific incorporation with the phenylalanine auxotrophic
 \emph{Escherichia coli} strain AFIQ.[6] As controls, the non-fluorinated
@@ -358,36 +355,65 @@ expected, all four proteins exhibited good expression in the presence of
 phenylalanine or \emph{p}FF. \emph{p}FF-F104A and \emph{p}FF-PTE exhibited 80\%
 and 92\% incorporation, respectively, as determined by MALDI-TOF mass
 spectrometry. Notably, purified yields of \emph{p}FF-F104A were twofold higher
-than for \emph{p}FF-PTE, thus indicating more soluble protein yield.
+than for \emph{p}FF-PTE, thus indicating more soluble protein yield. (Figure
+\ref{fig:sds-gel})
+
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_04}
+    \caption[SDS-PAGE of purified proteins: (A) purified PTE and 104A, (B)
+    purified \emph{p}FF-PTE and \emph{p}FF--104A.]{SDS-PAGE of purified
+        proteins: (A) purified PTE and 104A, (B) purified \emph{p}FF-PTE and
+        \emph{p}FF--104A.} \label{fig:sds-gel} 
+\end{figure}
+% --------------------------
 
 \subsection{Thermo-stability And Secondary Structure}
 
-% add figure of DSC and CD.
 Circular dichroism (CD) was performed to determine whether the mutation had an
 impact on the overall secondary structure and stability. Far-UV wavelength
 scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at
 \SIlist{208;222}{\nm} (\SI{25}{\celsius}), as expected for a
 ($\beta$/$\alpha$)\textsubscript{8}-barrel protein, thus suggesting that the
-mutation did not affect the overall structure (Figure S3).  Surprisingly,
-comparison of the non-fluorinated counterparts revealed that F104A was less
-structured than PTE (Figure S3). To assess the stability, differential scanning
-calorimetry (DSC) was performed (Figure 2). Upon heating the sample from
-\SIrange{0}{70}{\celsius}, \emph{p}FF-PTE exhibited two transitions
-(T\textsubscript{m}1: 42.0 $\pm$ \SI{0.1}{\celsius}; T\textsubscript{m}2 : 48.6
-$\pm$ \SI{0.2}{\celsius}; Table S1); this is consistent with our previous
-studies.\cite{Baker2011b} This biphasic unfolding was also observed by Grimsley
-\latin{et al.}  in a study of organophosphorus hydrolase, and was attributed to
-the presence of a dimeric unfolded intermediate.\cite{Grimsley1997b} In
-contrast, \emph{p}FF-F104A exhibited a single transition at 49.7 $\pm$
-\SI{0.2}{\celsius}, which was higher than both \emph{p}FF-PTE values (by 7.7
-and \SI{1.1}{\celsius}); Figure 2B, Table S1).  Remarkably, after heating,
-\emph{p}FF-F104A retained the single T\textsubscript{m} of 49.2 $\pm$
-\SI{0.1}{\celsius}, thus demonstrating regaining of structure after undergoing
-thermal unfolding.  In the absence of \emph{p}FF, F104A demonstrated two
-transitions similar to \emph{p}FF-PTE (Figure 2A), thus suggesting that
-fluorination was critical for stability.  These data demonstrate the overall
-thermodynamic stability of \emph{p}FF-F104A.
-
+mutation did not affect the overall structure (Figure \ref{fig:CD-fig}).  
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_05}
+    \caption[MALDI-TOF mass spectra of tryptic peptide fragments.]{MALDI-TOF
+    mass spectra of tryptic peptide fragments.} \label{fig:MALDI-fig} 
+\end{figure}
+% --------------------------
+Surprisingly, comparison of the non-fluorinated counterparts revealed that
+F104A was less structured than PTE (Figure \ref{fig:CD-fig}). 
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_06}
+    \caption[CD wavelength scans of PTE (circles), 104A (triangles),
+    \emph{p}FF-PTE (diamonds) and \emph{p}FF-104A (squares).]{CD wavelength
+        scans of PTE (circles), 104A (triangles), \emph{p}FF-PTE (diamonds) and
+        \emph{p}FF-104A (squares).} \label{fig:CD-fig} 
+\end{figure}
+% --------------------------
+To assess the stability, differential scanning calorimetry (DSC) was performed
+(Figure \ref{fig:DSC-fig}). Upon heating the sample from \SIrange{0}{70}{\celsius},
+\emph{p}FF-PTE exhibited two transitions (T\textsubscript{m}1: 42.0 $\pm$
+\SI{0.1}{\celsius}; T\textsubscript{m}2 : 48.6 $\pm$ \SI{0.2}{\celsius}); this
+is consistent with our previous studies.\cite{Baker2011b} This biphasic
+unfolding was also observed by Grimsley \latin{et al.}  in a study of
+organophosphorus hydrolase, and was attributed to the presence of a dimeric
+unfolded intermediate.\cite{Grimsley1997b} In contrast, \emph{p}FF-F104A
+exhibited a single transition at 49.7 $\pm$ \SI{0.2}{\celsius}, which was
+higher than both \emph{p}FF-PTE values (by 7.7 and \SI{1.1}{\celsius}).
+Remarkably, after heating, \emph{p}FF-F104A retained the single
+T\textsubscript{m} of 49.2 $\pm$ \SI{0.1}{\celsius}, thus demonstrating
+regaining of structure after undergoing thermal unfolding.  In the absence of
+\emph{p}FF, F104A demonstrated two transitions similar to \emph{p}FF-PTE
+(Figure 2A), thus suggesting that fluorination was critical for stability.
+These data demonstrate the overall thermodynamic stability of \emph{p}FF-F104A.
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_07}
+    \caption[Differential scanning calorimetry thermograms of (A) F104A and (B)
+    \emph{p}FF-F104A.]{Differential scanning calorimetry thermograms of A)
+    F104A and B) pFF-F104A.} \label{fig:DSC-fig} 
+\end{figure}
+% --------------------------
 Moreover, the data further suggest that the unfolding model has been altered
 from a 3-state to 2-state transition, and that the energy requirement to
 attaining the unfolded intermediate was increased, thereby resulting in a more
@@ -441,6 +467,22 @@ activity after seven days. The non-fluorinated counterpart F104A failed to
 exhibit activity after one day. Together these data confirm that
 \emph{p}FF-F104A is able to delay heat inactivation while maintaining function
 after one week.
+% --------------------------
+\begin{table}[h!]
+    \centering
+\begin{tabular}{llllll}
+protein                 & a & 25C & 35C & 45C & 55C \\
+\multirow{2}{*}{PTE}    & a & a   & a   & a   & a   \\
+                        & b & aB  & B   & B   & B   \\
+\multirow{2}{*}{F104A}  & C & C   & C   & C   & C   \\
+                        & d & d   & d   & d   & d   \\
+\multirow{2}{*}{pFFPTE} & e & e   & e   & e   & e   \\
+                        & f & f   & f   & f   & f   \\
+\multirow{2}{*}{4}      & g & g   & g   & g   & g   \\
+                        & g & g   & g   & g   &     \\
+\multicolumn{6}{l}{n.a = not available}                 
+\end{tabular}
+\end{table}% --------------------------
 
 \subsection{Protein Design}
 
