@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  5 MAR 2015 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAR 2015 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1915,6 +1915,9 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen334
 \titlewidthfirst=\dimen335
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen336
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
 )
@@ -1927,7 +1930,7 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 \@quotelevel=\count408
 \@quotereset=\count409
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 113.
+h' as default language. on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/chemmacros/ghsystem.sty
 Package: ghsystem 2014/04/08 v4.5 globally harmonised system
@@ -1941,7 +1944,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip110
 \LTpost=\skip111
 \LTchunksize=\count412
-\LTcapwidth=\dimen336
+\LTcapwidth=\dimen337
 \LT@head=\box80
 \LT@firsthead=\box81
 \LT@foot=\box82
@@ -1952,8 +1955,8 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count416
 \LT@p@ftn=\toks42
 )
-\l__ghsystem_list_all_column_width_dim=\dimen337
-\l__ghsystem_table_line_sep_dim=\dimen338
+\l__ghsystem_list_all_column_width_dim=\dimen338
+\l__ghsystem_table_line_sep_dim=\dimen339
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1987,39 +1990,39 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 (./cover.aux) (./contents.aux) (./chap1.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count417
-\scratchdimen=\dimen339
+\scratchdimen=\dimen340
 \scratchbox=\box84
 \nofMPsegments=\count418
 \nofMParguments=\count419
 \everyMPshowfont=\toks43
 \MPscratchCnt=\count420
-\MPscratchDim=\dimen340
+\MPscratchDim=\dimen341
 \MPnumerator=\count421
 \makeMPintoPDFobject=\count422
 \everyMPtoPDFconversion=\toks44
@@ -2055,8 +2058,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 113.
-Package biblatex Info: Reference segment=0 on input line 113.
+Package biblatex Info: Reference section=0 on input line 116.
+Package biblatex Info: Reference segment=0 on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -2064,7 +2067,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring OFF on input line 113.
+Package hyperref Info: Link coloring OFF on input line 116.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -2074,9 +2077,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count423
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
-LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -2180,11 +2183,18 @@ Missing character: There is no   in font cmr12!
 
  [10
 
-] (./main.lot)
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
-) [11
+) [12
 
 ]
 \openout2 = `chap1.aux'.
@@ -2195,19 +2205,19 @@ Chapter 1.
 \blx@sectionciteorder@1=\count428
 Package biblatex Info: Reference section=1 on input line 5.
 Package biblatex Info: Setting label 'refsection:1' on input line 5.
-<fig1_01.png, id=193, 436.63126pt x 546.04pt>
+<fig1_01.png, id=209, 436.63126pt x 546.04pt>
 File: fig1_01.png Graphic file (type png)
  <use fig1_01.png>
-Package pdftex.def Info: fig1_01.png used on input line 24.
+Package pdftex.def Info: fig1_01.png used on input line 23.
 (pdftex.def)             Requested size: 303.53267pt x 379.59251pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig1_02.png, id=198, 640.3925pt x 447.6725pt>
+<fig1_02.png, id=215, 640.3925pt x 447.6725pt>
 File: fig1_02.png Graphic file (type png)
  <use fig1_02.png>
-Package pdftex.def Info: fig1_02.png used on input line 52.
+Package pdftex.def Info: fig1_02.png used on input line 50.
 (pdftex.def)             Requested size: 303.53267pt x 212.18896pt.
  [1
 
@@ -2227,11 +2237,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./fig1_02.png>] <fig1_03.pdf, id=231, 663.47874pt x 666.60616pt>
+[3 <./fig1_02.png>] <fig1_03.pdf, id=249, 663.47874pt x 666.60616pt>
 File: fig1_03.pdf Graphic file (type pdf)
 
 <use fig1_03.pdf>
-Package pdftex.def Info: fig1_03.pdf used on input line 109.
+Package pdftex.def Info: fig1_03.pdf used on input line 107.
 (pdftex.def)             Requested size: 303.53267pt x 304.96423pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
@@ -2291,7 +2301,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-Overfull \hbox (5.91423pt too wide) in paragraph at lines 281--286
+Overfull \hbox (5.91423pt too wide) in paragraph at lines 279--284
 \OT1/cmr/m/n/12 DSC (Nano-DSC, TA in-stru-ment, USA) was pre-formed by us-ing [
 ][] ([][])
  []
@@ -2317,7 +2327,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-Overfull \hbox (14.07675pt too wide) in paragraph at lines 330--347
+Overfull \hbox (14.07675pt too wide) in paragraph at lines 328--345
 \OT1/cmr/m/n/12 ret-i-cal trypsin di-gest were cal-cu-lated from Pep-tide Mass 
 (www.expasy.org/tools/peptide-
  []
@@ -2328,37 +2338,63 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[11] <fig1_04.png, id=348, 498.86375pt x 279.0425pt>
+File: fig1_04.png Graphic file (type png)
+ <use fig1_04.png>
+Package pdftex.def Info: fig1_04.png used on input line 362.
+(pdftex.def)             Requested size: 303.53267pt x 169.78563pt.
+
+<fig1_05.png, id=350, 565.11125pt x 571.13374pt>
+File: fig1_05.png Graphic file (type png)
+ <use fig1_05.png>
+Package pdftex.def Info: fig1_05.png used on input line 379.
+(pdftex.def)             Requested size: 303.53267pt x 306.76926pt.
+
+<fig1_06.png, id=352, 325.215pt x 213.79875pt>
+File: fig1_06.png Graphic file (type png)
+ <use fig1_06.png>
+Package pdftex.def Info: fig1_06.png used on input line 387.
+(pdftex.def)             Requested size: 303.53267pt x 199.55826pt.
+
+<fig1_07.png, id=356, 712.6625pt x 292.09125pt>
+File: fig1_07.png Graphic file (type png)
+ <use fig1_07.png>
+Package pdftex.def Info: fig1_07.png used on input line 411.
+(pdftex.def)             Requested size: 303.53267pt x 124.40231pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[12 <./fig1_04.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./fig1_05.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./fig1_06.png> <./fig1_07.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-Overfull \hbox (9.2999pt too wide) in paragraph at lines 416--444
+Overfull \hbox (9.2999pt too wide) in paragraph at lines 442--486
 \OT1/cmr/m/n/12 = [][]); non-fluorinated PTE ex-hib-ited k$[]$/K$[]$ of [][],si
 milar
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2387,13 +2423,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
-Overfull \hbox (10.85178pt too wide) in paragraph at lines 460--460
-\OT1/cmr/m/n/12 cherichia coli trig-ger fac-tor stud-ied by ultra-sensitive dif
--fer-en-tial scan-ning calorime-
- []
-
-Package biblatex Info: Reference section=0 on input line 462.
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2401,11 +2430,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+Overfull \hbox (10.85178pt too wide) in paragraph at lines 502--502
+\OT1/cmr/m/n/12 cherichia coli trig-ger fac-tor stud-ied by ultra-sensitive dif
+-fer-en-tial scan-ning calorime-
+ []
+
+Package biblatex Info: Reference section=0 on input line 504.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0602B6EE4330E4B4A29432B97947D12A;1746.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2413,13 +2463,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38740 strings out of 493117
- 796739 string characters out of 6135433
- 1135195 words of memory out of 5000000
- 41519 multiletter control sequences out of 15000+600000
+ 38789 strings out of 493117
+ 797590 string characters out of 6135433
+ 1136874 words of memory out of 5000000
+ 41552 multiletter control sequences out of 15000+600000
  16550 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,62p,10342b,1739s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,62p,10342b,1737s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -2431,10 +2481,10 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (30 pages, 1208520 bytes).
+Output written on main.pdf (33 pages, 1332500 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
