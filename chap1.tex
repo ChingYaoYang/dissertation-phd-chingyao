@@ -9,16 +9,18 @@ Using Rosetta}
 \subsection{Rosetta and Protein Engineering}
 \label{sec:rosetta}
 
-Computational tools are widely used for protein engineering [ref]. Rosetta
-suite was first developed in University of Washington [ref]. Baker et al.
-adapted this suite for prediction of three: dimensional structure of proteins.
-This suite provides a handful of protocols for analyzing and mutating protein
-structures. The simulation replies heavily on knowledge-based potentials. It is
-a suite of libraries and tools for macromolecular ligand docking, to
-thermo-stabilize proteins, to design a hydrogen-bond network, to design novel
-protein folds, to create novel protein interfaces, and to design enzymes,
-including some containing unnatural amino acids in the active sites. (see
-Figure \ref{fig:rosetta-scheme})
+Computational tools are widely used for protein
+engineering.\cite{Rothlisberger2008,DiMaio2011a,Korkegian2005,
+Leaver-Fay2013a,Leaver-Fay2011,Drew2013a,Kaufmann2010,Rohl2004}
+Rosetta suite was first developed in University of Washington. Baker \latin{et
+al.} adapted this suite for prediction of three: dimensional structure of
+proteins.\cite{Leaver-Fay2011} This suite provides a handful of protocols for
+analyzing and mutating protein structures.  The simulation replies heavily on
+knowledge-based potentials. It is a suite of libraries and tools for
+macromolecular ligand docking, to thermo-stabilize proteins, to design a
+hydrogen-bond network, to design novel protein folds, to create novel protein
+interfaces, and to design enzymes, including some containing unnatural amino
+acids in the active sites.  (see Figure \ref{fig:rosetta-scheme})
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
@@ -164,7 +166,7 @@ directed evolution strategies.\cite{Montclare2006b}
 \centering
 \begin{tabular}{ llll }
   \hline
-  Bond & Length & Van der Waals radius &Total size \\
+  Bond & Length & Van der Waals radius & Total size \\
   \hline
 
   C-H & 1.09 & 1.2 & 2.29 \\
@@ -469,20 +471,44 @@ exhibit activity after one day. Together these data confirm that
 after one week.
 % --------------------------
 \begin{table}[h!]
-    \centering
-\begin{tabular}{llllll}
-protein                 & a & 25C & 35C & 45C & 55C \\
-\multirow{2}{*}{PTE}    & a & a   & a   & a   & a   \\
-                        & b & aB  & B   & B   & B   \\
-\multirow{2}{*}{F104A}  & C & C   & C   & C   & C   \\
-                        & d & d   & d   & d   & d   \\
-\multirow{2}{*}{pFFPTE} & e & e   & e   & e   & e   \\
-                        & f & f   & f   & f   & f   \\
-\multirow{2}{*}{4}      & g & g   & g   & g   & g   \\
-                        & g & g   & g   & g   &     \\
-\multicolumn{6}{l}{n.a = not available}                 
-\end{tabular}
-\end{table}% --------------------------
+\centering
+    \begin{tabular}{llllll}
+    \hline
+%%
+    protein                 &  & \SI{25}{\celsius} & \SI{35}{\celsius} &
+    \SI{45}{\celsius} & \SI{55}{\celsius} \\ 
+    \hline
+%%
+    \multirow{2}{*}{PTE}    & k\textsubscript{cat}/K\textsubscript{M} & 2.00$
+    \pm$ 0.13 & 0.76 $\pm$ 0.11 & 0.72 $\pm$ 0.12 & 0.46 $\pm$ 0.18 \\
+    
+    & k\textsubscript{cat} & 2.1 $\pm$ 0.4 & 1.3 $\pm$ 0.1 & 1.4 $\pm$ 0.1 & 0.9
+    $\pm$ 0.1 \\
+%%
+    \multirow{2}{*}{F104A}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+%%
+    \multirow{2}{*}{\emph{p}FF-PTE} & k\textsubscript{cat}/K\textsubscript{M} &
+    0.23 $\pm$ 0.04 & 0.21 $\pm$ 0.03 & n.a & n.a \\ 
+    
+    & k\textsubscript{cat} & 0.01 $\pm$ 0.0 & 0.1 $\pm$ 0.0 & n.a & n.a \\
+%%
+    \multirow{2}{*}{\emph{p}FF-F104A} & k\textsubscript{cat}/K\textsubscript{M}
+    & 2.23 $\pm$ 0.15 & 1.94 $\pm$ 0.18 & 1.49 $\pm$ 0.20 & 1.11 $\pm$ 0.09 \\
+    & k\textsubscript{cat} & 3.3 $\pm$ 0.3 & 3.3 $\pm$ 0.6 & 2.6 $\pm$ 1.0 &
+    2.0 $\pm$ 0.7 \\ 
+    
+    \hline
+    \multicolumn{6}{l}{n.a = not available; 
+        k\textsubscript{cat}/K\textsubscript{M}:
+        $\times$10\textsuperscript{5}\SI{}{\per\Molar\per\second};
+        k\textsubscript{cat}: \SI{}{\per\second}.}            
+    \end{tabular}
+\end{table}
+% --------------------------
 
 \subsection{Protein Design}
 

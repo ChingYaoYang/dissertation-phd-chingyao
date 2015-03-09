@@ -19,6 +19,437 @@
 
 \refsection{1}
   \sortlist{entry}{none}
+    \entry{Rothlisberger2008}{article}{}
+      \name{labelname}{14}{}{%
+        {{hash=a0b80b33464b5910156109efbc5b46dc}{R\"{o}thlisberger}{R\bibinitperiod}{Daniela}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=ccfe4b11ff223ddd60c195b8788b7fac}{Khersonsky}{K\bibinitperiod}{Olga}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=b182b93bedf05893d1a69b5a9171d43c}{Wollacott}{W\bibinitperiod}{Andrew\bibnamedelima M}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=bef2a7487ff5b645c8024d4ec3c6137b}{Jiang}{J\bibinitperiod}{Lin}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=519a8243aba0dd86d4683801baeec1d1}{DeChancie}{D\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=843c8dd749b99159d5a4b331b216cca3}{Betker}{B\bibinitperiod}{Jamie}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1c000c154b27d18c447dd9a4d593e3e8}{Gallaher}{G\bibinitperiod}{Jasmine\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=401cf0f09d4aaf0926060b144195657d}{Althoff}{A\bibinitperiod}{Eric\bibnamedelima A}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=27dfb8b751fd0a572bfc79e50ba43cdc}{Zanghellini}{Z\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=de1702181d02dd03e9a84eb66b603ded}{Dym}{D\bibinitperiod}{Orly}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=ccccd65654ed2904346d43c7d4fd9c6f}{Albeck}{A\bibinitperiod}{Shira}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=5c8edf63af4b3a8861eb0d9d122b50d3}{Houk}{H\bibinitperiod}{Kendall\bibnamedelima N}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=91cd6a4a953369f963f48e0bc013c72d}{Tawfik}{T\bibinitperiod}{Dan\bibnamedelima S}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{14}{}{%
+        {{hash=a0b80b33464b5910156109efbc5b46dc}{R\"{o}thlisberger}{R\bibinitperiod}{Daniela}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=ccfe4b11ff223ddd60c195b8788b7fac}{Khersonsky}{K\bibinitperiod}{Olga}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=b182b93bedf05893d1a69b5a9171d43c}{Wollacott}{W\bibinitperiod}{Andrew\bibnamedelima M}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=bef2a7487ff5b645c8024d4ec3c6137b}{Jiang}{J\bibinitperiod}{Lin}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=519a8243aba0dd86d4683801baeec1d1}{DeChancie}{D\bibinitperiod}{Jason}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=843c8dd749b99159d5a4b331b216cca3}{Betker}{B\bibinitperiod}{Jamie}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1c000c154b27d18c447dd9a4d593e3e8}{Gallaher}{G\bibinitperiod}{Jasmine\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=401cf0f09d4aaf0926060b144195657d}{Althoff}{A\bibinitperiod}{Eric\bibnamedelima A}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=27dfb8b751fd0a572bfc79e50ba43cdc}{Zanghellini}{Z\bibinitperiod}{Alexandre}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=de1702181d02dd03e9a84eb66b603ded}{Dym}{D\bibinitperiod}{Orly}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=ccccd65654ed2904346d43c7d4fd9c6f}{Albeck}{A\bibinitperiod}{Shira}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=5c8edf63af4b3a8861eb0d9d122b50d3}{Houk}{H\bibinitperiod}{Kendall\bibnamedelima N}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=91cd6a4a953369f963f48e0bc013c72d}{Tawfik}{T\bibinitperiod}{Dan\bibnamedelima S}{D\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{c89f1a1d25ef05e3b2062aa7c4566a43}
+      \strng{fullhash}{2df11528d991c18718d20eb67b5255c7}
+      \field{sortinit}{0}
+      \field{labeltitle}{Nature}
+      \field{abstract}{The design of new enzymes for reactions not catalysed by naturally occurring biocatalysts is a challenge for protein engineering and is a critical test of our understanding of enzyme catalysis. Here we describe the computational design of eight enzymes that use two different catalytic motifs to catalyse the Kemp elimination-a model reaction for proton transfer from carbon-with measured rate enhancements of up to 10(5) and multiple turnovers. Mutational analysis confirms that catalysis depends on the computationally designed active sites, and a high-resolution crystal structure suggests that the designs have close to atomic accuracy. Application of in vitro evolution to enhance the computational designs produced a >200-fold increase in k(cat)/K(m) (k(cat)/K(m) of 2,600 M(-1)s(-1) and k(cat)/k(uncat) of >10(6)). These results demonstrate the power of combining computational protein design with directed evolution for creating new enzymes, and we anticipate the creation of a wide range of useful new catalysts in the future.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{05}
+      \field{number}{7192}
+      \field{shorttitle}{Nature}
+      \field{title}{{Kemp elimination catalysts by computational enzyme design.}}
+      \field{volume}{453}
+      \field{year}{2008}
+      \field{pages}{190\bibrangedash 5}
+      \verb{doi}
+      \verb 10.1038/nature06879
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/R\"{o}thlisberger et al. - 2008 - Kemp elimination catalysts by computational enzyme design.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature06879
+      \endverb
+      \keyw{Algorithms,Amino Acid Motifs,Binding Sites,Binding Sites: genetics,Catalysis,Computational Biology,Computer Simulation,Crystallography,X-Ray,Directed Molecular Evolution,Directed Molecular Evolution: methods,Drug Design,Drug Evaluation,Preclinical,Enzymes,Enzymes: chemistry,Enzymes: genetics,Enzymes: metabolism,Kinetics,Models,Chemical,Models,Molecular,Protein Engineering,Protein Engineering: methods,Quantum Theory,Sensitivity and Specificity,kemp}
+    \endentry
+    \entry{DiMaio2011a}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=f9f9a0449d05ad7ef605919b7a84c894}{DiMaio}{D\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1b2e3cb4bbfd80ce3439b6d706c54526}{Bradley}{B\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a78e6c0dc1d0a795e5b6e0a5e55aad9e}{Andr\'{e}}{A\bibinitperiod}{Ingemar}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=f9f9a0449d05ad7ef605919b7a84c894}{DiMaio}{D\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1b2e3cb4bbfd80ce3439b6d706c54526}{Bradley}{B\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a78e6c0dc1d0a795e5b6e0a5e55aad9e}{Andr\'{e}}{A\bibinitperiod}{Ingemar}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5abfec81461731b590b0e09b6bd27275}
+      \strng{fullhash}{5abfec81461731b590b0e09b6bd27275}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Modeling symmetric macromolecular structures in Rosetta3.}}
+      \field{abstract}{Symmetric protein assemblies play important roles in many biochemical processes. However, the large size of such systems is challenging for traditional structure modeling methods. This paper describes the implementation of a general framework for modeling arbitrary symmetric systems in Rosetta3. We describe the various types of symmetries relevant to the study of protein structure that may be modeled using Rosetta's symmetric framework. We then describe how this symmetric framework is efficiently implemented within Rosetta, which restricts the conformational search space by sampling only symmetric degrees of freedom, and explicitly simulates only a subset of the interacting monomers. Finally, we describe structure prediction and design applications that utilize the Rosetta3 symmetric modeling capabilities, and provide a guide to running simulations on symmetric systems.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PloS one}
+      \field{month}{01}
+      \field{number}{6}
+      \field{title}{{Modeling symmetric macromolecular structures in Rosetta3.}}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{e20450}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0020450
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/DiMaio et al. - 2011 - Modeling symmetric macromolecular structures in Rosetta3.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020450
+      \endverb
+      \keyw{Computational Biology,Computational Biology: methods,Databases,Protein,Macromolecular Substances,Macromolecular Substances: chemistry,Models,Molecular,Protein Structure,Secondary,Proteins,Proteins: chemistry,Software,Structural Homology,Protein,Thermodynamics,rosetta,simulation}
+    \endentry
+    \entry{Korkegian2005}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=05a6522878d9a57bdaf4d787769319a6}{Korkegian}{K\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=0261eeb7c00f2d522be420203919e074}{Black}{B\bibinitperiod}{Margaret\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=6e6c495b0a50040321b2d9ff49f34af4}{Stoddard}{S\bibinitperiod}{Barry\bibnamedelima L}{B\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=05a6522878d9a57bdaf4d787769319a6}{Korkegian}{K\bibinitperiod}{Aaron}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=0261eeb7c00f2d522be420203919e074}{Black}{B\bibinitperiod}{Margaret\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=6e6c495b0a50040321b2d9ff49f34af4}{Stoddard}{S\bibinitperiod}{Barry\bibnamedelima L}{B\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{62480875f832fef7b7f9dc81960e8de0}
+      \strng{fullhash}{62480875f832fef7b7f9dc81960e8de0}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Computational thermostabilization of an enzyme.}}
+      \field{abstract}{Thermostabilizing an enzyme while maintaining its activity for industrial or biomedical applications can be difficult with traditional selection methods. We describe a rapid computational approach that identified three mutations within a model enzyme that produced a 10 degrees C increase in apparent melting temperature T(m) and a 30-fold increase in half-life at 50 degrees C, with no reduction in catalytic efficiency. The effects of the mutations were synergistic, giving an increase in excess of the sum of their individual effects. The redesigned enzyme induced an increased, temperature-dependent bacterial growth rate under conditions that required its activity, thereby coupling molecular and metabolic engineering.}
+      \field{isbn}{0036-8075}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science (New York, N.Y.)}
+      \field{title}{{Computational thermostabilization of an enzyme.}}
+      \field{volume}{308}
+      \field{year}{2005}
+      \field{pages}{857\bibrangedash 860}
+      \verb{doi}
+      \verb 10.1126/science.1107387
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Korkegian et al. - 2005 - Computational thermostabilization of an enzyme.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Leaver-Fay2013a}{article}{}
+      \name{labelname}{17}{}{%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=374b3bd15451adccbc0765e061e70e3a}{O'Meara}{O\bibinitperiod}{Matthew\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=3f41680dcf078556f431fb63768c96a1}{Tyka}{T\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=d68fd1271e0d323e67e41f024ee405d9}{Song}{S\bibinitperiod}{Yifan}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=eb607502a9177f2a2cbd755b350ce392}{Kellogg}{K\bibinitperiod}{Elizabeth\bibnamedelima H}{E\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=d24f8562d52534e75e9c5e9406f21e53}{Pache}{P\bibinitperiod}{Roland\bibnamedelima A}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=756474ec2d7b1f2608158a4519823e95}{Richardson}{R\bibinitperiod}{Jane\bibnamedelima S}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=12f688fcdadc80455f0b4718dd0f7548}{Snoeyink}{S\bibinitperiod}{Jack}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{17}{}{%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=374b3bd15451adccbc0765e061e70e3a}{O'Meara}{O\bibinitperiod}{Matthew\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=3f41680dcf078556f431fb63768c96a1}{Tyka}{T\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=d68fd1271e0d323e67e41f024ee405d9}{Song}{S\bibinitperiod}{Yifan}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=eb607502a9177f2a2cbd755b350ce392}{Kellogg}{K\bibinitperiod}{Elizabeth\bibnamedelima H}{E\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=d24f8562d52534e75e9c5e9406f21e53}{Pache}{P\bibinitperiod}{Roland\bibnamedelima A}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=756474ec2d7b1f2608158a4519823e95}{Richardson}{R\bibinitperiod}{Jane\bibnamedelima S}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=12f688fcdadc80455f0b4718dd0f7548}{Snoeyink}{S\bibinitperiod}{Jack}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2e1f89064d975e13e003e676b05f34d3}
+      \strng{fullhash}{87ec46423c776cbb5e4230400a52cb4e}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Scientific benchmarks for guiding macromolecular energy function improvement.}}
+      \field{abstract}{Accurate energy functions are critical to macromolecular modeling and design. We describe new tools for identifying inaccuracies in energy functions and guiding their improvement, and illustrate the application of these tools to the improvement of the Rosetta energy function. The feature analysis tool identifies discrepancies between structures deposited in the PDB and low-energy structures generated by Rosetta; these likely arise from inaccuracies in the energy function. The optE tool optimizes the weights on the different components of the energy function by maximizing the recapitulation of a wide range of experimental observations. We use the tools to examine three proposed modifications to the Rosetta energy function: improving the unfolded state energy model (reference energies), using bicubic spline interpolation to generate knowledge-based torisonal potentials, and incorporating the recently developed Dunbrack 2010 rotamer library (Shapovalov \& Dunbrack, 2011).}
+      \field{annotation}{this is the improved score function for the PTE protein. The major tweak is the Hbond.}
+      \field{issn}{1557-7988}
+      \field{journaltitle}{Methods in enzymology}
+      \field{month}{01}
+      \field{title}{{Scientific benchmarks for guiding macromolecular energy function improvement.}}
+      \field{volume}{523}
+      \field{year}{2013}
+      \field{pages}{109\bibrangedash 43}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-394292-0.00006-0
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Leaver-Fay et al. - 2013 - Scientific benchmarks for guiding macromolecular energy function improvement.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3724755%5C&tool=pmcentrez%5C&rendertype=abstract
+      \endverb
+      \keyw{Algorithms,Macromolecular Substances,Macromolecular Substances: chemistry,Protein Conformation,Software,enzyme,macromolecule,rosetta,socre}
+    \endentry
+    \entry{Leaver-Fay2011}{article}{}
+      \name{labelname}{32}{}{%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5c86dfba8aa6295fd08e2a88a5c2be74}{Tyka}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9bfd99f9958aa2b20f8d3e880b65604c}{Lewis}{L\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=28dba76cf0cbd473bb4d59a89f006765}{Lange}{L\bibinitperiod}{Oliver\bibnamedelima F}{O\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9e17fe0d7ec695a61004a3cea4b58b1f}{Kaufman}{K\bibinitperiod}{Kristian}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=f75e279936565baef9575ef886ecf9c2}{Renfrew}{R\bibinitperiod}{P\bibnamedelima Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c1bc07fa5c4e3f275178edcd88a8e796}{Smith}{S\bibinitperiod}{Colin\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c22f7c3db42028b76079ad152d7c0ecf}{Sheffler}{S\bibinitperiod}{Will}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=5159ae341139f12e9afb0208d2027cf3}{Cooper}{C\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ba718e08bbfe996fbb65aa6061705be1}{Treuille}{T\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fbc2c5a1d7ca2691b7701bf7e0298eb8}{Mandell}{M\bibinitperiod}{Daniel\bibnamedelima J}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=13b854802e36f4d41d658ca803f7a1e2}{Richter}{R\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=53f280685ede675574e825298b5b63f0}{Ban}{B\bibinitperiod}{Yih-En\bibnamedelima Andrew}{Y\bibinithyphendelim E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f14ab87a9b333ccec38acb2cb70122d0}{Fleishman}{F\bibinitperiod}{Sarel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d4453bff98735621854b14fe83c372a3}{Corn}{C\bibinitperiod}{Jacob\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=339e12ef3231908dc13e1e8d9f327d03}{Kim}{K\bibinitperiod}{David\bibnamedelima E}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2096cebe4c1849304324b019f46d1fbd}{Berrondo}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b095a2b3eb2192e6cd7c0a5a031297db}{Mentzer}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1381b94133394452a48f4ee2c2648bf1}{Popovi\'{c}}{P\bibinitperiod}{Zoran}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0396fd9497028c978467e3563e3b69dc}{Karanicolas}{K\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=042adfc06dcb8612e991febd27bc8f65}{Das}{D\bibinitperiod}{Rhiju}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{Bradley}{B\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{32}{}{%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5c86dfba8aa6295fd08e2a88a5c2be74}{Tyka}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9bfd99f9958aa2b20f8d3e880b65604c}{Lewis}{L\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=28dba76cf0cbd473bb4d59a89f006765}{Lange}{L\bibinitperiod}{Oliver\bibnamedelima F}{O\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9e17fe0d7ec695a61004a3cea4b58b1f}{Kaufman}{K\bibinitperiod}{Kristian}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=f75e279936565baef9575ef886ecf9c2}{Renfrew}{R\bibinitperiod}{P\bibnamedelima Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=c1bc07fa5c4e3f275178edcd88a8e796}{Smith}{S\bibinitperiod}{Colin\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c22f7c3db42028b76079ad152d7c0ecf}{Sheffler}{S\bibinitperiod}{Will}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=5159ae341139f12e9afb0208d2027cf3}{Cooper}{C\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ba718e08bbfe996fbb65aa6061705be1}{Treuille}{T\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fbc2c5a1d7ca2691b7701bf7e0298eb8}{Mandell}{M\bibinitperiod}{Daniel\bibnamedelima J}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=13b854802e36f4d41d658ca803f7a1e2}{Richter}{R\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=53f280685ede675574e825298b5b63f0}{Ban}{B\bibinitperiod}{Yih-En\bibnamedelima Andrew}{Y\bibinithyphendelim E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f14ab87a9b333ccec38acb2cb70122d0}{Fleishman}{F\bibinitperiod}{Sarel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d4453bff98735621854b14fe83c372a3}{Corn}{C\bibinitperiod}{Jacob\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=339e12ef3231908dc13e1e8d9f327d03}{Kim}{K\bibinitperiod}{David\bibnamedelima E}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2096cebe4c1849304324b019f46d1fbd}{Berrondo}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b095a2b3eb2192e6cd7c0a5a031297db}{Mentzer}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1381b94133394452a48f4ee2c2648bf1}{Popovi\'{c}}{P\bibinitperiod}{Zoran}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0396fd9497028c978467e3563e3b69dc}{Karanicolas}{K\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=042adfc06dcb8612e991febd27bc8f65}{Das}{D\bibinitperiod}{Rhiju}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{Bradley}{B\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2e1f89064d975e13e003e676b05f34d3}
+      \strng{fullhash}{9178e2ba1957b1ed5a2665d4493d333c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules.}}
+      \field{abstract}{We have recently completed a full re-architecturing of the ROSETTA molecular modeling program, generalizing and expanding its existing functionality. The new architecture enables the rapid prototyping of novel protocols by providing easy-to-use interfaces to powerful tools for molecular modeling. The source code of this rearchitecturing has been released as ROSETTA3 and is freely available for academic use. At the time of its release, it contained 470,000 lines of code. Counting currently unpublished protocols at the time of this writing, the source includes 1,285,000 lines. Its rapid growth is a testament to its ease of use. This chapter describes the requirements for our new architecture, justifies the design decisions, sketches out central classes, and highlights a few of the common tasks that the new software can perform.}
+      \field{issn}{1557-7988}
+      \field{journaltitle}{Methods in enzymology}
+      \field{month}{01}
+      \field{title}{{ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules.}}
+      \field{volume}{487}
+      \field{year}{2011}
+      \field{pages}{545\bibrangedash 74}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-381270-4.00019-6
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Leaver-Fay et al. - 2011 - ROSETTA3 an object-oriented software suite for the simulation and design of macromolecules.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4083816%5C&tool=pmcentrez%5C&rendertype=abstract
+      \endverb
+      \keyw{Computer Simulation,DNA,DNA: chemistry,Macromolecular Substances,Macromolecular Substances: chemistry,Models,Molecular,Software,rosetta}
+    \endentry
+    \entry{Drew2013a}{article}{}
+      \name{labelname}{19}{}{%
+        {{hash=658c9d61332e6ce9a2d6eafd85b77277}{Drew}{D\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=e7a166d5837903d8a71542690da9a5c3}{Renfrew}{R\bibinitperiod}{P.\bibnamedelimi D.}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=834670dd9c0f05816f622c8158fbaf0a}{Craven}{C\bibinitperiod}{T.\bibnamedelimi W.}{T\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a68998f2c2165f122e9977c80c831429}{Butterfoss}{B\bibinitperiod}{G.\bibnamedelimi L.}{G\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=1c7399e49c44aadbcb349dd67a25eb52}{Chou}{C\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=54e76c967b72a9cf9d5a99cd48e78cf6}{Lyskov}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b9e1b355943a9d63c9d8ae248827a1df}{Bullock}{B\bibinitperiod}{B.\bibnamedelimi N.}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=9837d8ed88970a467daae2c4366d9719}{Watkins}{W\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7558aa54d905090f9b2c6344cac030d6}{Labonte}{L\bibinitperiod}{J.\bibnamedelimi W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=d8770d28b8b7acebd33473250187b857}{Pacella}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=37aff37e1b9903f6912b3022f803bade}{Kilambi}{K\bibinitperiod}{K.\bibnamedelimi P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=6892425117033f16f2cabfb5bf8c0c36}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=409c0a213f64e7c8a1a890502d0e0d75}{Kuhlman}{K\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=18d2c77314fe0249ac3e4dfc4cb7e9c8}{Gray}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2896392f4b109cc389b06fea58728f}{Bradley}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f76da14c25f4c2a2a412b9035fffe95f}{Kirshenbaum}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=cabee8c831eb4bc723f174ef4b2a211d}{Arora}{A\bibinitperiod}{P.\bibnamedelimi S.}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=490bbdf3d83009d46b2b86ec306e6a72}{Das}{D\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=1263c608557c178f5f8a691081bbc6d9}{Bonneau}{B\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{19}{}{%
+        {{hash=658c9d61332e6ce9a2d6eafd85b77277}{Drew}{D\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=e7a166d5837903d8a71542690da9a5c3}{Renfrew}{R\bibinitperiod}{P.\bibnamedelimi D.}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=834670dd9c0f05816f622c8158fbaf0a}{Craven}{C\bibinitperiod}{T.\bibnamedelimi W.}{T\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a68998f2c2165f122e9977c80c831429}{Butterfoss}{B\bibinitperiod}{G.\bibnamedelimi L.}{G\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=1c7399e49c44aadbcb349dd67a25eb52}{Chou}{C\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=54e76c967b72a9cf9d5a99cd48e78cf6}{Lyskov}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b9e1b355943a9d63c9d8ae248827a1df}{Bullock}{B\bibinitperiod}{B.\bibnamedelimi N.}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=9837d8ed88970a467daae2c4366d9719}{Watkins}{W\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7558aa54d905090f9b2c6344cac030d6}{Labonte}{L\bibinitperiod}{J.\bibnamedelimi W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=d8770d28b8b7acebd33473250187b857}{Pacella}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=37aff37e1b9903f6912b3022f803bade}{Kilambi}{K\bibinitperiod}{K.\bibnamedelimi P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=6892425117033f16f2cabfb5bf8c0c36}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=409c0a213f64e7c8a1a890502d0e0d75}{Kuhlman}{K\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=18d2c77314fe0249ac3e4dfc4cb7e9c8}{Gray}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2896392f4b109cc389b06fea58728f}{Bradley}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f76da14c25f4c2a2a412b9035fffe95f}{Kirshenbaum}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=cabee8c831eb4bc723f174ef4b2a211d}{Arora}{A\bibinitperiod}{P.\bibnamedelimi S.}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=490bbdf3d83009d46b2b86ec306e6a72}{Das}{D\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=1263c608557c178f5f8a691081bbc6d9}{Bonneau}{B\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{9d467cb47c18000c8eb5d2327533a269}
+      \strng{fullhash}{0ecbb76a61f74db3c74057936a0d56f2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Adding Diverse Noncanonical Backbones to Rosetta:}
+      \field{abstract}{Peptidomimetics are classes of molecules that mimic structural and functional attributes of polypeptides. Peptidomimetic oligomers can frequently be synthesized using efficient solid phase synthesis procedures similar to peptide synthesis. Conformationally ordered peptidomimetic oligomers are finding broad applications for molecular recognition and for inhibiting protein-protein interactions. One critical limitation is the limited set of design tools for identifying oligomer sequences that can adopt desired conformations. Here, we present expansions to the ROSETTA platform that enable structure prediction and design of five non-peptidic oligomer scaffolds (noncanonical backbones), oligooxopiperazines, oligo-peptoids, beta-peptides, hydrogen bond surrogate helices and oligosaccharides. This work is complementary to prior additions to model noncanonical protein side chains in ROSETTA. The main purpose of our manuscript is to give a detailed description to current and future developers of how each of these noncanonical backbones was implemented. Furthermore, we provide a general outline for implementation of new backbone types not discussed here. To illustrate the utility of this approach, we describe the first tests of the ROSETTA molecular mechanics energy function in the context of oligooxopiperazines, using quantum mechanical calculations as comparison points, scanning through backbone and side chain torsion angles for a model peptidomimetic. Finally, as an example of a novel design application, we describe the automated design of an oligooxopiperazine that inhibits the p53-MDM2 protein-protein interaction. For the general biological and bioengineering community, several noncanonical backbones have been incorporated into web applications that allow users to freely and rapidly test the presented protocols (http://rosie.rosettacommons.org). This work helps address the peptidomimetic community's need for an automated and expandable modeling tool for noncanonical backbones.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{Plos One}
+      \field{month}{07}
+      \field{number}{7}
+      \field{shorttitle}{Adding Diverse Noncanonical Backbones to Rosetta:}
+      \field{title}{{Adding Diverse Noncanonical Backbones to Rosetta: Enabling Peptidomimetic Design}}
+      \field{volume}{8}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0067051
+      \endverb
+      \keyw{alpha/beta-peptide foldamers,beta-peptide,cancer-therapy,computational design,p53 pathway,peptoids,protein-protein interactions,rosetta,side-chains,small-molecule inhibitors,transmembrane helices}
+    \endentry
+    \entry{Kaufmann2010}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=f9b5a4e5735d88d29e9f5e03ada669e2}{Kaufmann}{K\bibinitperiod}{Kristian\bibnamedelima W}{K\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=87f0a3f62b1a5ad805bfc27d4cd11cb0}{Lemmon}{L\bibinitperiod}{Gordon\bibnamedelima H}{G\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=6de364cd6c1fee75e8d4d3d0d4514c55}{Deluca}{D\bibinitperiod}{Samuel\bibnamedelima L}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=0e5feda2e582ff89126fc9da9223bafa}{Sheehan}{S\bibinitperiod}{Jonathan\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=f9b5a4e5735d88d29e9f5e03ada669e2}{Kaufmann}{K\bibinitperiod}{Kristian\bibnamedelima W}{K\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=87f0a3f62b1a5ad805bfc27d4cd11cb0}{Lemmon}{L\bibinitperiod}{Gordon\bibnamedelima H}{G\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=6de364cd6c1fee75e8d4d3d0d4514c55}{Deluca}{D\bibinitperiod}{Samuel\bibnamedelima L}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=0e5feda2e582ff89126fc9da9223bafa}{Sheehan}{S\bibinitperiod}{Jonathan\bibnamedelima H}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{2c69feeab8598fbad1438c8373c6d428}
+      \strng{fullhash}{2c69feeab8598fbad1438c8373c6d428}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Practically useful: what the Rosetta protein modeling suite can do for you.}}
+      \field{abstract}{The objective of this review is to enable researchers to use the software package Rosetta for biochemical and biomedicinal studies. We provide a brief review of the six most frequent research problems tackled with Rosetta. For each of these six tasks, we provide a tutorial that illustrates a basic Rosetta protocol. The Rosetta method was originally developed for de novo protein structure prediction and is regularly one of the best performers in the community-wide biennial Critical Assessment of Structure Prediction. Predictions for protein domains with fewer than 125 amino acids regularly have a backbone root-mean-square deviation of better than 5.0 A. More impressively, there are several cases in which Rosetta has been used to predict structures with atomic level accuracy better than 2.5 A. In addition to de novo structure prediction, Rosetta also has methods for molecular docking, homology modeling, determining protein structures from sparse experimental NMR or EPR data, and protein design. Rosetta has been used to accurately design a novel protein structure, predict the structure of protein-protein complexes, design altered specificity protein-protein and protein-DNA interactions, and stabilize proteins and protein complexes. Most recently, Rosetta has been used to solve the X-ray crystallographic phase problem.}
+      \field{annotation}{This is extremely useful paper for Rosetta}
+      \field{issn}{1520-4995}
+      \field{journaltitle}{Biochemistry}
+      \field{month}{04}
+      \field{number}{14}
+      \field{title}{{Practically useful: what the Rosetta protein modeling suite can do for you.}}
+      \field{volume}{49}
+      \field{year}{2010}
+      \field{pages}{2987\bibrangedash 98}
+      \verb{doi}
+      \verb 10.1021/bi902153g
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Kaufmann et al. - 2010 - Practically useful what the Rosetta protein modeling suite can do for you.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1021/bi902153g
+      \endverb
+      \keyw{Biomedical Research,Computer Simulation,Crystallography,X-Ray,DNA,DNA: chemistry,Knowledge Bases,Models,Molecular,Multiprotein Complexes,Protein Conformation,Proteins,Proteins: chemistry,Software,rosetta}
+    \endentry
+    \entry{Rohl2004}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=215a7798f189b1e2d610ac9c3e83c246}{Rohl}{R\bibinitperiod}{Carol\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=50549eb8259113dfb575b4b41490bce9}{Strauss}{S\bibinitperiod}{Charlie\bibnamedelimb E\bibnamedelima M}{C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f625a68f6324058d2405645d6252a928}{Misura}{M\bibinitperiod}{Kira\bibnamedelimb M\bibnamedelima S}{K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=215a7798f189b1e2d610ac9c3e83c246}{Rohl}{R\bibinitperiod}{Carol\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=50549eb8259113dfb575b4b41490bce9}{Strauss}{S\bibinitperiod}{Charlie\bibnamedelimb E\bibnamedelima M}{C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f625a68f6324058d2405645d6252a928}{Misura}{M\bibinitperiod}{Kira\bibnamedelimb M\bibnamedelima S}{K\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{13486796b0b7df46f8810b714f9a1519}
+      \strng{fullhash}{13486796b0b7df46f8810b714f9a1519}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Protein structure prediction using Rosetta.}}
+      \field{abstract}{This chapter elaborates protein structure prediction using Rosetta. Double-blind assessments of protein structure prediction methods have indicated that the Rosetta algorithm is perhaps the most successful current method for de novo protein structure prediction. In the Rosetta method, short fragments of known proteins are assembled by a Monte Carlo strategy to yield native-like protein conformations. Using only sequence information, successful Rosetta predictions yield models with typical accuracies of 3\x{fffd}\x{fffd}\x{fffd}6 A\x{fffd}\x{fffd} C$\alpha$ root mean square deviation (RMSD) from the experimentally determined structures for contiguous segments of 60 or more residues. For each structure prediction, many short simulations starting from different random seeds are carried out to generate an ensemble of decoy structures that have both favorable local interactions and protein-like global properties. This set is then clustered by structural similarity to identify the broadest free energy minima. The effectiveness of conformation modification operators for energy function optimization is also described in this chapter.}
+      \field{isbn}{9780121827885}
+      \field{issn}{0076-6879}
+      \field{journaltitle}{Methods in enzymology}
+      \field{month}{01}
+      \field{title}{{Protein structure prediction using Rosetta.}}
+      \field{volume}{383}
+      \field{year}{2004}
+      \field{pages}{66\bibrangedash 93}
+      \verb{doi}
+      \verb 10.1016/S0076-6879(04)83004-0
+      \endverb
+      \verb{file}
+      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Rohl et al. - 2004 - Protein structure prediction using Rosetta.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0076687904830040
+      \endverb
+      \keyw{rosetta,score}
+    \endentry
     \entry{Ghanem2005a}{inproceedings}{}
       \name{labelname}{2}{}{%
         {{hash=6b58fc637b391cdb96f57f0dcf1eeb0c}{Ghanem}{G\bibinitperiod}{Eman}{E\bibinitperiod}{}{}{}{}}%
@@ -931,137 +1362,6 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/21710682%20http://onlinelibrary.wiley.com/store/10.1002/cbic.201100221/asset/1845%5C_ftp.pdf?v=1%5C&t=hhs34pa3%5C&s=a5f94dc1bfa342a0448fb3bddfee71e55e7dc527
       \endverb
       \keyw{Amino Acids,Amino Acids/chemistry/metabolism,Amino Acids: chemistry,Amino Acids: metabolism,Calorimetry,Circular Dichroism,Cloning,Differential Scanning,Dimerization,Electrophoresis,Enzyme Stability,Escherichia coli,Escherichia coli Proteins,Escherichia coli Proteins/*chemistry/genetics/meta,Escherichia coli Proteins: chemistry,Escherichia coli Proteins: genetics,Escherichia coli Proteins: metabolism,Halogenation,Hot Temperature,Insecticides,Insecticides/*metabolism,Insecticides: metabolism,Kinetics,Mass,Matrix-Assisted Laser Desorpti,Models,Molecular,Paraoxon,Paraoxon/metabolism,Paraoxon: metabolism,Phosphoric Triester Hydrolases,Phosphoric Triester Hydrolases/*chemistry/genetics,Phosphoric Triester Hydrolases: chemistry,Phosphoric Triester Hydrolases: genetics,Phosphoric Triester Hydrolases: metabolism,Polyacrylamide Gel,Protein Engineering,Protein Engineering/*methods,Protein Engineering: methods,Protein Folding,Recombinant Proteins,Recombinant Proteins/*chemistry/genetics/metabolis,Recombinant Proteins: chemistry,Recombinant Proteins: genetics,Recombinant Proteins: metabolism,Spectrometry,Substrate Specificity,pff,pte}
-    \endentry
-    \entry{Leaver-Fay2011}{article}{}
-      \name{labelname}{32}{}{%
-        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=5c86dfba8aa6295fd08e2a88a5c2be74}{Tyka}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=9bfd99f9958aa2b20f8d3e880b65604c}{Lewis}{L\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=28dba76cf0cbd473bb4d59a89f006765}{Lange}{L\bibinitperiod}{Oliver\bibnamedelima F}{O\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=9e17fe0d7ec695a61004a3cea4b58b1f}{Kaufman}{K\bibinitperiod}{Kristian}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=f75e279936565baef9575ef886ecf9c2}{Renfrew}{R\bibinitperiod}{P\bibnamedelima Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=c1bc07fa5c4e3f275178edcd88a8e796}{Smith}{S\bibinitperiod}{Colin\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=c22f7c3db42028b76079ad152d7c0ecf}{Sheffler}{S\bibinitperiod}{Will}{W\bibinitperiod}{}{}{}{}}%
-        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=5159ae341139f12e9afb0208d2027cf3}{Cooper}{C\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=ba718e08bbfe996fbb65aa6061705be1}{Treuille}{T\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=fbc2c5a1d7ca2691b7701bf7e0298eb8}{Mandell}{M\bibinitperiod}{Daniel\bibnamedelima J}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=13b854802e36f4d41d658ca803f7a1e2}{Richter}{R\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=53f280685ede675574e825298b5b63f0}{Ban}{B\bibinitperiod}{Yih-En\bibnamedelima Andrew}{Y\bibinithyphendelim E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=f14ab87a9b333ccec38acb2cb70122d0}{Fleishman}{F\bibinitperiod}{Sarel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=d4453bff98735621854b14fe83c372a3}{Corn}{C\bibinitperiod}{Jacob\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=339e12ef3231908dc13e1e8d9f327d03}{Kim}{K\bibinitperiod}{David\bibnamedelima E}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=2096cebe4c1849304324b019f46d1fbd}{Berrondo}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=b095a2b3eb2192e6cd7c0a5a031297db}{Mentzer}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=1381b94133394452a48f4ee2c2648bf1}{Popovi\'{c}}{P\bibinitperiod}{Zoran}{Z\bibinitperiod}{}{}{}{}}%
-        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=0396fd9497028c978467e3563e3b69dc}{Karanicolas}{K\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=042adfc06dcb8612e991febd27bc8f65}{Das}{D\bibinitperiod}{Rhiju}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{Bradley}{B\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{32}{}{%
-        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=5c86dfba8aa6295fd08e2a88a5c2be74}{Tyka}{T\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=9bfd99f9958aa2b20f8d3e880b65604c}{Lewis}{L\bibinitperiod}{Steven\bibnamedelima M}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=28dba76cf0cbd473bb4d59a89f006765}{Lange}{L\bibinitperiod}{Oliver\bibnamedelima F}{O\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=0b34d74d3c14e6d748fc32016c3103e1}{Thompson}{T\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=5a451830fb1804f8392940a608a0bc28}{Jacak}{J\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=9e17fe0d7ec695a61004a3cea4b58b1f}{Kaufman}{K\bibinitperiod}{Kristian}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=f75e279936565baef9575ef886ecf9c2}{Renfrew}{R\bibinitperiod}{P\bibnamedelima Douglas}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=c1bc07fa5c4e3f275178edcd88a8e796}{Smith}{S\bibinitperiod}{Colin\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=c22f7c3db42028b76079ad152d7c0ecf}{Sheffler}{S\bibinitperiod}{Will}{W\bibinitperiod}{}{}{}{}}%
-        {{hash=076b9a5034c173bc48f71f2985527268}{Davis}{D\bibinitperiod}{Ian\bibnamedelima W}{I\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=5159ae341139f12e9afb0208d2027cf3}{Cooper}{C\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=ba718e08bbfe996fbb65aa6061705be1}{Treuille}{T\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=fbc2c5a1d7ca2691b7701bf7e0298eb8}{Mandell}{M\bibinitperiod}{Daniel\bibnamedelima J}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=13b854802e36f4d41d658ca803f7a1e2}{Richter}{R\bibinitperiod}{Florian}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=53f280685ede675574e825298b5b63f0}{Ban}{B\bibinitperiod}{Yih-En\bibnamedelima Andrew}{Y\bibinithyphendelim E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=f14ab87a9b333ccec38acb2cb70122d0}{Fleishman}{F\bibinitperiod}{Sarel\bibnamedelima J}{S\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=d4453bff98735621854b14fe83c372a3}{Corn}{C\bibinitperiod}{Jacob\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=339e12ef3231908dc13e1e8d9f327d03}{Kim}{K\bibinitperiod}{David\bibnamedelima E}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=c7d48362d360e81fac591a4d464ebe5b}{Lyskov}{L\bibinitperiod}{Sergey}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=2096cebe4c1849304324b019f46d1fbd}{Berrondo}{B\bibinitperiod}{Monica}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=b095a2b3eb2192e6cd7c0a5a031297db}{Mentzer}{M\bibinitperiod}{Stuart}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=1381b94133394452a48f4ee2c2648bf1}{Popovi\'{c}}{P\bibinitperiod}{Zoran}{Z\bibinitperiod}{}{}{}{}}%
-        {{hash=d43a8efe88863dc5ece2ab75bf3af710}{Havranek}{H\bibinitperiod}{James\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=0396fd9497028c978467e3563e3b69dc}{Karanicolas}{K\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=042adfc06dcb8612e991febd27bc8f65}{Das}{D\bibinitperiod}{Rhiju}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=26b1ee76f095f43650e27a349d54e2dc}{Meiler}{M\bibinitperiod}{Jens}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=917ad1f417957af77cdc53dd9ff0f688}{Kortemme}{K\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=d068a2b0cc92b1384f4242acfcd42f18}{Gray}{G\bibinitperiod}{Jeffrey\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=7bb92b93bad614ea83e46912197a146a}{Kuhlman}{K\bibinitperiod}{Brian}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{Bradley}{B\bibinitperiod}{Philip}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{2e1f89064d975e13e003e676b05f34d3}
-      \strng{fullhash}{9178e2ba1957b1ed5a2665d4493d333c}
-      \field{sortinit}{0}
-      \field{labeltitle}{{ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules.}}
-      \field{abstract}{We have recently completed a full re-architecturing of the ROSETTA molecular modeling program, generalizing and expanding its existing functionality. The new architecture enables the rapid prototyping of novel protocols by providing easy-to-use interfaces to powerful tools for molecular modeling. The source code of this rearchitecturing has been released as ROSETTA3 and is freely available for academic use. At the time of its release, it contained 470,000 lines of code. Counting currently unpublished protocols at the time of this writing, the source includes 1,285,000 lines. Its rapid growth is a testament to its ease of use. This chapter describes the requirements for our new architecture, justifies the design decisions, sketches out central classes, and highlights a few of the common tasks that the new software can perform.}
-      \field{issn}{1557-7988}
-      \field{journaltitle}{Methods in enzymology}
-      \field{month}{01}
-      \field{title}{{ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules.}}
-      \field{volume}{487}
-      \field{year}{2011}
-      \field{pages}{545\bibrangedash 74}
-      \verb{doi}
-      \verb 10.1016/B978-0-12-381270-4.00019-6
-      \endverb
-      \verb{file}
-      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/Leaver-Fay et al. - 2011 - ROSETTA3 an object-oriented software suite for the simulation and design of macromolecules.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4083816%5C&tool=pmcentrez%5C&rendertype=abstract
-      \endverb
-      \keyw{Computer Simulation,DNA,DNA: chemistry,Macromolecular Substances,Macromolecular Substances: chemistry,Models,Molecular,Software,rosetta}
-    \endentry
-    \entry{DiMaio2011a}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=f9f9a0449d05ad7ef605919b7a84c894}{DiMaio}{D\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=1b2e3cb4bbfd80ce3439b6d706c54526}{Bradley}{B\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=a78e6c0dc1d0a795e5b6e0a5e55aad9e}{Andr\'{e}}{A\bibinitperiod}{Ingemar}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=f9f9a0449d05ad7ef605919b7a84c894}{DiMaio}{D\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=2e6f87d5371a6cc177982b956a8bf458}{Leaver-Fay}{L\bibinithyphendelim F\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=1b2e3cb4bbfd80ce3439b6d706c54526}{Bradley}{B\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=db711af07f28528a9ee5cf2922c529a3}{Baker}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=a78e6c0dc1d0a795e5b6e0a5e55aad9e}{Andr\'{e}}{A\bibinitperiod}{Ingemar}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{5abfec81461731b590b0e09b6bd27275}
-      \strng{fullhash}{5abfec81461731b590b0e09b6bd27275}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Modeling symmetric macromolecular structures in Rosetta3.}}
-      \field{abstract}{Symmetric protein assemblies play important roles in many biochemical processes. However, the large size of such systems is challenging for traditional structure modeling methods. This paper describes the implementation of a general framework for modeling arbitrary symmetric systems in Rosetta3. We describe the various types of symmetries relevant to the study of protein structure that may be modeled using Rosetta's symmetric framework. We then describe how this symmetric framework is efficiently implemented within Rosetta, which restricts the conformational search space by sampling only symmetric degrees of freedom, and explicitly simulates only a subset of the interacting monomers. Finally, we describe structure prediction and design applications that utilize the Rosetta3 symmetric modeling capabilities, and provide a guide to running simulations on symmetric systems.}
-      \field{issn}{1932-6203}
-      \field{journaltitle}{PloS one}
-      \field{month}{01}
-      \field{number}{6}
-      \field{title}{{Modeling symmetric macromolecular structures in Rosetta3.}}
-      \field{volume}{6}
-      \field{year}{2011}
-      \field{pages}{e20450}
-      \verb{doi}
-      \verb 10.1371/journal.pone.0020450
-      \endverb
-      \verb{file}
-      \verb :Users/ChingYaoYang/Documents/Mendeley Desktop/DiMaio et al. - 2011 - Modeling symmetric macromolecular structures in Rosetta3.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020450
-      \endverb
-      \keyw{Computational Biology,Computational Biology: methods,Databases,Protein,Macromolecular Substances,Macromolecular Substances: chemistry,Models,Molecular,Protein Structure,Secondary,Proteins,Proteins: chemistry,Software,Structural Homology,Protein,Thermodynamics,rosetta,simulation}
     \endentry
     \entry{Roodveldt2005}{article}{}
       \name{labelname}{2}{}{%
