@@ -32,3 +32,6 @@ ver 3.0
 - untrack the following file: .DS_Store and .vimrc
 - chapter 1 is fully functional
 
+ver 3.1
+- remove files including .lot, .log, .aux
+
