@@ -46,7 +46,7 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 PTE is a homodimeric protein composed of two monomers, each of which contains a
 metallo-active site.Phosphotriesterase (PTE) are enzymes, which hydrolyze
 organophosphates (OPs) as well as synthetic esters (Figure
-\ref{fig:pte-structure}).\cite{Ghanem2005a} OPs are a synthetic class of small
+\ref{fig:pte-structure})\cite{Ghanem2005a}. OPs are a synthetic class of small
 molecule that irreversibly inactivate acetylcholinesterase (AChE), disrupting
 neural transmission. AChE is an enzyme that degrades the neurotransmitter,
 acetylcholine, at the neuromuscular junction in the cholinergic nervous system.
@@ -59,18 +59,16 @@ for chemical weapons neutralization. \cite{Yang2014a}
     \caption[Structure of
     and active site of phosphotriesterase: (A) Crystal structure of PTE (PDB
 1HZY). Wild-type PTE consists of two monomers. Shown in light blue is one of
-them, and dark blue is the other. Yellow dots represent zinc atoms; (B)
-Substrates that PTE hydrolyzed: (1) paraoxon, (2) 2-naphthyl acetate, and (3)
-chloropyfios. (C) Small pocket residues are labeled in red: G60,I106, L303,
-S308; large pocket residues are labeled in blue: H254, H257, M317, while
-leaving group residues are labeled in grey: W131, F132, F306, Y309.]{Structure of
-    and active site of phosphotriesterase: (A) Crystal structure of PTE (PDB
-1HZY). Wild-type PTE consists of two monomers. Shown in light blue is one of
-them, and dark blue is the other. Yellow dots represent zinc atoms; (B)
-Substrates that PTE hydrolyzed: (1) paraoxon, (2) 2-naphthyl acetate, and (3)
-chloropyfios. (C) Small pocket residues are labeled in red: G60,I106, L303,
-S308; large pocket residues are labeled in blue: H254, H257, M317, while
-leaving group residues are labeled in grey: W131, F132, F306, Y309.}
+them, and dark blue is the other. Yellow dots represent zinc atoms; (C) Small
+pocket residues are labeled in red: G60,I106, L303, S308; large pocket residues
+are labeled in blue: H254, H257, M317, while leaving group residues are labeled
+in grey: W131, F132, F306, Y309.]{Structure of and active site of
+phosphotriesterase: (A) Crystal structure of PTE (PDB 1HZY). Wild-type PTE
+consists of two monomers. Shown in light blue is one of them, and dark blue is
+the other. Yellow dots represent zinc atoms; (C) Small pocket residues are
+labeled in red: G60,I106, L303, S308; large pocket residues are labeled in
+blue: H254, H257, M317, while leaving group residues are labeled in grey: W131,
+F132, F306, Y309.}
 \label{fig:pte-structure} 
 \end{figure} 
 % --------------------------
@@ -78,8 +76,8 @@ leaving group residues are labeled in grey: W131, F132, F306, Y309.}
 \subsection{Incorporation of Non-natural Amino Acids} \label{sec:rsi}
 
 Several methods have been developed for the incorporation of unnatural amino
-acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, in vivo and
-in vitro site-specific incorporation,\cite{Cellitti2008,Hassan2008} and
+acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, \latin{in vivo} and
+\latin{in vitro} site-specific incorporation,\cite{Cellitti2008,Hassan2008} and
 residue-specific incorporation (Figure \ref{fig:rsi}).\cite{Johnson2010} In
 SPPS, activated amino acids are immobilized on a solid support and synthesized
 step-by-step in the reactant solution. This method is convenient for the
@@ -214,6 +212,7 @@ strands, which lack the desired mutation. DNA sequence was further confirmed by
 Eurofins MWG Operon.
 
 \subsection{Protein Expression}
+\label{sec:protein-expression-method}
 
 Mutant and wild type plasmids were transformed into \latin{E. coli} phenylalanine
 auxotrophic strains (AF-IQ cells).[5] Electroporation was done at
@@ -282,7 +281,7 @@ the native rotamers.
 \label{sec:thermo}
 
 \subsubsection{Nano-DSC}
-\label{sec:dsc}
+\label{sec:dsc-method}
 
 DSC (Nano-DSC, TA instrument, USA) was preformed by using \SI{600}{\micro\L}
 (\SI{0.1}{\mg\per\mL}) of protein right after dialysis. Measurements were
@@ -291,17 +290,17 @@ buffer under the same condition.  The observed diagram was then analyzed by
 using NanoAnalyze software.
 
 \subsubsection{Circular Dichroism}
-\label{sec:cd}
+\label{sec:cd-method}
 
 CD spectra were recorded on a JASCO J-815 Spectropolarimeter (Easton, MD) using
 Spectra Manager software. Temperature was controlled using a Fisher Isotemp
 Model 3016S water bath. Proteins concentrations were \SI{10}{\micro\Molar} in
 \SI{20}{\milli\Molar} phosphate buffer (pH 8.0). \SI{20}{\milli\Molar}
 phosphate buffer was used for blanking signals. To calculate ellipticities, the
-following formula was used(Eq.~\ref{eqn:CD}): 
+following formula was used(Eq.~\ref{eqn:CD-chap1}): 
 \begin{equation}
     θmrw = MRW(θobs) / (10 * c * l) 
-    \label{eqn:CD}
+    \label{eqn:CD-chap1}
 \end{equation}
 where \emph{MRW} is the mean residue weight of the specific phosphotriesterase,
 θobs is the observed ellipticities (mdeg), \emph{l} is the path length (cm),
@@ -309,7 +308,7 @@ where \emph{MRW} is the mean residue weight of the specific phosphotriesterase,
 \SIrange{190}{250}{\nm} with a scan speed of \SI{1}{\nano\meter\per\minute}.
 
 \subsection{Enzyme Kinetics}
-\label{sec:kinetics}
+\label{sec:kinetics-method}
 
 The protein was diluted to a final concentration of \SI{30}{\nano\Molar} in
 \SI{20}{\milli\Molar} sodium phosphate (pH 8.0) by using the extinction
@@ -319,12 +318,12 @@ paraoxon (coefficient = \SI{17000}{\per\Molar\per\cm}).  Reactions for paraoxon
 (\SIrange{13}{104}{\micro\Molar}) was done in 0.4\% methanol.
 K\textsubscript{M} and k\textsubscript{cat} values were determined by a
 Lineweaver-Burk plot.\cite{Baker2011b} The equation used is shown below
-(Eq.~\ref{eqn:MM}): 
+(Eq.~\ref{eqn:MM-chap1}): 
 \begin{equation} 
     \frac{1}{v} =
     \frac{K\textsubscript{M}}{V\textsubscript{max}}\times\frac{1}{S} +
     \frac{1}{V\textsubscript{max}} 
-    \label{eqn:MM}
+    \label{eqn:MM-chap1}
 \end{equation}
 where S represents substrate concentration; K\textsubscript{M} represents the
 substrate concentration at which the reaction rate is half of
