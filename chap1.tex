@@ -8,10 +8,14 @@ Using Rosetta}
 
 \subsection{Protein Engineering}
 \label{sec:protein-engineering}
+% go through PE intro, ways proteins are engineered.
 
 \subsubsection{Rational Design}
+% add site-directed mutagenesis based on structure. (natural aa)
+% add computational methods here
 
 \subsubsection{Rosetta Design}
+% describe the advantage, esp. the ability to explore proteins w/ uaa
 
 Computational tools are widely used for protein
 engineering\cite{Rothlisberger2008,DiMaio2011a,Korkegian2005,
@@ -38,62 +42,33 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 % --------------------------
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
+% background on proteins designed with uaa
+% focus on a) activity b)specificity c) stabilities
 
-\subsection{Phosphotriesterase} 
-\label{sec:pte}
-
-% This section focuses on PTE.
-PTE is a homodimeric protein composed of two monomers, each of which contains a
-metallo-active site.Phosphotriesterase (PTE) are enzymes, which hydrolyze
-organophosphates (OPs) as well as synthetic esters (Figure
-\ref{fig:pte-structure})\cite{Ghanem2005a}. OPs are a synthetic class of small
-molecule that irreversibly inactivate acetylcholinesterase (AChE), disrupting
-neural transmission. AChE is an enzyme that degrades the neurotransmitter,
-acetylcholine, at the neuromuscular junction in the cholinergic nervous system.
-After the acetylcholine is hydrolyzed, the synaptic transmission would be
-terminated. Inhibition of AChE lead to hyper-stimulation from toxic
-accumulation of acetylcholine\cite{Soreq2001}. Army also adapted this protein
-for chemical weapons neutralization. \cite{Yang2014a}
-% --------------------------
-\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_02}
-    \caption[Structure of and active site of phosphotriesterase: (A) Crystal
-    structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers. Shown
-in light blue is one of them, and dark blue is the other. Yellow dots represent
-zinc atoms; (B) Paraoxon hydrolysis by PTE; (C) Small pocket residues are
-labeled in red: G60,I106, L303, S308; large pocket residues are labeled in
-blue: H254, H257, M317, while leaving group residues are labeled in grey: W131,
-F132, F306, Y309.] {Structure of and active site of phosphotriesterase: (A)
-Crystal structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers.
-Shown in light blue is one of them, and dark blue is the other. Yellow dots
-represent zinc atoms; (B) Paraoxon hydrolysis by PTE;  (C) Small pocket
-residues are labeled in red: G60,I106, L303, S308; large pocket residues are
-labeled in blue: H254, H257, M317, while leaving group residues are labeled in
-grey: W131, F132, F306, Y309.}
-\label{fig:pte-structure} 
-\end{figure} 
-% --------------------------
-
-\subsection{Incorporation of Unnatural Amino Acids} \label{sec:rsi-intro}
+\subsection{Incorporation of Unnatural Amino Acids} 
+\label{sec:rsi-intro}
 
 Several methods have been developed for the incorporation of unnatural amino
-acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, \latin{in vivo} and
-\latin{in vitro} site-specific incorporation,\cite{Cellitti2008,Hassan2008} and
-residue-specific incorporation (Figure \ref{fig:rsi}).\cite{Johnson2010} In
-SPPS, activated amino acids are immobilized on a solid support and synthesized
-step-by-step in the reactant solution. This method is convenient for the
-introduction of functional groups into peptides, but it is still restricted to
-the yield and the expense of peptides. For example, if each coupling step has
-99\% yield, a 26-amino acid peptide would be synthesized in 77\% final yield.
-To synthesis longer chain peptides and proteins bearing UAAs, biosynthetic
-methods have been developed.  There exists three contemporary methods to
-biosynthetically incorporate non-natural amino acids into proteins:
-site-specific incorporation (SSI), residue-specific incorporation (RSI), and
-multi-site specific incorporation (MSI). Bain \latin{et al.} have developed a
-general approach for the \latin{in vitro} synthesis of proteins\cite{Bain1991}.
-The approach relies on the suppression of an amber termination codon (UAG) in
-the mRNA by an amber suppressor tRNA chemically charged with the amino acid
-analog. This method has been well studied and developed in research of protein
-structures and functions\cite{Martoglio1995,Eichler1997}.
+acids into proteins, which can be categorized under synthetic and biosynthetic
+approaches. \latin{in vivo} and \latin{in vitro} site-specific
+incorporation,\cite{Cellitti2008,Hassan2008} and residue-specific incorporation
+(Figure \ref{fig:rsi})\cite{Johnson2010}. 
+In SPPS, activated amino acids are
+immobilized on a solid support and synthesized step-by-step in the reactant
+solution. This method is convenient for the introduction of functional groups
+into peptides, but it is still restricted to the yield and the expense of
+peptides. For example, if each coupling step has 99\% yield, a 26-amino acid
+peptide would be synthesized in 77\% final yield.  To synthesis longer chain
+peptides and proteins bearing UAAs, biosynthetic methods have been developed.
+There exists three contemporary methods to biosynthetically incorporate
+non-natural amino acids into proteins: site-specific incorporation (SSI),
+residue-specific incorporation (RSI), and multi-site specific incorporation
+(MSI). Bain \latin{et al.} have developed a general approach for the \latin{in
+vitro} synthesis of proteins\cite{Bain1991}.  The approach relies on the
+suppression of an amber termination codon (UAG) in the mRNA by an amber
+suppressor tRNA chemically charged with the amino acid analog. This method has
+been well studied and developed in research of protein structures and
+functions\cite{Martoglio1995,Eichler1997}.
 
 Methods to incorporate amino acid analogues site-specifically into proteins
 \latin{in vivo} greatly expand research of unnatural amino acids. We are not
@@ -132,15 +107,15 @@ without alteration of the biosynthetic machinery. However, to introduce UAAs
 with gross differences from the natural amino acids, further engineering of the
 aaRS is required. To incorporate refractory methionine analogs, Tirrell and
 coworkers engineered additional copied of the methionyl-tRNA synthetase (MetRS)
-by adding the MetRS gene under constitutive promotor.\cite{Kiick2000}
+by adding the MetRS gene under constitutive promotor\cite{Kiick2000}.
 Alternatively, Schimmel and coworkers mutated editing pocket of valyl-tRNA
 synthetase (ValRS) to facilitate the incorporation of analogs that normally
-would not be accepted by endogenous aaRS.\cite{Doring2001} Finally, Kast and
+would not be accepted by endogenous aaRS\cite{Doring2001}. Finally, Kast and
 coworkers generated a mutated phenylalanyl-tRNA synthetase (PheRS), ePheRS*
 under a constitutive promoter, with a large binding pocket (T251G) and showed
-relaxed specificity.\cite{Kast1991}
+relaxed specificity\cite{Kast1991}.
 
-\subsection{Fluorinated Amino Acids In Proteins} 
+\subsubsection{Fluorinated Amino Acids In Proteins} 
 \label{sec:faa}
 
 % Describe the properties of faa in the proteins.
@@ -149,21 +124,21 @@ different bond energies, electron distributions, and
 hydrophobicity\cite{Biffinger2004} as compared to their hydrogenated
 counterparts. As we compare the structure of fluorocarbon groups, the C-F bond
 is highly dipolar while the hydrocarbon is less. The C-F bond is roughly 0.24
-{\AA} longer than C-H bond (Table \ref{tab:c-fbond}).\cite{Tang2001} While in
+{\AA} longer than C-H bond (Table \ref{tab:c-fbond})\cite{Tang2001}. While in
 some cases the global replacement of hydrophobic amino acids with fluorinated
 analogs has led to the stabilization of protein structure\cite{Biffinger2004},
 it has all been shown that in some cases they can reduce the thermodynamic
-stability.\cite{Panchenko2006b} The expansion of the genetic code has led to
-the biosynthetic incorporation of a wide range of noncanonical amino acids
-(NCAAs) into proteins.\cite{Voloshchuk2010} In particular, fluorinated amino
+stability\cite{Panchenko2006b}. The expansion of the genetic code has led to
+the biosynthetic incorporation of a wide range of unnatural noncanonical amino acids
+(UAAs) into proteins\cite{Voloshchuk2010}. In particular, fluorinated amino
 acids (FAAs) have been integrated into small coiled-coil
-proteins,\cite{Montclare2009b,Tang2001}a range of
-enzymes,\cite{Voloshchuk2009,Panchenko2006b,Voloshchuk2007b,Mehta2011b,Hammill2007}
-and biomaterials.\cite{Yuvienco2012b} Although incorporation of FAAs into a
+proteins\cite{Montclare2009b,Tang2001}, a range of
+enzymes\cite{Voloshchuk2009,Panchenko2006b,Voloshchuk2007b,Mehta2011b,Hammill2007},
+and biomaterials\cite{Yuvienco2012b}. Although incorporation of FAAs into a
 target protein can lead to enhanced function or stability, in some cases loss
 of activity or stability occurs, and further improvements to the artificial
 protein have been made by rational mutagenesis\cite{Voloshchuk2007b} and
-directed evolution strategies.\cite{Montclare2006b}
+directed evolution strategies\cite{Montclare2006b}.
 % fig1_04: add comparison of phe vs pFF
 % table1_01: bond length comparison
 % --------------------------
@@ -180,9 +155,51 @@ directed evolution strategies.\cite{Montclare2006b}
   \hline
 \end{tabular}
 \caption{(A) physical properties of the C-F bond. (B) comparison of C-H and C-F
-bonds, van der Waals radius, and total size} \label{tab:c-fbond}
+bonds, van der Waals radius, and total size} 
+\label{tab:c-fbond}
 \end{table}
 % --------------------------
+
+\subsection{Phosphotriesterase} 
+\label{sec:pte}
+% This section focuses on PTE.
+
+PTE is a homodimeric protein composed of two monomers, each of which contains a
+metallo-active site.Phosphotriesterase (PTE) are enzymes, which hydrolyze
+organophosphates (OPs) as well as synthetic esters (Figure
+\ref{fig:pte-structure})\cite{Ghanem2005a}. OPs are a synthetic class of small
+molecule that irreversibly inactivate acetylcholinesterase (AChE), disrupting
+neural transmission. AChE is an enzyme that degrades the neurotransmitter,
+acetylcholine, at the neuromuscular junction in the cholinergic nervous system.
+After the acetylcholine is hydrolyzed, the synaptic transmission would be
+terminated. Inhibition of AChE lead to hyper-stimulation from toxic
+accumulation of acetylcholine\cite{Soreq2001}. Army also adapted this protein
+for chemical weapons neutralization \cite{Yang2014a}.
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_02}
+    \caption[Structure of and active site of phosphotriesterase: (A) Crystal
+    structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers. Shown
+in light blue is one of them, and dark blue is the other. Yellow dots represent
+zinc atoms; (B) Paraoxon hydrolysis by PTE; (C) Small pocket residues are
+labeled in red: G60,I106, L303, S308; large pocket residues are labeled in
+blue: H254, H257, M317, while leaving group residues are labeled in grey: W131,
+F132, F306, Y309.] {Structure of and active site of phosphotriesterase: (A)
+Crystal structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers.
+Shown in light blue is one of them, and dark blue is the other. Yellow dots
+represent zinc atoms; (B) Paraoxon hydrolysis by PTE;  (C) Small pocket
+residues are labeled in red: G60,I106, L303, S308; large pocket residues are
+labeled in blue: H254, H257, M317, while leaving group residues are labeled in
+grey: W131, F132, F306, Y309.}
+\label{fig:pte-structure} 
+\end{figure} 
+% --------------------------
+% add a) metal effect c) fluorinated pte.
+
+\subsubsection{Hydrolysis Mechanism of PTE}
+% SN2 reaction and discuss binding pocket.
+
+\subsubsection{Fluorinated PTE}.
+% describe PJB papper quickly here
 
 \subsection{Scope of Work}
 
@@ -201,7 +218,7 @@ was purchased from Roche. DNA sequence was confirmed by Eurofins MWG Operon.
 
 \subsection{Recombinant Gene Construction}
 
-pQE30-S5 was used as described before.\cite{Baker2011b} The pQE30-104A plasmid
+pQE30-S5 was used as described before\cite{Baker2011b}. The pQE30-104A plasmid
 was prepared with forward primers (5’-GATGTGTCGACTGCCGATATCGGTCG-3’, Fisher
 Scientific), reverse primers (5’-CGACCGATATCGGCAGTCGACACA-3’, Fisher
 Scientific). The PCR parameters were set as follow for 18 cycles: initial
