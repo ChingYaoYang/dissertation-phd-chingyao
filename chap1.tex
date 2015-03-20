@@ -24,7 +24,7 @@ knowledge-based potentials. It is a suite of libraries and tools for
 macromolecular ligand docking, to thermo-stabilize proteins, to design a
 hydrogen-bond network, to design novel protein folds, to create novel protein
 interfaces, and to design enzymes, including some containing unnatural amino
-acids in the active sites (Figure \ref{fig:rosetta-scheme}).
+acids in the active sites (Figure \ref{fig:rosetta-intro}).
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
@@ -32,12 +32,12 @@ acids in the active sites (Figure \ref{fig:rosetta-scheme}).
 electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
     function of Rosetta. 1: Lennard-Jones Potential; 2: implicit solvent model;
 3: hydrogen bonding; 4: electrostatics; 5: PDB drived torsion potential.}
-\label{fig:rosetta-scheme}
+\label{fig:rosetta-intro}
 
 \end{figure}
 % --------------------------
 
-\subsubsection{Protein Engineering Bearing Non-natural Amino Acids}
+\subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
 
 \subsection{Phosphotriesterase} 
 \label{sec:pte}
@@ -52,18 +52,28 @@ neural transmission. AChE is an enzyme that degrades the neurotransmitter,
 acetylcholine, at the neuromuscular junction in the cholinergic nervous system.
 After the acetylcholine is hydrolyzed, the synaptic transmission would be
 terminated. Inhibition of AChE lead to hyper-stimulation from toxic
-accumulation of acetylcholine.\cite{Soreq2001} Army also adapted this protein
+accumulation of acetylcholine\cite{Soreq2001}. Army also adapted this protein
 for chemical weapons neutralization. \cite{Yang2014a}
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_02}
-    \caption[Structure of and active site of phosphotriesterase: (A) Crystal structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers. Shown in light blue is one of
-them, and dark blue is the other. Yellow dots represent zinc atoms; (B) Paraoxon hydrolysis by PTE; (C) Small pocket residues are labeled in red: G60,I106, L303, S308; large pocket residues are labeled in blue: H254, H257, M317, while leaving group residues are labeled in grey: W131, F132, F306, Y309.]
-            {Structure of and active site of phosphotriesterase: (A) Crystal structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers. Shown in light blue is one of them, and dark blue is the other. Yellow dots represent zinc atoms; (B) Paraoxon hydrolysis by PTE;  (C) Small pocket residues are labeled in red: G60,I106, L303, S308; large pocket residues are labeled in blue: H254, H257, M317, while leaving group residues are labeled in grey: W131, F132, F306, Y309.}
+    \caption[Structure of and active site of phosphotriesterase: (A) Crystal
+    structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers. Shown
+in light blue is one of them, and dark blue is the other. Yellow dots represent
+zinc atoms; (B) Paraoxon hydrolysis by PTE; (C) Small pocket residues are
+labeled in red: G60,I106, L303, S308; large pocket residues are labeled in
+blue: H254, H257, M317, while leaving group residues are labeled in grey: W131,
+F132, F306, Y309.] {Structure of and active site of phosphotriesterase: (A)
+Crystal structure of PTE (PDB 1HZY). Wild-type PTE consists of two monomers.
+Shown in light blue is one of them, and dark blue is the other. Yellow dots
+represent zinc atoms; (B) Paraoxon hydrolysis by PTE;  (C) Small pocket
+residues are labeled in red: G60,I106, L303, S308; large pocket residues are
+labeled in blue: H254, H257, M317, while leaving group residues are labeled in
+grey: W131, F132, F306, Y309.}
 \label{fig:pte-structure} 
 \end{figure} 
 % --------------------------
 
-\subsection{Incorporation of Non-natural Amino Acids} \label{sec:rsi}
+\subsection{Incorporation of Unnatural Amino Acids} \label{sec:rsi-intro}
 
 Several methods have been developed for the incorporation of unnatural amino
 acids into proteins: solid-phase synthesis (SPPS)\cite{Mahto2011}, \latin{in vivo} and
@@ -75,29 +85,30 @@ introduction of functional groups into peptides, but it is still restricted to
 the yield and the expense of peptides. For example, if each coupling step has
 99\% yield, a 26-amino acid peptide would be synthesized in 77\% final yield.
 To synthesis longer chain peptides and proteins bearing UAAs, biosynthetic
-methods have been developed.  There exists two contemporary methods to
+methods have been developed.  There exists three contemporary methods to
 biosynthetically incorporate non-natural amino acids into proteins:
-site-specific incorporation and residue-specific incorporation. Bain \latin{et
-al.} have developed a general approach for the \latin{in vitro} synthesis of
-proteins.\cite{Bain1991} The approach relies on the suppression of an amber
-termination codon (UAG) in the mRNA by an amber suppressor tRNA charged with
-the amino acid analog. This method has been well studied and developed in
-research of protein structures and functions.\cite{Martoglio1995,Eichler1997} 
+site-specific incorporation (SSI), residue-specific incorporation (RSI), and
+multi-site specific incorporation (MSI). Bain \latin{et al.} have developed a
+general approach for the \latin{in vitro} synthesis of proteins\cite{Bain1991}.
+The approach relies on the suppression of an amber termination codon (UAG) in
+the mRNA by an amber suppressor tRNA chemically charged with the amino acid
+analog. This method has been well studied and developed in research of protein
+structures and functions\cite{Martoglio1995,Eichler1997}.
 
-Methods to incorporate amino acid analogues site-specifically into proteins in
-vivo greatly expand research of unnatural amino acids. We are not only able to
-synthesize large amounts of protein, but capable of overcoming potential
-problems including post translational modifications. An \latin{in vivo} site-specific
-method to incorporation UAAs was developed by Schultz and
-coworkers.\cite{Wang2001,Wang2002} A stop codon at the position of interest is
-encoded in the mRNA. For \latin{in vivo} site-specific UAA incorporation, an orthogonal
-aminoacyl-tRNA synthetase charges an orthogonal tRNA with particular UAA, and
-the suppressor tRNA would help the incorporation of UAA with recognition of a
-stop codon. As cells contain 20 aminoacyl-tRNA synthetase/suppressor tRNA
-pairs, a new one is required for the incorporation. An orthogonal
-aminoacyl-tRNA synthetase/suppressor tRNA pair based on a TyrRS/tRNATyr pair in
-the \emph{Methanococcus jannaschii} has been engineered for use in \emph{E.
-coli} for the incorporation of tyrosine analogs.\cite{Wang2001}
+Methods to incorporate amino acid analogues site-specifically into proteins
+\latin{in vivo} greatly expand research of unnatural amino acids. We are not
+only able to synthesize large amounts of protein, but capable of overcoming
+potential problems including post-translational modifications. An \latin{in
+vivo} site-specific method to UAA incorporation was developed by Schultz and
+coworkers\cite{Wang2001,Wang2002}. A stop codon at the position of interest is
+encoded in the mRNA. For \latin{in vivo} site-specific UAA incorporation, an
+orthogonal aminoacyl-tRNA synthetase charges an orthogonal tRNA with particular
+UAA, and the suppressor tRNA would help the incorporation of UAA by recognition
+of a stop codon. As cells contain 20 aminoacyl-tRNA synthetase/tRNA pairs, a
+new one is required for UAA incorporation. An orthogonal aminoacyl-tRNA
+synthetase/suppressor tRNA pair based on a TyrRS/tRNA\textsuperscript{Tyr} pair
+in the \emph{Methanococcus jannaschii} has been engineered for use in \emph{E.
+coli} for the incorporation of tyrosine analogs\cite{Wang2001}.
 
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_03} 
