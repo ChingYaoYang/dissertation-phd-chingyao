@@ -10,12 +10,35 @@ Using Rosetta}
 \label{sec:protein-engineering}
 % go through PE intro, ways proteins are engineered.
 % --------------------------new
+Proteins are macro biomolecules composed of amino acids. With linkage of
+peptide bond, amino acids form different secondary structures, including
+$\alpha$ helix and $\beta$ sheet. Proteins are essential to cell
+functionalities and metabolism. 
 
+Enzyme, one of the forms of proteins, mediates chemical reactions and serves
+different functions in agricultures and pharmaceutical industries.  
+
+The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
+translated into a sequence of polypeptide through the central
+dogma\cite{CRICK1970}. The DNA information is first transcribed into messenger
+ribonucleic acid (mRNA) through RNA polymerase and transcription factors. Once
+mRNA is ready for translation, the ribosome facilitates the decoding of mRNA.
+Aminoacyl-tRNA synthetases (aaRS) are, at the same time, carrying the paired
+amino acids to their transfer RNAs (tRNAs). The aminoacylated tRNAs are then
+used for synthesis of polypeptide chain. 
 % --------------------------end of new
 
 \subsubsection{Rational Design}
 % add site-directed mutagenesis based on structure. (natural aa)
 % add computational methods here
+
+% --------------------------new
+Back to 70s, rational design was used to design new protein molecules with
+goals of designing novel functions. With improvements of technologies, such as
+structural bio-informatics, the developments of rational design are speeded up.
+The conventional methodologies for rational designs include peptide synthesis,
+gene synthesis, or site-directed mutagenesis.  
+% --------------------------end of new
 
 \subsubsection{Rosetta Design}
 % describe the advantage, esp. the ability to explore proteins w/ uaa
@@ -32,7 +55,7 @@ macromolecular ligand docking, to thermo-stabilize proteins, to design a
 hydrogen-bond network, to design novel protein folds, to create novel protein
 interfaces, and to design enzymes, including some containing unnatural amino
 acids in the active sites (Figure \ref{fig:rosetta-intro}).
-% --------------------------
+% --------------------------fig
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
     Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
@@ -42,11 +65,13 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 \label{fig:rosetta-intro}
 
 \end{figure}
-% --------------------------
+% --------------------------fig
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
 % background on proteins designed with uaa
 % focus on a) activity b)specificity c) stabilities
+% --------------------------from Princeton and Caltech thesis
+
 
 \subsection{Incorporation of Unnatural Amino Acids} 
 \label{sec:rsi-intro}
@@ -119,7 +144,7 @@ under a constitutive promoter, with a large binding pocket (T251G) and showed
 relaxed specificity\cite{Kast1991}.
 
 \subsubsection{Fluorinated Amino Acids In Proteins} 
-\label{sec:faa}
+\label{sec:faa-intro}
 
 % Describe the properties of faa in the proteins.
 Fluorinated amino acids (FAAs), represent a unique class of UAAs. They have
@@ -164,7 +189,7 @@ bonds, van der Waals radius, and total size}
 % --------------------------
 
 \subsection{Phosphotriesterase} 
-\label{sec:pte}
+\label{sec:pte-intro}
 % This section focuses on PTE.
 
 PTE is a homodimeric protein composed of two monomers, each of which contains a
