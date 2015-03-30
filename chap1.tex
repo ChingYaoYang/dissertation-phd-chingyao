@@ -14,14 +14,13 @@ Using Rosetta}
 Proteins are macro biomolecules composed of amino acids. With linkage of
 peptide bond, amino acids form different secondary structures, including
 $\alpha$ helix and $\beta$ sheet. Proteins are essential to cell
-functionalities and metabolism. 
-
-Enzyme, one of the forms of proteins, mediates chemical reactions and serves
-different functions in agricultures and pharmaceutical industries. The
-enzyme-catalyzed reactions were initially studied in the 19th
-century\cite{AthelCornish-Bowden2012}. Compared to the chemical catalysts,
-enzymes are highly specific and enhance the rate of reaction by
-10\textsuperscript{8}-fold over non-catalyzed reaction\cite{Stryer1995}.
+functionalities and metabolism. Enzyme, one of the forms of proteins, mediates
+chemical reactions and serves different functions in agricultures and
+pharmaceutical industries. The enzyme-catalyzed reactions were initially
+studied in the 19th century\cite{AthelCornish-Bowden2012}. Compared to the
+chemical catalysts, enzymes are highly specific and enhance the rate of
+reaction by 10\textsuperscript{8}-fold over non-catalyzed
+reaction\cite{Stryer1995}.
 
 The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
 translated into a sequence of polypeptide through the central
@@ -80,6 +79,15 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 \label{fig:rosetta-intro}
 \end{figure}
 % --------------------------fig
+% --------------------------new below
+The scoring function sums the weighted terms that represent the physical or
+probabilistic pairwise interactions\cite{Rohl2004}, including Lennard-Jones
+potential, implicit solvent model\cite{Lazaridis1999}, orientation-dependent
+hydrogen bond term\cite{Kortemme2003}, sidechain and backbone torsion
+potentials derived from the PDB, short-ranged knowledge-based electrostatic
+term, and reference energies for each of the 20 amino acids that model the
+unfolded state.
+% --------------------------end new
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
 % background on proteins designed with uaa
@@ -104,22 +112,21 @@ Several methods have been developed for the incorporation of unnatural amino
 acids into proteins, which can be categorized under synthetic and biosynthetic
 approaches. \latin{in vivo} and \latin{in vitro} site-specific
 incorporation,\cite{Cellitti2008,Hassan2008} and residue-specific incorporation
-(Figure \ref{fig:rsi})\cite{Johnson2010}. 
-In SPPS, activated amino acids are immobilized on a solid support and
-synthesized step-by-step in the reactant solution. This method is convenient
-for the introduction of functional groups into peptides, but it is still
-restricted to the yield and the expense of peptides. For example, if each
-coupling step has 99\% yield, a 26-amino acid peptide would be synthesized in
-77\% final yield.  To synthesis longer chain peptides and proteins bearing
-UAAs, biosynthetic methods have been developed.  There exists three
-contemporary methods to biosynthetically incorporate non-natural amino acids
-into proteins: site-specific incorporation (SSI), residue-specific
-incorporation (RSI), and multi-site specific incorporation (MSI). Bain
-\latin{et al.} have developed a general approach for the \latin{in vitro}
-synthesis of proteins\cite{Bain1991}.  The approach relies on the suppression
-of an amber termination codon (UAG) in the mRNA by an amber suppressor tRNA
-chemically charged with the amino acid analog. This method has been well
-studied and developed in research of protein structures and
+(Figure \ref{fig:rsi})\cite{Johnson2010}.  In SPPS, activated amino acids are
+immobilized on a solid support and synthesized step-by-step in the reactant
+solution. This method is convenient for the introduction of functional groups
+into peptides, but it is still restricted to the yield and the expense of
+peptides. For example, if each coupling step has 99\% yield, a 26-amino acid
+peptide would be synthesized in 77\% final yield.  To synthesis longer chain
+peptides and proteins bearing UAAs, biosynthetic methods have been developed.
+There exists three contemporary methods to biosynthetically incorporate
+non-natural amino acids into proteins: site-specific incorporation (SSI),
+residue-specific incorporation (RSI), and multi-site specific incorporation
+(MSI). Bain \latin{et al.} have developed a general approach for the \latin{in
+vitro} synthesis of proteins\cite{Bain1991}.  The approach relies on the
+suppression of an amber termination codon (UAG) in the mRNA by an amber
+suppressor tRNA chemically charged with the amino acid analog. This method has
+been well studied and developed in research of protein structures and
 functions\cite{Martoglio1995,Eichler1997}.
 
 Methods to incorporate amino acid analogues site-specifically into proteins
@@ -192,8 +199,7 @@ of activity or stability occurs, and further improvements to the artificial
 protein have been made by rational mutagenesis\cite{Voloshchuk2007b} and
 directed evolution strategies\cite{Montclare2006b}.
 % fig1_04: add comparison of phe vs pFF
-% table1_01: bond length comparison
-% ----------i----------------
+% -------------------------
 \begin{table}[h!]
 \centering
 \begin{tabular}{ llll }
