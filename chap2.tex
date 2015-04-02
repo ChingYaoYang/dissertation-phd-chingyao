@@ -18,6 +18,33 @@ All chemicals, reagents, and substrate were purchased from Sigma. T4 DNA ligase
 was purchased from Roche. DNA sequence was confirmed by Eurofins MWG Operon.
 96-well plates were purchased from Thermo Fisher Scientific (Waltham, MA)\cite{Yang2014a}.
 
+\subsection{Rosetta Design of Phosphotriesterase}
+
+A symmetric starting model of wild type PTE from the B chain of PDB structure
+1HZY\cite{Benning2001a} was built using the Rosetta suite of macromolecular
+modeling tools\cite{Leaver-Fay2011}. Both active site \ch{Zn^{2+}} ions were
+replaced with \ch{Co^{2+}} to reflect the metal used in the experimentally
+produced mutants.  Distance constraints between the cobalt cations and the
+coordinating residues were taken from PDB structure 3A4J\cite{Jackson2009b}.
+Torsional and partial charge parameters for the non-standard carboxylated
+lysine residue (Lys 169) were calculated quantum mechanically using the
+HF/6-31G(d) level of theory in Gaussian09\cite{Frisch2009} with an overall
+charge of -1.  Rotamer libraries for the carboxylated lysine were generated
+with the Rosetta MakeRotLib\cite{Renfrew2012b} protocol.  Models were
+constructed for each of the point mutations: F51L, F150M, F216L, F304L, F306L,
+F327L, F335M, and F357L using the Rosetta fixbb (fixed backbone design)
+protocol with symmetry\cite{DiMaio2011a}.  \ch{Co^{2+}} coordinating residues
+were held fixed to their native rotamers. To propagate point mutation effects
+throughout a mutant model, the Rosetta relax protocol was used to repack and
+minimize the entire PTE structure with backbone flexibility. For each point
+mutant, an ensemble of 500 relaxed decoys were generated. Interatomic distances
+between \ch{Co^{2+}} and coordinating residues were enforced with harmonic
+constraints.  The change in stability for a mutation was calculated as the
+difference between the mutant and wild type ensemble averages of the total
+Rosetta score. All protocols used here included the native rotamers and extra
+rotamers sampling as additional parameters. All decoys were scored using the
+talaris2013 score function\cite{Leaver-Fay2013a}.
+
 \subsection{Variants of Phosphotriesterase}
 Purified protein product was assayed for concentration by way of a Thermo
 
