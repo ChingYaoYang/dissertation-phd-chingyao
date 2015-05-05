@@ -296,7 +296,7 @@ shelf life and thermo-stability of phosphotriesterase.
 
 \subsection{General}
 
-All chemicals, reagents, and substrate were purchased from Sigma. T4 DNA ligase
+\emph{DPNI} and  All other chemicals, including \ch{NaCl}, sodium phosphates monobasic, sodium phosphate dibasic, were purchased from Sigma. T4 DNA ligase
 was purchased from Roche. DNA sequence was confirmed by Eurofins MWG Operon.
 96-well plates were purchased from Thermo Fisher Scientific (Waltham, MA).
 
@@ -349,34 +349,35 @@ Dialyzed protein was subjected to kinetic assays immediately.
 
 \subsection{PyRosetta Design}
 \label{sec:rosetta-method}
+% completed!
 
 Rosetta\cite{Leaver-Fay2011,DiMaio2011a} was used to generate a symmetric,
-\emph{p}FF-incorporated PTE structure used by all simulations. The Holden and
-coworkers structure (PDB code: 1HZY) of wild type PTE was used as the input. In
-addition to the phenylalanine positions being mutated to \emph{p}FF, three
-positions in the wild-type PTE sequence were mutated (K185R, D208G, and R319S)
-to generate \emph{p}FF-PTE.\cite{Roodveldt2005} Mutations were made using the
+\emph{p}FF-incorporated PTE structure used by all simulations. The structure
+(PDB code: 1HZY) of wild type PTE was used as the input. In addition to the
+phenylalanine positions being mutated to \emph{p}FF, three positions in the
+wild-type PTE sequence were mutated (K185R, D208G, and R319S) based on S5PTE to
+generate \emph{p}FF-PTE.\cite{Roodveldt2005} Mutations were made using the
 Rosetta \emph{fixbb} application and were followed by side chain repacking and
 minimization. The amino acids directly interacting with the \ch{Co^{2+}} ions
-are crucial in binding the necessary divalent cation for PTE activity,[3] so
+are crucial in binding the necessary divalent cation for PTE activity[3], so
 they were fixed in their native rotamers during repacking and minimization.
-PyRosetta, a python interface to the Rosetta libraries,[4] was used to make and
+PyRosetta, a python interface to the Rosetta libraries[4], was used to make and
 characterize point mutations. Every \emph{p}FF position was individually
 mutated into any natural amino acid minus phenylalanine. To simulate a
-mutation, a single \emph{p}FF position would be mutated and neighboring amino
-acid within 10\AA (as measured by C$\alpha$-C$\alpha$ atom distance) was
+mutation, a single \emph{p}FF position was mutated and neighboring amino acid
+within \SI{10}{\AA} (as measured by C$\alpha$-C$\alpha$ atom distance) was
 allowed to repack and minimize to accommodate the point mutation to fill in
 potential high-cost-energy voids or to supplement the hydrophobicity, polarity,
 or charge in the vicinity. For each \emph{p}FF position, 500 decoys were
 generated. After the mutations were made, representative structures of each
 mutation were chosen based on the overall stability of the enzyme, reflected by
 the total score. The binding energy is the total energy minus the energy of
-both monomers separated by 1000\AA. Point mutations were chosen based on the
-difference between relative total and predicted binding energies of the mutant
-and \emph{p}FF-PTE sequence. As above, amino acids directly interacting with
-the \ch{Co^{2+}} ions were fixed in their native rotamers during repacking and
-minimization. All Rosetta and PyRosetta calculations were done using the
-\emph{score12} score function, and included extra rotamer sampling, including
+both monomers separated by \SI{1000}{\AA}. Point mutations were chosen based on
+the difference between relative total and predicted binding energies of the
+mutant and \emph{p}FF-PTE sequence. As above, amino acids directly interacting
+with the \ch{Co^{2+}} ions were fixed in their native rotamers during repacking
+and minimization. All Rosetta and PyRosetta calculations were done using the
+\emph{score12} score function, and possessed extra rotamer sampling, including
 the native rotamers.
 
 \subsection{Thermo-stability and Secondary Structure of Phosphotriesterase}
