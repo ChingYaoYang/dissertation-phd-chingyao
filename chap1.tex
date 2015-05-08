@@ -1,6 +1,6 @@
 \chapter{Improved Stability and Half-Life of Fluorinated Phosphotriesterase
 Using Rosetta} 
-\label{chap:rosetta}
+\label{chap:uaa}
 
 \begin{refsection}
 
@@ -10,7 +10,6 @@ Using Rosetta}
 \label{sec:protein-engineering}
 
 % PE intro, ways proteins are engineered.
-% --------------------------new
 Proteins are macro biomolecules composed of amino acids. With linkage of
 peptide bond, amino acids form different secondary structures, including
 $\alpha$ helix and $\beta$ sheet. Proteins are essential to cell
@@ -34,12 +33,10 @@ three nucleotides corresponds to a single amino acid. The start codon, AUG on
 mRNA sequence, is recognized by initial tRNA. While synthesis of peptide ends
 up with stop codon, each pair of codon is recognized by amino acid paired
 tRNA\cite{Sadava2006}.
-% --------------------------end of new
 
 \subsubsection{Rational Design}
 
 % site-directed mutagenesis based on structure, computational methods
-% --------------------------new
 Back to 70s, rational design was used to design new protein molecules with
 goals of designing novel functions\cite{Seydel1980}. With improvements of
 technologies, such as structural bio-informatics, the developments of rational
@@ -55,7 +52,6 @@ Computational tools helps the developments rational designs. During 70s and
 80s, most of researches of rational design focused on analysis of known protein
 structures and compositions. However, due to the limited resources, it was
 difficult to screen and select potential variant from numerous candidates.
-% --------------------------end of new
 
 \subsubsection{Rosetta Design}
 
@@ -82,7 +78,7 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 \label{fig:rosetta-intro}
 \end{figure}
 % --------------------------fig
-% --------------------------new below
+
 The scoring function sums the weighted terms that represent the physical or
 probabilistic pairwise interactions\cite{Rohl2004}, including Lennard-Jones
 potential, implicit solvent model\cite{Lazaridis1999}, orientation-dependent
@@ -90,19 +86,18 @@ hydrogen bond term\cite{Kortemme2003}, sidechain and backbone torsion
 potentials derived from the PDB, short-ranged knowledge-based electrostatic
 term, and reference energies for each of the 20 amino acids that model the
 unfolded state.
-% --------------------------end new
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
 
 % background on proteins designed with uaa
 % focus on a) activity b)specificity c) stabilities
 % --------------------------from Princeton and Caltech thesis
-The fluorinated region of artificial protein has been explored
-extensively in the hope that it will provide protein engineers the same
-benefits it has provided polymer chemists, especially increased hydrophobicity,
-thermostability, and chemical denaturant stability. The replacement of
-hydrophobic amino acids like leucine, valine, and isoleucine with their
-fluorinated non-canonical amino acid counterparts has provided mixed results.
+The fluorinated protein has been studied extensively in the hope that it will
+provide benefits to protein engineering, including properties of increased
+hydrophobicity, thermostability, and chemical denaturant
+stability\cite{Voloshchuk2007b}. The replacement of hydrophobic amino acids
+like leucine and phenylalanine with their fluorinated analogs has provided
+content-dependent results.
 
 Budisa group showed that enzymes change the specificities with the
 incorporation of unnatural amino acids\cite{Budisa2006}. Biocatalysis with UAAs
@@ -197,6 +192,27 @@ specificity\cite{Kast1991}.
 \subsubsection{Fluorinated Amino Acids In Proteins} 
 \label{sec:faa-intro}
 
+% -------------------------table
+\begin{table}[h!]
+\centering
+\begin{tabular}{ llll }
+  \hline
+  Bond & Length & Van der Waals radius & Total size \\
+  \hline
+
+  C-H & 1.09 & 1.2 & 2.29 \\
+  C-F & 1.35 & 1.7 & 2.82 \\
+
+  \hline
+\end{tabular}
+\caption[(A) physical properties of the C-F bond. (B) comparison of C-H and C-F
+bonds, van der Waals radius, and total size]{(A) physical properties of the C-F
+bond. (B) comparison of C-H and C-F bonds, van der Waals radius, and total
+size\cite{Tang2001,Odar2015}}
+\label{tab:c-fbond}
+\end{table}
+% -------------------------table
+
 % Describe the properties of faa in the proteins.
 Fluorinated amino acids (FAAs), represent a unique class of UAAs. They have
 different bond energies, electron distributions, and
@@ -220,26 +236,6 @@ of activity or stability occurs, and further improvements to the artificial
 protein have been made by rational mutagenesis\cite{Voloshchuk2007b} and
 directed evolution strategies\cite{Montclare2006b}.
 % fig1_04: add comparison of phe vs pFF
-% -------------------------table
-\begin{table}[h!]
-\centering
-\begin{tabular}{ llll }
-  \hline
-  Bond & Length & Van der Waals radius & Total size \\
-  \hline
-
-  C-H & 1.09 & 1.2 & 2.29 \\
-  C-F & 1.35 & 1.7 & 2.82 \\
-
-  \hline
-\end{tabular}
-\caption[(A) physical properties of the C-F bond. (B) comparison of C-H and C-F
-bonds, van der Waals radius, and total size]{(A) physical properties of the C-F
-bond. (B) comparison of C-H and C-F bonds, van der Waals radius, and total
-size\cite{Tang2001,Odar2015}}
-\label{tab:c-fbond}
-\end{table}
-% -------------------------table
 
 \subsection{Phosphotriesterase} 
 \label{sec:pte-intro}
@@ -294,9 +290,11 @@ site\cite{Benning2001a}.
 \subsubsection{Hydrolysis Mechanism of PTE}
 % SN2 reaction and discuss binding pocket.
 
-\subsubsection{Fluorinated PTE}.
+See Section \ref{sec:side-chain}
 
+\subsubsection{Fluorinated PTE}
 % describe PJB papper quickly here
+
 In 2011, Baker \latin{et al.} showed improved thermo-stabilized PTE with the
 incorporation of \emph{para}-fluoro-phenylalanine
 (\emph{p}FF)]\cite{Baker2011b}. With residue specific incorporation (see
@@ -314,16 +312,16 @@ shelf life and thermo-stability of phosphotriesterase.
 
 \subsection{General}
 
-\emph{DPNI} and dNTP were purchased from Roche. All other chemicals, including
+\emph{DpnI} and dNTP were purchased from Roche. All other chemicals, including
 \ch{NaCl}, sodium phosphates monobasic, sodium phosphate dibasic, were
 purchased from Sigma or VWR. DNA sequence was confirmed by Eurofins MWG Operon.
 96-well plates were purchased from Thermo Fisher Scientific (Waltham, MA).
 
 \subsection{Recombinant Gene Construction}
 
-pQE30-PTE was used as described before\cite{Baker2011b}. The pQE30-104A plasmid
-was prepared with forward primers (5’-GAT GTG TCG ACT \emph{GCC} GAT ATC GGT
-CG-3’, Fisher Scientific), reverse primers (5’-CG ACC GAT ATC \emph{GGC} AGT
+pQE30-PTE was used as described before\cite{Baker2011b}. The pQE30-F104A plasmid
+was prepared with forward primers (5’-GAT GTG TCG ACT \textbf{GCC} GAT ATC GGT
+CG-3’, Fisher Scientific), reverse primers (5’-CG ACC GAT ATC \textbf{GGC} AGT
 CGA CAC A-3’, Fisher Scientific). The polymerase chain reaction (PCR)
 parameters were set as follow for 18 cycles: initial denaturation in
 \SI{95}{\celsius} for 30 seconds, sequential denaturation in \SI{95}{\celsius}
@@ -348,28 +346,31 @@ thiamine, \SI{1}{\milli\Molar} \ch{MgSO4}, \SI{0.1}{\milli\Molar}\ch{CaCl2},
 hours \SI{37}{\celsius} incubation.  Afterwards, \SI{250}{\mL} of M9 medium for
 large-scale expression was innoculated 1:50 with the overnight culture.  After
 optical density reached 1.0 at 600 nm, media shift was carried out by washing
-the cells three times with \SI{4}{\celsius} 0.9\% \ch{NaCl}.  Cells were then
+the cells three times with \SI{4}{\celsius} 0.9\% \ch{NaCl}. Cells were then
 transferred to M9 minimal medium containing either 20 amino acids or 19 amino
-acids (-Phe). \emph{p}FF-PTE and \emph{p}FF-104A expression media were
-supplemented with and \SI{3}{\milli\Molar} of \emph{p}FF and
-\SI{1}{\milli\Molar} isopropyl-$\beta$-D-thiogalactopyranoside (IPTG) to induce
-protein expression.  \SI{1}{\milli\Molar} of \ch{CoCl2} was added in each
-post-induction medium.  After three hours incubation at \SI{37}{\celsius}, 300
-r.p.m., the cells were harvested and then resuspended with
-\SI{20}{\milli\Molar} Tris-HCl, \SI{500}{\milli\Molar} \ch{NaCl},
-\SI{5}{\milli\Molar} imidazole, 10\% glycerol (pH 8.0) and \SI{1}{\micro\Molar}
-\ch{CoCl2}. Cell lysate was sonicated on ice for 1.5 minutes and then a
-clarification spin was performed (20, 000 g, \SI{4}{\celsius}, 30 min).
-Clarified supernatants were loaded into a His Trap column (G.E Healthcare,
-Piscataway, NJ) using ÄKTA FPLC purifier (G.E.  Healthcare, Piscataway, NJ).
-Protein elution was generated using elution buffer B (\SI{20}{\milli\Molar}
-Tris-HCl, \SI{500}{\milli\Molar} sodium chloride, \SI{500}{\milli\Molar}
-imidazole (pH 8.0)).  The purified samples were then transferred for buffer
-exchange using \SI{12}{\L} \SI{20}{\milli\Molar} phosphate buffer (pH 8.0).
-Dialyzed protein was subjected to kinetic assays immediately.
+acids (-Phe). Ten minutes of \SI{37}{\celsius} incubation was adapted for
+depriving of extra phenylalanine in the medium. \emph{p}FF-PTE and
+\emph{p}FF-104A expression media were supplemented with and
+\SI{3}{\milli\Molar} of \emph{p}FF and \SI{1}{\milli\Molar}
+isopropyl-$\beta$-D-thiogalactopyranoside (IPTG) to induce protein expression.
+\SI{1}{\milli\Molar} of \ch{CoCl2} was added in each post-induction medium.
+After three hours incubation at \SI{37}{\celsius}, 300 r.p.m., the cells were
+harvested by using 4000 r.p.m centrifugation at \SI{4}{\celsius} for 15 minutes
+and then resuspended with \SI{20}{\milli\Molar} Tris-HCl,
+\SI{500}{\milli\Molar} \ch{NaCl}, \SI{5}{\milli\Molar} imidazole, 10\% glycerol
+(pH 8.0) and \SI{1}{\micro\Molar} \ch{CoCl2}. Cell lysate was immediately
+sonicated for 1.5 minutes at \SI{4}{\celsius} and then a clarification spin was
+performed (20, 000 g, \SI{4}{\celsius}, 30 minutes).  Clarified supernatants
+were loaded into a \SI{5}{\mL} His Trap column (G.E Healthcare, Piscataway, NJ)
+using AKTA FPLC purifier (G.E.  Healthcare, Piscataway, NJ).  Protein elution
+was generated using elution buffer B (\SI{20}{\milli\Molar} Tris-HCl,
+\SI{500}{\milli\Molar} sodium chloride, \SI{500}{\milli\Molar} imidazole (pH
+8.0)).  The purified samples were then transferred for buffer exchange using
+\SI{12}{\L} \SI{20}{\milli\Molar} phosphate buffer (pH 8.0).  Dialyzed protein
+was subjected to kinetic assays immediately.
 
 \subsection{PyRosetta Design}
-\label{sec:rosetta-method}
+\label{sec:pyrosetta-method}
 
 Rosetta\cite{Leaver-Fay2011,DiMaio2011a} was used to generate a symmetric,
 \emph{p}FF-incorporated PTE structure used by all simulations. The structure
@@ -479,6 +480,49 @@ analyze the MALDI spectra (www.bruker.com/).
 
 \section{Results and Discussion}
 
+\subsection{PyRosetta Design of Phosphotriesterase}
+
+Using PyRosetta (a python interface to the Rosetta
+libraries)\cite{Leaver-Fay2011}, we then examined every \emph{p}FF position in
+the model. Each was allowed to mutate to any amino acid except phenylalanine.
+We then evaluated the mutated residue relative to the “native” \emph{p}FF,
+based on the total energy and predicted binding energy of the two chains
+(Section \ref{sec:pyrosetta-method}). This protocol was used to predict stabilizing
+site-specific mutations as well as mutations that would remove phenylalanine
+positions that would not tolerate \emph{p}FF substitution. (In our
+residue-specific \emph{p}FF incorporation system we cannot control which
+phenylalanine positions are fluorinated, and thus removing phenylalanine
+positions that cannot tolerate fluorination could improve stability if
+alternative natural amino acids score well at these positions.) For each
+mutation, every neighboring amino acid within \SI{10}{\AA} of the C$\alpha$
+atom of \emph{p}FF was allowed to repack to accommodate the point mutation, by
+filling in potential high-cost-energy voids or to supplement the
+hydrophobicity, polarity, or charge in the vicinity (Figure
+\ref{fig:rosetta-pte}, Section \ref{sec:pyrosetta-method}).  Replacing the
+phenylalanine at position 104 with \emph{p}FF created energy-costing clashes
+with neighboring amino acids at the dimerization interface (Figure
+\ref{fig:rosetta-pte}). As a dimer is known to be crucial for
+function\cite{Baker2011b}, we sought to restabilize the interface with
+incorporated pFF. Upon mutation of F104 to alternative natural amino acids, we
+identified the variant \emph{p}FF-F104A, which exhibited improved packing in
+the absence of the \emph{p}FF. (Figure \ref{fig:rosetta-pte}).
+
+% --------------------------fig
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_11}
+    \caption[Structure of \emph{p}FF-F104A identified from Rosetta,
+        highlighting \emph{p}FFs and F104A. Comparison of \emph{p}FF-F104A and
+        \emph{p}FF-PTE with energy scores shows that \emph{p}FF-PTE exhibits
+        steric clash with a neighboring residue.  The original structure (PDB
+        ID: 1HZY) was mutated and modified by Rosetta and rendered by UCSF
+    Chimera.]{Structure of \emph{p}FF-F104A identified from Rosetta,
+    highlighting \emph{p}FFs and F104A. Comparison of \emph{p}FF-F104A and
+    \emph{p}FF-PTE with energy scores shows that \emph{p}FF-PTE exhibits steric
+    clash with a neighboring residue. The original structure (PDB ID: 1HZY) was
+    mutated and modified by Rosetta and rendered by UCSF Chimera.}
+    \label{fig:rosetta-pte}
+\end{figure}
+% --------------------------fig
+
 \subsection{Biosynthesis of Proteins}
 
 The \emph{p}FF-F104A variant and the \emph{p}FF-PTE parent were biosynthesized
@@ -486,11 +530,13 @@ by residue-specific incorporation with the phenylalanine auxotrophic
 \emph{Escherichia coli} strain AFIQ\cite{Yang2014a}. As controls, the
 non-fluorinated counterparts, PTE and F104A, were expressed under conventional
 conditions. As expected, all four proteins exhibited good expression in the
-presence of phenylalanine or \emph{p}FF. \emph{p}FF-F104A and \emph{p}FF-PTE
-exhibited 80\% and 92\% incorporation, respectively, as determined by MALDI-TOF
-mass spectrometry. Notably, purified yields of \emph{p}FF-F104A were twofold
-higher than for \emph{p}FF-PTE, thus indicating more soluble protein yield.
-(Figure \ref{fig:sds-gel})
+presence of phenylalanine or \emph{p}FF. SDS-gel result showed that
+over-expression of proteins and the purities after FPLC purification. (Figure
+\ref{fig:sds-gel}) \emph{p}FF-F104A and \emph{p}FF-PTE exhibited 80\% and 92\%
+incorporation, respectively, as determined by MALDI-TOF
+mass spectrometry. (Figure \ref{fig:MALDI-fig}) Notably, purified yields of
+\emph{p}FF-F104A were twofold higher than for \emph{p}FF-PTE, thus indicating
+more soluble protein yield. (Figure \ref{fig:sds-gel})
 
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_04}
@@ -503,7 +549,7 @@ higher than for \emph{p}FF-PTE, thus indicating more soluble protein yield.
 \end{figure}
 % --------------------------
 
-\subsection{Thermo-stability And Secondary Structure}
+\subsection{Secondary Structures And Stability}
 
 Circular dichroism (CD) was performed to determine whether the mutation had an
 impact on the overall secondary structure and stability. Far-UV wavelength
@@ -632,32 +678,32 @@ To assess function, we determined the Michaelis–Menten kinetics of
 \emph{p}FF-F104A, \emph{p}FF-PTE, F104A, and PTE with paraoxon. At
 \SI{25}{\celsius}, \emph{p}FF-PTE exhibited the highest activity
 (k\textsubscript{cat}/K\textsubscript{M} = \SI{327000}{\per\Molar\per\second};
-Table 1); \emph{p}FF-F104A was slightly lower
-(k\textsubscript{cat}/K\textsubscript{M} = \SI{223000}{\per\Molar\per\second});
-non-fluorinated PTE exhibited k\textsubscript{cat}/K\textsubscript{M} of
-\SI{200000}{\per\Molar\per\second},similar to those both fluorinated proteins;
+Table \ref{tab:kinetics-result}); \emph{p}FF-F104A was slightly lower
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{223000}{\per\Molar\per\second}).
+Non-fluorinated PTE exhibited k\textsubscript{cat}/K\textsubscript{M} of
+\SI{200000}{\per\Molar\per\second}, similar to those both fluorinated proteins;
 however, F104A was dramatically less active
-(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second}).
-Thus, the fluorinated amino acids appear to be necessary for \emph{p}FF-F104A
-activity.  Proteins were then incubated at \SIlist{35;45;55}{\celsius} for one
-hour, and then cooled to room temperature to determine residual activity. A
-decline in residual activity was observed for all proteins as a function of
-elevated temperature. \emph{p}FF-F104A, which was designed to stabilize the
-fluorinated protein, exhibited 50\% retention of activity at \SI{55}{\celsius}
-(Figure \ref{fig:kinetics-fig}, Table \ref{tab:kinetics-result}). In contrast, at
-\SI{55}{\celsius}, \emph{p}FF-PTE and PTE exhibited 24\% and 23\% initial
-activity, respectively; F104A exhibited a significant loss in activity at or
-above \SI{45}{\celsius} (Figure \ref{fig:kinetics-fig}, Table
-\ref{tab:kinetics-result}). As \emph{p}FF-F104A retained substantial activity
-after elevated temperatures, we then investigated the half-life of the
-activity. The parent \emph{p}FF-PTE exhibited more than 50\% loss of activity
-after three days, whereas the non-fluorinated PTE showed more than 50\%
-activity reduction after seven days (Figure \ref{fig:kinetics-fig}, Table
-\ref{tab:kinetics-day-result}).  Remarkably, \emph{p}FF-F104A retained 66\%
-activity after seven days. The non-fluorinated counterpart F104A failed to
-exhibit activity after one day.  Together these data confirm that
-\emph{p}FF-F104A is able to delay heat inactivation while maintaining function
-after one week.
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second},
+Table \ref{tab:kinetics-result}).  Thus, the fluorinated amino acids appear to
+be necessary for \emph{p}FF-F104A activity.  Proteins were then incubated at
+\SIlist{35;45;55}{\celsius} for one hour, and then cooled to room temperature
+to determine residual activity. A decline in residual activity was observed for
+all proteins as a function of elevated temperature. \emph{p}FF-F104A, which was
+designed to stabilize the fluorinated protein, exhibited 50\% retention of
+activity at \SI{55}{\celsius} (Figure \ref{fig:kinetics-fig}, Table
+\ref{tab:kinetics-result}). In contrast, at \SI{55}{\celsius}, \emph{p}FF-PTE
+and PTE exhibited 24\% and 23\% initial activity, respectively; F104A exhibited
+a significant loss in activity at or above \SI{45}{\celsius} (Figure
+\ref{fig:kinetics-fig}, Table \ref{tab:kinetics-result}). As \emph{p}FF-F104A
+retained substantial activity after elevated temperatures, we then investigated
+the half-life of the activity. The parent \emph{p}FF-PTE exhibited more than
+50\% loss of activity after three days, whereas the non-fluorinated PTE showed
+more than 50\% activity reduction after seven days (Figure
+\ref{fig:kinetics-fig}, Table \ref{tab:kinetics-day-result}).  Remarkably,
+\emph{p}FF-F104A retained 66\% activity after seven days. The non-fluorinated
+counterpart F104A failed to exhibit activity after one day.  Together these
+data confirm that \emph{p}FF-F104A is able to delay heat inactivation while
+maintaining function after one week.
 
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_08}
@@ -711,7 +757,7 @@ after one week.
 \end{table}
 % --------------------------
 
-Although methods enabling the biosynthesis of artificial proteins bearing NCAAs
+Although methods enabling the biosynthesis of artificial proteins bearing UAAs
 are abundant,\cite{Voloshchuk2009} tools to help further improve the overall
 activity and stability are needed. Mutagenesis and evolutionary approaches have
 been employed successfully to identify variants with enhanced function;
