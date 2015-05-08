@@ -626,7 +626,7 @@ hour, and then cooled to room temperature to determine residual activity. A
 decline in residual activity was observed for all proteins as a function of
 elevated temperature. \emph{p}FF-F104A, which was designed to stabilize the
 fluorinated protein, exhibited 50\% retention of activity at \SI{55}{\celsius}
-(Figure 3A, Table \ref{tab:kinetics-result}). In contrast, at
+(Figure \ref{fig:kinetics-fig}, Table \ref{tab:kinetics-result}). In contrast, at
 \SI{55}{\celsius}, \emph{p}FF-PTE and PTE exhibited 24\% and 23\% initial
 activity, respectively; F104A exhibited a significant loss in activity at or
 above \SI{45}{\celsius} (Figure \ref{fig:kinetics-fig}, Table
@@ -634,19 +634,63 @@ above \SI{45}{\celsius} (Figure \ref{fig:kinetics-fig}, Table
 after elevated temperatures, we then investigated the half-life of the
 activity. The parent \emph{p}FF-PTE exhibited more than 50\% loss of activity
 after three days, whereas the non-fluorinated PTE showed more than 50\%
-activity reduction after seven days (Figure \ref{fig:kinetics-fig}, Table 2).
-Remarkably, \emph{p}FF-F104A retained 66\% activity after seven days. The
-non-fluorinated counterpart F104A failed to exhibit activity after one day.
-Together these data confirm that \emph{p}FF-F104A is able to delay heat
-inactivation while maintaining function after one week.
+activity reduction after seven days (Figure \ref{fig:kinetics-fig}, Table
+\ref{tab:kinetics-day-result}).  Remarkably, \emph{p}FF-F104A retained 66\%
+activity after seven days. The non-fluorinated counterpart F104A failed to
+exhibit activity after one day.  Together these data confirm that
+\emph{p}FF-F104A is able to delay heat inactivation while maintaining function
+after one week.
 
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_08}
-    \caption[(A) Residual activity (RA) profile of all proteins, (B) Activity
-    measured as a function of days.]{(A) Residual activity (RA) profile of all
-    proteins, (B) Activity measured as a function of days.}
+    \caption[(A) Residual activity profile of all proteins, (B) Activity
+    measured as a function of days.]{(A) Residual activity profile of all
+    proteins, (B) Activity measured as a function of days.} 
     \label{fig:kinetics-fig} 
 \end{figure}
+% --------------------------
+
+% --------------------------
+\begin{table}[h!]
+\centering
+    \begin{tabular}{llllll}
+    \hline
+%%
+    protein                 &  & Day 1 & Day 2 & Day 3 & Day 7\\ 
+    \hline
+%%
+    \multirow{2}{*}{PTE}    & k\textsubscript{cat}/K\textsubscript{M} & 2.06$
+    \pm$ 0.23 & 1.89 $\pm$ 0.23 & 1.53 $\pm$ 0.18 & 0.89 $\pm$ 0.10 \\
+    
+    & k\textsubscript{cat} & 2.5 $\pm$ 0.5 & 0.97 $\pm$ 0.03 & 0.23 $\pm$ 0.01 & 0.10
+    $\pm$ 0.01 \\
+%%
+    \multirow{2}{*}{F104A}  & k\textsubscript{cat}/K\textsubscript{M} & 3.53
+    $\pm$ 0.12 & 2.01 $\pm$ 0.28 & 1.62 $\pm$ 0.21 & 1.13 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.23 $\pm$ 0.97 & 3.23 $\pm$ 0.88 & 2.13 $\pm$ 0.94 &
+    1.46 $\pm$ 0.97 \\
+%%
+    \multirow{2}{*}{\emph{p}FF-PTE} & k\textsubscript{cat}/K\textsubscript{M} &
+    0.18 $\pm$ 0.02 & n.a & n.a & n.a \\ 
+    
+    & k\textsubscript{cat} & 0.11 $\pm$ 0.02 & n.a & n.a & n.a \\
+%%
+    \multirow{2}{*}{\emph{p}FF-F104A} & k\textsubscript{cat}/K\textsubscript{M}
+    & 1.83 $\pm$ 0.21 & 1.72 $\pm$ 0.20 & 1.43 $\pm$ 0.13 & 1.20 $\pm$ 0.10 \\
+
+    & k\textsubscript{cat} & 2.25 $\pm$ 0.32 & 2.03 $\pm$ 0.31 & 1.61 $\pm$ 0.25 &
+    1.43 $\pm$ 0.25 \\ 
+    
+    \hline
+    \multicolumn{6}{l}{n.a = not available; 
+        k\textsubscript{cat}/K\textsubscript{M}:
+        $\times$10\textsuperscript{5}\SI{}{\per\Molar\per\second};
+        k\textsubscript{cat}: \SI{}{\per\second}.}            
+    \end{tabular}
+    \caption[Kinetics of paraoxon hydrolysis as a function of time.]{Kinetics
+    of paraoxon hydrolysis as a function of time.} \label{tab:kinetics-day-result} 
+\end{table}
 % --------------------------
 
 Although methods enabling the biosynthesis of artificial proteins bearing NCAAs
