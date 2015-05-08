@@ -73,7 +73,7 @@ hydrogen-bond network, to design novel protein folds, to create novel protein
 interfaces, and to design enzymes, including some containing unnatural amino
 acids in the active sites (Figure \ref{fig:rosetta-intro}).
 % --------------------------fig
-\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_01}
+\begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
     Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
 electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
@@ -112,6 +112,13 @@ are selectively active to different chimerical compounds.
 \subsection{Incorporation of Unnatural Amino Acids} 
 \label{sec:rsi-intro}
 
+% --------------------------fig
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_10}
+    \caption[Princilple mechanism of NCL.]{Principle mechanism of NCL.} 
+    \label{fig:ncl-intro} 
+\end{figure}
+% --------------------------fig
+
 Several methods have been developed for the incorporation of unnatural amino
 acids into proteins, which can be categorized under synthetic and biosynthetic
 approaches. \latin{in vivo} and \latin{in vitro} site-specific
@@ -124,14 +131,23 @@ peptides. For example, if each coupling step has 99\% yield, a 26-amino acid
 peptide would be synthesized in 77\% final yield.  To synthesis longer chain
 peptides and proteins bearing UAAs, biosynthetic methods have been developed.
 There exists three contemporary methods to biosynthetically incorporate
-non-natural amino acids into proteins: site-specific incorporation (SSI),
-residue-specific incorporation (RSI), and multi-site specific incorporation
-(MSI). Bain \latin{et al.} have developed a general approach for the \latin{in
-vitro} synthesis of proteins\cite{Bain1991}.  The approach relies on the
-suppression of an amber termination codon (UAG) in the mRNA by an amber
-suppressor tRNA chemically charged with the amino acid analog. This method has
-been well studied and developed in research of protein structures and
-functions\cite{Martoglio1995,Eichler1997}.
+non-natural amino acids into proteins: site-specific incorporation (SSI)(Figure
+\ref{fig:ssi-intro}), residue-specific incorporation (RSI), and multi-site
+specific incorporation (MSI). Bain \latin{et al.} have developed a general
+approach for the \latin{in vitro} synthesis of proteins\cite{Bain1991}.  The
+approach relies on the suppression of an amber termination codon (UAG) in the
+mRNA by an amber suppressor tRNA chemically charged with the amino acid analog.
+(Figure \ref{fig:ssi-intro}) This method has been well studied and developed in
+research of protein structures and functions\cite{Martoglio1995,Eichler1997}.
+
+% --------------------------fig
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_09}
+    \caption[Schematic representation of in vitro SSI via amber
+    suppression.]{Schematic representation of in vitro SSI via amber
+    suppression.} 
+    \label{fig:ssi-intro} 
+\end{figure}
+% --------------------------fig
 
 Methods to incorporate amino acid analogues site-specifically into proteins
 \latin{in vivo} greatly expand research of unnatural amino acids. We are not
@@ -155,7 +171,7 @@ coli} for the incorporation of tyrosine analogs\cite{Wang2001}.
 the AARS binding pocket and (d) shrinking the AARS editing
 pocket.]{Illustration  of NAA incorporation via (a) RSI using auxotrophic
 strain, (b) engineering additional copies of endogenous AARS, (c) expanding the
-AARS binding pocket and (d) shrinking the AARS editing pocket.} \label{fig:rsi}
+AARS binding pocket and (d) shrinking the AARS editing pocket.} \label{fig:rsi} 
 \end{figure}
 % --------------------------fig
 
@@ -166,17 +182,17 @@ natural amino acid, has been used to introduce multiple UAAs throughout the
 protein sequence. UAAs that are isosteric to natural amino acids are capable of
 being recognized by the natural aminoacyl-tRNA synthetase (aaRS), charging the
 appropriate tRNA enabling the introduction of UAA into the protein sequence
-without alteration of the biosynthetic machinery. However, to introduce UAAs
-with gross differences from the natural amino acids, further engineering of the
-aaRS is required. To incorporate refractory methionine analogs, Tirrell and
-coworkers engineered additional copied of the methionyl-tRNA synthetase (MetRS)
-by adding the MetRS gene under constitutive promotor\cite{Kiick2000}.
-Alternatively, Schimmel and coworkers mutated editing pocket of valyl-tRNA
-synthetase (ValRS) to facilitate the incorporation of analogs that normally
-would not be accepted by endogenous aaRS\cite{Doring2001}. Finally, Kast and
-coworkers generated a mutated phenylalanyl-tRNA synthetase (PheRS), ePheRS*
-under a constitutive promoter, with a large binding pocket (T251G) and showed
-relaxed specificity\cite{Kast1991}.
+without alteration of the biosynthetic machinery. (Figure \ref{fig:rsi}) However, to introduce UAAs with gross differences from the natural
+amino acids, further engineering of the aaRS is required. To incorporate
+refractory methionine analogs, Tirrell and coworkers engineered additional
+copied of the methionyl-tRNA synthetase (MetRS) by adding the MetRS gene under
+constitutive promotor\cite{Kiick2000}.  Alternatively, Schimmel and coworkers
+mutated editing pocket of valyl-tRNA synthetase (ValRS) to facilitate the
+incorporation of analogs that normally would not be accepted by endogenous
+aaRS\cite{Doring2001}. Finally, Kast and coworkers generated a mutated
+phenylalanyl-tRNA synthetase (PheRS), ePheRS* under a constitutive promoter,
+with a large binding pocket (T251G) and showed relaxed
+specificity\cite{Kast1991}.
 
 \subsubsection{Fluorinated Amino Acids In Proteins} 
 \label{sec:faa-intro}
@@ -461,7 +477,7 @@ ACTH (18-39) (MW = \SI{2464.20}{\g\per\mole}), and ACTH (7-38) (MW =
 \SI{3656.93}{\g\per\mole}).  Compass 1.4 for flex software was then used to
 analyze the MALDI spectra (www.bruker.com/).
 
-\section{Results}
+\section{Results and Discussion}
 
 \subsection{Biosynthesis of Proteins}
 
@@ -495,6 +511,7 @@ scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at
 \SIlist{208;222}{\nm} (\SI{25}{\celsius}), as expected for a
 ($\beta$/$\alpha$)\textsubscript{8}-barrel protein, thus suggesting that the
 mutation did not affect the overall structure (Figure \ref{fig:CD-fig}).  
+
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_05}
     \caption[MALDI-TOF mass spectra of tryptic peptide fragments.]{MALDI-TOF
@@ -513,6 +530,7 @@ F104A was less structured than PTE (Figure \ref{fig:CD-fig}).
         \emph{p}FF-104A (squares).} \label{fig:CD-fig} 
 \end{figure}
 % --------------------------
+
 To assess the stability, differential scanning calorimetry (DSC) was performed
 (Figure \ref{fig:DSC-fig}). Upon heating the sample from \SIrange{20}{70}{\celsius},
 \emph{p}FF-PTE exhibited two transitions (T\textsubscript{m}1: 42.0 $\pm$
@@ -529,6 +547,7 @@ regaining of structure after undergoing thermal unfolding.  In the absence of
 \emph{p}FF, F104A demonstrated two transitions similar to \emph{p}FF-PTE, thus
 suggesting that fluorination was critical for stability.  These data
 demonstrate the overall thermodynamic stability of \emph{p}FF-F104A.
+
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.9\textwidth]{fig1_07}
     \caption[Differential scanning calorimetry thermograms of (A) F104A and (B)
@@ -680,7 +699,7 @@ after one week.
 
     & k\textsubscript{cat} & 2.25 $\pm$ 0.32 & 2.03 $\pm$ 0.31 & 1.61 $\pm$ 0.25 &
     1.43 $\pm$ 0.25 \\ 
-    
+
     \hline
     \multicolumn{6}{l}{n.a = not available; 
         k\textsubscript{cat}/K\textsubscript{M}:
