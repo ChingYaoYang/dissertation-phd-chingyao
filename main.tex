@@ -31,6 +31,10 @@
 \usepackage{textcomp}
 \usepackage{siunitx}
 \usepackage{marginnote}
+\newcommand{\mymarginnote}[1]{%
+  \marginpar{\colorbox{yellow}{\parbox{\marginparwidth}{%
+  \setstretch{0.5}\textcolor{red}{\scriptsize{#1}}}}}}
+%\renewcommand*{\marginfont}{\footnotesize}
 %\usepackage{amsmath}
 \pagestyle{plain}
 
