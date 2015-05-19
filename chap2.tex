@@ -26,7 +26,11 @@ for chemical weapons neutralization \cite{Yang2014a}.
 
 \subsection{Dimer Interface of Phosphotriesterase}
 
+\subsection{Protein Stability}
 
+Protein stabilities have been studied in decades. Shoichet \latin{et al.}
+determined the relationship between stability and functionality of T4 lysozyme
+via mutagenesis\cite{Shoichet1995}. 
 
 \subsection{Metal Ions Effects At Active Site}
 
@@ -37,47 +41,76 @@ for chemical weapons neutralization \cite{Yang2014a}.
 
 \subsection{General}
 
-All chemicals, reagents, and substrate were purchased from Sigma. T4 DNA ligase
-was purchased from Roche. DNA sequence was confirmed by Eurofins MWG Operon.
-96-well plates were purchased from Thermo Fisher Scientific (Waltham,
+\emph{DpnI} and dNTP were purchased from Roche. All other chemicals, including
+\ch{NaCl}, sodium phosphates monobasic, sodium phosphate dibasic, were
+purchased from Sigma or VWR. DNA primers for mutagenesis were purchased from
+Fisher Scientific. DNA sequence was confirmed by Eurofins MWG Operon.  96-well
+plates were purchased from Thermo Fisher Scientific (Waltham,
 MA)\cite{Yang2014a}.
 
 \subsection{Rosetta Design of Phosphotriesterase}
 
 A symmetric starting model of wild type PTE from the B chain of PDB structure
 1HZY\cite{Benning2001a} was built using the Rosetta suite of macromolecular
-modeling tools\cite{Leaver-Fay2011}. Both active site \ch{Zn^{2+}} ions were
-replaced with \ch{Co^{2+}} to reflect the metal used in the experimentally
-produced mutants.  Distance constraints between the cobalt cations and the
-coordinating residues were taken from PDB structure 3A4J\cite{Jackson2009b}.
-Torsional and partial charge parameters for the non-standard carboxylated
-lysine residue (Lys 169) were calculated quantum mechanically using the
-HF/6-31G(d) level of theory in Gaussian09\cite{Frisch2009} with an overall
-charge of -1.  Rotamer libraries for the carboxylated lysine were generated
-with the Rosetta MakeRotLib\cite{Renfrew2012b} protocol.  Models were
-constructed for each of the point mutations: F51L, F150M, F216L, F304L, F306L,
-F327L, F335M, and F357L using the Rosetta fixbb (fixed backbone design)
-protocol with symmetry\cite{DiMaio2011a}.  \ch{Co^{2+}} coordinating residues
-were held fixed to their native rotamers. To propagate point mutation effects
-throughout a mutant model, the Rosetta relax protocol was used to repack and
-minimize the entire PTE structure with backbone flexibility. For each point
-mutant, an ensemble of 500 relaxed decoys were generated. Interatomic distances
-between \ch{Co^{2+}} and coordinating residues were enforced with harmonic
-constraints.  The change in stability for a mutation was calculated as the
-difference between the mutant and wild type ensemble averages of the total
-Rosetta score. All protocols used here included the native rotamers and extra
-rotamers sampling as additional parameters. All decoys were scored using the
-talaris2013 score function\cite{Leaver-Fay2013a}.
+modeling tools\cite{Leaver-Fay2011}. Three positions in the
+wild-type PTE sequence were mutated (K185R, D208G, and R319S) based on
+S5PTE\cite{Roodveldt2005}. Both active site \ch{Zn^{2+}} ions were replaced
+with \ch{Co^{2+}} to reflect the metal used in the experimentally produced
+mutants.  Distance constraints between the cobalt cations and the coordinating
+residues were taken from PDB structure 3A4J\cite{Jackson2009b}.  Torsional and
+partial charge parameters for the non-standard carboxylated lysine residue (Lys
+169) were calculated quantum mechanically using the HF/6-31G(d) level of theory
+in Gaussian09\cite{Frisch2009} with an overall charge of -1.  Rotamer libraries
+for the carboxylated lysine were generated with the Rosetta
+MakeRotLib\cite{Renfrew2012b} protocol.  Models were constructed for each of
+the point mutations: F51L, F150M, F216L, F304L, F306L, F327L, F335M, and F357L
+using the Rosetta fixbb (fixed backbone design) protocol with
+symmetry\cite{DiMaio2011a}.  \ch{Co^{2+}} coordinating residues were held fixed
+to their native rotamers. To propagate point mutation effects throughout a
+mutant model, the Rosetta relax protocol was used to repack and minimize the
+entire PTE structure with backbone flexibility. For each point mutant, an
+ensemble of 500 relaxed decoys were generated. Interatomic distances between
+\ch{Co^{2+}} and coordinating residues were enforced with harmonic constraints.
+The change in stability for a mutation was calculated as the difference between
+the mutant and wild type ensemble averages of the total Rosetta score. All
+protocols used here included the native rotamers and extra rotamers sampling as
+additional parameters. All decoys were scored using the talaris2013 score
+function\cite{Leaver-Fay2013a}.
 
 \subsection{Variants of Phosphotriesterase}
+
 Purified protein product was assayed for concentration by way of a Thermo
 
 \subsection{Biosynthesis}
 
-In anticipation for the need of large quantities of protein mass for the \ldots
-delete of the supernatant and storage at \SI{-20}{\celsius}.
+pQE30-PTE was used as described before\cite{Yang2014a}. The PTE variants plasmid
+were prepared as the followings: F51L, forward primers
+(5’-TCTGAAGCGGGTCTGACACTGACTCACG-3'), reverse primers
+(5’-GAGACTTCGCCCAGACTGTGACTGAGTG-3’); F150M, forward primers
+(5’TCACACAGTTCATGCTGCGTGAGATTCAATATGGC-3'), reverse primers
+(5’-CATCTCCTTGAGTGTGTCAAGTACGACGCACTCTA-3’); F216L, forward primers
+(5’-AGGCCGCCATTTTAGAGTCCGAAGG-3'), reverse primers
+(5’-CGGCGGTAAAATCTCAGGCTTCCGA-3’); F304L, forward primers
+(5'-ATGACTGGCTGCTGGGGTTTTCGAGCTATGTC-3'), reverse primers
+(5’-CAAAGCTTACTGACCGACGACCCCAAAAGCTC-3’); F306L, forward primers
+(5’-TGGCTGTTCGGGCTGTCGAGCTATGTCACC-3'), reverse primers
+(5’-CTGACCGACAAGCCCGACAGCTCGATACAG-3’); F327L, forward primers
+(5’-ACGGGATGGCCTTAATTCCACTGAG-3'), reverse primers
+(5’-CCCTACCGGAATTAAGGTGACTCTC-3’); F335M, forward primers
+(5’-GAGAGTGATCCCACTGCTACGAGAGAAGG-3'), reverse primers
+(5’-GAGAGTGATCCCACTGCTACGAGAGAAGG-3’); F357L, forward primers
+(5’-TAACCCGGCGCGGTTATTGTC ACCGACCTTGC-3'), reverse primers
+(5’-GATTGGGCCGCGCCAATAACAGTGGCTGGAAC-3’). The polymerase chain reaction (PCR)
+parameters were set as follow for 18 cycles: initial denaturation in
+\SI{95}{\celsius} for 30 seconds, sequential denaturation in \SI{95}{\celsius}
+for 30 seconds, annealing in \SI{55}{\celsius} for 1 minute, and extension in
+\SI{68}{\celsius} for 4 minutes. The mixture was then incubated
+\SI{37}{\celsius} overnight with DpnI to digest methylated parent DNA strands,
+which lack the desired mutation. DNA sequence was further confirmed by Eurofins
+MWG Operon. (See appendix for plasmid map)
 
 \subsection{Protein Purification}
+
 The purification was described previously in the section
 \ref{sec:protein-expression-method}. All solutions used in the extraction and
 purification of recombinant proteins \ldots delete content 5 CVs of buffer
@@ -138,10 +171,44 @@ where \emph{MRW} is the mean residue weight of the specific phosphotriesterase,
 
 \subsection{DNA Alignments And PTE Variants}
 
-Auto-induction growth can be sustained in baffled shaker flasks, according to
-\ldots delete content to purification.
+Sequence alignments of PTE from different strains is illustrated (Figure ) and
+phenylalanines outside the dimer interface of PTE are highlighted. We located
+those phenylalanines positions in the phosphotriesterase and identify different
+OPH from different origins, including  \latin{Brevundimonas.},
+\latin{Flavobaterium.}, \latin{Rhizobiacae.}, and \latin{Photorhabdus.}. Most
+of phenylalanines are conservative among these variants. Phenylalanines share
+the similar sizes and properties with methionine and leucine. While the
+residues, F150 and F335, are conservative among strains, we mutate these two
+into methionine. Other phenylalanine residues outside dimer interface,
+individually, are mutated into leucines, including F51L, F216L, F304L, F306L,
+F327L, and F357L. With respect to the codon usages, we design primer sets for
+each of variants of PTE. With the site-directed mutagenesis,
+each variant is mutated from the parent DNA and the sequences  confirmed.
 
 \subsection{Variants Expression And Purification}
+
+Mutant and wild type plasmids were transformed into \latin{E. coli} phenylalanine
+auxotrophic strain (AF-IQ cells) and expressed and purified with the method
+discussed  previously.\cite{Yang2014a} Over-expression of proteins were
+confirmed by SDS-PAGE gel. Variants were dialysed in \SI{20}{\milli\Molar}
+phosphate buffer (pH 8.0) after purification and concentrations of proteins
+were determined by using Nano-Drop.
+
+\subsection{Rosetta Simulation}
+
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig2_02}
+    \caption[Rosetta simulation results of PTE.]{Rosetta simulation results of PTE.}
+    \label{fig:rosetta-pte-chap2}
+\end{figure}
+% --------------------------
+
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig2_01}
+    \caption[RMSD comparison of PTE and its variants.]{RMSD comparison of PTE
+    and its variants.} \label{fig:rmsd-pte-chap2}
+\end{figure}
+% --------------------------
 
 \subsection{Variants Enzyme Kinetics}
 
@@ -156,7 +223,12 @@ F216L and F306L ware slightly higher (k\textsubscript{cat}/K\textsubscript{M} =
 After the one hour incubation at \SIlist{35;45;55}{\celsius}, the residual
 activities of wild-type and PTE variants decreased. While wild-type PTE retains
 only 38\% initial activity, F51L exhibited sightly higher
-k\textsubscript{cat}/K\textsubscript{M} at 50\%. 
+k\textsubscript{cat}/K\textsubscript{M} at 50\%. We are comparing hydrolysis of
+paraoxon among variants thermo-stabilities from \SI{25}{\celsius} to
+\SI{55}{\celsius} with \SI{10}{\celsius} increment. The wild-type PTE lost 41\%
+of its activity after \SI{45}{\celsius} incubation and only exhibited
+\SI{65000}{\per\Molar\per\second} after treated at \SI{55}{\celsius}. The
+results followed the pattern published before.\cite{Yang2014a} 
 
 Previously, Gopal \latin{et al.} extensively studied the residue F306 of
 PTE.\cite{Gopal2000} With the intension of enhanced activity of VX, F306A and
@@ -164,14 +236,97 @@ F306Y were introduced in PTE sequence. After we identify one of the Phe
 residues outside the dimer interface, F306,  and choose to mutate it into Leu.
 We compare the result of F306L with other variants. It seems that the mutation
 increase the hydrolysis of paraoxon by 43\% compared with wild-type PTE at
-\SI{25}{\celsius}.
-
-While the majority of variants retain their hydrolysis efficiency, three
-variants, however, lose more than 30\% of
+\SI{25}{\celsius}. While the majority of variants retain their hydrolysis
+efficiency, three variants, however, lose more than 30\% of
 k\textsubscript{cat}/K\textsubscript{M}. F304L exhibited only 32\% of wild-type
 PTE activity at \SI{25}{\celsius} (k\textsubscript{cat}/K\textsubscript{M} =
 \SI{55000}{\per\Molar\per\second}. F327L and F335M, at the same time, reduce
-the paraoxon hydrolysis efficiency to 69\% and 60\%, respectively. 
+the paraoxon hydrolysis efficiency to 69\% and 60\%, respectively.
+
+Focusing on the thermo-stability, we then compare the variants activities at
+\SIlist{35;45;55}{\celsius}. While F216L loses almost half (~48\%) of its
+\SI{25}{\celsius} activity, the rest of seven variants retain more than 70\% of
+their own \SI{25}{\celsius} activities. However, upon elevated temperature at
+\SI{55}{\celsius}, three variants, F304L, F327L, and F335M, were inactivated in
+comparison with other variants.  
+
+% --------------------------
+\begin{table}[h!]
+\centering
+    \begin{tabular}{llllll}
+    \hline
+%%
+    protein                 &  & \SI{25}{\celsius} & \SI{35}{\celsius} &
+    \SI{45}{\celsius} & \SI{55}{\celsius} \\ 
+    \hline
+%%
+    \multirow{2}{*}{PTE}    & k\textsubscript{cat}/K\textsubscript{M} & 1.70 $
+    \pm$ 0.13 & 0.76 $\pm$ 0.11 & 0.72 $\pm$ 0.12 & 0.46 $\pm$ 0.18 \\
+    
+    & k\textsubscript{cat} & 2.1 $\pm$ 0.4 & 1.3 $\pm$ 0.1 & 1.4 $\pm$ 0.1 & 0.9
+    $\pm$ 0.1 \\
+%%
+    \multirow{2}{*}{F51L}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+%%
+    \multirow{2}{*}{F150M} & k\textsubscript{cat}/K\textsubscript{M} &
+    0.23 $\pm$ 0.04 & 0.21 $\pm$ 0.03 & n.a & n.a \\ 
+    
+    & k\textsubscript{cat} & 0.01 $\pm$ 0.0 & 0.1 $\pm$ 0.0 & n.a & n.a \\
+%%
+    \multirow{2}{*}{F216L} & k\textsubscript{cat}/K\textsubscript{M}
+    & 2.23 $\pm$ 0.15 & 1.94 $\pm$ 0.18 & 1.49 $\pm$ 0.20 & 1.11 $\pm$ 0.09 \\
+    & k\textsubscript{cat} & 3.3 $\pm$ 0.3 & 3.3 $\pm$ 0.6 & 2.6 $\pm$ 1.0 &
+    2.0 $\pm$ 0.7 \\
+%%
+    \multirow{2}{*}{F304L}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+%%
+    \multirow{2}{*}{F306L}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+%%
+    \multirow{2}{*}{F327L}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+%%
+    \multirow{2}{*}{F335L}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+%%
+    \multirow{2}{*}{F357L}  & k\textsubscript{cat}/K\textsubscript{M} & 3.27
+    $\pm$ 0.11 & 2.42 $\pm$ 0.10 & 1.84 $\pm$ 0.21 & 0.80 $\pm$ 0.09 \\ 
+    
+    & k\textsubscript{cat} & 6.0 $\pm$ 1.1 & 5.6 $\pm$ 0.1 & 4.0 $\pm$ 1.1 &
+    2.0 $\pm$ 0.9 \\
+
+    \hline
+    \multicolumn{6}{l}{n.a = not available; 
+        k\textsubscript{cat}/K\textsubscript{M}:
+        $\times$10\textsuperscript{5}\SI{}{\per\Molar\per\second};
+        k\textsubscript{cat}: \SI{}{\per\second}.}            
+    \end{tabular}
+    \caption[Paraoxon hydrolysis efficiency summary of PTE, F104A,
+    \emph{p}FF-PTE, and \emph{p}FF-F104A. Residual activities were preformed
+after incubation at \SIlist{35;45;55}{\celsius}.]{Paraoxon hydrolysis
+    efficiency summary of PTE, F104A, \emph{p}FF-PTE, and \emph{p}FF-F104A.
+    Residual activities were preformed after incubation at
+    \SIlist{35;45;55}{\celsius}.} 
+    \label{tab:kinetics-chap2-result}
+\end{table}
+% --------------------------
 
 \subsection{Thermo-stability and CD of PTE Variants}
 
