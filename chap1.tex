@@ -9,25 +9,26 @@ Using Rosetta}
 \subsection{Protein Engineering}
 \label{sec:protein-engineering}
 
-Proteins are biomolecules composed of 22 amino acids\cite{Nelson2005}. The
-amino acids are linked together by amide bonds form different secondary
-structures.  The amino acids within a chain are linked by peptide bonds. Each
-amino acid consists of a backbone part, and a side chain of a amino acid
-contributes to the unique property of a protein. The primary structure of a
-protein refers to the linear form of amino acids in the polypeptide
-chain\cite{Sanger1945}. Secondary structures are defined by the pattern of
-hydrogen bonds of the protein, including $\alpha$-helix, $\beta$-sheet, and
-turns\cite{PAULING1951}. The $\alpha$-helix is a spiral conformation with
-backbone amine group donating a hydrogen bond to the backbone carbonyl group,
-which leads to an overall dipole moment from the individual micro-dipoles of
-the carbonyl groups\cite{Hol1978}. This type of  hydrogen bond is formed every
-4 amino acid residues, and every complete turn of the helix is only 3.6 amino
-acid residues. Sheridan \latin{et al.} further quantified the
+Proteins (Greek word \emph{proteins} meaning “of
+primary importance") are biomolecules composed of 22 amino
+acids\cite{Nelson2005}. The amino acids are linked together by amide bonds form
+different secondary structures.  The amino acids within a chain are linked by
+peptide bonds. Each amino acid consists of a backbone part, and a side chain of
+a amino acid contributes to the unique property of a protein. The primary
+structure of a protein refers to the linear form of amino acids in the
+polypeptide chain\cite{Sanger1945}. Secondary structures are defined by the
+pattern of hydrogen bonds of the protein, including $\alpha$-helix,
+$\beta$-sheet, and turns\cite{PAULING1951}. The $\alpha$-helix is a spiral
+conformation with backbone amine group donating a hydrogen bond to the backbone
+carbonyl group, which leads to an overall dipole moment from the individual
+micro-dipoles of the carbonyl groups\cite{Hol1978}. This type of  hydrogen bond
+is formed every 4 amino acid residues, and every complete turn of the helix is
+only 3.6 amino acid residues. Sheridan \latin{et al.} further quantified the
 destabilized array of parallel helices of
 \SI{83.6}{\joule\per\mol}\cite{Sheridan1982}. (See Figure
 \ref{fig:alpha-helix-stabilization})
 
-% --------------------------
+% -------------------------- fig-dipole-of-alpha-helix
 \begin{figure}[h!] \centering \includegraphics[width=0.5\textwidth]{fig1_12}
     \caption[Schematic illustration of the recurrent 4-$\alpha$-helical
     structure motif. Four sequentially connected $\alpha$-helices are packed in
@@ -38,24 +39,84 @@ an approximately 4-fold symmetric array.]{Schematic illustration of the
     
     \label{fig:alpha-helix-stabilization}
 \end{figure}
-% --------------------------
+% -------------------------- fig*
 
-The second regular form of secondary structure in $\beta$-sheer, including
+The second regular form of secondary structure in $\beta$-sheet, including
 parallel and anti-parallel $beta$-sheets\cite{Astbury1932}. This structure
 occurs when two segments of a peptide chain overlap one another and form a row
 of hydrogen bonds with each other. 
 
-% how protein are used for cell functions and metabolism. 
-Proteins are essential to cell functionalities and metabolism. 
+Proteins are essential to cell functionalities and metabolism. Recently,
+Proprotein convertase subtilisin/kexin type 9 (PCSK9), one of the serine
+endoproteases, was found to regulate low density lipoprotein (LDL) in liver
+cells\cite{Lambert2012,Horton2007}. Autoimmune diseases, like Celiac
+disease\cite{Dessein2008} or Crohn's disease\cite{Sollid2005,
+Meize-Grochowski}, are found associated with antibodies - a large, Y-shape
+protein produced by plasma cells. Overall, proteins play a crucial role within
+cells and make up ~55\% the dry weight of an \emph{Escherichia coli}
+cell\cite{Neidhardt1990}.(Table \ref{tab:protein-app})
 
-% Enzyme 
-Enzymes mediate chemical reactions and serves different
-functions biological systems. 
-
-Enzyme-catalyzed reactions were initially studied in the 19th
-century\cite{AthelCornish-Bowden2012}. Compared to chemical catalysts,
+% ------------------------- table-protein-examples
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{ lll }
+        \hline
+        Protein & Usage & References \\
+        \hline
+        
+        PCSK9 & serine endoprotease & \cite{Lambert2012,Horton2007} \\
+        IgG & antibody & \cite{Sollid2005, Meize-Grochowski} \\
+        PCAF & histone acetyltransferase & \cite{Mehta2011b} \\
+        Erythropoietin & hormone & \cite{Haroon2003,Siren2001} \\
+        Collagen & n.a & \cite{Bella1995} \\
+        Thaumatin & sweetener & \cite{Green1999} \\
+        PSA & biomarker & \cite{Crawford2014} \\
+        Mannanases & detergent & \cite{Kirk2002} \\
+        Polymerase & polymerase chain reaction & \cite{Berg2002} \\ 
+        
+        \hline
+    \end{tabular}
+    \caption[Examples of proteins and their applications.]{Examples of proteins
+    and their applications.} \label{tab:protein-app}
+\end{table}
+% ------------------------- table*
+ 
+One of well-known roles of protein is as an enzyme. Enzymes mediate chemical
+reactions and serves different functions biological systems. In the  
+\emph{ENZYME} database, there are roughly 5000 different enzymes information
+stored in the repository.  Enzyme-catalyzed reactions were initially studied in
+the 19th century\cite{AthelCornish-Bowden2012}. Compared to chemical catalysts,
 enzymes are highly specific and enhance the rate of reaction by
-10\textsuperscript{8}-fold over non-catalyzed reaction\cite{Stryer1995}.
+10\textsuperscript{8}-fold over non-catalyzed reaction\cite{Stryer1995}. These
+are due to the facts that (a) enzymes are specific; (b) the reduction of
+activation energy. (See Figure \ref{fig:enzyme-intro}) First, binding of enzyme
+and its substrate forms a low energy complex (ES). While the complex lowers the
+transition state, less energy is needed to achieve the reaction compared to the
+un-catalyzed reaction (ES‡). Finally the enzyme-product, EP,  dissociates and
+hence releases the products. The other great example also demonstrates how
+enzyme enhances the reaction by 10\textsuperscript{17}-fold over the
+un-catalyzed reaction in the case of orotate decarboxylase\cite{Radzicka1995}.
+
+% -------------------------- fig-enzyme-catalysis
+\begin{figure}[h!] 
+    \centering \includegraphics[width=0.8\textwidth]{fig1_14}
+    \caption[The energies of the stages of a chemical reaction. Uncatalysed
+    (dashed line), substrates need a lot of activation energy to reach a
+transition state, which then decays into lower-energy products. When enzyme
+catalysed (solid line), the enzyme binds the substrates (ES), then stabilizes
+the transition state (ES‡) to reduce the activation energy required to produce
+products (EP) which are finally released.]{The energies of the stages of a
+    chemical reaction. Un-catalysed (dashed line), substrates need a lot of
+    activation energy to reach a transition state, which then decays into
+    lower-energy products. When enzyme catalysed (solid line), the enzyme binds
+    the substrates (ES), then stabilizes the transition state (ES‡) to reduce
+    the activation energy required to produce products (EP) which are finally
+    released\cite{Berg2002}.} 
+    \label{fig:enzyme-intro}
+\end{figure}
+% -------------------------- fig*
+
+% finally protein engineering
 
 \subsubsection{Rational Design}
 
@@ -213,13 +274,14 @@ natural amino acid, has been used to introduce multiple UAAs throughout the
 protein sequence. UAAs that are isosteric to natural amino acids are capable of
 being recognized by the natural aminoacyl-tRNA synthetase (aaRS), charging the
 appropriate tRNA enabling the introduction of UAA into the protein sequence
-without alteration of the biosynthetic machinery. (Figure \ref{fig:rsi}) However, to introduce UAAs with gross differences from the natural
-amino acids, further engineering of the aaRS is required. To incorporate
-refractory methionine analogs, Tirrell and coworkers engineered additional
-copied of the methionyl-tRNA synthetase (MetRS) by adding the MetRS gene under
-constitutive promotor\cite{Kiick2000}.  Alternatively, Schimmel and coworkers
-mutated editing pocket of valyl-tRNA synthetase (ValRS) to facilitate the
-incorporation of analogs that normally would not be accepted by endogenous
+without alteration of the biosynthetic machinery. (Figure \ref{fig:rsi})
+However, to introduce UAAs with gross differences from the natural amino acids,
+further engineering of the aaRS is required. To incorporate refractory
+methionine analogs, Tirrell and coworkers engineered additional copied of the
+methionyl-tRNA synthetase (MetRS) by adding the MetRS gene under constitutive
+promotor\cite{Kiick2000}.  Alternatively, Schimmel and coworkers mutated
+editing pocket of valyl-tRNA synthetase (ValRS) to facilitate the incorporation
+of analogs that normally would not be accepted by endogenous
 aaRS\cite{Doring2001}. Finally, Kast and coworkers generated a mutated
 phenylalanyl-tRNA synthetase (PheRS), ePheRS* under a constitutive promoter,
 with a large binding pocket (T251G) and showed relaxed
