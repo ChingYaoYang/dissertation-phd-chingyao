@@ -9,30 +9,53 @@ Using Rosetta}
 \subsection{Protein Engineering}
 \label{sec:protein-engineering}
 
-% PE intro, ways proteins are engineered.
-Proteins are macro biomolecules
-composed of amino acids. With linkage of peptide bond, amino acids form
-different secondary structures, including $\alpha$ helix and $\beta$ sheet.
-Proteins are essential to cell functionalities and metabolism. The enzyme, one
-of the forms of proteins, mediates chemical reactions and serves different
-functions in agricultures and pharmaceutical industries. The enzyme-catalyzed
-reactions were initially studied in the 19th
-century\cite{AthelCornish-Bowden2012}. Compared to the chemical catalysts,
+Proteins are biomolecules composed of 22 amino acids\cite{Nelson2005}. The
+amino acids are linked together by amide bonds form different secondary
+structures.  The amino acids within a chain are linked by peptide bonds. Each
+amino acid consists of a backbone part, and a side chain of a amino acid
+contributes to the unique property of a protein. The primary structure of a
+protein refers to the linear form of amino acids in the polypeptide
+chain\cite{Sanger1945}. Secondary structures are defined by the pattern of
+hydrogen bonds of the protein, including $\alpha$-helix, $\beta$-sheet, and
+turns\cite{PAULING1951}. The $\alpha$-helix is a spiral conformation with
+backbone amine group donating a hydrogen bond to the backbone carbonyl group,
+which leads to an overall dipole moment from the individual micro-dipoles of
+the carbonyl groups\cite{Hol1978}. This type of  hydrogen bond is formed every
+4 amino acid residues, and every complete turn of the helix is only 3.6 amino
+acid residues. Sheridan \latin{et al.} further quantified the
+destabilized array of parallel helices of
+\SI{83.6}{\joule\per\mol}\cite{Sheridan1982}. (See Figure
+\ref{fig:alpha-helix-stabilization})
+
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.5\textwidth]{fig1_12}
+    \caption[Schematic illustration of the recurrent 4-$\alpha$-helical
+    structure motif. Four sequentially connected $\alpha$-helices are packed in
+an approximately 4-fold symmetric array.]{Schematic illustration of the
+    recurrent 4-$\alpha$-helical structure motif. Four sequentially connected
+    $\alpha$-helices are packed in an approximately 4-fold symmetric
+    array\cite{Sheridan1982}.} 
+    
+    \label{fig:alpha-helix-stabilization}
+\end{figure}
+% --------------------------
+
+The second regular form of secondary structure in $\beta$-sheer, including
+parallel and anti-parallel $beta$-sheets\cite{Astbury1932}. This structure
+occurs when two segments of a peptide chain overlap one another and form a row
+of hydrogen bonds with each other. 
+
+% how protein are used for cell functions and metabolism. 
+Proteins are essential to cell functionalities and metabolism. 
+
+% Enzyme 
+Enzymes mediate chemical reactions and serves different
+functions biological systems. 
+
+Enzyme-catalyzed reactions were initially studied in the 19th
+century\cite{AthelCornish-Bowden2012}. Compared to chemical catalysts,
 enzymes are highly specific and enhance the rate of reaction by
 10\textsuperscript{8}-fold over non-catalyzed reaction\cite{Stryer1995}.
-
-The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
-translated into a sequence of polypeptide through the central
-dogma\cite{CRICK1970}. The DNA information is first transcribed into messenger
-ribonucleic acid (mRNA) through RNA polymerase and transcription factors. Once
-mRNA is ready for translation, the ribosome facilitates the decoding of mRNA.
-Aminoacyl-tRNA synthetases (aaRS) are, at the same time, carrying the paired
-amino acids to their transfer RNAs (tRNAs). The aminoacylated tRNAs are then
-used for synthesis of polypeptide chain. The specific codon that consists of
-three nucleotides corresponds to a single amino acid. The start codon, AUG on
-mRNA sequence, is recognized by initial tRNA. While synthesis of peptide ends
-up with stop codon, each pair of codon is recognized by amino acid paired
-tRNA\cite{Sadava2006}.
 
 \subsubsection{Rational Design}
 
@@ -88,6 +111,19 @@ term, and reference energies for each of the 20 amino acids that model the
 unfolded state.
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
+
+The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
+translated into a sequence of polypeptide through the central
+dogma\cite{CRICK1970}. The DNA information is first transcribed into messenger
+ribonucleic acid (mRNA) through RNA polymerase and transcription factors. Once
+mRNA is ready for translation, the ribosome facilitates the decoding of mRNA.
+Aminoacyl-tRNA synthetases (aaRS) are, at the same time, carrying the paired
+amino acids to their transfer RNAs (tRNAs). The aminoacylated tRNAs are then
+used for synthesis of polypeptide chain. The specific codon that consists of
+three nucleotides corresponds to a single amino acid. The start codon, AUG on
+mRNA sequence, is recognized by initial tRNA. While synthesis of peptide ends
+up with stop codon, each pair of codon is recognized by amino acid paired
+tRNA\cite{Sadava2006}.
 
 % background on proteins designed with uaa
 % focus on a) activity b)specificity c) stabilities
@@ -487,10 +523,10 @@ libraries)\cite{Leaver-Fay2011}, we then examined every \emph{p}FF position in
 the model. Each was allowed to mutate to any amino acid except phenylalanine.
 We then evaluated the mutated residue relative to the “native” \emph{p}FF,
 based on the total energy and predicted binding energy of the two chains
-(Section \ref{sec:pyrosetta-method}). This protocol was used to predict stabilizing
-site-specific mutations as well as mutations that would remove phenylalanine
-positions that would not tolerate \emph{p}FF substitution. (In our
-residue-specific \emph{p}FF incorporation system we cannot control which
+(Section \ref{sec:pyrosetta-method}). This protocol was used to predict
+stabilizing site-specific mutations as well as mutations that would remove
+phenylalanine positions that would not tolerate \emph{p}FF substitution. (In
+our residue-specific \emph{p}FF incorporation system we cannot control which
 phenylalanine positions are fluorinated, and thus removing phenylalanine
 positions that cannot tolerate fluorination could improve stability if
 alternative natural amino acids score well at these positions.) For each
