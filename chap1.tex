@@ -54,7 +54,7 @@ disease\cite{Dessein2008} or Crohn's disease\cite{Sollid2005,
 Meize-Grochowski}, are found associated with antibodies - a large, Y-shape
 protein produced by plasma cells. Overall, proteins play a crucial role within
 cells and make up ~55\% the dry weight of an \emph{Escherichia coli}
-cell\cite{Neidhardt1990}.(Table \ref{tab:protein-app})
+cell\cite{Neidhardt1990}. (Table \ref{tab:protein-app})
 
 % ------------------------- table-protein-examples
 \begin{table}[h!]
@@ -87,19 +87,19 @@ reactions and serves different functions biological systems. In the
 stored in the repository.  Enzyme-catalyzed reactions were initially studied in
 the 19th century\cite{AthelCornish-Bowden2012}. Compared to chemical catalysts,
 enzymes are highly specific and enhance the rate of reaction by
-10\textsuperscript{8}-fold over non-catalyzed reaction\cite{Stryer1995}. These
+\SI{e8}-fold over non-catalyzed reaction\cite{Stryer1995}. These
 are due to the facts that (a) enzymes are specific; (b) the reduction of
 activation energy. (See Figure \ref{fig:enzyme-intro}) First, binding of enzyme
 and its substrate forms a low energy complex (ES). While the complex lowers the
 transition state, less energy is needed to achieve the reaction compared to the
 un-catalyzed reaction (ES‡). Finally the enzyme-product, EP,  dissociates and
 hence releases the products. The other great example also demonstrates how
-enzyme enhances the reaction by 10\textsuperscript{17}-fold over the
-un-catalyzed reaction in the case of orotate decarboxylase\cite{Radzicka1995}.
+enzyme enhances the reaction by \SI{e17}-fold over the
+un-catalyzed reaction in the case of decarboxylase\cite{Radzicka1995}. Without taking 78 million years for decarboxylation, Radzicka \latin{et al.} identified Orotidine 5'-phosphate decarboxylase (OMP) as an extremely proficient enzyme, and further estimated the dissociation constant of less than \SI{5e-24}{\Molar}.
 
 % -------------------------- fig-enzyme-catalysis
 \begin{figure}[h!] 
-    \centering \includegraphics[width=0.8\textwidth]{fig1_14}
+    \centering \includegraphics[width=0.9\textwidth]{fig1_14}
     \caption[The energies of the stages of a chemical reaction. Uncatalysed
     (dashed line), substrates need a lot of activation energy to reach a
 transition state, which then decays into lower-energy products. When enzyme
@@ -117,6 +117,22 @@ products (EP) which are finally released.]{The energies of the stages of a
 % -------------------------- fig*
 
 % finally protein engineering
+% --------------------------
+Protein engineering is the design of new enzymes or proteins with new or
+desirable functions. The first papers on protein engineering date back to early
+1980ies: in a review by Ulmer (1983), the prospects for protein engineering,
+such as X-ray crystallography, chemical DNA synthesis, computer modelling of
+protein structure and folding were discussed and the combination of crystal
+structure and protein chemistry information with artificial gene synthesis was
+emphasized as a powerful approach to obtain proteins with desirable properties.
+There are two general strategies for protein engineering, 'rational' protein
+design and directed evolution. Rational design is an effective approach when
+the structure and mechanism of the protein of interest are well-known. In many
+cases of protein engineering, however, there is limited amount of information
+on the structure and mechanisms of the protein of interest. Thus, the use of
+“evolutionary methods” that involve “random mutagenesis and selection” for the
+desired protein properties was introduced as an alternative approach.
+% --------------------------
 
 \subsubsection{Rational Design}
 
@@ -152,8 +168,9 @@ macromolecular ligand docking, to thermo-stabilize proteins, to design a
 hydrogen-bond network, to design novel protein folds, to create novel protein
 interfaces, and to design enzymes, including some containing unnatural amino
 acids in the active sites (Figure \ref{fig:rosetta-intro}).
-% --------------------------fig
-\begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_01}
+
+% -------------------------- fig-rosetta
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
     Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
 electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
@@ -161,7 +178,7 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 3: hydrogen bonding; 4: electrostatics; 5: PDB derived torsion potential.}
 \label{fig:rosetta-intro}
 \end{figure}
-% --------------------------fig
+% -------------------------- fig*
 
 The scoring function sums the weighted terms that represent the physical or
 probabilistic pairwise interactions\cite{Rohl2004}, including Lennard-Jones
