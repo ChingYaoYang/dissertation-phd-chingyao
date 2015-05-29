@@ -171,22 +171,22 @@ applications. (Figure \ref{fig:protein-engineering-example})
 \subsubsection{Rational Design}
 \label{sec:rational-design}
 
-% --------------------------
-Rational design is an effective approach when the structure and mechanism of
-the protein of interest are well-known. The most classical method in protein
-engineering is the so-called “rational design” approach which involves
-“site-directed mutagenesis” of proteins\cite{Arnold1993}. Site-directed
-mutagenesis allows introduction of specific amino acids into a target gene.
-There are two common methods for site-directed mutagenesis. 
-
 Rational design provides an effective approach to design proteins of interested
-when the structure and mechanism are well-known. The most classical method used
-for rational design is site-directed mutagenesis (SDM)\cite{Arnold1993}. With
+when the structure and mechanism are well-known. Quillin \latin{et al.} adapted
+the concept and modified His64 of sperm whale myoglobin. The superposition of
+deoxy and carbonmonoxy structures reveals  the conformation of the Fe-C-O
+complex, and further showed the insight of the mechanism of ligand
+binding\cite{Quillin1993}. The most classical method used for rational design
+is site-directed mutagenesis (SDM)\cite{Arnold1993}. With
 two common methods for SDM, overlap extension method and whole plasmid single
 round PCR method, an intentional change is introduced to a DNA sequence. The
 first method involves two set of primer pairs, where one primer of each set
 includes the mutant codon within the DNA sequence (Figure
-\ref{fig:sdm-1})\cite{Ho1989}. 
+\ref{fig:sdm-1})\cite{Ho1989}. Upon the first polymerase chain reaction, two
+double-stranded DNA products are obtained with these four primers. With further
+denaturation and annealing,two hetero-duplexes -each with desired muatagenic
+codon - are formed. DNA polymerase is then used for second PCR to amplify the
+desired DNA\cite{Ho1989}. 
 % -------------------------- fig-sdm-1
 \begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_16}
     \caption[Schematic diagram of site-directed mutagenesis by overlap
@@ -216,38 +216,35 @@ includes the mutant codon within the DNA sequence (Figure
             \label{fig:sdm-1} 
 \end{figure}
 % -------------------------- fig*
-These four primers are used in the first polymerase chain reaction
-(PCR), where two PCRs take place, and two double-stranded DNA products are
-obtained. Upon denaturation and annealing of them, two heteroduplexes are
-formed, and each strand of the heteroduplex involves the desired mutagenic
-codon. DNA polymerase is then used to fill in the overlapping 3’ and 5’ ends of
-each heteroduplex and the second PCR takes place using the nonmutated primer
-set to amplify the mutagenic DNA. The other site-directed mutagenesis method is
-called “whole plasmid single round PCR”. This method forms the basis of the
-commercial “QuikChange Site-Directed Mutagenesis Kit” from Stratagene. It
-requires two oligonucleotide primers with the desired mutation(s) which are
-complementary to the opposite strands of a double-stranded DNA plasmid
-template. Using DNA polymerase PCR takes place, and both strands of the
-template are replicated without displacing the primers and a mutated plasmid is
-obtained with breaks that do not overlap. DpnI methylase is then used for
-selective digestion to obtain a circular, nicked vector with the mutant gene.
-Upon transformation of the nicked vector into competent cells, the nick in the
-DNA is repaired, and a circular, mutated plasmid is obtained (Antikainen &
-Martin, 2005).
+The second method is developed as a kit, QuikChange Site-Directed Mutagenesis,
+by Stratagene\cite{Arnold2003}. It requires one set of primers with the desired
+mutation which are complementary to the opposite strands of a double-stranded
+DNA template. While PCR takes place, both strands of the template are
+replicated. After PCR products are collected. DpnI methylase is used for digestion
+in order to the mutant gene.  Upon transformation into competent cells, a circular, mutated
+plasmid DNA is then obtained\cite{Antikainen2005a}. (Figure \ref{fig:sdm-2})
+% -------------------------- fig-sdm-2
+\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_17}
+    \caption[Whole plasmid, single-round PCR produces the desired mutation
+    directly from a plasmid template: an arrows represents a primer, X
+    represents a mutagenic codon, a thick line represents the template plasmid
+    DNA, and a thin line represents newly synthesized DNA.]{Whole plasmid,
+        single-round PCR produces the desired mutation directly from a plasmid
+        template: an arrows represents a primer, X represents a mutagenic
+        codon, a thick line represents the template plasmid DNA, and a thin
+        line represents newly synthesized DNA\cite{Antikainen2005a}.}
+        \label{fig:sdm-2}
+\end{figure}
+% -------------------------- fig*
 
-% --------------------------
-Back to 70s, rational design was used to design new protein molecules with
-goals of designing novel functions\cite{Seydel1980}. With improvements of
-technologies, such as structural bio-informatics, the developments of rational
+Technologies, such as structural bio-informatics, the developments of rational
 design are speeded up.  Numerous results demonstrated that the designed
-proteins altered their activity or stability\cite{Otten2010,Moss2009}. 
-
+proteins altered their activity or stability\cite{Otten2010,Moss2009}.
 Computational tools helps the developments rational designs. During 70s and
 80s, most of researches of rational design focused on analysis of known protein
 structures and compositions. However, due to the limited resources, it was
 difficult to screen and select potential variant from numerous candidates.
 
-% --------------------------
 In addition to the traditional methods of protein engineering, such as
 ‘classical’ rational design and directed-evolution methods, computational
 protein design tools are becoming increasingly important. In a recent review by
@@ -266,12 +263,12 @@ mutagenesis methods used in protein engineering/enzyme evolution also discussed
 different methods such as “error-prone” PCR mutagenesis, chemical mutagenesis,
 rolling circle error-prone PCR, saturation mutagenesis and novel methodologies
 (Labrou, 2010). The potential of “de novo enzyme engineering” method was also
-emphasized recently (Golynskiy & Seelig, 2010). De novo means that the enzymes
+emphasized recently (Golynskiy  Seelig, 2010). De novo means that the enzymes
 are not based on a related parent protein regarding substrate or reaction
-mechanism. Obtaining de novo enzymes from scratch has been possible by i) in
-silico rational design; ii) utilizing the understanding of a reaction mechanism
+mechanism. Obtaining de novo enzymes from scratch has been possible by (i) in
+silico rational design; (ii) utilizing the understanding of a reaction mechanism
 and the diversity of the immune system by means of catalytic antibodies; and
-iii) empirical search of large protein libraries by using mRNA display. mRNA
+(iii) empirical search of large protein libraries by using mRNA display. mRNA
 display is a powerful new technique that can select de novo proteins from
 libraries that are several orders of magnitude larger than most other selection
 methods such as phage display and cell surface display. The proteins obtained
@@ -286,7 +283,7 @@ followed by reverse transcription of the library of mRNA-displayed proteins
 with a substrate-modified primer, and attachment of the substrate to the
 cDNA/RNA/protein complex. Proteins catalyzing the substrate reaction change
 their encoding cDNA with the product, and selected cDNA sequences are amplified
-by PCR and used for the next selection step (Golynskiy & Seelig, 2010). The
+by PCR and used for the next selection step (Golynskiy Seelig, 2010). The
 future of protein engineering will definitely involve many new technologies and
 combinational use of existing methods.
 % --------------------------
