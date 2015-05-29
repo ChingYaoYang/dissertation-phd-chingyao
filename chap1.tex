@@ -171,22 +171,125 @@ applications. (Figure \ref{fig:protein-engineering-example})
 \subsubsection{Rational Design}
 \label{sec:rational-design}
 
-% site-directed mutagenesis based on structure, computational methods
+% --------------------------
+Rational design is an effective approach when the structure and mechanism of
+the protein of interest are well-known. The most classical method in protein
+engineering is the so-called “rational design” approach which involves
+“site-directed mutagenesis” of proteins\cite{Arnold1993}. Site-directed
+mutagenesis allows introduction of specific amino acids into a target gene.
+There are two common methods for site-directed mutagenesis. 
+
+Rational design provides an effective approach to design proteins of interested
+when the structure and mechanism are well-known. The most classical method used
+for rational design is site-directed mutagenesis (SDM)\cite{Arnold1993}. With
+two common methods for SDM, overlap extension method and whole plasmid single
+round PCR method, an intentional change is introduced to a DNA sequence. The
+first method involves two set of primer pairs, where one primer of each set
+includes the mutant codon within the DNA sequence (Figure
+\ref{fig:sdm-1})\cite{Ho1989}. 
+% -------------------------- fig-sdm-1
+\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_16}
+    \caption[Schematic diagram of site-directed mutagenesis by overlap
+        extension. The double-stranded DNA and synthetic oligos are represented by lines
+        with arrows indicating the 5’-to-3’ orientation. The site of
+        mutagenesis is indicated by the small black rectangle. Oligos are
+        denoted by lower-case letters and PCR products are denoted by pairs of
+        upper-case letters corresponding to the oligo primers used to generate
+        that product. The boxed portion of the figure represents the proposed
+        intermediate steps taking place during the course of reaction (3),
+        where the denatured fragments anneal at the overlap and are extended 3’
+        by DNA polymerase (dotted line) to form the mutant fusion product. By
+        adding additional primers ‘a’ and ‘d’ the mutant fusion product is
+        further amplified by PCR.]
+        {Schematic diagram of site-directed mutagenesis by overlap extension.
+            The double-stranded DNA and synthetic oligos are represented by lines
+            with arrows indicating the 5’-to-3’ orientation. The site of
+            mutagenesis is indicated by the small black rectangle. Oligos are
+            denoted by lower-case letters and PCR products are denoted by pairs
+            of upper-case letters corresponding to the oligo primers used to
+            generate that product. The boxed portion of the figure represents
+            the proposed intermediate steps taking place during the course of
+            reaction (3), where the denatured fragments anneal at the overlap
+            and are extended 3’ by DNA polymerase (dotted line) to form the
+            mutant fusion product. By adding additional primers ‘a’ and ‘d’ the
+            mutant fusion product is further amplified by PCR\cite{Ho1989}.}
+            \label{fig:sdm-1} 
+\end{figure}
+% -------------------------- fig*
+These four primers are used in the first polymerase chain reaction
+(PCR), where two PCRs take place, and two double-stranded DNA products are
+obtained. Upon denaturation and annealing of them, two heteroduplexes are
+formed, and each strand of the heteroduplex involves the desired mutagenic
+codon. DNA polymerase is then used to fill in the overlapping 3’ and 5’ ends of
+each heteroduplex and the second PCR takes place using the nonmutated primer
+set to amplify the mutagenic DNA. The other site-directed mutagenesis method is
+called “whole plasmid single round PCR”. This method forms the basis of the
+commercial “QuikChange Site-Directed Mutagenesis Kit” from Stratagene. It
+requires two oligonucleotide primers with the desired mutation(s) which are
+complementary to the opposite strands of a double-stranded DNA plasmid
+template. Using DNA polymerase PCR takes place, and both strands of the
+template are replicated without displacing the primers and a mutated plasmid is
+obtained with breaks that do not overlap. DpnI methylase is then used for
+selective digestion to obtain a circular, nicked vector with the mutant gene.
+Upon transformation of the nicked vector into competent cells, the nick in the
+DNA is repaired, and a circular, mutated plasmid is obtained (Antikainen &
+Martin, 2005).
+
+% --------------------------
 Back to 70s, rational design was used to design new protein molecules with
 goals of designing novel functions\cite{Seydel1980}. With improvements of
 technologies, such as structural bio-informatics, the developments of rational
 design are speeded up.  Numerous results demonstrated that the designed
-proteins altered their activity or stability\cite{Otten2010,Moss2009}. The
-conventional methodologies for rational designs include peptide synthesis, gene
-synthesis, or site-directed mutagenesis (SDM). Site-directed mutagenesis is
-introduced to generate intentional changes to the DNA sequences or genes. The
-procedure uses custom oligonucleotide primers to amplify the target genes.
-After synthesis, enzyme digests the parent DNA that is methylated.   
+proteins altered their activity or stability\cite{Otten2010,Moss2009}. 
 
 Computational tools helps the developments rational designs. During 70s and
 80s, most of researches of rational design focused on analysis of known protein
 structures and compositions. However, due to the limited resources, it was
 difficult to screen and select potential variant from numerous candidates.
+
+% --------------------------
+In addition to the traditional methods of protein engineering, such as
+‘classical’ rational design and directed-evolution methods, computational
+protein design tools are becoming increasingly important. In a recent review by
+Van der Sloot et al. (2009), “computational protein design principles and
+applications” were discussed. Computational protein design principles are based
+on the combination of a force field and a search algorithm to identify the
+amino acid sequence that is most compatible with a given protein
+three-dimensional backbone structure. At selected positions, the computational
+protein design algorithm ‘mutates’ or changes the original amino acid to all
+other natural amino acids and results in new conformations. The energy of the
+structure is determined after simultaneous optimization of the side-chain
+and/or backbone conformations of the substituted amino acid and the interacting
+amino acids. Thus, low energy substitutions which are favorable are retained
+(Van der Sloot et al., 2009). Another recent review article on random
+mutagenesis methods used in protein engineering/enzyme evolution also discussed
+different methods such as “error-prone” PCR mutagenesis, chemical mutagenesis,
+rolling circle error-prone PCR, saturation mutagenesis and novel methodologies
+(Labrou, 2010). The potential of “de novo enzyme engineering” method was also
+emphasized recently (Golynskiy & Seelig, 2010). De novo means that the enzymes
+are not based on a related parent protein regarding substrate or reaction
+mechanism. Obtaining de novo enzymes from scratch has been possible by i) in
+silico rational design; ii) utilizing the understanding of a reaction mechanism
+and the diversity of the immune system by means of catalytic antibodies; and
+iii) empirical search of large protein libraries by using mRNA display. mRNA
+display is a powerful new technique that can select de novo proteins from
+libraries that are several orders of magnitude larger than most other selection
+methods such as phage display and cell surface display. The proteins obtained
+by mRNA display method are covalently attached to the mRNA encoding them. Thus,
+each protein becomes directly amplifiable. The key feature of this method is
+the presence of the antibiotic puromycin that mimics a charged tRNA. Thus,
+puromycin is added into the growing polypeptide chain by the ribosome. The
+transcription of a synthetic DNA library into mRNA and its modification with
+puromycin is usually followed by in vitro translation, where a covalent link is
+made between each protein and the mRNA encoding that protein. This step is
+followed by reverse transcription of the library of mRNA-displayed proteins
+with a substrate-modified primer, and attachment of the substrate to the
+cDNA/RNA/protein complex. Proteins catalyzing the substrate reaction change
+their encoding cDNA with the product, and selected cDNA sequences are amplified
+by PCR and used for the next selection step (Golynskiy & Seelig, 2010). The
+future of protein engineering will definitely involve many new technologies and
+combinational use of existing methods.
+% --------------------------
 
 \subsubsection{Rosetta Design}
 
