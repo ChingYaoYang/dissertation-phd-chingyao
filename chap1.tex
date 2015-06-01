@@ -237,11 +237,42 @@ cells, a circular, mutated plasmid DNA is then obtained\cite{Antikainen2005a}.
 \end{figure}
 % -------------------------- fig*
 
-Technologies, such as structural bio-informatics, the developments of rational
-design are speeded up.  Numerous results demonstrated that the designed
-proteins altered their activity or stability\cite{Otten2010,Moss2009}.
-In recent years, computational design has also been employed in the redesign of
-affinity and specificity of a wide variety of protein–protein interactions
+In addition to the conventional methods of rational design, computational
+protein design tools are emerging. Computational protein design principles
+are based on the combination of a force field and a search algorithm to
+identify the promising protein mutations with a given protein structure
+\cite{VanDerSloot2009a}. At the selected positions, algorithm mutate the
+original amino acid to other amino acids and render new conformations. The
+energy of the structure is then calculated after optimization of the side-chain
+and backbone conformations with the interacting amino
+acids\cite{VanDerSloot2009a}. (Figure \ref{fig:cpd})
+% -------------------------- fig-CPD
+\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_18}
+    \caption[The basic principle of computational protein design algorithms;
+        (A) at the positions considered for design the algorithm ‘mutates’ to
+        all the other naturally occurring amino acids by replacing the original
+        amino acid with discrete conformations of the substituting amino acid
+        (rotamers); (B) favorable — low energy — substitutions are retained;
+        (C) unfavorable - high energy — substitutions are discarded.]{The basic
+            principle of computational protein design algorithms; (A) at the
+            positions considered for design the algorithm ‘mutates’ to all the
+            other naturally occurring amino acids by replacing the original
+            amino acid with discrete conformations of the substituting amino
+            acid (rotamers); (B) favorable — low energy — substitutions are
+            retained; (C) unfavorable - high energy — substitutions are
+            discarded\cite{VanDerSloot2009a}.} 
+    \label{fig:cpd} 
+\end{figure}
+% -------------------------- fig*
+Bolon \latin{et al.} used the Connolly
+algorithm\cite{Connolly1983} to calcualte the side-chain accessible surface
+areas, and further identified identify the thioredoxin rotamers that were
+likely to be energetically favorable\cite{Bolon2003}. Hence, such tools spped
+up the developments of rational design. Otten \latin{et al.} and Moss \latin{et
+al.} demonstrated that the designed enzymes altered their activity or
+stability\cite{Otten2010,Moss2009}. Diffenrent computational tools has also
+been employed in the redesign of affinity of a wide variety of protein–protein
+interactions
 (Selzer et al., 2000; Reina et al., 2002; Shifman and Mayo, 2002, 2003;
 Havranek and Harbury, 2003; Steed et al., 2003; Kiel et al., 2004; Kortemme et
 al., 2004a; Bolon et al., 2005; Song et al., 2006; van der Sloot et al., 2006;
@@ -261,29 +292,6 @@ rational designs. During 70s and
 80s, most of researches of rational design focused on analysis of known protein
 structures and compositions. However, due to the limited resources, it was
 difficult to screen and select potential variant from numerous candidates.
-
-In addition to the ‘classical’ rational design method, computational
-protein design tools are becoming increasingly important. In a recent review by
-Van der Sloot \cite{VanDerSloot2009a}, computational protein design principles
-are based on the combination of a force field and a search algorithm to
-identify the amino acid sequence that is most compatible with a given protein
-three-dimensional backbone structure. At selected positions, the computational
-protein design algorithm ‘mutates’ or changes the original amino acid to all
-other natural amino acids and results in new conformations. The energy of the
-structure is determined after simultaneous optimization of the side-chain
-and/or backbone conformations of the substituted amino acid and the interacting
-amino acids. Thus, low energy substitutions which are favorable are retained.
-%(Van der Sloot et al., 2009). 
-The potential of “de novo enzyme engineering” method was also emphasized recently.
-%(Golynskiy  Seelig, 2010). 
-De novo means that the enzymes are not based on a related parent protein
-regarding substrate or reaction mechanism. Obtaining de novo enzymes from
-scratch has been possible by (a) in silico rational design; (b) utilizing the
-understanding of a reaction mechanism and the diversity of the immune system by
-means of catalytic antibodies; and (c) empirical search of large protein
-libraries by using mRNA display. The future of protein engineering will
-definitely involve many new technologies and combinational use of existing
-methods.
 
 \subsubsection{Rosetta Design}
 
