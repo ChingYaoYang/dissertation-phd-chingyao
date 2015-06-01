@@ -264,43 +264,49 @@ acids\cite{VanDerSloot2009a}. (Figure \ref{fig:cpd})
     \label{fig:cpd} 
 \end{figure}
 % -------------------------- fig*
-Bolon \latin{et al.} used the Connolly
-algorithm\cite{Connolly1983} to calcualte the side-chain accessible surface
-areas, and further identified identify the thioredoxin rotamers that were
-likely to be energetically favorable\cite{Bolon2003}. Hence, such tools spped
-up the developments of rational design. Otten \latin{et al.} and Moss \latin{et
-al.} demonstrated that the designed enzymes altered their activity or
-stability\cite{Otten2010,Moss2009}. Diffenrent computational tools has also
-been employed in the redesign of affinity of a wide variety of protein–protein
-interactions
-(Selzer et al., 2000; Reina et al., 2002; Shifman and Mayo, 2002, 2003;
-Havranek and Harbury, 2003; Steed et al., 2003; Kiel et al., 2004; Kortemme et
-al., 2004a; Bolon et al., 2005; Song et al., 2006; van der Sloot et al., 2006;
-Potapov et al., 2008; Reynolds et al., 2008; Grigoryan et al., 2009). n
-addition to redesign, CPD algorithms can also be employed in computational
-alanine scanning (Massova and Kollman, 1999; Kortemme et al., 2004b), and in
-the analysis of protein–protein interfaces analogous to experimental
-alanine-scanning mutagenesis (Clackson and Wells, 1995). Not only
-protein–protein interactions are subjected to design, but also proteins with
-small molecule receptor functionality (Looger et al., 2003; Allert et al.,
-2004; Cochran et al., 2005; Matthews et al., 2008), enzyme–substrate (Bolon and
-Mayo, 2001; Jiang et al., 2008; Rothlisberger et al., 2008; Chen et al., 2009;
-Damborsky and Brezovsky, 2009) and protein–nucleic acid interactions (Ashworth
-et al., 2006) have been modified — or were created — using computational design
-approaches (Das and Baker, 2008).  Computational tools helps the developments
-rational designs. During 70s and
-80s, most of researches of rational design focused on analysis of known protein
-structures and compositions. However, due to the limited resources, it was
-difficult to screen and select potential variant from numerous candidates.
+Bolon \latin{et al.} used the Connolly algorithm\cite{Connolly1983} to
+calcualte the side-chain accessible surface areas, and further identified
+identify the thioredoxin rotamers that were likely to be energetically
+favorable\cite{Bolon2003}. Hence, such tools speed up the developments of
+rational design. Otten \latin{et al.} and Moss \latin{et al.} demonstrate that
+the algorithms alter enzymes activity \cite{Ottern2010} and the growth hormone
+stability\cite{Moss2009}. Different computational tools has also been
+employed in the redesign of affinity of a wide variety of protein–protein
+interactions\cite{Selzer2000,Reina2002}. Selzer \latin{et al.} engineer the
+protein TEM1 $\beta$-lactamase by using \emph{PARE}, and the affinity between
+TEM1 and protein inhibitor BLIP is enhanced 250-fold\cite{Selzer2000}. (Figure
+\ref{fig:tem1})
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_19}
+    \caption[Validating PARE for different proteins. Calculations of
+        k\textsubscript{on} were performed using the program PARE. The proteins
+        studied were barnase with barstar (crosses), hirudin with thrombin
+        (filled circles), and AChE with fasciculin (open squares). The data
+        points are for wild type and 32 mutant complexes.]{Validating PARE for
+            different proteins.  Calculations of k\textsubscript{on} were
+            performed using the program PARE. The proteins studied were barnase
+            with barstar (crosses), hirudin with thrombin (filled circles), and
+            AChE with fasciculin (open squares). The data points are for wild
+            type and 32 mutant complexes.\cite{Selzer2000}.} 
+            \label{fig:tem1} 
+\end{figure}
+% --------------------------
+In addition to re-design, algorithms can also be employed in different
+applications, including alanine scanning (Massova and Kollman, 1999; Kortemme
+et al., 2004b) enzyme–substrate (Bolon and Mayo, 2001; Jiang et al., 2008;
+Rothlisberger et al., 2008; Chen et al., 2009; Damborsky and Brezovsky, 2009)
+and protein–nucleic acid interactions (Ashworth et al., 2006) have been
+modified. Numerous computational tools have already shown promising results for
+the developments of protein designs. 
 
 \subsubsection{Rosetta Design}
 
 % describe the advantage, esp. the ability to explore proteins w/ uaa
-Computational tools are widely used for protein
+While computational tools are widely used for protein
 engineering\cite{Rothlisberger2008,DiMaio2011a,Korkegian2005,
-Leaver-Fay2013a,Leaver-Fay2011,Drew2013a,Kaufmann2010,Rohl2004}.
-Rosetta suite was first developed in University of Washington. Baker \latin{et
-al.} adapted this suite for prediction of three-dimensional structure of
+Leaver-Fay2013a,Leaver-Fay2011,Drew2013a,Kaufmann2010,Rohl2004}, Rosetta suite
+was developed in University of Washington. Baker \latin{et al.} adapted this
+suite for prediction of three-dimensional structure of
 proteins\cite{Leaver-Fay2011}. This suite provides a handful of protocols for
 analyzing and mutating protein structures.  The simulation replies heavily on
 knowledge-based potentials. It is a suite of libraries and tools for
@@ -437,7 +443,7 @@ synthetase/suppressor tRNA pair based on a TyrRS/tRNA\textsuperscript{Tyr} pair
 in the \emph{Methanococcus jannaschii} has been engineered for use in \emph{E.
 coli} for the incorporation of tyrosine analogs\cite{Wang2001}.
 
-% --------------------------fig
+% -------------------------- fig
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_03} 
     \caption[Illustration  of NAA incorporation via (a) RSI using auxotrophic
     strain, (b) engineering additional copies of endogenous AARS, (c) expanding
@@ -446,7 +452,7 @@ pocket.]{Illustration  of NAA incorporation via (a) RSI using auxotrophic
 strain, (b) engineering additional copies of endogenous AARS, (c) expanding the
 AARS binding pocket and (d) shrinking the AARS editing pocket.} \label{fig:rsi} 
 \end{figure}
-% --------------------------fig
+% -------------------------- fig*
 
 As an alternative to site-specific incorporation, residue-specific
 incorporation has been developed in which a natural amino acid is replaced with
