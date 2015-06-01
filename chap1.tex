@@ -144,9 +144,9 @@ applications. (Figure \ref{fig:protein-engineering-example})
         \hline
         
         Rational design & \cite{Arnold1993}, Section\ref{sec:rational-design} \\
-        Site-directed mutagenesis & \cite{Antikainen2005} \\
+        Site-directed mutagenesis & \cite{Antikainen2005a} \\
         Random mutagenesis & \cite{Wong2006, Jackson2006, Labrou2010} \\
-        DNA shuffling & \cite{ Jackson2006, Antikainen2005} \\
+        DNA shuffling & \cite{ Jackson2006, Antikainen2005a} \\
         Molecular dynamics & \cite{Anthonsen1994} \\
         Peptidomimetics & \cite{Venkatesan2002} \\
         Phage display technology & \cite{Sidhu2007,Chaput2008} \\
@@ -155,7 +155,7 @@ applications. (Figure \ref{fig:protein-engineering-example})
         \hline
     \end{tabular}
     \caption[Examples of methods used for protein engineering.]{Examples of
-        methods used for protein engineering\cite{Antikainen2005}.}
+        methods used for protein engineering\cite{Antikainen2005a}.}
         \label{tab:protein-engineering}
 \end{table}
 % ------------------------- table*
@@ -269,7 +269,7 @@ calculate the side-chain accessible surface areas, and further identified
 identify the thioredoxin rotamers that were likely to be energetically
 favorable\cite{Bolon2003}. Hence, such tools speed up the developments of
 rational design. Otten \latin{et al.} and Moss \latin{et al.} demonstrate that
-the algorithms alter enzymes activity \cite{Ottern2010} and the growth hormone
+the algorithms alter enzymes activity \cite{Otten2010} and the growth hormone
 stability\cite{Moss2009}. Different computational tools has also been
 employed in the redesign of affinity of a wide variety of protein–protein
 interactions\cite{Selzer2000,Reina2002}. Selzer \latin{et al.} engineer the
@@ -312,7 +312,7 @@ network\cite{Rohl2004}, to predict RNA folding\cite{Das2007,Egli2002}, to
 create novel protein interfaces\cite{Jiang2008,Hennig2002}, and to design
 enzymes\cite{Ashworth2006a}. (Figure \ref{fig:rosetta-overview})
 % -------------------------- fig-protein-engineering
-\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_20}
+\begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_20}
     \caption[A unified framework for tackling multiple molecular modeling
         problems. Each panel depicts a problem in biomolecule structure
         prediction or design (left) and a diagram of the atom-tree
@@ -344,34 +344,99 @@ enzymes\cite{Ashworth2006a}. (Figure \ref{fig:rosetta-overview})
 \end{figure}
 % -------------------------- fig*
 
-In addition to wide spectrum of applications, Rosetta also provides an advantage of easily incorporating unnatural amino acid into protein sequences. With Rosetta with UAAs (See \ref{sec:uaa-intro}),  access
-to a wide variety of kinematic and optimization based methods for exploring backbone
-and side chain configurations. Conformational searches of backbone degrees of
-freedom are typically performed using small perturbations to the backbone
-dihedral angles, fragment insertions, backrub movements, or using more
-sophisticated procedures like using robotic arm motion planning inspired
-loop-closure algorithms [19–21].
+Using Rosetta, Jiang \latin{et al.} design retro-aldolases with four different catalytic
+motifs to catalyze the breaking of a carbon-carbon bond in a nonnatural
+substrate, 4-hydroxy-4-(6-methoxy-2-naphthyl)-2-butanone\cite{Jiang2008}.
+(Figure \ref{fig:rosetta-enzyme})
+% -------------------------- fig-rosetta-enzyme
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_22}
+    \caption[Structures of designed enzymes.The nucleophilic imine-forming
+        lysine is in orange, the TS model is in yellow, the hydrogen-bonding
+        groups are in light green, and the catalytic water is shown explicitly.
+        The designed hydrophobic binding site for the aromatic portion of the
+        TS model is indicated by the gray mesh; (A) RA60 (catalytic motif IV,
+        jelly-roll scaffold). A designed hydrophobic pocket encloses the
+        aromatic portion of the substrate and packs the aliphatic portion of
+        the imine-forming Lys48. A designed hydrogen-bonding network positions
+        the bridging water molecule and the composite TS. (B) RA46 (catalytic
+        motif IV, TIM-barrel scaffold). Tyr83 and Ser210 position the bridging
+        water molecule, which facilitates the proton shuffling required in
+        active site. (C) RA45 (catalytic motif IV, TIM-barrel scaffold). The
+        bridging water is hydrogen-bonded by Ser211 and Glu233; replacing the
+    Glu233 with Thr decreases catalytic activity threefold.] {Structures of
+        designed enzymes.The nucleophilic imine-forming lysine is in orange,
+        the TS model is in yellow, the hydrogen-bonding groups are in light
+        green, and the catalytic water is shown explicitly. The designed
+        hydrophobic binding site for the aromatic portion of the TS model is
+        indicated by the gray mesh; (A) RA60 (catalytic motif IV, jelly-roll
+        scaffold). A designed hydrophobic pocket encloses the aromatic portion
+        of the substrate and packs the aliphatic portion of the imine-forming
+        Lys48. A designed hydrogen-bonding network positions the bridging water
+        molecule and the composite TS. (B) RA46 (catalytic motif IV, TIM-barrel
+        scaffold). Tyr83 and Ser210 position the bridging water molecule, which
+        facilitates the proton shuffling required in active site. (C) RA45
+        (catalytic motif IV, TIM-barrel scaffold). The bridging water is
+        hydrogen-bonded by Ser211 and Glu233; replacing the Glu233 with Thr
+        decreases catalytic activity threefold\cite{Jiang2008}.} 
+        \label{fig:rosetta-enzyme} 
+\end{figure}
+% -------------------------- fig*
+Later, Chaudhury \latin{et al.} demonstrate how Rosetta is used on the
+Ferredoxin-NADP\textsuperscript{+} reductase (FNR) with its ligand group flavin
+adenine dinucleotide (FAD), in complex with ferredoxin (Fd) (Target
+1EWY)\cite{Chaudhury2011}. Figure \ref{fig:macro-ligand} shows the score plot
+for docking model with the FAD molecule, and the decoy illustrated. The FAD
+molecule is critical for electron transfer from the Fd to the
+NADP\textsuperscript{+} through the formation of a ternary complex\cite{Hermoso2002}.
+Upon iterations, Rosetta algorithm provides the insight of ligand binding and
+increase of successful rate of finding good ligand candidates. 
+% -------------------------- fig-macromol-with-ligand
+\begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_21}
+    \caption[Plots of score vs. Lrmsd for local docking of the unbound
+        structures in target 1EWY without (A) and with (B) the small molecule
+        FAD bound to FNR (A), with high, medium, and acceptable accuracy decoys
+        colored in brown, orange, and tan, respectively; (C) The second-lowest
+        energy structure from docking using FAD with FNR (green), Fd (cyan),
+        and the FAD molecule (magenta) superimposed on the crystal structure of
+    the complex (gray)] {Plots of score vs. Lrmsd for local docking of the
+        unbound structures in target 1EWY without (A) and with (B) the small
+        molecule FAD bound to FNR (A), with high, medium, and acceptable
+        accuracy decoys colored in brown, orange, and tan, respectively; (C)
+        The second-lowest energy structure from docking using FAD with FNR
+        (green), Fd (cyan), and the FAD molecule (magenta) superimposed on the
+        crystal structure of the complex (gray)\cite{Chaudhury2011}.} 
+        \label{fig:macro-ligand} 
+\end{figure}
+% -------------------------- fig*
 
-c arm motion planning inspired loop-closure algorithms [19–21]. Conformational
-search- es of side chain degrees of freedom are performed in a discrete space
-of high probability side chain conformations typically encoded as
-backbone-dependant rotamer libraries. Rotamer libraries are lists of commonly
-seen side chain dihedral angles [22] accompanied by the probability of
-observing each rotamer in naturally occurring proteins. In Rosetta, the side
-chain coordinates are constructed using dihedral angles from the rotamer
-library and idealized bond lengths, bond angles, and non-x dihedrals [23].Amino
-acid rotamers are not observed with equal frequency in large databases of
-experimental structures. The probability of seeing a given rotamer given its
-local structure context can be used to compute a pseudo-energy that represents
-the internal energy of the amino acid.
+In addition to wide spectrum of applications, Rosetta also provides an
+advantage of easily incorporating unnatural amino acid into protein sequences.
+With Rosetta with UAAs (See \ref{sec:uaa-intro}),  access to a wide variety of
+kinematic and optimization based methods for exploring backbone and side chain
+configurations. Conformational searches of backbone degrees of freedom are
+typically performed using small perturbations to the backbone dihedral angles,
+fragment insertions, backrub movements, or using more sophisticated procedures
+like using robotic arm motion planning inspired loop-closure algorithms
+[19–21]. Conformational search- es of side chain degrees of freedom are
+performed in a discrete space of high probability side chain conformations
+typically encoded as backbone-dependant rotamer libraries. Rotamer libraries
+are lists of commonly seen side chain dihedral angles [22] accompanied by the
+probability of observing each rotamer in naturally occurring proteins. In
+Rosetta, the side chain coordinates are constructed using dihedral angles from
+the rotamer library and idealized bond lengths, bond angles, and non-x
+dihedrals [23].Amino acid rotamers are not observed with equal frequency in
+large databases of experimental structures. The probability of seeing a given
+rotamer given its local structure context can be used to compute a
+pseudo-energy that represents the internal energy of the amino acid.
 
 The scoring function sums the weighted terms that represent the physical or
 probabilistic pairwise interactions\cite{Rohl2004}, including Lennard-Jones
-potential\cite{Clementi1999}, implicit solvent model\cite{Lazaridis1999}, orientation-dependent
-hydrogen bond term\cite{Kortemme2003}, sidechain and backbone torsion
-potentials derived from the PDB, short-ranged knowledge-based electrostatic
-term, and reference energies for each of the 20 amino acids that model the
-unfolded state. (Figure \ref{fig:rosetta-intro}).
+potential\cite{Clementi1999}, implicit solvent model\cite{Lazaridis1999},
+orientation-dependent hydrogen bond term\cite{Kortemme2003}, sidechain and
+backbone torsion potentials derived from the PDB\cite{Rohl2002}, short-ranged
+knowledge-based electrostatic term\cite{Leaver-Fay2013a}, and reference
+energies for each of the 20 amino acids that model the unfolded
+state\cite{Leaver-Fay2013a}. (Figure \ref{fig:rosetta-intro}).
 % -------------------------- fig-rosetta
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
@@ -387,6 +452,22 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
 \label{sec:uaa-intro}
 
+While proteins have been engineered with the natural amino acids, researchers
+have also introduced unnatural amino acids into proteins. The fluorinated
+protein has been studied extensively in the hope that it will provide benefits
+to protein engineering, including properties of increased
+hydrophobicity, thermostability, and chemical denaturant
+stability\cite{Voloshchuk2007b}. The replacement of hydrophobic amino acids
+like leucine and phenylalanine with their fluorinated analogs has provided
+content-dependent results.
+
+Budisa group showed that enzymes change the specificities with the
+incorporation of unnatural amino acids\cite{Budisa2006}. Biocatalysis with UAAs
+are selectively active to different chimerical compounds. 
+
+\subsection{Incorporation of Unnatural Amino Acids} 
+\label{sec:rsi-intro}
+
 The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
 translated into a sequence of polypeptide through the central
 dogma\cite{CRICK1970}. The DNA information is first transcribed into messenger
@@ -399,31 +480,12 @@ three nucleotides corresponds to a single amino acid. The start codon, AUG on
 mRNA sequence, is recognized by initial tRNA. While synthesis of peptide ends
 up with stop codon, each pair of codon is recognized by amino acid paired
 tRNA\cite{Sadava2006}.
-
-% background on proteins designed with uaa
-% focus on a) activity b)specificity c) stabilities
-% --------------------------from Princeton and Caltech thesis
-The fluorinated protein has been studied extensively in the hope that it will
-provide benefits to protein engineering, including properties of increased
-hydrophobicity, thermostability, and chemical denaturant
-stability\cite{Voloshchuk2007b}. The replacement of hydrophobic amino acids
-like leucine and phenylalanine with their fluorinated analogs has provided
-content-dependent results.
-
-Budisa group showed that enzymes change the specificities with the
-incorporation of unnatural amino acids\cite{Budisa2006}. Biocatalysis with UAAs
-are selectively active to different chimerical compounds. 
-% --------------------------end of new
-
-\subsection{Incorporation of Unnatural Amino Acids} 
-\label{sec:rsi-intro}
-
-% --------------------------fig
+% --------------------------fig-ncl
 \begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_10}
     \caption[Princilple mechanism of NCL.]{Principle mechanism of NCL.} 
     \label{fig:ncl-intro} 
 \end{figure}
-% --------------------------fig
+% --------------------------fig*
 
 Several methods have been developed for the incorporation of unnatural amino
 acids into proteins, which can be categorized under synthetic and biosynthetic
