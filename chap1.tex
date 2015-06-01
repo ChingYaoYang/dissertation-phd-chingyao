@@ -189,8 +189,8 @@ for second PCR to amplify the desired DNA\cite{Ho1989}.
 % -------------------------- fig-sdm-1
 \begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_16}
     \caption[Schematic diagram of site-directed mutagenesis by overlap
-        extension. The double-stranded DNA and synthetic oligos are represented by lines
-        with arrows indicating the 5’-to-3’ orientation. The site of
+        extension. The double-stranded DNA and synthetic oligos are represented
+        by lines with arrows indicating the 5’-to-3’ orientation. The site of
         mutagenesis is indicated by the small black rectangle. Oligos are
         denoted by lower-case letters and PCR products are denoted by pairs of
         upper-case letters corresponding to the oligo primers used to generate
@@ -265,7 +265,7 @@ acids\cite{VanDerSloot2009a}. (Figure \ref{fig:cpd})
 \end{figure}
 % -------------------------- fig*
 Bolon \latin{et al.} used the Connolly algorithm\cite{Connolly1983} to
-calcualte the side-chain accessible surface areas, and further identified
+calculate the side-chain accessible surface areas, and further identified
 identify the thioredoxin rotamers that were likely to be energetically
 favorable\cite{Bolon2003}. Hence, such tools speed up the developments of
 rational design. Otten \latin{et al.} and Moss \latin{et al.} demonstrate that
@@ -274,9 +274,9 @@ stability\cite{Moss2009}. Different computational tools has also been
 employed in the redesign of affinity of a wide variety of protein–protein
 interactions\cite{Selzer2000,Reina2002}. Selzer \latin{et al.} engineer the
 protein TEM1 $\beta$-lactamase by using \emph{PARE}, and the affinity between
-TEM1 and protein inhibitor BLIP is enhanced 250-fold\cite{Selzer2000}. (Figure
-\ref{fig:tem1})
-% --------------------------
+TEM1 and protein inhibitor BLIP is enhanced 250-fold\cite{Selzer2000}.
+(Figure\ref{fig:tem1})
+% -------------------------- fig-tem1
 \begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_19}
     \caption[Validating PARE for different proteins. Calculations of
         k\textsubscript{on} were performed using the program PARE. The proteins
@@ -290,18 +290,15 @@ TEM1 and protein inhibitor BLIP is enhanced 250-fold\cite{Selzer2000}. (Figure
             type and 32 mutant complexes.\cite{Selzer2000}.} 
             \label{fig:tem1} 
 \end{figure}
-% --------------------------
+% -------------------------- fig*
 In addition to re-design, algorithms can also be employed in different
-applications, including alanine scanning (Massova and Kollman, 1999; Kortemme
-et al., 2004b) enzyme–substrate (Bolon and Mayo, 2001; Jiang et al., 2008;
-Rothlisberger et al., 2008; Chen et al., 2009; Damborsky and Brezovsky, 2009)
-and protein–nucleic acid interactions (Ashworth et al., 2006) have been
-modified. Numerous computational tools have already shown promising results for
-the developments of protein designs. 
+applications, including alanine enzyme–substrate\cite{Bolon2001,Jiang2008} and
+protein–nucleic acid interactions\cite{Ashworth2006}. Numerous computational
+tools have already shown promising results for the developments of protein
+designs.
 
 \subsubsection{Rosetta Design}
 
-% describe the advantage, esp. the ability to explore proteins w/ uaa
 While computational tools are widely used for protein
 engineering\cite{Rothlisberger2008,DiMaio2011a,Korkegian2005,
 Leaver-Fay2013a,Leaver-Fay2011,Drew2013a,Kaufmann2010,Rohl2004}, Rosetta suite
@@ -310,34 +307,46 @@ suite for prediction of three-dimensional structure of
 proteins\cite{Leaver-Fay2011}. This suite provides a handful of protocols for
 analyzing and mutating protein structures.  The simulation replies heavily on
 knowledge-based potentials. It is a suite of libraries and tools for
-macromolecular ligand docking, to thermo-stabilize proteins, to design a
-hydrogen-bond network, to design novel protein folds, to create novel protein
-interfaces, and to design enzymes, including some containing unnatural amino
-acids in the active sites (Figure \ref{fig:rosetta-intro}).
-
-% -------------------------- fig-rosetta
-\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
-    \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
-    Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
-electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
-    function of Rosetta. 1: Lennard-Jones Potential; 2: implicit solvent model;
-3: hydrogen bonding; 4: electrostatics; 5: PDB derived torsion potential.}
-\label{fig:rosetta-intro}
+macromolecular ligand docking\cite{Willcox2003}, to design a hydrogen-bond
+network\cite{Rohl2004}, to predict RNA folding\cite{Das2007,Egli2002}, to
+create novel protein interfaces\cite{Jiang2008,Hennig2002}, and to design
+enzymes\cite{Ashworth2006a}. (Figure \ref{fig:rosetta-overview})
+% -------------------------- fig-protein-engineering
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_20}
+    \caption[A unified framework for tackling multiple molecular modeling
+        problems. Each panel depicts a problem in biomolecule structure
+        prediction or design (left) and a diagram of the atom-tree
+        representation used by Rosetta (right); (A) \emph{de novo} structure
+        prediction for the phage 434 repressor protein (PDB code: 1R69); (B)
+        loop modeling carried out during comparative modeling of the CASP7
+        target T0331, pyridoxamine 5′-phosphate oxidase-related protein (2HHZ);
+        (C) Protein-protein docking for a host and viral major
+        histocompatibility complex receptor (1P7Q); (D) Protein-protein docking
+        with backbone flexibility limited to a hinge region (red) and to a loop
+        (blue); (E) Symmetric folding and docking to model the coiled-coil
+        trimerization motif of coronin 1 (2AKF); (F) Symmetry-constrained
+        modeling of the sequence NNQQNY from prion Sup35] {A unified framework
+            for tackling multiple molecular modeling problems. Each panel
+            depicts a problem in biomolecule structure prediction or design
+            (left) and a diagram of the atom-tree representation used by
+            Rosetta (right); (A) \emph{de novo} structure prediction for the
+            phage 434 repressor protein (PDB code: 1R69); (B) loop modeling
+            carried out during comparative modeling of the CASP7 target T0331,
+            pyridoxamine 5′-phosphate oxidase-related protein (2HHZ); (C)
+            Protein-protein docking for a host and viral major
+            histocompatibility complex receptor (1P7Q); (D) Protein-protein
+            docking with backbone flexibility limited to a hinge region (red)
+            and to a loop (blue); (E) Symmetric folding and docking to model
+            the coiled-coil trimerization motif of coronin 1 (2AKF); (F)
+            Symmetry-constrained modeling of the sequence NNQQNY from prion
+            Sup35\cite{Das2008}.} 
+        \label{fig:rosetta-overview} 
 \end{figure}
 % -------------------------- fig*
 
-The scoring function sums the weighted terms that represent the physical or
-probabilistic pairwise interactions\cite{Rohl2004}, including Lennard-Jones
-potential, implicit solvent model\cite{Lazaridis1999}, orientation-dependent
-hydrogen bond term\cite{Kortemme2003}, sidechain and backbone torsion
-potentials derived from the PDB, short-ranged knowledge-based electrostatic
-term, and reference energies for each of the 20 amino acids that model the
-unfolded state.
-
-% --------------------------
-By using Rosetta for design with UAAs (See \ref{sec:uaa-intro}), we gain access to a
-wide variety of kinematic and optimization based methods for exploring backbone
-and side chain configurations. Conformation- al searches of backbone degrees of
+In addition to wide spectrum of applications, Rosetta also provides an advantage of easily incorporating unnatural amino acid into protein sequences. With Rosetta with UAAs (See \ref{sec:uaa-intro}),  access
+to a wide variety of kinematic and optimization based methods for exploring backbone
+and side chain configurations. Conformational searches of backbone degrees of
 freedom are typically performed using small perturbations to the backbone
 dihedral angles, fragment insertions, backrub movements, or using more
 sophisticated procedures like using robotic arm motion planning inspired
@@ -355,7 +364,25 @@ acid rotamers are not observed with equal frequency in large databases of
 experimental structures. The probability of seeing a given rotamer given its
 local structure context can be used to compute a pseudo-energy that represents
 the internal energy of the amino acid.
-% --------------------------
+
+The scoring function sums the weighted terms that represent the physical or
+probabilistic pairwise interactions\cite{Rohl2004}, including Lennard-Jones
+potential\cite{Clementi1999}, implicit solvent model\cite{Lazaridis1999}, orientation-dependent
+hydrogen bond term\cite{Kortemme2003}, sidechain and backbone torsion
+potentials derived from the PDB, short-ranged knowledge-based electrostatic
+term, and reference energies for each of the 20 amino acids that model the
+unfolded state. (Figure \ref{fig:rosetta-intro}).
+% -------------------------- fig-rosetta
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
+    \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
+    Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
+electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
+    function of Rosetta. 1: Lennard-Jones Potential; 2: implicit solvent model;
+3: hydrogen bonding; 4: electrostatics; 5: PDB derived torsion potential.}
+\label{fig:rosetta-intro}
+\end{figure}
+% -------------------------- fig*
+
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
 \label{sec:uaa-intro}
