@@ -321,16 +321,30 @@ term, and reference energies for each of the 20 amino acids that model the
 unfolded state.
 
 % --------------------------
-By using Rosetta for design with NCAAs, we gain access to a
+By using Rosetta for design with UAAs (See \ref{sec:uaa-intro}), we gain access to a
 wide variety of kinematic and optimization based methods for exploring backbone
 and side chain configurations. Conformation- al searches of backbone degrees of
 freedom are typically performed using small perturbations to the backbone
 dihedral angles, fragment insertions, backrub movements, or using more
 sophisticated procedures like using robotic arm motion planning inspired
 loop-closure algorithms [19–21].
+
+c arm motion planning inspired loop-closure algorithms [19–21]. Conformational
+search- es of side chain degrees of freedom are performed in a discrete space
+of high probability side chain conformations typically encoded as
+backbone-dependant rotamer libraries. Rotamer libraries are lists of commonly
+seen side chain dihedral angles [22] accompanied by the probability of
+observing each rotamer in naturally occurring proteins. In Rosetta, the side
+chain coordinates are constructed using dihedral angles from the rotamer
+library and idealized bond lengths, bond angles, and non-x dihedrals [23].Amino
+acid rotamers are not observed with equal frequency in large databases of
+experimental structures. The probability of seeing a given rotamer given its
+local structure context can be used to compute a pseudo-energy that represents
+the internal energy of the amino acid.
 % --------------------------
 
 \subsubsection{Protein Engineering Bearing Unnatural Amino Acids}
+\label{sec:uaa-intro}
 
 The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
 translated into a sequence of polypeptide through the central
