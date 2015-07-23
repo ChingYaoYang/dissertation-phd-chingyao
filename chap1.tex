@@ -24,9 +24,9 @@ residues \cite{Kabsch1983}, and every complete turn of the helix is only 3.6
 amino acid residues. This leads to an overall dipole moment from the individual
 micro-dipoles of the carbonyl groups \cite{Hol1978}. (Figure
 \ref{fig:alpha-helix-stabilization})
-
 % -------------------------- fig-dipole-of-alpha-helix
-\begin{figure}[h!] \centering \includegraphics[width=0.55\textwidth]{fig1_12}
+\begin{figure}[htbp] 
+    \centering \includegraphics[width=0.55\textwidth]{fig1_12}
     \caption[Schematic illustration of the secondary structure of a
     protein.]{Schematic illustration of the secondary structure of a
         protein.\cite{Berg2002a}.} 
@@ -34,7 +34,7 @@ micro-dipoles of the carbonyl groups \cite{Hol1978}. (Figure
 \end{figure}
 % -------------------------- fig*
 % -------------------------- beta-turn
-\begin{figure}[h!] \centering \includegraphics[width=0.55\textwidth]{fig1_29}
+\begin{figure}[p] \centering \includegraphics[width=0.55\textwidth]{fig1_29}
     \caption[Schematic illustration of the $\beta$-turn structure of a
     protein.]{Schematic illustration of the $\beta$-turn structure of a
         protein\cite{Nemethy1972}.} 
@@ -45,24 +45,38 @@ micro-dipoles of the carbonyl groups \cite{Hol1978}. (Figure
 The second regular form of secondary structure is $\beta$-sheet, and two types
 are parallel and anti-parallel $\beta$-sheets \cite{Astbury1932}. The parallel
 $\beta$-sheet is consisted of two peptide strands pointing to the same
-direction, and held together by hydrogen bonding between the strands. The other
-is characterized by two strands pointing to the opposite directions.
-
-Sheridan \latin{et al.} further quantified the destabilized array of parallel
-helices of \SI{83.6}{\joule\per\mol} \cite{Sheridan1982}.
+direction, and held together by hydrogen bonding between the strands. These
+pattern of $beta$-sheets hydrogen bonds stabilized the protein structures. The
+$beta$ turns is also one of motifs of protein, and identified through the i,
+i+1, i+2, and i+3 residues \cite{Nemethy1972} (Figure \ref{fig:beta-turn}). The
+other is characterized by two strands pointing to the opposite directions. The
+tertiary structures are determined through several interactions, such as salt
+bridges \cite{Privalov2009}, hydrogen bonds \cite{Sheridan1982}, and so on.
+Last, the quaternary structure consists of subunits and these units coordinate
+together to function as a protein complex \cite{Privalov2009}.
 
 Proteins are essential to cell function and metabolism
-\cite{Lambert2012,Horton2007,Dessein2008}. (Table \ref{tab:protein-app}) The
-Proprotein convertase subtilisin/kexin type 9 (PCSK9), a serine endoproteases,
-regulates low density lipoprotein (LDL) in liver
-cells\cite{Lambert2012,Horton2007}. Autoimmune diseases, like Celiac
-\cite{Dessein2008} or Crohn's disease \cite{Sollid2005, Meize-Grochowski}, are
-found associated with antibodies - a large, Y-shape protein produced by plasma
-cells. Overall, proteins play a crucial role within cells and make up ~55\% the
-dry weight of an \emph{Escherichia coli} cell\cite{Neidhardt1990}. 
+\cite{Lambert2012,Horton2007,Dessein2008}. (Table \ref{tab:protein-app}) One of
+the example is the Proprotein convertase subtilisin/kexin type 9 (PCSK9), a
+serine endoproteases, regulates low density lipoprotein (LDL) inside liver
+cells\cite{Lambert2012,Horton2007}. This PCSK9 protein blocks the structural
+transition of LDL receptor and further affect the metabolism in the endosome
+\cite{Lambert2012}. Another example of how protein is essential is the antibody
+role. Autoimmune diseases, like Celiac \cite{Dessein2008} or
+Crohn's disease \cite{Sollid2005, Meize-Grochowski}, are found associated with
+antibodies - a large, Y-shape protein produced by plasma cells. These
+antibodies attack cells in human bodies, which results in ill-regulated cell
+deaths. To solve the issues above, different proteins are targeted and
+engineered. For example, an monoclonal antibody that recognizes epitopes on
+PCSK9 was developed to maintain the LDL level \cite{Lambert2012}. These
+examples demonstrated well the essential roles in cells, and the potentials for
+the applications.   
+% Overall, proteins play a crucial role within cells and make up ~55\% the dry
+% weight of
+% an \emph{Escherichia coli} cell\cite{Neidhardt1990}. 
 
 % ------------------------- table-protein-examples
-\begin{table}[h!]
+\begin{table}[htbp]
     \centering
     \begin{tabular}{ lll }
         \hline
@@ -71,14 +85,15 @@ dry weight of an \emph{Escherichia coli} cell\cite{Neidhardt1990}.
         
         PCSK9 & serine endoprotease & \cite{Lambert2012,Horton2007} \\
         IgG & antibody & \cite{Sollid2005, Meize-Grochowski} \\
-        PCAF & histone acetyltransferase & \cite{Mehta2011b} \\
+        PCAF & histone acetyltransferase & \cite{Mehta2011a} \\
         Erythropoietin & hormone & \cite{Haroon2003,Siren2001} \\
         Collagen & n.a & \cite{Bella1995} \\
         Thaumatin & sweetener & \cite{Green1999} \\
         PSA & biomarker & \cite{Crawford2014} \\
-        Mannanases & detergent & \cite{Kirk2002} \\
-        Polymerase & polymerase chain reaction & \cite{Berg2002} \\ 
-        
+        Protease & detergent & \cite{Kirk2002} \\
+        Polymerase & polymerase chain reaction & \cite{Berg2002} \\
+        Lactase & food processing & \cite{Wiseman1993} \\
+
         \hline
     \end{tabular}
     \caption[Examples of proteins and their funtions and applications.]{Examples of proteins
@@ -88,7 +103,7 @@ dry weight of an \emph{Escherichia coli} cell\cite{Neidhardt1990}.
  
 One well-known protein role is as an enzyme. Enzymes mediate chemical
 reactions and serves different functions biological
-systems \cite{AthelCornish-Bowden2012,Stryer1995,Radzicka1995}. In the
+systems \cite{AthelCornish-Bowden2012,Stryer1995,Radzicka1995a}. In the
 \emph{ENZYME} database \cite{Schomburg2004}, there are roughly 5000 different
 enzymes information stored in the repository.  Enzyme-catalyzed reactions have
 been initially studied in the 19th century \cite{AthelCornish-Bowden2012}.
@@ -99,15 +114,14 @@ activation energy is needed. (See Figure \ref{fig:enzyme-intro}) First, binding
 of enzyme and its substrate forms a low energy complex (ES).  While the complex
 lowers the transition state, less energy is needed to achieve the reaction
 compared to the un-catalyzed reaction (ES‡).  Finally the enzyme-product, EP,
-dissociates and hence releases the products.  The other great example also
-demonstrates how enzyme enhances the reaction by \SI{e17}-fold over the
-un-catalyzed reaction in the case of decarboxylase \cite{Radzicka1995}. Without
-taking 78 million years for decarboxylation, Radzicka \latin{et al.} identified
-Orotidine 5'-phosphate decarboxylase (OMP) as an extremely proficient enzyme,
-and further estimated the dissociation constant of less than \SI{5e-24}{\Molar}
-\cite{Radzicka1995}.
+dissociates and hence releases the products. In particular, decarboxylase
+enhances the reaction rate by \SI{e7}-fold over the un-catalyzed reaction in
+the case of decarboxylase \cite{Radzicka1995a}. Radzicka \latin{et al.}
+identified Orotidine 5\rq-phosphate decarboxylase (OMP) as an extremely
+proficient enzyme, and further estimated the dissociation constant of less than
+\SI{5e-24}{\Molar} \cite{Radzicka1995a}.
 % -------------------------- fig-enzyme-catalysis
-\begin{figure}[h!] 
+\begin{figure}[htbp] 
     \centering \includegraphics[width=0.8\textwidth]{fig1_14}
     \caption[The energies of the stages of a chemical reaction. Uncatalysed
     (dashed line), substrates need a lot of activation energy to reach a
@@ -128,24 +142,24 @@ products (EP) which are finally released.]{The energies of the stages of a
 Protein engineering involves the design of proteins with new or desirable
 functions. Ulmer \latin{et al.} defined protein engineering back
 in the 80s, including the different prospects of protein engineering, such as
-X-ray crystallography \cite{Takeda2006}, chemical DNA
-synthesis \cite{Pannekoek1979}, computational modeling, and protein
-folding \cite{Ulmer1983}. The combination of crystal structure and chemistry
+X-ray crystallography \cite{Takeda2006}, chemical DNA synthesis
+\cite{Pannekoek1979}, computational modeling, and protein folding
+\cite{Ulmer1983}. The combination of crystal structure and chemistry
 information was emphasized as a powerful approach to design proteins with
 desirable properties \cite{Ulmer1983}. Wiseman \latin{et al.} later adapted the
 concept with specific applications for protein engineering, including improved
 proteases for the detergent industry \cite{Wiseman1993,Harwood1992} and
-imobilized lactase for food precessing \cite{Wiseman1993}. 
+imobilized lactase for food precessing \cite{Wiseman1993} (Table
+\ref{tab:protein-app}). 
 
 Catalytic promiscuity of engineered proteins is an important concept. This
 involves the property that is defined as the ability to catalyze more than one
-chemical reaction in the active site of a protein \cite{Kazlauskas2005}. While
-Kazlauskas \latin{et al.} focused on engineering fluorescent proteins based on protein
-domains bound to natural intracellular cofactors  such as FMN, bilirubin or
-biliverdin, these proteins exhibits unique properties - such as
-oxygen-independent maturation - for novel applications. (Figure
-\ref{fig:protein-engineering-example})
-
+chemical reaction in the active site of a protein \cite{Kazlauskas2005a}. While
+Kazlauskas \latin{et al.} focused a selection of single mutations that enhanced
+catalytic activity identified the location of mutations relative to the active
+site. These proteins samples were analyzed with a collections of reactions, and
+further demonstrated the alternate catalytic activity (catalytic promiscuity)
+\cite{Kazlauskas2005a}. (Figure \ref{fig:protein-engineering-example})
 % ------------------------- table-protein-engineering
 %%\begin{table}[h!]
 %%    \centering
@@ -171,10 +185,9 @@ oxygen-independent maturation - for novel applications. (Figure
 %%\end{table}
 % ------------------------- table*
 % -------------------------- fig-protein-engineering
-\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_15}
-    \caption[Biliverdin-binding fluorescent proteins (IFP1.4, iRFP, IFP2.0,
-    etc.).]{Biliverdin-binding fluorescent proteins (IFP1.4, iRFP, IFP2.0,
-        etc.) \cite{Kazlauskas2005}.} \label{fig:protein-engineering-example} 
+\begin{figure}[htbp] \centering \includegraphics[width=0.6\textwidth]{fig1_15}
+    \caption[Closer mutations improved alternative catalytic activity (catalytic promiscuity) more effectively than distant ones.]{Closer mutations improved alternative catalytic activity (catalytic promiscuity) more effectively than distant ones \cite{Kazlauskas2005a}.}
+    \label{fig:protein-engineering-example} 
 \end{figure}
 % -------------------------- fig*
 
@@ -182,24 +195,29 @@ oxygen-independent maturation - for novel applications. (Figure
 \label{sec:rational-design}
 
 Rational design provides an effective approach to design proteins of interest
-when the structure and mechanism are well-known. Quillin \latin{et al.} has adapted
-the concept and modified histidine of sperm whale myoglobin \cite{Quillin1993}.
-The superposition of deoxy and carbonmonoxy structures reveals  the
-conformation of the Fe-C-O complex, further providing the insight into the
-mechanism of ligand binding \cite{Quillin1993}. 
+when the structure and mechanism are well-known. There were studies focusing on
+the relationship between protein structures and their activities
+\cite{Beadle2002a,Quillin1993}. Quillin \latin{et al.} has adapted the concept
+and modified histidine of sperm whale myoglobin \cite{Quillin1993}. The
+superposition of deoxy and carbonmonoxy structures reveals the conformation of
+the Fe-C-O complex, further providing the evidences into the mechanism of
+ligand binding \cite{Quillin1993} The inhibition of reaction is resulted from
+the reduction in the equilibrium constant, which is due to the water
+displacement and ligand entry. 
 
 The most classical method used for rational design
 is site-directed mutagenesis (SDM) \cite{Arnold1993}. With two common methods
-for SDM, overlap extension method and whole plasmid single round PCR method, an
-intentional change is introduced to a DNA sequence. The first method involves
-two set of primer pairs, where one primer of each set includes the mutant codon
-within the DNA sequence (Figure \ref{fig:sdm-1}) \cite{Ho1989}. Upon the first
-PCR, two double-stranded DNA products are obtained with
-these four primers. With further denaturation and annealing,two hetero-duplexes
--each with desired muatagenic codon - are formed. DNA polymerase is then used
-for a second PCR to amplify the desired DNA \cite{Ho1989}. 
+for SDM, overlap extension method \cite{Ho1989} and whole plasmid single round
+polymerase chain reaction \cite{Antikainen2005a}, an intentional change is
+introduced to a DNA sequence. The first method involves two set of primer
+pairs, where one primer of each set includes the mutant codon within the DNA
+sequence (Figure \ref{fig:sdm-1}) \cite{Ho1989}. Upon the first PCR, two
+double-stranded DNA products are obtained with these four primers. With further
+denaturation and annealing,two hetero-duplexes -each with desired muatagenic
+codon - are formed.  DNA polymerase is then used for a second PCR to amplify
+the desired DNA \cite{Ho1989}. 
 % -------------------------- fig-sdm-1
-\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_16}
+\begin{figure}[htbp] \centering \includegraphics[width=0.6\textwidth]{fig1_16}
     \caption[Schematic diagram of site-directed mutagenesis by overlap
         extension. The double-stranded DNA and synthetic oligos are represented
         by lines with arrows indicating the 5$\rq$-to-3$\rq$ orientation. The site of
@@ -227,16 +245,16 @@ for a second PCR to amplify the desired DNA \cite{Ho1989}.
             \label{fig:sdm-1} 
 \end{figure}
 % -------------------------- fig*
-The second method is developed as a kit, QuikChange Site-Directed Mutagenesis,
-by Stratagene\cite{Arnold2003}. It requires one set of primers with the desired
-mutation which are complementary to the opposite strands of a double-stranded
-DNA template. While PCR takes place, both strands of the template are
-replicated. After PCR products are collected. DpnI methylase is used for
-digestion in order to the mutant gene.  Upon transformation into competent
-cells, a circular, mutated plasmid DNA is then obtained\cite{Antikainen2005a}.
-(Figure \ref{fig:sdm-2})
+
+The second method involves designing a single set of primers bearing th
+designated mutation flanked by complementary nucleotides to be gene of interest
+\cite{Arnold2003}. While PCR takes place, both strands of the template are
+replicated. After PCR products are collected, DpnI methylase is used to
+digest the template.  Upon transformation into competent cells, a circular,
+mutated plasmid DNA is then obtained \cite{Antikainen2005a} (Figure
+\ref{fig:sdm-2}).
 % -------------------------- fig-sdm-2
-\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_17}
+\begin{figure}[htbp] \centering \includegraphics[width=0.6\textwidth]{fig1_17}
     \caption[Whole plasmid, single-round PCR produces the desired mutation
     directly from a plasmid template: an arrows represents a primer, X
     represents a mutagenic codon, a thick line represents the template plasmid
@@ -250,16 +268,17 @@ cells, a circular, mutated plasmid DNA is then obtained\cite{Antikainen2005a}.
 % -------------------------- fig*
 
 In addition to the conventional methods of rational design, computational
-protein design tools are emerging. Computational protein design principles
-are based on the combination of a force field and a search algorithm to
+protein design tools have emerged. Computational protein design principles
+are based on the combination of force fields and search algorithms to
 identify the promising protein mutations with a given protein structure
-\cite{VanDerSloot2009a}. At the selected positions, algorithm mutate the
-original amino acid to other amino acids and render new conformations. The
-energy of the structure is then calculated after optimization of the side-chain
-and backbone conformations with the interacting amino
-acids\cite{VanDerSloot2009a}. (Figure \ref{fig:cpd})
+\cite{VanDerSloot2009a}. At selected positions, the algorithm mutate the
+original amino acid to other possible amino acids and render new conformations.
+Within the library of rotamers, the interactions from different simulated
+results would be evaluated. The energy of the structure is then calculated
+after optimization of the side-chain and backbone conformations with the
+neighboring amino acids\cite{VanDerSloot2009a}. (Figure \ref{fig:cpd})
 % -------------------------- fig-CPD
-\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_18}
+\begin{figure}[htbp] \centering \includegraphics[width=0.6\textwidth]{fig1_18}
     \caption[The basic principle of computational protein design algorithms;
         (A) at the positions considered for design the algorithm ‘mutates’ to
         all the other naturally occurring amino acids by replacing the original
@@ -276,37 +295,50 @@ acids\cite{VanDerSloot2009a}. (Figure \ref{fig:cpd})
     \label{fig:cpd} 
 \end{figure}
 % -------------------------- fig*
-Bolon \latin{et al.} used the Connolly algorithm \cite{Connolly1983} to
-calculate the side-chain accessible surface areas, and further identified
-identify the thioredoxin rotamers that were likely to be energetically
-favorable \cite{Bolon2003}. Hence, such tools speed up the developments of
-rational design. Otten \latin{et al.} and Moss \latin{et al.} demonstrate that
-the algorithms alter enzymes activity \cite{Otten2010} and the growth hormone
-stability \cite{Moss2009}. Different computational tools has also been
-employed in the redesign of affinity of a wide variety of protein–protein
-interactions \cite{Selzer2000,Reina2002}. Selzer \latin{et al.} engineer the
-protein TEM1 $\beta$-lactamase by using \emph{PARE}, and the affinity between
-TEM1 and protein inhibitor BLIP is enhanced 250-fold \cite{Selzer2000}.
+
+Bolon \latin{et al.} calculated the side-chain accessible surface areas
+\cite{Connolly1983}, and further identified identify the thioredoxin rotamers
+that were likely to be energetically favorable \cite{Bolon2003}. Hence, such
+tools assist the developments of rational design. Otten \latin{et al.} and
+Moss \latin{et al.} demonstrate that the algorithms alter enzymes activity
+\cite{Otten2010} and growth hormone stability \cite{Moss2009,Lippow2007a}. To
+study the growth hormone, Moss \latin{et al.} used  the feasibility of
+exploring receptor activation by clustering the synthetic ligands for growth
+factor receptors. The results demonstrate more than two orders of magnitude
+increased affinity compared to the wild-type ligand. Different computational
+tools has also been employed in the redesign of affinity of a wide variety of
+protein–protein interactions
+\cite{Selzer2000,Reina2002}.  Selzer \latin{et al.} engineer the protein TEM1
+$\beta$-lactamase by using Protein Association Rate Enhancement (\emph{PARE}),
+and the affinity between TEM1 and protein inhibitor BLIP is enhanced 250-fold
+\cite{Selzer2000}.
 (Figure\ref{fig:tem1})
 % -------------------------- fig-tem1
-\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_19}
-    \caption[Validating PARE for different proteins. Calculations of
-        k\textsubscript{on} were performed using the program PARE. The proteins
-        studied were barnase with barstar (crosses), hirudin with thrombin
-        (filled circles), and AChE with fasciculin (open squares). The data
-        points are for wild type and 32 mutant complexes.]{Validating PARE for
-            different proteins.  Calculations of k\textsubscript{on} were
-            performed using the program PARE. The proteins studied were barnase
-            with barstar (crosses), hirudin with thrombin (filled circles), and
-            AChE with fasciculin (open squares). The data points are for wild
-            type and 32 mutant complexes \cite{Selzer2000}.} 
-            \label{fig:tem1} 
+\begin{figure}[htbp] \centering \includegraphics[width=0.6\textwidth]{fig1_19}
+    \caption[Surface representations of TEM1 and BLIP. (a) the residues on BLIP
+        probed for faster association.(b – d) The electrostatic potentials on
+        the binding surfaces of BLIP, TEM1 and the fastest BLIP mutant (+6).
+        The calculations were performed using formal charges at 0.1 M salt,
+        with the contours drawn at 0.7 kT / e (blue for positive and red for
+        negative charge). The structures of TEM1 and BLIP are from the crystal
+        structure of the complex. The green patch denotes the binding
+    interface.]{Surface representations of TEM1 and BLIP. (a) the residues on
+        BLIP probed for faster association.(b – d) The electrostatic potentials
+        on the binding surfaces of BLIP, TEM1 and the fastest BLIP mutant (+6).
+        The calculations were performed using formal charges at 0.1 M salt,
+        with the contours drawn at 0.7 kT / e (blue for positive and red for
+        negative charge). The structures of TEM1 and BLIP are from the crystal
+        structure of the complex. The green patch denotes the binding
+        interface. \cite{Selzer2000}.} \label{fig:tem1} 
 \end{figure}
 % -------------------------- fig*
-In addition to re-design, algorithms can also be employed in different
-applications, including alanine enzyme–substrate \cite{Bolon2001,Jiang2008} and
-protein–nucleic acid interactions \cite{Ashworth2006}. Numerous computational
-tools have already shown promising results for the protein design.
+
+These examples demonstrated the feasibilities of using computational tools to
+engineer and design proteins of interest. 
+%%In addition to re-design, algorithms can also be employed in different
+%%applications, including alanine enzyme–substrate \cite{Bolon2001,Jiang2008} and
+%%protein–nucleic acid interactions \cite{Ashworth2006}. Numerous computational
+%%tools have already shown promising results for the protein design.
 
 \subsubsection{Rosetta Design}
 
@@ -332,7 +364,7 @@ network\cite{Rohl2004}, to predict RNA folding \cite{Das2007,Egli2002}, to
 create novel protein interfaces \cite{Jiang2008,Hennig2002}, to design
 enzymes \cite{Ashworth2006a}. (Figure \ref{fig:rosetta-overview})
 % -------------------------- fig-protein-engineering
-\begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_20}
+\begin{figure}[p] \centering \includegraphics[width=0.8\textwidth]{fig1_20}
     \caption[A unified framework for tackling multiple molecular modeling
         problems. Each panel depicts a problem in biomolecule structure
         prediction or design (left) and a diagram of the atom-tree
@@ -364,18 +396,19 @@ enzymes \cite{Ashworth2006a}. (Figure \ref{fig:rosetta-overview})
 \end{figure}
 % -------------------------- fig*
 
+\subsubsection{Macro Molecular Ligand Docking}
 Using Rosetta, Jiang \latin{et al.} design retro-aldolases with four different
 catalytic motifs to catalyze the breaking of a carbon-carbon bond in a
 nonnatural substrate,
-4-hydroxy-4-(6-methoxy-2-naphthyl)-2-butanone\cite{Jiang2008}.  (Figure
-\ref{fig:rosetta-enzyme}) They first generate ensembles of models of each of
-the key intermediates and transition states in the reaction. After These models
-are superimposed, they further create an initial composite active-site
-description. For each active-site description, catalytic sites are generated by
-Rosetta. Results are then ranked based on the composite active site and the
+4-hydroxy-4-(6-methoxy-2-naphthyl)-2-butanone \cite{Jiang2008} (Figure
+\ref{fig:rosetta-enzyme}). They first generate ensembles of models of each of
+the key intermediates and transition states in the reaction. After these models
+ere superimposed, they further created an initial composite active-site
+description. For each active-site description, catalytic sites were generated by
+Rosetta. Results were then ranked based on the composite active site and the
 specified catalytic geometry.
 % -------------------------- fig-rosetta-enzyme
-\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_23}
+\begin{figure}[htbp] \centering \includegraphics[width=1.0\textwidth]{fig1_23}
     \caption[Structures of designed enzymes.The nucleophilic imine-forming
         lysine is in orange, the TS model is in yellow, the hydrogen-bonding
         groups are in light green, and the catalytic water is shown explicitly.
@@ -383,13 +416,13 @@ specified catalytic geometry.
         TS model is indicated by the gray mesh; (A) RA60 (catalytic motif IV,
         jelly-roll scaffold). A designed hydrophobic pocket encloses the
         aromatic portion of the substrate and packs the aliphatic portion of
-        the imine-forming Lys48. A designed hydrogen-bonding network positions
+        the imine-forming K48. A designed hydrogen-bonding network positions
         the bridging water molecule and the composite TS. (B) RA46 (catalytic
-        motif IV, TIM-barrel scaffold). Tyr83 and Ser210 position the bridging
+        motif IV, TIM-barrel scaffold). Y83 and S210 position the bridging
         water molecule, which facilitates the proton shuffling required in
         active site. (C) RA45 (catalytic motif IV, TIM-barrel scaffold). The
-        bridging water is hydrogen-bonded by Ser211 and Glu233; replacing the
-    Glu233 with Thr decreases catalytic activity threefold.] {Structures of
+        bridging water is hydrogen-bonded by S211 and E233; replacing the
+    E233 with Thr decreases catalytic activity threefold.] {Structures of
         designed enzymes.The nucleophilic imine-forming lysine is in orange,
         the TS model is in yellow, the hydrogen-bonding groups are in light
         green, and the catalytic water is shown explicitly. The designed
@@ -397,34 +430,35 @@ specified catalytic geometry.
         indicated by the gray mesh; (A) RA60 (catalytic motif IV, jelly-roll
         scaffold). A designed hydrophobic pocket encloses the aromatic portion
         of the substrate and packs the aliphatic portion of the imine-forming
-        Lys48. A designed hydrogen-bonding network positions the bridging water
+        K48. A designed hydrogen-bonding network positions the bridging water
         molecule and the composite TS. (B) RA46 (catalytic motif IV, TIM-barrel
-        scaffold). Tyr83 and Ser210 position the bridging water molecule, which
+        scaffold). Y83 and S210 position the bridging water molecule, which
         facilitates the proton shuffling required in active site. (C) RA45
         (catalytic motif IV, TIM-barrel scaffold). The bridging water is
-        hydrogen-bonded by Ser211 and Glu233; replacing the Glu233 with Thr
+        hydrogen-bonded by S211 and E233; replacing the E233 with Thr
         decreases catalytic activity threefold\cite{Jiang2008}.} 
         \label{fig:rosetta-enzyme} 
 \end{figure}
 % -------------------------- fig*
-Later, Chaudhury \latin{et al.} demonstrate how Rosetta is used on the
+
+Later, Chaudhury \latin{et al.} demonstrated the use of Rosetta on the
 Ferredoxin-NADP\textsuperscript{+} reductase (FNR) with its ligand group flavin
 adenine dinucleotide (FAD), in complex with ferredoxin (Fd) (Target
 1EWY)\cite{Chaudhury2011}. Figure \ref{fig:macro-ligand} shows the score plot
 for docking model with the FAD molecule, and the decoy illustrated. The FAD
-molecule is critical for electron transfer from the Fd to the
-NADP\textsuperscript{+} through the formation of a ternary complex\cite{Hermoso2002}.
-Upon iterations, Rosetta algorithm provides the insight of ligand binding and
-increase of successful rate of finding good ligand candidates. 
+molecule was critical for electron transfer from the Fd to the
+NADP\textsuperscript{+} through the formation of a ternary complex \cite{Hermoso2002}.
+Upon iterations, the Rosetta algorithm provided insight into ligand binding and
+led to the success of finding good ligand candidates. 
 % -------------------------- fig-macromol-with-ligand
-\begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_21}
-    \caption[Plots of score vs. Lrmsd for local docking of the unbound
+\begin{figure}[p] \centering \includegraphics[width=0.8\textwidth]{fig1_21}
+    \caption[Plots of score vs. RMSD for local docking of the unbound
         structures in target 1EWY without (A) and with (B) the small molecule
         FAD bound to FNR (A), with high, medium, and acceptable accuracy decoys
         colored in brown, orange, and tan, respectively; (C) The second-lowest
         energy structure from docking using FAD with FNR (green), Fd (cyan),
         and the FAD molecule (magenta) superimposed on the crystal structure of
-    the complex (gray)] {Plots of score vs. Lrmsd for local docking of the
+    the complex (gray)] {Plots of score vs. RMSD for local docking of the
         unbound structures in target 1EWY without (A) and with (B) the small
         molecule FAD bound to FNR (A), with high, medium, and acceptable
         accuracy decoys colored in brown, orange, and tan, respectively; (C)
@@ -435,18 +469,19 @@ increase of successful rate of finding good ligand candidates.
 \end{figure}
 % -------------------------- fig*
 
-In addition to wide spectrum of applications, Rosetta also provides an
+In addition to the above applications, Rosetta also provides an
 advantage of easily incorporating unnatural amino acid (UAA) (See
-\ref{sec:uaa-intro}) into protein sequences. The combination of UAAs with
-Rosetta algorithm allows control over both mutated location of the UAA, and the
-interactions with the surrounding protein environment\cite{Renfrew2012b}. Mills
-\latin{et al.} use \emph{RosettaMatch} package from Rosetta packages to design
-the metalloprotein with incorporation of (2,2’-bipyridin-5yl)alanine
-(Bpy-Ala)\cite{Mills2013}. With the simulation from Rosetta, they design a
-protein with the ability to bind metals - \ce{Zn^{2+}}, \ce{Co^{2+}},
-\ce{Ni^{2+}}, and \ce{Fe^{2+}} - with high affinity. (Figure \ref{fig:rosetta-uaa})
+\ref{sec:uaa-intro}) into protein sequences \cite{Renfrew2012b}. The
+combination of UAAs with Rosetta algorithm allows control over the mutated
+position of the UAA was employed, and the its interactions with the surrounding
+protein environment\cite{Renfrew2012b}. Mills \latin{et al.} use
+\emph{RosettaMatch} package from Rosetta packages to design a metalloprotein
+with incorporation of (2,2’-bipyridin-5yl)alanine (Bpy-Ala)\cite{Mills2013}.
+With the simulation from Rosetta, they have designed a protein with the ability to
+bind metals - \ce{Zn^{2+}}, \ce{Co^{2+}}, \ce{Ni^{2+}}, and \ce{Fe^{2+}} - with
+high affinity. (Figure \ref{fig:rosetta-uaa})
 % -------------------------- fig-rosetta-uaa
-\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_22}
+\begin{figure}[p] \centering \includegraphics[width=1.0\textwidth]{fig1_23}
     \caption[Spectral and structural analysis of round 1 designs; (a)
         absorbance spectra of designs CB-02 (solid line) and CB-12 (dashed
         line); (b) superposition of CB-02 design with the structure solved. The
@@ -466,7 +501,7 @@ protein with the ability to bind metals - \ce{Zn^{2+}}, \ce{Co^{2+}},
 \end{figure}
 % -------------------------- fig*
 % -------------------------- fig-rosetta
-\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
+\begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig1_01}
     \caption[The scheme of scoring function of Rosetta. 1: Lennard-Jones
     Potential; 2: implicit solvent model; 3: hydrogen bonding; 4:
 electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
@@ -480,28 +515,31 @@ electrostatics; 5: PDB drived torsion potential.]{The scheme of scoring
 \label{sec:uaa-intro}
 
 While proteins have been engineered with the natural amino acids, researchers
-have also introduced unnatural amino acids (UAAs) into
-proteins\cite{Odar2015,Hassan2008,Kiick2000,Hammill2007,Meinnel1990,Johnson2010}.
-One of UAAs, fluorinated analogs, has been studied extensively in the hope that
-it will provide benefits to protein engineering, including properties of
-increased hydrophobicity\cite{Biffinger2004},
-thermostability\cite{Voloshchuk2010,Baker2011b}, and chemical denaturant
-stability\cite{Voloshchuk2007b}. The replacement of hydrophobic amino acids
-like leucine and phenylalanine with their fluorinated analogs has provided
-content-dependent results\cite{Tang2001}.
+have also introduced unnatural amino acids (UAAs) into proteins
+\cite{Odar2015,Hassan2008,Kiick2000,Hammill2007,Meinnel1990,Johnson2010}.
+Proteins bearing UAAs have been designed to compare activity and stability.  
+% --------------------------deleted content
+%% One of UAAs, fluorinated analogs, has been studied extensively in the hope that it
+%% will provide benefits to protein engineering, including properties of increased
+%% hydrophobicity \cite{Biffinger2004}, thermostability
+%% \cite{Voloshchuk2010,Baker2011b}, and chemical denaturant stability
+%% \cite{Voloshchuk2007b}. The replacement of hydrophobic amino acids like leucine
+%% and phenylalanine with their fluorinated analogs has provided content-dependent
+%% results \cite{Tang2001}.
+% --------------------------*
 
-Budisa group reported that enzymes change the specificities with the
-incorporation of unnatural amino acids\cite{Budisa2006}. Biocatalysis with UAAs
-are selectively active to different chimerical compounds. With the similar
-manner, Jackson \latin{et al.} incorporated several Phe analogs -
+The Budisa group reported that enzymes change the specificities with the
+incorporation of UAAs \cite{Budisa2006}. Biocatalysis with UAAs
+are selectively active to different chimerical compounds \cite{Jackson2006a}.
+Jackson \latin{et al.} incorporated several Phe analogs -
 \emph{p}-aminophenylalanine (\emph{p}AF), naphthylalanine (Nap),
 \emph{p}-benzoylphenylalanine (\emph{p}Bpa), and \emph{p}-methyoxyphenylalanine
-(\emph{p}MOF) - into prodrug activator nitroreductase (NTR). They then report
-the >30-fold improvement of prodrug activator nitroreductase (NTR) efficiency
-with an UAA over that of the native active site\cite{Jackson2006a}. (Figure
-\ref{fig:selectivity-example})
+(\emph{p}MOF) - into the prodrug activator nitroreductase (NTR). They reported
+the 30-fold improvement of prodrug activator nitroreductase (NTR) efficiency
+with an UAA over that of the native active site\cite{Jackson2006a} (Figure
+\ref{fig:selectivity-example}).
 % --------------------------
-\begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_24}
+\begin{figure}[p] \centering \includegraphics[width=0.6\textwidth]{fig1_24}
     \caption[Catalytic efficiency of modified NTR enzymes: (a)
         k\textsubscript{cat}/K\textsubscript{M} values for natural and
         unnatural NTRs with CB1954 and (b)
@@ -516,139 +554,188 @@ with an UAA over that of the native active site\cite{Jackson2006a}. (Figure
 % --------------------------
 
 Photo-responsive unnatural amino acids that crosslinked with nearby
-molecules ave been developed for enabling the \latin{in vivo} manipulation of
-proteins. This gives potential in molecular and synthetic biology applications.
-With Site-specific photocrosslinked amino acid, it may help to pinpoint weak
-interactions for identification of involved region. Chin \latin{et al.} use an
-evolved orthogonal aminoacyl-tRNA synthetase/tRNA pair to incorporate of
+molecules have been developed for enabling the \latin{in vivo} manipulation of
+proteins \cite{Chin2002}. Chin \latin{et al.} used an evolved orthogonal
+aminoacyl-tRNA synthetase/tRNA pair to incorporate of
 \emph{p}-benzoyl-phenylalanine (\emph{p}Bpa) into protein glutathione
-\emph{S}-transferase\cite{Chin2002}. The efficient crosslinking (>50\%) proves
+\emph{S}-transferase \cite{Chin2002}. The efficient crosslinking (50\%) proves
 the usefulness for defining protein interactions \latin{in vivo} and \latin{in
-vitro}.
-\clearpage
+vitro}. 
 
 \subsection{Incorporation of Unnatural Amino Acids} 
 \label{sec:rsi-intro}
 
-Several methods have been developed for the incorporation of unnatural amino
-acids into proteins, which can be categorized under synthetic and biosynthetic
-approaches. Common synthetic approaches include solid phase peptide synthesis
-(SPPS) and native chemical ligation (NCL) (Figure
+Several methods have been developed for the incorporation of UAAs into
+proteins, which can be categorized under synthetic and biosynthetic approaches.
+Common synthetic approaches include solid phase peptide synthesis (SPPS)
+(Figure \ref{fig:spps-intro}) and native chemical ligation (NCL) (Figure
 \ref{fig:ncl-intro}) while biosynthetic methods include \latin{in vivo} and
-\latin{in vitro} site-specific incorporation\cite{Cellitti2008,Hassan2008}, and
-residue-specific incorporation\cite{Johnson2010}. (Figure \ref{fig:rsi}) An
+\latin{in vitro} site-specific incorporation \cite{Cellitti2008,Hassan2008} and
+residue-specific incorporation \cite{Johnson2010} (Figure \ref{fig:rsi}). An
 approach in between synthetic and biosynthesis is expressed protein ligation
-(EPL)\cite{Muir1998}. (Figure \ref{fig:epl-intro})
+(EPL) \cite{Muir1998} (Figure \ref{fig:epl-intro}). Below is a description in
+each approach.
 % --------------------------fig-epl
-\begin{figure}[h!] \centering \includegraphics[width=0.5\textwidth]{fig1_25}
-    \caption[The principle of expressed protein ligation.]{The principle of
-        expressed protein ligation\cite{Muir1998}.} 
-        \label{fig:epl-intro} 
+\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_25}
+    \caption[The principle of expressed protein ligation. The first step
+        involves the puriCied recombinant protein with a C-terminal intein
+        fusion reacted with thiophenol or 2-mercaptoethanesulfonic acid, which
+        promotes intein mediated transthioesterification to produce the
+        C$\alpha$-thioester. The N-terminal Cys can be synthesized through
+        standard SPPS or recombinantly generated in which the N-terminal of Cys
+        is fused to an intein that can be cleaved by thiols, pH change or
+    temperature.]{The principle of expressed protein ligation
+        \cite{Muir1998,Theato2013}.The principle of expressed protein ligation. The first
+        step involves the puriCied recombinant protein with a C-terminal intein
+        fusion reacted with thiophenol or 2-mercaptoethanesulfonic acid, which
+        promotes intein mediated transthioesterification to produce the
+        C$\alpha$-thioester. The N-terminal Cys can be synthesized through
+        standard SPPS or recombinantly generated in which the N-terminal of Cys
+        is fused to an intein that can be cleaved by thiols, pH change or
+    temperature.} \label{fig:epl-intro} 
 \end{figure}
 % -------------------------- fig*
 
+\subsubsection{Solid Phase Peptide Synthesis}
 In SPPS  (Figure \ref{fig:spps-intro}), activated amino acids are
 immobilized on a solid support and synthesized step-by-step in the reactant
-solution. This method is convenient for the introduction of functional groups,
-including natural and unnatural amino acids, into peptides, but it is still
-restricted to the yield and the expense of peptides. For example, if each
+solution \cite{Merrifield1963a}. This method is convenient for the introduction
+of functional groups, including natural and unnatural amino acids, into
+peptides, but is limited in terms of overall yield. For example, if each
 coupling step has 99\% yield, a 26-amino acid peptide would be synthesized in
-77\% final yield\cite{Chan2000}.  
+77\% final yield \cite{Chan2000}.  
 % --------------------------fig-spps
 \begin{figure}[h!] \centering \includegraphics[width=0.5\textwidth]{fig1_26}
-    \caption[Princilple mechanism of soild phase peptide synthesis
-    (SPPS).]{Principle mechanism of soild phase peptide synthesis
-        (SPPS)\cite{Merrifield1963a}.} \label{fig:spps-intro} 
+    \caption[Principle mechanism of solid phase peptide synthesis (SPPS). The
+    first step involves an assembly with protected amino acid derivatives on a
+resin support. The second step cleaves the peptide from the resin support with
+the cleavage of side chain protecting groups to give a free peptide.]{Principle
+    mechanism of solid phase peptide synthesis (SPPS). The first step involves
+    an assembly with protected amino acid derivatives on a resin support. The
+    second step cleaves the peptide from the resin support with the cleavage of
+    side chain protecting groups to give a free peptide
+    \cite{Merrifield1963a,Mahto2011}.} 
+    \label{fig:spps-intro} 
 \end{figure}
 % --------------------------fig*
 
-To synthesis longer chain
-peptides and proteins bearing UAAs, biosynthetic methods have been developed.
-The genetic code of deoxyribonucleic acid (DNA), a gene, is transcribed and
-translated into a sequence of polypeptide through the central
-dogma\cite{CRICK1970}. The DNA information is first transcribed into messenger
-ribonucleic acid (mRNA) through RNA polymerase and transcription factors. Once
-mRNA is ready for translation, the ribosome facilitates the decoding of mRNA.
+To synthesis longer chain peptides and proteins bearing UAAs, biosynthetic
+methods have been developed
+\cite{Voloshchuk2007b,Yoo2007,Johnson2010,Link2003,Voloshchuk2010,Montclare2006b}.
+The genetic code of deoxyribonucleic acid (DNA) is transcribed and translated
+into a sequence of polypeptide through the central dogma \cite{CRICK1970}. The
+DNA information is first transcribed into messenger ribonucleic acid (mRNA)
+through RNA polymerase and transcription factors \cite{Pukkila2001}. Once mRNA
+is ready for translation, the ribosome facilitates the decoding of mRNA.
 Aminoacyl-tRNA synthetases (aaRS) are, at the same time, carrying the paired
-amino acids to their transfer RNAs (tRNAs). The aminoacylated tRNAs are then
-used for synthesis of polypeptide chain. The specific codon that consists of
-three nucleotides corresponds to a single amino acid. The start codon, AUG on
-mRNA sequence, is recognized by initial tRNA. While synthesis of peptide ends
-up with stop codon, each pair of codon is recognized by amino acid paired
-tRNA\cite{Sadava2006}. There exists three contemporary methods to
-biosynthetically incorporate non-natural amino acids into proteins:
-site-specific incorporation (SSI)(Figure \ref{fig:ssi-intro}), residue-specific
-incorporation (RSI), and multi-site specific incorporation (MSI). Bain
-\latin{et al.} have developed a general approach for the \latin{in vitro}
-synthesis of proteins\cite{Bain1991}.  The approach relies on the suppression
-of an amber termination codon (UAG) in the mRNA by an amber suppressor tRNA
-chemically charged with the amino acid analog.  (Figure \ref{fig:ssi-intro})
-This method has been well studied and developed in research of protein
-structures and functions\cite{Martoglio1995,Eichler1997}.
+amino acids to their transfer RNAs (tRNAs) \cite{Pukkila2001}. The
+aminoacylated tRNAs are then used for synthesis of polypeptide chain. The
+specific codon that consists of three nucleotides corresponds to a single amino
+acid. The start codon, AUG on mRNA sequence, is recognized by initial tRNA.
+Each pair of codon is recognized by amino acid paired tRNA \cite{Sadava2006}
+until the stop condon, which is recognized by release factor
+\cite{Pukkila2001}. There exists three contemporary methods to biosynthetically
+incorporate non-natural amino acids into proteins: site-specific incorporation
+(SSI)(Figure \ref{fig:ssi-intro}), residue-specific incorporation (RSI), and
+multi-site specific incorporation (MSI). 
+
+Bain \latin{et al.} have developed a general
+approach for the \latin{in vitro} synthesis of proteins \cite{Bain1991}.  The
+approach relies on the suppression of an amber termination codon (UAG) in the
+mRNA by an amber suppressor tRNA chemically charged with the amino acid analog
+\cite{Theato2013} (Figure \ref{fig:ssi-intro}).  This method has been well
+studied and developed in research of protein structures and functions
+\cite{Martoglio1995,Eichler1997}.
 % --------------------------fig-ncl
 \begin{figure}[h!] \centering \includegraphics[width=0.5\textwidth]{fig1_10}
-    \caption[Princilple mechanism of native chemical ligation.]
-    {Principle mechanism of native chemical ligation.} 
-    \label{fig:ncl-intro} 
+    \caption[Princilple mechanism of native chemical ligation. The reaction
+    involves the chemoselective reaction between an N-terminal Cys residue of
+one peptide fragment and another peptide with C-terminal $\alpha$-thioester
+(SR) group.] {Principle mechanism of native chemical ligation \cite{Theato2013}.
+The reaction involves the chemoselective reaction between an N-terminal Cys
+residue of one peptide fragment and another peptide with C-terminal
+$\alpha$-thioester (SR) group.} \label{fig:ncl-intro} 
 \end{figure}
 % --------------------------fig*
+% --------------------------deleted content
+%% Methods to incorporate amino acid analogues site-specifically into proteins
+%% \latin{in vivo} greatly expand research of unnatural amino acids. We are not
+%%only able to synthesize large amounts of protein, but capable of overcoming
+%% potential problems including post-translational modifications.
+% --------------------------
+
+\subsubsection{\latin{in vivo} Site-specific Incorporation}
+
+An \latin{in vivo} site-specific method to UAA incorporation was developed by
+Schultz and coworkers \cite{Wang2001,Wang2002}. A stop codon at the position of
+interest is encoded in the mRNA. For \latin{in vivo} site-specific UAA
+incorporation, an orthogonal aminoacyl-tRNA synthetase charges an orthogonal
+tRNA with particular UAA, and the suppressor tRNA would help the incorporation
+of UAA by recognition of a stop codon. As cells contain 20 aminoacyl-tRNA
+synthetase/tRNA pairs, a new one is required for UAA incorporation. An
+orthogonal aminoacyl-tRNA synthetase/suppressor tRNA pair based on a
+TyrRS/tRNA\textsuperscript{Tyr} pair in the \emph{Methanococcus jannaschii} has
+been engineered for use in \emph{E.  coli} for the incorporation of tyrosine
+analogs \cite{Wang2001}.
 % --------------------------fig-ssi
 \begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_09}
-    \caption[Schematic representation of in vitro SSI via amber
-    suppression.]{Schematic representation of in vitro SSI via amber
-    suppression.} 
+    \caption[Schematic representation of \emph{in vitro} SSI via amber
+        suppression. A hybrid dinucleotide pdCpA was synthesized with the UAA,
+        and the aminoacylated pdCpA was ligated to a truncated amber suppressor
+        tRNA\textsubscript{CUA}\textsuperscript{Phe} using T4 RNA ligase, which
+        was used for SSI.]{Schematic representation of \emph{in vitro} SSI via
+        amber suppression. A hybrid dinucleotide pdCpA was synthesized with the
+        UAA, and the aminoacylated pdCpA was ligated to a truncated amber
+        suppressor tRNA\textsubscript{CUA}\textsuperscript{Phe} using T4 RNA
+        ligase, which was used for SSI \cite{Theato2013,Wang2001}.} 
     \label{fig:ssi-intro} 
 \end{figure}
 % -------------------------- fig*
 
-Methods to incorporate amino acid analogues site-specifically into proteins
-\latin{in vivo} greatly expand research of unnatural amino acids. We are not
-only able to synthesize large amounts of protein, but capable of overcoming
-potential problems including post-translational modifications. An \latin{in
-vivo} site-specific method to UAA incorporation was developed by Schultz and
-coworkers\cite{Wang2001,Wang2002}. A stop codon at the position of interest is
-encoded in the mRNA. For \latin{in vivo} site-specific UAA incorporation, an
-orthogonal aminoacyl-tRNA synthetase charges an orthogonal tRNA with particular
-UAA, and the suppressor tRNA would help the incorporation of UAA by recognition
-of a stop codon. As cells contain 20 aminoacyl-tRNA synthetase/tRNA pairs, a
-new one is required for UAA incorporation. An orthogonal aminoacyl-tRNA
-synthetase/suppressor tRNA pair based on a TyrRS/tRNA\textsuperscript{Tyr} pair
-in the \emph{Methanococcus jannaschii} has been engineered for use in \emph{E.
-coli} for the incorporation of tyrosine analogs\cite{Wang2001}.
+\subsubsection{\latin{in vivo} Residue-specific Incorporation}
+
+As an alternative to site-specific incorporation, residue-specific
+incorporation has been developed in which a natural amino acid is replaced with
+an UAA \cite{Wang2001}. Auxotrophic strains or organisms that cannot
+biosynthesize a particular natural amino acid, has been used to introduce
+multiple UAAs throughout the protein sequence \cite{Wang2001,Johnson2010}. UAAs
+that are isosteric to natural amino acids are capable of being recognized by
+the natural aminoacyl-tRNA synthetase (aaRS), charging the appropriate tRNA
+enabling the introduction of UAA into the protein sequence without alteration
+of the biosynthetic machinery (Figure \ref{fig:rsi} a).
 % -------------------------- fig-rsi
 \begin{figure}[h!] \centering \includegraphics[width=0.8\textwidth]{fig1_03} 
-    \caption[Illustration  of NAA incorporation via (a) RSI using auxotrophic
+    \caption[Illustration  of UAA incorporation via RSI (a) using auxotrophic
     strain, (b) engineering additional copies of endogenous AARS, (c) expanding
 the AARS binding pocket and (d) shrinking the AARS editing
-pocket.]{Illustration  of NAA incorporation via (a) RSI using auxotrophic
+pocket.]{Illustration  of UAA incorporation via RSI (a) using auxotrophic
 strain, (b) engineering additional copies of endogenous AARS, (c) expanding the
 AARS binding pocket and (d) shrinking the AARS editing pocket.} \label{fig:rsi} 
 \end{figure}
 % -------------------------- fig*
 
-As an alternative to site-specific incorporation, residue-specific
-incorporation has been developed in which a natural amino acid is replaced with
-an UAA. Auxotrophic strains or organisms that cannot biosynthesize a particular
-natural amino acid, has been used to introduce multiple UAAs throughout the
-protein sequence. UAAs that are isosteric to natural amino acids are capable of
-being recognized by the natural aminoacyl-tRNA synthetase (aaRS), charging the
-appropriate tRNA enabling the introduction of UAA into the protein sequence
-without alteration of the biosynthetic machinery. (Figure \ref{fig:rsi})
 However, to introduce UAAs with gross differences from the natural amino acids,
 further engineering of the aaRS is required. To incorporate refractory
 methionine analogs, Tirrell and coworkers engineered additional copied of the
 methionyl-tRNA synthetase (MetRS) by adding the MetRS gene under constitutive
-promotor\cite{Kiick2000}.  Alternatively, Schimmel and coworkers mutated
-editing pocket of valyl-tRNA synthetase (ValRS) to facilitate the incorporation
-of analogs that normally would not be accepted by endogenous
-aaRS\cite{Doring2001}. Finally, Kast and coworkers generated a mutated
-phenylalanyl-tRNA synthetase (PheRS), ePheRS* under a constitutive promoter,
-with a large binding pocket (T251G) and showed relaxed
-specificity\cite{Kast1991}.
+promotor (Figure \ref{fig:rsi} b) \cite{Kiick2000}.  Alternatively, Schimmel
+and coworkers mutated editing pocket of valyl-tRNA synthetase (ValRS) to
+facilitate the incorporation of analogs that normally would not be accepted by
+endogenous aaRS (Figure \ref{fig:rsi} c) \cite{Doring2001}.  Finally, Kast and
+coworkers generated a mutated phenylalanyl-tRNA synthetase (PheRS), ePheRS*
+under a constitutive promoter, with a large binding pocket (T251G) and showed
+relaxed specificity (Figure \ref{fig:rsi} d) \cite{Kast1991}.
 
-\subsubsection{Fluorinated Amino Acids In Proteins} 
+\subsubsection{Fluorinated Amino Acids in Proteins} 
 \label{sec:faa-intro}
 
+Fluorinated amino acids (FAAs), represent a unique class of UAAs. They have
+different bond energies, electron distributions, and
+hydrophobicities \cite{Biffinger2004} as compared to their hydrogenated
+counterparts. With the electro-negativity of 4.0 on the Pauling scaling, the
+C-F bond is highly dipolar while the hydrocarbon is less. The C-F bond is
+roughly \SI{0.24}{\angstrom} longer than C-H bond (Table
+\ref{tab:c-fbond})\cite{Tang2001}. 
 % ------------------------- table
 \begin{table}[h!]
 \centering
@@ -670,13 +757,7 @@ size\cite{Tang2001,Odar2015}}
 \end{table}
 % ------------------------- table*
 
-Fluorinated amino acids (FAAs), represent a unique class of UAAs. They have
-different bond energies, electron distributions, and
-hydrophobicity\cite{Biffinger2004} as compared to their hydrogenated
-counterparts. With the electro-negativity of 4.0 on the Pauling scaling, the
-C-F bond is highly dipolar while the hydrocarbon is less. The C-F bond is
-roughly \SI{0.24}{\angstrom} longer than C-H bond (Table
-\ref{tab:c-fbond})\cite{Tang2001}. While in some cases the global replacement
+While in some cases the global replacement
 of hydrophobic amino acids with fluorinated analogs has led to the
 stabilization of protein structure\cite{Biffinger2004}, it has all been shown
 that in some cases they can reduce the thermodynamic
@@ -685,21 +766,21 @@ the biosynthetic incorporation of a wide range of unnatural amino acids into
 proteins\cite{Voloshchuk2010}. In particular, fluorinated amino acids (FAAs)
 have been integrated into small coiled-coil
 proteins\cite{Montclare2009b,Tang2001}, a range of
-enzymes\cite{Voloshchuk2009,Panchenko2006b,Voloshchuk2007b,Mehta2011b,Hammill2007},
+enzymes\cite{Voloshchuk2009,Panchenko2006b,Voloshchuk2007b,Mehta2011a,Hammill2007},
 and biomaterials\cite{Yuvienco2012b}. Although incorporation of FAAs into a
 target protein can lead to enhanced function or stability, in some cases loss
 of activity or stability occurs, and further improvements to the artificial
-protein have been made by rational mutagenesis\cite{Voloshchuk2007b} and
-directed evolution strategies\cite{Montclare2006b}.
-% fig1_04: add comparison of phe vs pFF
+protein have been made by rational mutagenesis \cite{Voloshchuk2007b} and
+directed evolution strategies \cite{Montclare2006b}.
 
 \subsection{Phosphotriesterase} 
 \label{sec:pte-intro}
 
 Phosphotriesterase (PTE) is a homodimeric protein composed of two monomers,
-each of which contains a metallo-active site. PTE acts as an enzyme, which
+each of which contains a metallo-active site
+\cite{Aubert2004b,Benning2001a,Benning1995}. PTE acts as an enzyme, which
 hydrolyze organophosphates (OPs) \cite{Ghanem2005a}.  (Figure
-\ref{fig:pte-structure}) The proenzyme form of PTE contains 29 amino acids
+\ref{fig:pte-structure}) The proenzyme form of PTE contains a 29 amino acids
 signal peptide at the N-terminus. It is originally found as a 39 kDa monomeric
 form in the solution \cite{Mulbry1989}. Later, the proenzyme of PTE is
 engineered and expressed in the form of mature protein from \latin{E.  coli}. A
@@ -737,34 +818,44 @@ $\times$ \SI{55}{\angstrom} $\times$ \SI{51}{\angstrom}.
 \end{figure} 
 % --------------------------fig
 
-Omburo \latin{et al.} showed that the active PTE contained metal ions in the
-active site
-\cite{Rochu2002b,Carletti2009,Hill2003,Bigley2013,Samples2005,Kim2008}. Metal
-ions, \ch{Mn^{2+}}, \ch{Co^{2+}}, \ch{Ni^{2+}}, \ch{Cd^{2+}}, or \ch{Zn^{2+}}
-help the hydrolysis of OPs \cite{Omburo1992a}.  From the spectrum of
-\ch{^{113}Cd}-NMR, the peaks indicate that PTE incorporates two distinct metals
-in the active site \cite{Omburo1993}.  Histidines, including His55, His57,
-His201, and His230, interact metal ions at the active site \cite{Benning2001a}. 
+Metal ions, \ch{Mn^{2+}}, \ch{Co^{2+}}, \ch{Ni^{2+}}, \ch{Cd^{2+}}, or
+\ch{Zn^{2+}} help the hydrolysis of OPs
+\cite{Rochu2002b,Carletti2009,Hill2003,Bigley2013,Samples2005,Kim2008}.  Omburo
+\latin{et al.} showed that the most active PTE contained \ch{Co^{+}} metal ions
+in the active site \cite{Omburo1992a}. From the spectrum of \ch{^{113}Cd}-NMR,
+the peaks indicate that PTE incorporates two distinct metals in the active site
+\cite{Omburo1993}.  Histidines, including His55, His57, His201, and His230,
+interact metal ions at the active site \cite{Benning2001a} (Figure
+\ref{fig:pte-structure}). 
 
 \subsubsection{Hydrolysis Mechanism of PTE}
-% SN2 reaction and discuss binding pocket.
 
-The reaction catalyzed by PTE has been proposed through a nucleophilic attack
-on the phosphorus center in an SN\textsubscript{2} mechanism\cite{Lewis1988}.
-Evidence shows the nucleophilic attack on the phosphorus center from the
-analysis of reaction conducted in O\textsuperscript{18}-labeled
-water\cite{Lewis1988}.  Aubert \latin{et al.} then proposes catalytic mechanism
-of PTE\cite{Aubert2004}.  (Figure \ref{fig:pte-mechanism}) Two metal sites are
-designated $\alpha$ and $\beta$ in Figure
-\ref{fig:pte-mechanism}\cite{Aubert2004}. The final step shown in the figure
-involves both the regeneration of the bridging hydroxyl and the binding of
-water in the open coordination site on the $\beta$-metal. See Section
-\ref{sec:side-chain} for more details. 
+PTE is able to react with OPs through a nucleophilic attack by \ch{H2O}
+associated by Asp301 on the phosphorus center in an SN\textsubscript{2}
+mechanism\cite{Lewis1988} (Figure \ref{fig:pte-mechanism}).  Evidence shows the
+nucleophilic attack on the phosphorus center from the analysis of reaction
+conducted in O\textsuperscript{18}-labeled water\cite{Lewis1988}.  Aubert
+\latin{et al.} then proposes catalytic mechanism of PTE\cite{Aubert2004}.
+(Figure \ref{fig:pte-mechanism}) Two metal sites, designated $\alpha$ and
+$\beta$ in Figure \ref{fig:pte-mechanism}\cite{Aubert2004}, are involved in
+substrate hydrolysis. First step involves a nucleophilic attack on the
+phosphorus center and proton transfer to Asp301. Then, The P-O bond is broken
+and an complex forms as a phosphate anion that bridges the two \ch{Zn^{2+}}.The
+final step shown in the figure involves both the regeneration of the bridging
+hydroxyl and the binding of water in the open coordination site on the
+$\beta$-metal.
 % --------------------------fig-pte-mechanism
 \begin{figure}[h!] \centering \includegraphics[width=0.6\textwidth]{fig1_27}
-    \caption[Proposed catalytic mechanism of PTE.]{Proposed catalytic mechanism
-        of PTE\cite{Aubert2004}.} \label{fig:pte-mechanism} 
-\end{figure}
+    \caption[Proposed catalytic mechanism of PTE. First step involves a
+    nucleophilic attack on the phosphorus center and proton transfer to Asp301.
+Then, The P-O bond is broken and an complex forms as a phosphate anion that
+bridges the two \ch{Zn^{2+}}. Last, the product is released, and the
+active-site hydroxide is regenerated.]{Proposed catalytic mechanism of PTE.
+    First step involves a nucleophilic attack on the phosphorus center and
+    proton transfer to Asp301. Then, The P-O bond is broken and an complex
+    forms as a phosphate anion that bridges the two \ch{Zn^{2+}}. Last, the
+    product is released, and the active-site hydroxide is regenerated
+    \cite{Aubert2004}.} \label{fig:pte-mechanism} \end{figure}
 % -------------------------- fig*
 
 \subsubsection{Fluorinated PTE}
@@ -772,41 +863,57 @@ water in the open coordination site on the $\beta$-metal. See Section
 With the thermo-stabilization property of fluorinated amino acid (See
 \ref{sec:faa-intro}) and concept of protein engineering (See \ref{sec:uaa-intro}),
 Baker \latin{et al.} designed an improved thermo-stabilized PTE though the
-incorporation of \emph{para}-fluoro-phenylalanine
-(\emph{p}FF)]\cite{Baker2011b}. With residue specific incorporation (see
-\ref{sec:rsi-intro}), all phenylalanines were replaced with \emph{p}FFs, and
-\emph{p}FF-PTE exhibited residual activities to organophosphates. (Figure
+incorporation of \emph{para}-fluoro-phenylalanine (\emph{p}FF)
+\cite{Baker2011b} (Figure \ref{fig:PJB} A). With residue specific incorporation
+(see \ref{sec:rsi-intro}), all 15 phenylalanines were replaced with \emph{p}FFs,
+and to produce \emph{p}FF-PTE. (Figure
 \ref{fig:PJB})
 % --------------------------fig-PJB
 \begin{figure}[h!] \centering \includegraphics[width=0.4\textwidth]{fig1_28}
-    \caption[Residual activity assay on PTE (black) and pFF-PTE (gray) for
-    substrates, paraoxon.]{Residual activity assay on PTE (black) and pFF-PTE
-        (gray) for substrates, paraoxon\cite{Baker2011b}.} \label{fig:PJB}
+    \caption[(A) Structure of PTE with Phe highlighted. (B) Residual activity
+        assay on PTE (black) and \emph{p}FF-PTE (gray) for substrates,
+        paraoxon. \emph{p}FF-PTE retained more than 40\% of the initial
+        activity for paraoxon upon being heated to \SI{55}{\celsius}. This
+        revealed that \emph{p}FF-PTE has enhanced activity for paraoxon.]{(A)
+            Structure of PTE with Phe highlighted. (B) Residual activity assay
+            on PTE (black) and \emph{p}FF--PTE (gray) for substrates, paraoxon.
+            \emph{p}FF-PTE retained more than 40\% of the initial activity for
+            paraoxon upon being heated to \SI{55}{\celsius}. This revealed that
+            \emph{p}FF-PTE has enhanced activity for paraoxon
+            \cite{Baker2011b}.} 
+    \label{fig:PJB} 
 \end{figure}
 % -------------------------- fig*
 
 \subsection{Scope of Work}
 
-The primary goals of this work were to adapt Rosetta for phosphotriesterase.
-Overall, with incorporation of \emph{p}FF into protein, we will be able
-evaluate the performance of scoring function. In advance, we would evaluate the
-shelf life and thermo-stability of phosphotriesterase.
+While the \emph{p}FF-PTE demonstrated improved stability, the amount of soluble
+protein levels were significantly reduced compared to wild-type PTE. This could
+be attributed to the incorporation of \emph{p}FF hydrophobicity
+\cite{Baker2011b}. To design more soluble and stable regions of \emph{p}FF-PTE,
+we employ Rosetta. Using Rosetta, a computational suite, we identify a
+\emph{p}FF-PTE variant that exhibits extended shelf life and improved
+stability. 
 
 \section{Methods}
 
 \subsection{General}
 
-\emph{DpnI} and dNTP were purchased from Roche. All other chemicals, including
-\ch{NaCl}, sodium phosphates monobasic, sodium phosphate dibasic, were
-purchased from Sigma or VWR. DNA sequence was confirmed by Eurofins MWG Operon.
-96-well plates were purchased from Thermo Fisher Scientific (Waltham, MA).
+\emph{DpnI}, and dNTP were purchased from Roche.  Pfu DNA polymerase was
+purchased from Thermo Scientific (Waltham, MA). All other chemicals, including
+\ch{NaCl}, \ch{CoCl2}, Tris-HCl, tryptone, yeast extract, paraoxon, ampicillin,
+chloramphenicol, sodium phosphates monobasic, sodium phosphate dibasic, were
+purchased from Sigma (St. Louis, MO) or VWR (Radnor, PA). DNA sequence was
+confirmed by Eurofins MWG Operon.  96-well plates were purchased from Thermo
+Fisher Scientific (Waltham, MA). FPLC column was purchased from G.E Healthcare
+(Piscataway, NJ). 
 
 \subsection{Recombinant Gene Construction}
 
-pQE30-PTE was used as described before\cite{Baker2011b}. The pQE30-F104A plasmid
-was prepared with forward primers (5’-GAT GTG TCG ACT \textbf{GCC} GAT ATC GGT
-CG-3’, Fisher Scientific), reverse primers (5’-CG ACC GAT ATC \textbf{GGC} AGT
-CGA CAC A-3’, Fisher Scientific). The polymerase chain reaction (PCR)
+pQE30-PTE was used as described before \cite{Baker2011b}. The pQE30-F104A plasmid
+was prepared with forward primers (5\rq-GAT GTG TCG ACT \textbf{GCC} GAT ATC GGT
+CG-3\rq, Fisher Scientific), reverse primers (5\rq-CG ACC GAT ATC \textbf{GGC} AGT
+CGA CAC A-3\rq, Fisher Scientific). The polymerase chain reaction (PCR)
 parameters were set as follow for 18 cycles: initial denaturation in
 \SI{95}{\celsius} for 30 seconds, sequential denaturation in \SI{95}{\celsius}
 for 30 seconds, annealing in \SI{55}{\celsius} for 1 minute, and extension in
@@ -824,7 +931,7 @@ done at \SI{25}{\micro\farad}, \SI{100}{\ohm}, 2.5 kV (Biorad Gene Pulser II).
 Cells were plated on agar plates containing \SI{200}{\ug\per\mL} ampicillin,
 \SI{34}{\ug\per\mL} chloramphenicol. A single colony was picked and grown in
 medium (M9 medium supplemented with 0.2 wt \% glucose, \SI{35}{\mg\per\L}
-thiamine, \SI{1}{\milli\Molar} \ch{MgSO4}, \SI{0.1}{\milli\Molar}\ch{CaCl2},
+thiamine, \SI{1}{\milli\Molar} \ch{MgSO4}, \SI{0.1}{\milli\Molar} \ch{CaCl2},
 \SI{200}{\ug\per\mL} ampicillin, and \SI{34}{\ug\per\mL} chloramphenicol) with
 \SI{20}{\mg\per\L} of 20 amino acids at \SI{37}{\celsius}, 300 r.p.m for 16
 hours \SI{37}{\celsius} incubation.  Afterwards, \SI{250}{\mL} of M9 medium for
@@ -839,21 +946,26 @@ depriving of extra phenylalanine in the medium. \emph{p}FF-PTE and
 isopropyl-$\beta$-D-thiogalactopyranoside (IPTG) to induce protein expression.
 \SI{1}{\milli\Molar} of \ch{CoCl2} was added in each post-induction medium.
 After three hours incubation at \SI{37}{\celsius}, 300 r.p.m., the cells were
-harvested by using 4000 r.p.m centrifugation at \SI{4}{\celsius} for 15 minutes
-and then resuspended with \SI{20}{\milli\Molar} Tris-HCl,
-\SI{500}{\milli\Molar} \ch{NaCl}, \SI{5}{\milli\Molar} imidazole, 10\% glycerol
-(pH 8.0) and \SI{1}{\micro\Molar} \ch{CoCl2}. Cell lysate was immediately
-sonicated for 1.5 minutes at \SI{4}{\celsius} and then a clarification spin was
-performed (20, 000 g, \SI{4}{\celsius}, 30 minutes).  Clarified supernatants
-were loaded into a \SI{5}{\mL} His Trap column (G.E Healthcare, Piscataway, NJ)
-using AKTA FPLC purifier (G.E.  Healthcare, Piscataway, NJ).  Protein elution
-was generated using elution buffer B (\SI{20}{\milli\Molar} Tris-HCl,
-\SI{500}{\milli\Molar} sodium chloride, \SI{500}{\milli\Molar} imidazole (pH
-8.0)).  The purified samples were then transferred for buffer exchange using
-\SI{12}{\L} \SI{20}{\milli\Molar} phosphate buffer (pH 8.0).  Dialyzed protein
-was subjected to kinetic assays immediately.
+harvested by using 4000 r.p.m centrifugation (Beckman Coulter, Jersey City, NJ.
+F10 rotor) at \SI{4}{\celsius} for 15 minutes and then resuspended with
+\SI{20}{\milli\Molar} Tris-HCl, \SI{500}{\milli\Molar} \ch{NaCl},
+\SI{5}{\milli\Molar} imidazole, 10\% glycerol (pH 8.0) and \SI{1}{\micro\Molar}
+\ch{CoCl2}. Cell lysate was immediately sonicated for 1.5 minutes at
+\SI{4}{\celsius} and then a clarification spin was performed (20, 000 g,
+\SI{4}{\celsius}, 30 minutes).  Clarified supernatants were loaded into a
+\SI{5}{\mL} His Trap column (G.E Healthcare, Piscataway, NJ) using AKTA FPLC
+purifier (G.E.  Healthcare, Piscataway, NJ).  Protein elution was generated
+using elution buffer B (\SI{20}{\milli\Molar} Tris-HCl, \SI{500}{\milli\Molar}
+sodium chloride, \SI{500}{\milli\Molar} imidazole (pH 8.0)).  The purified
+samples were then transferred into 3.5K MWCO dialysis SnakeSkin (Life
+Technologies, Carlsbad, CA) for buffer exchange using \SI{12}{\L}
+\SI{20}{\milli\Molar} phosphate buffer (pH 8.0).  Dialyzed protein was
+subjected to kinetic assays immediately. The purify of protein was determined
+by sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE). The
+protein concentration was measured by Nano-Drop Thermo
+Scientific (Waltham, MA). 
 
-\subsection{PyRosetta Design}
+\subsection{Rosetta Design}
 \label{sec:pyrosetta-method}
 
 Rosetta\cite{Leaver-Fay2011,DiMaio2011a} was used to generate a symmetric,
@@ -861,10 +973,10 @@ Rosetta\cite{Leaver-Fay2011,DiMaio2011a} was used to generate a symmetric,
 (PDB code: 1HZY) of wild type PTE was used as the input. In addition to the
 phenylalanine positions being mutated to \emph{p}FF, three positions in the
 wild-type PTE sequence were mutated (K185R, D208G, and R319S) based on S5PTE to
-generate \emph{p}FF-PTE.\cite{Roodveldt2005} Mutations were made using the
+generate \emph{p}FF-PTE \cite{Roodveldt2005}. Mutations were made using the
 Rosetta \emph{fixbb} application and were followed by side chain repacking and
-minimization. The amino acids directly interacting with the \ch{Co^{2+}} ions
-are crucial in binding the necessary divalent cation for PTE activity[3], so
+minimization. As amino acids directly interacting with the \ch{Co^{2+}} ions
+are crucial in binding the necessary divalent cation for PTE activity[3], 
 they were fixed in their native rotamers during repacking and minimization.
 PyRosetta, a python interface to the Rosetta libraries[4], was used to make and
 characterize point mutations. Every \emph{p}FF position was individually
@@ -898,27 +1010,36 @@ Measurements were conducted at a scan rate of \SI{1}{\celsius\per\minute} from
 \SI{20}{\celsius} to \SI{70}{\celsius}.  Signals was blanked with buffer under
 the same condition.  The observed diagram was then analyzed by using
 two-scaled model in NanoAnalyze software (TA instrument, USA). Cp and
-T\textsubscript{m} were both determined by the model.
+T\textsubscript{m} were both determined by fitting the two state scaled model
+\cite{Privalov1986}. The equation is shown below:
+\begin{equation}
+    C\textsubscript{p} = \kappa\textsubscript{B}
+    \Bigg(\frac{\epsilon}{\kappa\textsubscript{B}T}\Bigg) \times
+    \frac{e^{\beta\kappa}}{\big[e^{\beta\kappa}+1\big]^{2}} \label{eqn:dsc}
+\end{equation}
 
 \subsubsection{Circular Dichroism}
 \label{sec:cd-method}
 
-Circular Dichroism spectra were recorded on a JASCO J-815 Spectropolarimeter
-(Easton, MD) using Spectra Manager software. Temperature was controlled at
-\SI{25}{\celsius} using a Fisher Isotemp Model 3016S water bath. Proteins
-concentrations were \SI{600}{\mL} \SI{10}{\micro\Molar} in
-\SI{20}{\milli\Molar} phosphate buffer (pH 8.0).  \SI{20}{\milli\Molar}
-phosphate buffer was used for blanking signals. To calculate molar ellipticities, the
-following formula was
+Circular Dichroism (CD) spectra were recorded on a JASCO J-815 Spectropolarimeter
+(Easton, MD) using Spectra Manager software \cite{Kataev1985}. Temperature was
+controlled at \SI{25}{\celsius} using a Fisher Isotemp Model 3016S water bath.
+Proteins concentrations were \SI{10}{\micro\Molar} in \SI{20}{\milli\Molar}
+phosphate buffer (pH 8.0) \SI{600}{\micro\liter}.  \SI{20}{\milli\Molar}
+phosphate buffer was used for blanking signals. To calculate mean residue molar
+ellipticities (deg $\times$ cm\textsuperscript{2} $\times$
+dmol\textsuperscript{-1}), the following formula \cite{Kelly2005} was
 used(Eq.~\ref{eqn:CD-chap1}): 
 \begin{equation}
-    \big[\theta\big] = 100 \times \theta obs / c \times l
+    \big[\theta\big] = MRW \times \theta obs / 10 \times c \times l
     \label{eqn:CD-chap1}
 \end{equation}
-where $\theta$obs is the observed ellipticities (mdeg), \emph{l} is the path length (cm),
-\emph{c} is the concentration in \SI{}{\Molar}. Spectra was recorded from
-\SIrange{190}{250}{\nm} with a scan speed of \SI{1}{\nano\meter\per\minute}.
-The data presented an average of three trials.
+where MRW is the mean residue weight of phosphotriesterase
+(\si{\gram\per\mol}), $\theta$obs is the observed ellipticities (mdeg),
+\emph{l} is the path length (cm), \emph{c} is the concentration in
+\SI{}{\Molar}. Spectra was recorded from \SIrange{190}{250}{\nm} with a scan
+speed of \SI{1}{\nano\meter\per\minute}.  The data presented is an average of
+three trials.
 
 \subsection{Enzyme Kinetics}
 \label{sec:kinetics-method}
@@ -928,10 +1049,10 @@ The protein was diluted to a final concentration of \SI{30}{\nano\Molar} in
 coefficient \SI{29575}{\per\Molar\per\cm} for all proteins\cite{Gasteiger2005,
 Pace1995}.  Reactions were monitored spectrophotometrically (Synergy H1,
 BioTek, Winooski VT) at \SI{405}{\nm} for paraoxon (coefficient =
-\SI{17000}{\per\Molar\per\cm})\cite{Baker2011b}. Reactions for paraoxon
+\SI{17000}{\per\Molar\per\cm}) \cite{Baker2011b} in a 96-well plate. Reactions for paraoxon
 (\SIrange{13}{104}{\micro\Molar}) was done in 0.2\% methanol.
 K\textsubscript{M} and k\textsubscript{cat} values were determined by a
-Lineweaver-Burk plot.\cite{Baker2011b} The equation used is shown below
+Lineweaver-Burk plot \cite{Baker2011b}. The equation used is shown below
 (Eq.~\ref{eqn:MM-chap1}): 
 \begin{equation} 
     \frac{1}{v} =
@@ -943,11 +1064,14 @@ where S represents substrate concentration; K\textsubscript{M} represents the
 substrate concentration at which the reaction rate is half of
 V\textsubscript{max}. The data reported is the average of three trials and the
 error represents the standard deviation of those trials. Residual activities
-and half-life measurements were conducted with the same batch of proteins.
-Half-live experiments were using proteins that kept under room temperature for
-1, 2, 3, and 7 days. One hour incubation at \SI{35}{\celsius},
-\SI{45}{\celsius}, and \SI{55}{\celsius} samples were cooled back to room
-temperature for residual kinetics assays.  
+and shelf life measurements were conducted with the same batch of proteins
+(\SI{30}{\nano\Molar} in \SI{20}{\milli\Molar} sodium phosphate, pH 8.0). For
+residual activity assays, proteins at \SI{35}{\celsius}, \SI{45}{\celsius}, and
+\SI{55}{\celsius} were cooled back to room temperature for one hour and then
+for activity on paraoxon (\SIrange{13}{104}{\micro\Molar}). Half-live
+experiments were carried out using proteins (\SI{30}{\nano\Molar} in
+\SI{20}{\milli\Molar} sodium phosphate, pH 8.0) that kept under room
+temperature for 1, 2, 3, and 7 days.  
 
 \subsection{MALDI-TOF Mass Spectrometry}
 
@@ -957,19 +1081,33 @@ purified PTE, \emph{p}FF-PTE, F104A, or \emph{p}FF-104A was incubated with
 bicarbonate) at \SI{37}{\celsius} overnight. \SI{2}{\uL} of 10\%
 trifluoroacetic acid (TFA) was used to quench each reaction. Reaction was then
 purified with a C\textsubscript{18} packed zip-tip (Millipore, Billerica, MA).
-Tips were wetted in 50\% acetonitirile (ACN), equilibrated in 0.1\% TFA, and
-eluted with 0.1\% TFA in 75\% ACN. Matrix was dissolved in \SI{10}{\mg\per\mL}
+Tips were wet in 50\% acetonitirile (ACN), equilibrated in 0.1\% TFA, and
+eluted with 0.1\% TFA in 75\% ACN. Matrix was prepared by dissolving \SI{10}{\mg\per\mL}
 $\alpha$-cyano-4-hydrocinnamic acid (CCA) in 50\% ACN, 0.05\% TFA. Theoretical
 trypsin digest were calculated from Peptide Mass
 (www.expasy.org/tools/peptide-mass.html). Samples were added to the matrix at a
-1:1 ratio and spotted on MALDI plate. Five standards were spotted separately
-for calibration: angiotensin I (MW = \SI{1295.69}{\g\per\mole}), neurotensin
-(MW = \SI{1671.92}{\g\per\mole}), ACTH (1-17) (MW = \SI{2092.09}{\g\per\mole}),
-ACTH (18-39) (MW = \SI{2464.20}{\g\per\mole}), and ACTH (7-38) (MW =
-\SI{3656.93}{\g\per\mole}).  Compass 1.4 for flex software was then used to
-analyze the MALDI spectra (www.bruker.com/).
+1:1 ratio and spotted on MALDI (Matrix-assisted laser desorption/ionization)
+384-well plate. Five standards were spotted separately for calibration:
+angiotensin I (MW = \SI{1295.69}{\g\per\mole}), neurotensin (MW =
+\SI{1671.92}{\g\per\mole}), ACTH (1-17) (MW = \SI{2092.09}{\g\per\mole}), ACTH
+(18-39) (MW = \SI{2464.20}{\g\per\mole}), and ACTH (7-38) (MW =
+\SI{3656.93}{\g\per\mole}). Samples were analyzed on Bruker UltrafleXtreme
+(Bruker, Billerica, MA). 1000 shots per sample were collected through linear
+mode. Compass 1.4 for flex software was then used to analyze the MALDI spectra
+(www.bruker.com/). Percentage of incorporation was calculated by the following
+Equation \ref{eqn:maldi} \cite{Voloshchuk2009}:
+\begin{equation} 
+    \% of incorporation =
+    \frac{50 \times Ha + 100 \times Hb}{Ha + Hb +Hc}
+    \label{eqn:maldi}
+\end{equation}
+where Ha represented the peak hight of fragments with \emph{p}FF fully
+incorporated; Hb represented the peak height of one with partial \emph{p}FF
+incorporated; Hc represented the peak height of wild-type fragment. Values
+calculated for each peptide fragment on the mass spectrum were averaged to
+estimate the total percent of incorporation for the protein.
 
-\section{Results and Discussion}
+\section{Results}
 
 \subsection{PyRosetta Design of Phosphotriesterase}
 
@@ -989,15 +1127,25 @@ mutation, every neighboring amino acid within \SI{10}{\angstrom} of the C$\alpha
 atom of \emph{p}FF was allowed to repack to accommodate the point mutation, by
 filling in potential high-cost-energy voids or to supplement the
 hydrophobicity, polarity, or charge in the vicinity (Figure
-\ref{fig:rosetta-pte}, Section \ref{sec:pyrosetta-method}).  Replacing the
-phenylalanine at position 104 with \emph{p}FF created energy-costing clashes
-with neighboring amino acids at the dimerization interface (Figure
-\ref{fig:rosetta-pte}). As a dimer is known to be crucial for
-function \cite{Baker2011b}, we sought to restabilize the interface with
-incorporated \emph{p}FF. Upon mutation of F104 to alternative natural amino acids, we
-identified the variant \emph{p}FF-F104A, which exhibited improved packing in
-the absence of the \emph{p}FF (Figure \ref{fig:rosetta-pte}).
+\ref{fig:rosetta-pte}).  
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_30}
+    \caption[The energy scores of the individually mutated \emph{p}FF positions within
+    \emph{p}FF-PTE with minimization. Star indicates pFF 104 which is known to
+be in the dimer interface.]{The energy scores of the individually mutated
+    \emph{p}FF positions within \emph{p}FF-PTE with minimization. Star
+    indicates \emph{p}FF 104 which is known to be in the dimer interface.}
+    \label{fig:rosetta-pte-chart} 
+\end{figure}
+% --------------------------
 
+Replacing the phenylalanine at position 104 with \emph{p}FF created
+energy-costing clashes with neighboring amino acids at the dimerization
+interface (Figure \ref{fig:rosetta-pte}). As a dimer is known to be crucial for
+function \cite{Baker2011b}, we sought to restabilize the interface with
+incorporated \emph{p}FF. Upon mutation of F104 to alternative natural amino
+acids, we identified the variant \emph{p}FF-F104A, which exhibited improved
+packing in the absence of the \emph{p}FF (Figure \ref{fig:rosetta-pte}).
 % --------------------------fig
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_11}
     \caption[Structure of \emph{p}FF-F104A identified from Rosetta,
@@ -1012,7 +1160,7 @@ the absence of the \emph{p}FF (Figure \ref{fig:rosetta-pte}).
     mutated and modified by Rosetta and rendered by UCSF Chimera.}
     \label{fig:rosetta-pte}
 \end{figure}
-% --------------------------fig
+% --------------------------*
 
 \subsection{Biosynthesis of Proteins}
 
@@ -1021,15 +1169,12 @@ by residue-specific incorporation with the phenylalanine auxotrophic
 \emph{Escherichia coli} strain AFIQ \cite{Yang2014a}. As controls, the
 non-fluorinated counterparts, PTE and F104A, were expressed under conventional
 conditions. As expected, all four proteins exhibited over-expression in the
-presence of phenylalanine or \emph{p}FF. SDS-gel result showed that
-over-expression of proteins and the purities after FPLC purification. (Figure
-\ref{fig:sds-gel}) \emph{p}FF-F104A and \emph{p}FF-PTE exhibited 80\% and 92\%
-incorporation, respectively, as determined by MALDI-TOF
-mass spectrometry. (Figure \ref{fig:MALDI-fig}) Notably, purified yields of
-\emph{p}FF-F104A were twofold higher than for \emph{p}FF-PTE, thus indicating
-more soluble protein yield. (Figure \ref{fig:sds-gel})
-
-% --------------------------
+presence of phenylalanine or \emph{p}FF as demonstrated by SDS-PAGE gel results(Figure
+\ref{fig:sds-gel}). After FPLC purification, SDS-PAGE analysis revealed that
+the non-fluorinated protein PTE and F104A yielded \SI{0.94}{\mg} and
+\SI{1.86}{\mg}, respectively. \emph{p}FF-PTE and \emph{p}FF-F104A resulted in
+\SI{0.20}{\mg} and \SI{0.4}{\mg}, respectively. (Table \ref{tab:protein-yield})
+% --------------------------sds-page-fig
 \begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_04}
     \caption[12\% SDS-PAGE of purified proteins: (A) Expression of PTE and
     F104A, (B)purified PTE and F104A, (C) purified \emph{p}FF-PTE and
@@ -1038,7 +1183,41 @@ more soluble protein yield. (Figure \ref{fig:sds-gel})
     \emph{p}FF-F104A.} 
     \label{fig:sds-gel}
 \end{figure}
+% --------------------------*
+% --------------------------table
+\begin{table}[h!]
+\centering
+\begin{tabular}{ lll }
+  \hline
+  Protein & Purified (mg) & Lysate (mg) \\
+  \hline
+  PTE & 0.94 & 1.87  \\
+  F104A & 1.86 & 1.94  \\
+  \emph{p}FF-PTE & 0.20 & 0.92  \\
+  \emph{p}FF-F104A & 0.40 & 1.27  \\
+  \hline
+
+\end{tabular}
+\caption[Protein yield of PTE, 104A, \emph{p}FF-PTE, and \emph{p}FF-104A. All
+expressed in \SI{250}{\mL} of medium.]{Protein yield of PTE, 104A,
+    \emph{p}FF-PTE, and \emph{p}FF-104A. All expressed in \SI{250}{\mL} of
+medium.} 
+    \label{tab:protein-yield} 
+\end{table}
 % --------------------------
+
+\emph{p}FF-F104A and \emph{p}FF-PTE exhibited 80\% and 92\%
+incorporation, respectively, as determined by MALDI-TOF
+mass spectrometry. (Figure \ref{fig:MALDI-fig}) Notably, purified yields of
+\emph{p}FF-F104A were twofold higher than for \emph{p}FF-PTE, thus indicating
+more soluble protein yield. (Figure \ref{fig:sds-gel}, Table
+\ref{tab:protein-yield})
+% --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_05}
+    \caption[MALDI-TOF mass spectra of tryptic peptide fragments.]{MALDI-TOF
+    mass spectra of tryptic peptide fragments.} \label{fig:MALDI-fig} 
+\end{figure}
+% --------------------------*
 
 \subsection{Secondary Structure and Stability}
 
@@ -1047,76 +1226,81 @@ impact on the overall secondary structure and stability. Far-UV wavelength
 scans of \emph{p}FF-F104A and \emph{p}FF-PTE showed a double minimum at
 \SIlist{208;222}{\nm} (\SI{25}{\celsius}), as expected for a
 ($\beta$/$\alpha$)\textsubscript{8}-barrel protein, thus suggesting that the
-mutation did not affect the overall structure (Figure \ref{fig:CD-fig}).  
-
-% --------------------------
-\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_05}
-    \caption[MALDI-TOF mass spectra of tryptic peptide fragments.]{MALDI-TOF
-    mass spectra of tryptic peptide fragments.} \label{fig:MALDI-fig} 
-\end{figure}
-% --------------------------
-
+mutation did not affect the overall structure (Figure \ref{fig:CD-fig}).
 Surprisingly, comparison of the non-fluorinated counterparts revealed that
 F104A was less structured than PTE (Figure \ref{fig:CD-fig}). 
-
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig1_06}
-    \caption[CD wavelength scans of PTE (circles), 104A (triangles),
-    \emph{p}FF-PTE (diamonds) and \emph{p}FF-104A (squares).]{CD wavelength
-        scans of PTE (circles), 104A (triangles), \emph{p}FF-PTE (diamonds) and
-        \emph{p}FF-104A (squares).} \label{fig:CD-fig} 
+    \caption[CD wavelength scans of \SI{10}{\micro\Molar} PTE (circles), 104A (triangles),
+    \emph{p}FF-PTE (diamonds) and \emph{p}FF-104A (squares) at
+\SI{25}{\celsius}. Data represent an average of three trials.]{CD wavelength
+    scans of \SI{10}{\micro\Molar} PTE (circles), 104A (triangles),
+    \emph{p}FF-PTE (diamonds) and \emph{p}FF-104A (squares) at
+    \SI{25}{\celsius}. Data represent an average of three trials.}
+    \label{fig:CD-fig} 
 \end{figure}
-% --------------------------
+% --------------------------*
 
 To assess the stability, differential scanning calorimetry (DSC) was performed
-(Figure \ref{fig:DSC-fig}). Upon heating the sample from \SIrange{20}{70}{\celsius},
-\emph{p}FF-PTE exhibited two transitions (T\textsubscript{m}1: 42.0 $\pm$
-\SI{0.1}{\celsius}; T\textsubscript{m}2 : 48.6 $\pm$ \SI{0.2}{\celsius}); this
-was consistent with our previous studies\cite{Baker2011b}. This biphasic
-unfolding was also observed by Grimsley \latin{et al.}  in a study of
+(Figure \ref{fig:DSC-fig}). Upon heating the sample from
+\SIrange{20}{70}{\celsius}, \emph{p}FF-PTE exhibited two transitions
+(T\textsubscript{m}1: 42.0 $\pm$ \SI{0.1}{\celsius}; T\textsubscript{m}2 : 48.6
+$\pm$ \SI{0.2}{\celsius}); this was consistent with our previous studies
+\cite{Baker2011b} (Figure \ref{fig:DSC-fig}, Table \ref{tab:DSC}). This
+biphasic unfolding was also observed by Grimsley \latin{et al.}  in a study of
 organophosphorus hydrolase, and was attributed to the presence of a dimeric
 unfolded intermediate\cite{Grimsley1997b}. In contrast, \emph{p}FF-F104A
 exhibited a single transition at 49.7 $\pm$ \SI{0.2}{\celsius}, which was
-higher than both \emph{p}FF-PTE values (by 7.7 and \SI{1.1}{\celsius}).
-Remarkably, after heating, \emph{p}FF-F104A retained the single
-T\textsubscript{m} of 49.2 $\pm$ \SI{0.1}{\celsius}, thus demonstrating
-regaining of structure after undergoing thermal unfolding.  In the absence of
-\emph{p}FF, F104A demonstrated two transitions similar to \emph{p}FF-PTE, thus
-suggesting that fluorination was critical for stability.  These data
-demonstrate the overall thermodynamic stability of \emph{p}FF-F104A.
-
-% --------------------------
+higher than both \emph{p}FF-PTE values (by 7.7 and \SI{1.1}{\celsius},
+respectively) (Figure \ref{fig:DSC-fig}, Table \ref{tab:DSC}). Remarkably,
+after heating, \emph{p}FF-F104A retained the single T\textsubscript{m} of 49.2
+$\pm$ \SI{0.1}{\celsius}, thus demonstrating regaining of structure after
+undergoing thermal unfolding.  In the absence of \emph{p}FF, F104A demonstrated
+two transitions similar to \emph{p}FF-PTE, thus suggesting that fluorination
+was critical for stability (Figure \ref{fig:DSC-fig}, Table \ref{tab:DSC}).
+These data demonstrate the overall thermodynamic stability of \emph{p}FF-F104A.
+% --------------------------DSC-fig
 \begin{figure}[h!] \centering \includegraphics[width=0.9\textwidth]{fig1_07}
     \caption[Differential scanning calorimetry thermograms of (A) F104A and (B)
-    \emph{p}FF-F104A.]{Differential scanning calorimetry thermograms of A)
-    F104A and B) pFF-F104A.} \label{fig:DSC-fig} 
+    \emph{p}FF-F104A.]{Differential scanning calorimetry thermograms of (A)
+        F104A and (B) \emph{p}FF-F104A.} \label{fig:DSC-fig} 
 \end{figure}
-% --------------------------
+% --------------------------*
+% --------------------------DSC-table
+\begin{table}[h!]
+\centering
+\begin{tabular}{ lll }
+  \hline
+  Protein & T\textsubscript{m}1 (\si{\celsius}) & T\textsubscript{m}2 (\si{\celsius}) \\
+  \hline
+  PTE & 41.3 $\pm$ 0.2 & 48.0 $\pm$ 0.2 \\
+  F104A & 41.5 $\pm$ 0.2 & 48.2 $\pm$ 0.3 \\
+  \emph{p}FF-PTE & 42.0 $\pm$ 0.2 & 48.6 $\pm$ 0.2  \\
+  \emph{p}FF-F104A & - & 49.7 $\pm$ 0.2  \\
+  \hline
 
-The data further suggest that the unfolding model has been altered
-from a 3-state to 2-state transition, and that the energy requirement to
-attaining the unfolded intermediate was increased, thereby resulting in a more
-cooperative transition. Mutations resulting in this particular transformation
-have been observed for other proteins; for example, Fan \latin{et al.} showed
-that removal of a C-terminal domain of the oligomeric \latin{E. coli} trigger
-factor protein resulted in the transformation of an otherwise n-state unfolding
-process to a distinct two-state unfolding process, indicative of pronounced
-stabilization of the native structure by interdomain interactions[18]. We
-propose that the \emph{p}FF-F104A mutation might also be stabilizing the native
-structure of the overall protein (in effect the reverse of the mutation
-observed by Fan \latin{et al.})\cite{Fan2008}. That is, \emph{p}FF-F104A unfolds
-cooperatively in a single step, concurrent with its dissociation into monomeric
-species. Although it was expected that the \emph{p}FF-F104A mutation would have an
-effect on interdomain stability (such that neighboring residues would be
-allowed to repack and energy would be minimized between monomers at the dimer
-interface), the apparent stabilization of the native structure concluded from
-the 3-state to 2-state transition transformation through these new interdomain
-interactions were indeed unanticipated. Prior examples of this transformation
-exist in cases involving subdomains of similar stabilities or where strong
-coupling exists between subdomains\cite{Tsytlonok2013}.
+\end{tabular}
+\caption[Melting temperatures of PTE, 104A, \emph{p}FF-PTE, and
+\emph{p}FF-104A]{Melting temperatures of PTE, 104A, \emph{p}FF-PTE, and
+\emph{p}FF-104A.} 
+    \label{tab:DSC} 
+\end{table}
+% --------------------------
 
 \subsection{Kinetics of Phosphotriesterase}
 
+To assess function, we determined the Michaelis–Menten kinetics of
+\emph{p}FF-F104A, \emph{p}FF-PTE, F104A, and PTE with paraoxon. At
+\SI{25}{\celsius}, \emph{p}FF-PTE exhibited the highest activity
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{327000}{\per\Molar\per\second};
+Table \ref{tab:kinetics-result}); \emph{p}FF-F104A was slightly lower
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{223000}{\per\Molar\per\second}).
+Non-fluorinated PTE exhibited k\textsubscript{cat}/K\textsubscript{M} of
+\SI{200000}{\per\Molar\per\second}, similar to those both fluorinated proteins;
+however, F104A was dramatically less active
+(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second},
+Table \ref{tab:kinetics-result}).  Thus, the fluorinated amino acids appear to
+be necessary for \emph{p}FF-F104A activity. 
 % --------------------------
 \begin{table}[h!]
 \centering
@@ -1163,47 +1347,20 @@ after incubation at \SIlist{35;45;55}{\celsius}.]{Paraoxon hydrolysis
     \SIlist{35;45;55}{\celsius}.} 
     \label{tab:kinetics-result}
 \end{table}
-% --------------------------
-To assess function, we determined the Michaelis–Menten kinetics of
-\emph{p}FF-F104A, \emph{p}FF-PTE, F104A, and PTE with paraoxon. At
-\SI{25}{\celsius}, \emph{p}FF-PTE exhibited the highest activity
-(k\textsubscript{cat}/K\textsubscript{M} = \SI{327000}{\per\Molar\per\second};
-Table \ref{tab:kinetics-result}); \emph{p}FF-F104A was slightly lower
-(k\textsubscript{cat}/K\textsubscript{M} = \SI{223000}{\per\Molar\per\second}).
-Non-fluorinated PTE exhibited k\textsubscript{cat}/K\textsubscript{M} of
-\SI{200000}{\per\Molar\per\second}, similar to those both fluorinated proteins;
-however, F104A was dramatically less active
-(k\textsubscript{cat}/K\textsubscript{M} = \SI{23000}{\per\Molar\per\second},
-Table \ref{tab:kinetics-result}).  Thus, the fluorinated amino acids appear to
-be necessary for \emph{p}FF-F104A activity.  Proteins were then incubated at
-\SIlist{35;45;55}{\celsius} for one hour, and then cooled to room temperature
-to determine residual activity. A decline in residual activity was observed for
-all proteins as a function of elevated temperature. \emph{p}FF-F104A, which was
-designed to stabilize the fluorinated protein, exhibited 50\% retention of
-activity at \SI{55}{\celsius} (Figure \ref{fig:kinetics-fig}, Table
-\ref{tab:kinetics-result}). In contrast, at \SI{55}{\celsius}, \emph{p}FF-PTE
-and PTE exhibited 24\% and 23\% initial activity, respectively; F104A exhibited
-a significant loss in activity at or above \SI{45}{\celsius} (Figure
-\ref{fig:kinetics-fig}, Table \ref{tab:kinetics-result}). As \emph{p}FF-F104A
-retained substantial activity after elevated temperatures, we then investigated
-the half-life of the activity. The parent \emph{p}FF-PTE exhibited more than
-50\% loss of activity after three days, whereas the non-fluorinated PTE showed
-more than 50\% activity reduction after seven days (Figure
-\ref{fig:kinetics-fig}, Table \ref{tab:kinetics-day-result}).  Remarkably,
-\emph{p}FF-F104A retained 66\% activity after seven days. The non-fluorinated
-counterpart F104A failed to exhibit activity after one day.  Together these
-data confirm that \emph{p}FF-F104A is able to delay heat inactivation while
-maintaining function after one week.
+% --------------------------*
 
-% --------------------------
-\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_08}
-    \caption[(A) Residual activity profile of all proteins, (B) Activity
-    measured as a function of days.]{(A) Residual activity profile of all
-    proteins, (B) Activity measured as a function of days.} 
-    \label{fig:kinetics-fig} 
-\end{figure}
-% --------------------------
+\subsection{Thermo-activity and Stability Over Time}
 
+Proteins were then incubated at \SIlist{35;45;55}{\celsius} for one hour, and
+then cooled to room temperature for an hour to determine residual activity. A
+decline in residual activity was observed for all proteins as a function of
+elevated temperature. \emph{p}FF-F104A, which was designed to stabilize the
+fluorinated protein, exhibited 50\% retention of activity at \SI{55}{\celsius}
+(Figure \ref{fig:kinetics-fig}, Table \ref{tab:kinetics-result}). In contrast,
+at \SI{55}{\celsius}, \emph{p}FF-PTE and PTE exhibited 24\% and 23\% initial
+activity, respectively; F104A exhibited a significant loss in activity at or
+above \SI{45}{\celsius} (Figure \ref{fig:kinetics-fig}, Table
+\ref{tab:kinetics-result}). 
 % --------------------------
 \begin{table}[h!]
 \centering
@@ -1245,14 +1402,81 @@ maintaining function after one week.
     \caption[Kinetics of paraoxon hydrolysis as a function of time.]{Kinetics
     of paraoxon hydrolysis as a function of time.} \label{tab:kinetics-day-result} 
 \end{table}
+% --------------------------*
+
+As \emph{p}FF-F104A retained substantial activity
+after elevated temperatures, we then investigated the half-life of the
+activity. The parent \emph{p}FF-PTE exhibited more than 50\% loss of activity
+after three days, whereas the non-fluorinated PTE showed more than 50\%
+activity reduction after seven days (Figure \ref{fig:kinetics-fig}, Table
+\ref{tab:kinetics-day-result}).  Remarkably, \emph{p}FF-F104A retained 66\%
+activity after seven days. The non-fluorinated counterpart F104A failed to
+exhibit activity after one day.  Together these data confirm that
+\emph{p}FF-F104A is able to delay heat inactivation while maintaining function
+after one week.
 % --------------------------
+\begin{figure}[h!] \centering \includegraphics[width=1.0\textwidth]{fig1_08}
+    \caption[(A) Residual activity profile of all proteins, (B) Activity
+    measured as a function of days. The non-fluorinated counterpart F104A
+failed to exhibit activity after one day.]{(A) Residual activity profile of all
+    proteins, (B) Activity measured as a function of days. The non-fluorinated
+    counterpart F104A failed to exhibit activity after one day.} 
+    \label{fig:kinetics-fig} 
+\end{figure}
+% --------------------------*
+
+\section{Discussion}
+
+We demonstrate how Rosetta suite engineers phosphotriesterase with
+incorporation of unnatural amino acid, \emph{p}FF. With the score function, we
+predict and identify F104 as a crucial residue for PTE stabilization. Baker
+\latin{et al.} previously replaced all Phe positions with \emph{p}FF, which led
+to lower yield of \emph{p}FF-PTE \cite{Baker2011b}. With the higher
+hydrophobicity and longer bond length properties from \emph{p}FF, this analog
+may introduce unfavorable interactions. As we simulate the \emph{p}FF-PTE
+structure, we discover the steric clash between F104 and the neighboring
+residue. To remove this unfavorable interaction, we generate F104A with
+site-directed mutagenesis, and further incorporate \emph{p}FF into both
+wild-type and F104A with residue-specific incorporation. After the removal of
+unfavorable clash from mutation F104A, we demonstrate the 2-fold increase of
+protein yield, and further extend the shelf life of PTE.
+
+Rosetta simulation explains the clash at the dimer interface, and we would like to
+investigate how this single mutation affects the overall PTE stability from
+different perspective. CD spectrum indicates the loss of secondary structure in
+the presence of \emph{p}FF. However, the differences between \emph{p}FF-PTE and
+\emph{p}FF-F104A are merely marginal. 
+
+The DSC data further suggest that the unfolding model has been altered
+from a 3-state to 2-state transition, and that the energy requirement to
+attaining the unfolded intermediate was increased, thereby resulting in a more
+cooperative transition. Mutations resulting in this particular transformation
+have been observed for other proteins; for example, Fan \latin{et al.} showed
+that removal of a C-terminal domain of the oligomeric \latin{E. coli} trigger
+factor protein resulted in the transformation of an otherwise n-state unfolding
+process to a distinct two-state unfolding process, indicative of pronounced
+stabilization of the native structure by interdomain interactions[18]. We
+propose that the \emph{p}FF-F104A mutation might also be stabilizing the native
+structure of the overall protein (in effect the reverse of the mutation
+observed by Fan \latin{et al.}) \cite{Fan2008}. That is, \emph{p}FF-F104A unfolds
+cooperatively in a single step, concurrent with its dissociation into monomeric
+species. Although it was expected that the \emph{p}FF-F104A mutation would have an
+effect on interdomain stability (such that neighboring residues would be
+allowed to repack and energy would be minimized between monomers at the dimer
+interface), the apparent stabilization of the native structure concluded from
+the 3-state to 2-state transition transformation through these new interdomain
+interactions were indeed unanticipated. Prior examples of this transformation
+exist in cases involving subdomains of similar stabilities or where strong
+coupling exists between subdomains\cite{Tsytlonok2013}.
+
+\section{Conclusion}
 
 Although methods enabling the biosynthesis of artificial proteins bearing UAAs
-are abundant,\cite{Voloshchuk2009} tools to help further improve the overall
+are abundant \cite{Voloshchuk2009}, tools to help further improve the overall
 activity and stability are needed. Mutagenesis and evolutionary approaches have
 been employed successfully to identify variants with enhanced function;
 however, these rely heavily on testing or screening several to millions of
-constructs\cite{Voloshchuk2007b,Montclare2006b,Yoo2007}. We demonstrate the use
+constructs \cite{Voloshchuk2007b,Montclare2006b,Yoo2007}. We demonstrate the use
 of computational methods to identify a fluorinated protein variant that
 exhibits superior heat stability and half-life. Notably, the \emph{p}FF-F104A
 variant is only functional in the fluorinated form, thus validating
