@@ -7,46 +7,47 @@
 
 \subsection{Enzyme Applications}
 
-The catalytic properties of enzymes led to extensive development in industries
+The catalytic properties of enzymes has led to extensive development in industry
 as briefly discussed in the previous chapter \ref{tab:protein-app} (Table
-\ref{tab:protein-app}). For example, protease was developed for the purpose of
-detergent\cite{Kirk2002}. After several iterations of development, protease
-were engineered to meet requirements in detergents.  However, the limitations
-of applications were constantly resulted from the inactivation of enzymes. The
-inactivation factors included heat \cite{Shirley1995,Perdana2012,Etzel1996,Gouda2003},
-proteolysis \cite{VandenBurg2002a,Ahmad2012}, organic solvents
-\cite{LeJeune1997a,Izutsu2009,Stepankova2013}, etc. These limitations motivated
-scientists to find solutions in order to take advantage of enzymes activity,
-specificity and other attractive features. The followings are the discussion of
-these limitations.
+\ref{tab:protein-app}). For example, protease has been developed for the use in
+detergent \cite{Kirk2002}. After several iterations of development, protease
+were engineered to meet requirements in detergents for laundry.  However,
+inactivation of enzymes result in limitations of use. The inactivation factors
+include: heat \cite{Shirley1995,Perdana2012,Etzel1996,Gouda2003}, proteolysis
+\cite{VandenBurg2002a,Ahmad2012}, organic solvents
+\cite{LeJeune1997a,Izutsu2009,Stepankova2013}. Several approaches have been
+developed to address these limitations. The followings are discussion of
+these limitations and solutions, including salts, mutagenesis, and
+immobilization.
 
 \subsubsection{Heat Inactivation}
 
-It is known that enzymes are sensitive to temperatures\cite{Perdana2012,Etzel1996}. For
-example, glucose oxidase \cite{Gouda2003} and $beta$-galactosidase
-\cite{Melchers1970} are susceptible to heat inactivation. Gouda \latin{et al.}
-demonstrated glucose oxidase irreversibly inactivated over the temperature range
-\SIrange{25}{80}{\celsius} \cite{Gouda2003} (Figure \ref{fig:heat-inactivation-exmaple}). 
+Enzymes are sensitive to temperatures, especially under elevated high
+temperatures \cite{Perdana2012,Etzel1996}. For example, glucose oxidase
+\cite{Gouda2003} is susceptible to heat inactivation. Gouda \latin{et al.}
+demonstrated that glucose oxidase was irreversibly inactivated over the
+temperature above \SI{60}{\celsius} \cite{Gouda2003} (Figure
+\ref{fig:heat-inactivation-exmaple}). 
 % --------------------------heat-inactivation-exmaple
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig3_12}
-    \caption[The heat inactivation of glucose oxidase. Diamond,
-    \SI{56}{\celsius};  square, \SI{60}{\celsius}; triangle, \SI{63}{\celsius};
-circle, \SI{67}{\celsius}. Samples were incubated at the desinated
-temperatures.]{The heat inactivation of glucose oxidase. Diamond,
-    \SI{56}{\celsius};  square, \SI{60}{\celsius}; triangle, \SI{63}{\celsius};
-    circle, \SI{67}{\celsius}. Samples were incubated at the desinated
-temperatures \cite{Gouda2003}.} 
-    \label{fig:heat-inactivation-exmaple} 
+    \caption[The heat inactivation of glucose oxidase (in the absence of
+    additives). Diamond, \SI{56}{\celsius};  square, \SI{60}{\celsius};
+triangle, \SI{63}{\celsius}; circle, \SI{67}{\celsius}. Samples were incubated
+at the desinated temperatures.]{The heat inactivation of glucose oxidase (in
+    the absence of additives). Diamond, \SI{56}{\celsius};  square,
+    \SI{60}{\celsius}; triangle, \SI{63}{\celsius}; circle, \SI{67}{\celsius}.
+    Samples were incubated at the desinated temperatures \cite{Gouda2003}.}
+    \label{fig:heat-inactivation-exmaple}
 \end{figure}
 % -------------------------- 
 
 To improve the thermal stability of glucose oxidase, additives such as salts,
-mono- and polyhydric alcohols, and polyelectrolytes were added
+mono- and polyhydric alcohols, as well as polyelectrolytes were added
 \cite{Appleton1997,Gouda2003}. To understand the stabilization by salts
 such as \ce{NaCl} and \ce{K2SO4}, Gouda \latin{et al.} determined thermal
 unfolding transitions of glucose oxidase in the presence of \SI{0.6}{\Molar}
-\ce{NaCl} and \SI{0.2}{\Molar} \ce{K2SO4} by CD measurements \cite{Gouda2003}
-(Figure \ref{fig:heat-inactivation-improve}). 
+\ce{NaCl} and \SI{0.2}{\Molar} \ce{K2SO4} by circular dichroism (CD)
+measurements \cite{Gouda2003} (Figure \ref{fig:heat-inactivation-improve}). 
 % --------------------------heat-inactivation-improvement
 \begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig3_13} 
     \caption[Effect of salts on the thermal unfolding of  glucose oxidase. (A)
@@ -65,19 +66,41 @@ the temperature range of \SIrange{25}{90}{\celsius}.]{Effect of salts on the the
 \end{figure}
 % --------------------------
 
-T\textsubscript{m} measured at 274 nm were shifted from 62 to 68 and
-\SI{72}{\celsius} for native enzyme, \SI{0.2}{\Molar} \ce{K2SO4}, and
-\SI{0.6}{\Molar} \ce{NaCl} stabilized glucose oxidase, respectively. Using such
-stabilizing effects of salts, they successfully demonstrated how the
-heat limitations could be overcame. 
+The melting temperature (T\textsubscript{m}) measured at 274 nm were shifted
+from \SI{62}{\celsius} for native enzyme to \SI{68}{\celsius} in the presence
+of \SI{0.2}{\Molar} \ce{K2SO4} and to \SI{72}{\celsius} in the presence of
+\SI{0.6}{\Molar} \ce{NaCl}, leading to stabilization. Using such stabilizing
+effects of salts, they successfully demonstrated how the heat limitations could
+be overcame. 
+
+$\beta$-galactosidase (\iupac{\chembeta-\D-galactohydrolase}; EC 3.2.1.23)
+has been demonstrated its enzymatic half-life at \SI{60}{\celsius} 0.5 hour
+\cite{Melchers1970,Chen2008}. To generate hyper-thermostabilized
+$\beta$-galactosidase, Xiong \latin{et al.} have developed a variant YG6762 via
+directed evolution. With mutations, T29A, V213I, L217M, N277H, I387V, E414D,
+R491C, and N496D, YG6762 demonstrates greater activity on its
+substrate, \iupac{pNP-\chembeta-\D-glucuronide (pNPG)}, than the wild-type
+enzyme (YH4502) \cite{Xiong2007}. Notably, YG6762 variant exhibits nearly 50\%
+higher activity at \SI{37}{\celsius} Figure \ref{fig:yg6762}.
+% --------------------------
+\begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig3_20}
+    \caption[The relative activity of purified mutant YG6762 and wild-type
+    YH4502 enzymes at various temperatures. $\beta$-Glucuronidase activity was
+measured using \iupac{pNP-\chembeta-\D-glucuronide} (pNPG) as a substrate.] {The
+    relative activity of purified mutant YG6762 and wild-type YH4502 enzymes at
+    various temperatures. $\beta$-Glucuronidase activity was measured using
+    \iupac{pNP-\chembeta-\D-glucuronide} (pNPG) as a substrate \cite{Xiong2007}.}
+    \label{fig:yg6762}
+\end{figure}
+% --------------------------
 
 \subsubsection{Proteolysis}
 
 Proteolytic resistance of a protein limits its application
 \cite{Ottesen1967,Daniel1982,Fontana2004}. Investigations into relationship
-between protein stability and proteolytic resistance revealed that the
+between protein stability and proteolytic resistance reveales that the
 resistance is dependent on stability of the protein \cite{Daniel1982,
-Parsell1989}. For example, \latin{B. subtilis} lipase was developed for the
+Parsell1989}. For example, \latin{B. subtilis} lipase has been developed for the
 synthesis of biopolymers and biodiesel, and the production of enantiopure
 pharmaceuticals \cite{Jaeger2002,Ahmad2012}. Ahmad \latin{et al.} determined
 the protease resistance of lipase around 55 minutes. Upon the inactivation from
@@ -97,27 +120,28 @@ mutagenesis.]{Proteolytic resistance of wild-type lipase and its variants
 \end{figure}
 % --------------------------
 
-To increase both stability and protease resistance, Ahmad \latin{et al.}
-generated a library of mutations of lipase through site-saturated mutagenesis.
-Focused on the loop and surface residues of this enzyme, they then compared the
-wild-type and mutations unfolding profiles and residual activities. By
-introducing mutation M137P, lipase transition temperatures was raised by
+To increase both stability and protease resistance of lipase, Ahmad \latin{et al.}
+generated a library of lipase mutants through site-saturated mutagenesis
+(Figure \ref{fig:protease-resistance}).  Focusing on the loop and surface
+residues of this enzyme, they then compared unfolding profiles and residual
+activities of wild-type and mutants (Figure \ref{fig:protease-resistance}). By
+introducing the mutation M137P, the lipase T\textsubscript{m} was raised by
 \SI{6.8}{\celsius}, and the protease resistance was increased to ~955 minutes.
 The residual activity was also elevated to 92.5\% \cite{Ahmad2012} (Figure
 \ref{fig:protease-resistance}).
 
 \subsubsection{Organic Solvent Inactivation}
 
-One of the limitations to the use of enzymes is instability under processing
-conditions, such as the use of organic solvent systems \cite{Stepankova2013}.
+One of the limitations for the use of enzymes is instability under processing
+conditions, such as organic solvent systems \cite{Stepankova2013}.
 Although water serves as a ideal solvent, it is a rather poor solvent for
 synthetic reactions \cite{Serdakowski2008}. However, enzymes become inactive at
 an organic co-solvent concentration of 60\% to 70\% \cite{Stepankova2013}. For
-example, Stepankova \latin{et al.} investigated the co-solvent effects on
-haloalkane dehalogenases, DbjA, DhaA, and LinB. These enzyme catalyze the
-hydrolytic cleavage of the carbon–halogen bonds of halogenated aliphatic
-compounds, and have been engineered for bio-degradation industry
-\cite{Stepankova2013a,Koudelakova2013} (Figure \ref{fig:hld}).
+example, Stepankova \latin{et al.} have investigated the co-solvent effects on
+haloalkane dehalogenases, DbjA, DhaA, and LinB \cite{Koudelakova2013}. These
+enzyme catalyze the hydrolytic cleavage of the carbon-halogen bonds of
+halogenated aliphatic compounds, and have been engineered for degradation
+industry \cite{Stepankova2013a,Koudelakova2013} (Figure \ref{fig:hld}).
 % --------------------------
 \begin{figure}[htbp] \centering \includegraphics[width=0.5\textwidth]{fig3_16} 
     \caption[Simplified scheme of the reaction mechanism of haloalkane
@@ -134,8 +158,8 @@ for catalysis]{Simplified scheme of the reaction mechanism of haloalkane
 Stepankova \latin{et al.} demonstrated that addition of high concentrations of
 organic solvents such as dimethylformamide, dimethyl sulfoxide and
 tetrahydrofuran, resulted in variations in the CD spectra, indicating a loss of
-$\alpha$-helical structures \cite{Stepankova2013a} (Figure
-\ref{fig:organic-effect}) It was also demonstrated decreased activity of Dha
+$\alpha$-helical structure \cite{Stepankova2013a} (Figure
+\ref{fig:organic-effect}). A decrease in activity of Dha A was also observed
 with increasing co-solvent concentration. LinB was inactivated by most
 co-solvents at low concentrations (less than 10\%).
 % --------------------------
@@ -155,62 +179,112 @@ THF, tetrahydrofuran.]{Circular dichroism spectra of (A) DbjA and (B) DhaA in
 \end{figure}
 % --------------------------
 
-To address this issue, Dravis \latin{et al.} developed strategies to
-stabilize enzymes in organic solvents. The use of immobilized enzymes
-represents the most common method to improve enzyme stability toward organic
-solvents \cite{Koudelakova2013,Dravis2001}. The enzyme was covalently coupled
-to an inorganic polyethyleneimine impregnated alumina (PEI-alumina) with a
-glutaraldehyde linker. The results demonstrated that the soluble dehalogenase
-was completely inactivated (half life was less than 10 minutes) in presence of organic
-media. On the contrary, The immobilized enzyme exhibited activity in the pure
+To address this issue, Dravis \latin{et al.} have developed strategies to
+stabilize enzymes in organic solvents \cite{Dravis2001}. The use of immobilized
+enzymes represents the most common method to improve enzyme stability toward
+organic solvents \cite{Koudelakova2013,Dravis2001}. The enzyme is coupled to an
+inorganic polyethyleneimine impregnated alumina (PEI-alumina) with a
+glutaraldehyde linker (Figure \ref{fig:pei}). The results demonstrate that the
+soluble dehalogenase was completely inactivated (half life was less than 10
+minutes) in presence of \SI{12}{\milli\Molar} 1,2,3-Trichloropropane (TCP). On
+the contrary, The immobilized enzyme exhibits activity in the pure
 1,2,3-trichloropropane (TCP) solvent, demonstrating a half-life of nearly 10
-hours.
-
-\subsubsection{Other Methods}
-
-While there are limitations of uses of enzymes, other methodologies are
-developed to stabilize enzymes, such as entrapment
-\cite{Trelles2013,Bhosale1996,Etzel1996}. Entrapment is used in industrial
-scale enzyme operations. As enzymes of interest are intracellular, it is easier
-to use whole-cell entrapment where the enzyme is synthesized in bacteria.
-\cite{Trelles2013} (Figure \ref{fig:enzyme-entrapment})
+hours \cite{Dravis2001}.
 % --------------------------
-\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig3_04}
-    \caption[Schematic drawing of the agar or agarose entrapment
-    procedure]{Schematic drawing of the agar or agarose entrapment
-        procedure.\cite{Trelles2013}}
-    \label{fig:enzyme-entrapment} 
+\begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig3_21}
+    \caption[Stabilization of polyethyleneimine(PEI)/enzyme composites via
+    glutaraldehyde crosslinking to prevent subunit dissociation.]{Stabilization
+    of polyethyleneimine (PEI)/enzyme composites via glutaraldehyde
+    crosslinking to prevent subunit dissociation \cite{Barbosa2014}.}
+    \label{fig:pei}
 \end{figure}
 % --------------------------
 
-One of examples of this is glucose isomerase (GI), which has been used in the
-commercial production of high fructose corn syrup (HFCS) \cite{Bhosale1996}.
-There are reported more than 6 millions tons of HFCS per year produced by GI.
-Compared with chemical isomerization, using enzyme not only increased the
-purify of the product fructose \cite{Barker1975}, but also enhanced sweetness
-\cite{Bhosale1996}. To save the cost of isolating GI, the whole-cell
-entrapment was developed to adapt the increased demand of such enzyme
-\cite{Trelles2013}. 
+Subtilisin E is an another example of inactivation due to organic solvent
+\cite{You1996}. In the presence of 20\% of dimethylformamide (DMF), the
+wild-type enzyme exhibits only less than 10\% of activity of that in the
+absence of DMF. To enhance to catalytic activity of Subtilisin E, the Arnold
+group have developed error-prone PCR strategy to generate variants
+\cite{You1996}. After three generations of random mutagenesis, You \latin{et
+al.} have demonstrated that variant 13M exhibited 10-fold greater activity that
+wild-type in the absence of DMF. Notably, 13M was further improved by 16-fold
+in the presence of 20\% DMF \cite{You1996} (Figure \ref{fig:arnold}). 
+% --------------------------
+\begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig3_22}
+    \caption[Comparison of the catalytic efficiencies of wild type and 13M
+    subtilisin E towards hydrolysis of succinyl-Ala-Ala-Pro-Phe-p-nitroanilide
+(s-AAPF-pNa) in \SI{0.1}{\Molar} Tris-HCl, pH 8.0,
+\SI{10}{\milli\Molar}{\ce{CaCl2}} with dimethylformamide (DMF), at
+\SI{37}{\celsius}.]{Comparison of the catalytic efficiencies of wild type and
+    13M subtilisin E towards hydrolysis of
+    succinyl-Ala-Ala-Pro-Phe-p-nitroanilide (s-AAPF-pNa) in \SI{0.1}{\Molar}
+    Tris-HCl, pH 8.0, \SI{10}{\milli\Molar}{\ce{CaCl2}} with dimethylformamide
+    (DMF), at \SI{37}{\celsius}  \cite{You1996}.} \label{fig:arnold}
+\end{figure}
+% --------------------------
+
+\subsection{Stabilization of Proteins in Solid State}
+
+The stability of enzymes presents challenges in developments. Factors include
+elevated temperatures \cite{Rupley1991} or organic solvents
+\cite{Stepankova2013} may result in protein denaturation or aggregation. While
+many enzymes do not anticipate long-term stability in solution, a solid-state
+strategy, such as freeze-drying (lyophilized) \cite{Carpenter1993} or
+crystallization, has been developed \cite{Taylor2010}. However, solid-sate
+stabilization methods generates different stresses to proteins, which degrades
+proteins during processes \cite{Taylor2010}. For example, Carpenter \latin{et
+al.} have demonstrated that both freeze-drying and freeze-thawing processes
+greatly impacted activity recovery of phosphofructokinase (PFK)
+\cite{Carpenter1993}. Without any additive, PFK recovered less than 10 \% of
+activity \cite{Carpenter1993} (Figure \ref{fig:pfk}).  
+% --------------------------
+\begin{figure}[htbp] \centering \includegraphics[width=0.5\textwidth]{fig3_23}
+    \caption[Effect of polyethylene glycerol on phosphofructokinase stability
+    during freeze-thawing (circle) and freeze-drying (triangle).] {Effect of
+        polyethylene glycerol on phosphofructokinase stability during
+        freeze-thawing (circle) and freeze-drying (triangle)
+        \cite{Carpenter1993}.} 
+    \label{fig:pfk}
+\end{figure}
+% --------------------------
+
+To resolve the stabilization dilemma from solid state, proteins are formulated
+with additives to improve their stability. Figure \ref{fig:pfk} illustrates
+that polyethylene glycerol (PEG) results in significant recovery of activity.
+The concentration of 1\% PEG completely protected the catalytic activity of PFK
+during the freeze-thawing process. Moreover, Carpenter \latin{et al.} have
+demonstrated that the combination of sugar and PEG further improved the
+stability of freeze-drying PFK (Figure \ref{fig:pfk2}). Notably, the activity
+recovery from the freeze-drying process raised to 70 \% via additives of
+\SI{25}{\milli\Molar} glucose and 1\% PEG. 
+% --------------------------
+\begin{figure}[htbp] \centering \includegraphics[width=0.5\textwidth]{fig3_24}
+    \caption[Comparison of influence of glucose alone (circle) and glucose with
+    1\% PEG (square) on stability of freeze-dried PFK.]{Comparison of influence
+        of glucose alone (circle) and glucose with 1\% PEG (square) on
+        stability of freeze-dried PFK \cite{Carpenter1993}.} \label{fig:pfk2}
+    \end{figure}
+% --------------------------
 
 \subsection{PTE and Its Applications}
 
-Phosphotriesterase (PTE) is a dimeric protein that hydrolyzes a wide range of
-organophosphates (OPs). PTE has been demonstrated to neutralize OPs, such
-pesticides and chemical weapons (Section \ref{sec:pte-intro}), and such
-property makes PTE an excellent agent for detoxification. Current treatments
-for OPs rely on compounds that competitively bind to acetylcholine esterase
-(AChE) ,and reactivate AChE after exposure to OPs. Different strategy gives PTE
-great potential to compete with current treatments as PTE directly neutralize
-the toxins. 
+Enzyme-based decontamination would provide a significant logistical reduction
+during the processing (25 to 50 fold) \cite{Defrank}. Phosphotriesterase (PTE)
+is a dimeric protein that hydrolyzes a wide range of organophosphates (OPs).
+PTE has been demonstrated to neutralize OPs, such as pesticides and chemical
+weapons (Section \ref{sec:pte-intro}), rendering PTE an excellent
+agent for detoxification. While PTE can catalyze OPs, it is unstable. Thus,
+approaches to stable PTE for prolonged use outside the biological confines of
+the cell have been developed. 
 
-To extend the application of PTE, immobilization has been developed on trityl
+To stabilize PTE, it has been immobilized on trityl
 agarose resin, allowing decontamination of OPs such as paraoxon, parathion, and
-coumaphos \cite{Caldwell1991}. Caldwell \latin{et al.} chose trityl agarose
+coumaphos \cite{Caldwell1991}. Caldwell \latin{et al.} employs trityl agarose
 because of the high coupling properties and the high retention of activity upon
 the immobilization of enzymes. Figure \ref{fig:pte-app-imm} demonstrates the
 correlation between the flow rate, paraoxon concentration and the percentage of
-hydrolysis. A 50\% hydrolysis of paraoxon was achieved with flow rate of
-\SI{11.5}{\mL\per\hour}. Experiments were also conducted at the 1.0 and 10-unit
+hydrolysis. A 50\% hydrolysis of paraoxon is achieved with flow rate of
+\SI{11.5}{\mL\per\hour}. Experiments has been also conducted at the 1.0 and 10-unit
 reactors. Unfortunately, the organic solvent dissociated the enzyme from the
 reactor.
 % --------------------------pte-app
@@ -233,14 +307,9 @@ unit) (triangle, \SI{0.92}{\milli\Molar}, closed circle,
 \end{figure}
 % --------------------------
 
-The other application was developed for the decontamination of
-organophosphates
-\cite{Cheng1996,LeJeune1997a,Little1989,Chen1998,Gill2000,Havens1993,Masson2009a}.
 NATO project 31 previously conducted research on several methods for PTE
 stabilization \cite{Defrank}, such as foam \cite{LeJeune1997a}, microemulsion
-\cite{Cheng1996}, and polyurethane \cite{Defrank}. One advantage is that this
-enzyme-based decontamination would provide a significant logistical reduction
-during the processing (25 to 50 fold) \cite{Defrank}. One of the examples is
+\cite{Cheng1996}, and polyurethane \cite{Defrank}. One of the examples is
 the foam formulation that was developed by LeJeune \latin{et al.}
 \cite{LeJeune1997a} (Figure \ref{fig:pte-foam}).
 % -------------------------- pte-foam 
@@ -272,9 +341,9 @@ extended the storage to more than 25 days. They further demonstrated that the
 foam also stabilizes PTE at \SI{50}{\celsius} for more than 158 hours in
 comparison with soluble enzyme at \SI{50}{\celsius} for merely 1.5 hours. 
 
-\subsubsection{PTE Heat Inactivation}
+\subsubsection{PTE Heat I/activation}
 
-The heat inactivation affects PTE functionality in solution. The thermostability
+Heat inactivation affected PTE functionality in solution. The thermostability
 studies had been carried out to characterize PTE
 \cite{Rochu2002b,Grimsley1997b}. Rochu \latin{et al.} demonstrated the
 heat-induced unfolding profile of PTE \cite{Rochu2002b} (Figure
@@ -315,12 +384,12 @@ contacting soluble enzyme with different concentrations of dimethyl sulfoxide
 (DMSO) \cite{Lejeune1997a} (Figure \ref{fig:pte-organic-inactive}).
 % --------------------------pte-organic
 \begin{figure}[htbp] \centering \includegraphics[width=0.5\textwidth]{fig3_18}
-    \caption[Dependence of soluble phosphotriesterase activity upon the
+    \caption[Dependence of soluble PTE activity in the
     presence of DMSO during enzyme assay. Assay conditions were
-\SI{0.5}{\milli\Molar} Paraoxon at \SI{25}{\celsius}, enzyme concentration =
-0.9 pM.]{Dependence of soluble phosphotriesterase activity upon the presence of
+\SI{0.5}{\milli\Molar} paraoxon at \SI{25}{\celsius}, enzyme concentration =
+0.9 pM.]{Dependence of soluble PTE activity in the presence of
     DMSO during enzyme assay. Assay conditions were \SI{0.5}{\milli\Molar}
-    Paraoxon at \SI{25}{\celsius}, enzyme concentration = 0.9 pM
+    paraoxon at \SI{25}{\celsius}, enzyme concentration = 0.9 pM
     \cite{Lejeune1997a}.}
     \label{fig:pte-organic-inactive}
 \end{figure}
@@ -429,8 +498,8 @@ r.p.m., the cells were harvested by using 4000 r.p.m centrifugation (Beckman
 Coulter, Jersey City, NJ.  F10 rotor) at \SI{4}{\celsius} for 15 minutes and
 then resuspended with \SI{20}{\milli\Molar} Tris-HCl, \SI{500}{\milli\Molar}
 \ce{NaCl}, \SI{5}{\milli\Molar} imidazole, 10\% glycerol (pH 8.0) and
-\SI{100}{\micro\Molar} \ce{CoCl2}. Cell lysate was immediately sonicated 400 kJ
-for 1.5 minutes at \SI{4}{\celsius} (Qsonica, Newtown, CT) and then a
+\SI{100}{\micro\Molar} \ce{CoCl2}. Cell lysate was immediately sonicated at 400 kJ
+for 1.5 minutes at \SI{4}{\celsius} (Q500 sonicator, Qsonica, Newtown, CT) and then a
 clarification spin was performed (20,000 g, \SI{4}{\celsius}, 30 minutes).
 Clarified supernatants were loaded into a \SI{5}{\mL} His Trap column (G.E
 Healthcare, Piscataway, NJ) using AKTA FPLC purifier (G.E.  Healthcare,
@@ -439,23 +508,24 @@ Piscataway, NJ).  Protein elution was generated using 30\% elution buffer B
 \SI{500}{\milli\Molar} imidazole (pH 8.0)). The purified samples were then
 transferred into 3.5K MWCO dialysis SnakeSkin (Life Technologies, Carlsbad, CA)
 for buffer exchange using \SI{12}{\L} \SI{20}{\milli\Molar} phosphate buffer
-(pH 8.0) at \SI{4}{\celsius} for overnight. The purify of protein was
-determined by sodium dodecyl sulfate polyacrylamide gel electrophoresis
+(pH 8.0) at \SI{4}{\celsius} overnight. The purify of protein was
+determined by sodium dodecyl sulfate polyacrylamide gel electrophoresis analysis
 (SDS-PAGE). The protein concentration was measured by Nano-Drop Thermo
-Scientific (Waltham, MA).  Dialyzed protein was subjected to crystallization
-immediately.
+Scientific (Waltham, MA) by using the extinction coefficient
+\SI{29575}{\per\Molar\per\cm} for PTE \cite{Gasteiger2005, Pace1995}. Dialyzed
+protein was subjected to crystallization immediately.
 
 \subsection{Protein Conjugation}
 
 Fluorescein isothiocyanate (FITC) kit was used for fluorescein conjugation with
 PTE. FITC dissolved in \SI{0.1}{\Molar} sodium carbonate-bicarbonate buffer (pH
-9.0).  (\SI{1}{\mg\per\mL}) was added to the \SI{0.14}{\mg\per\mL} enzyme in
+9.0).  \SI{1}{\mg\per\mL} was added to the \SI{0.14}{\mg\per\mL} enzyme in
 \SI{20}{\milli\Molar} phosphate buffer (pH 8.0, \SI{100}{\micro\Molar}
 \ce{CoCl2}) to a final ratio of 1:5 (PTE:FITC). The reaction mixture was
 incubated for \SI{1.5}{hour} at room temperature in tube rack, then dialyzed
 against \SI{2}{\liter} of phosphate buffer (\SI{20}{\milli\Molar}, pH 8.0,
 \SI{100}{\micro\Molar} \ce{CoCl2}) at \SI{4}{\celsius} overnight.  The sample
-was then transferred to lactose solution for crystallization (see below).
+was then transferred to a lactose solution for crystallization.
 
 \subsection{Lactose and Crystallization}
 
@@ -475,11 +545,11 @@ distilled water and dried under room temperature. PTE.LM crystals were then
 stored in vials at \SI{4}{\celsius} or room temperature for subsequent
 microscope studies or paraoxon hydrolysis experiments.
 
-\subsection{Fluorescence Microscopy}
+\subsection{Fluorescence Phase Contrast Microscopy}
 
-The crystal (F-PTE.LM) was then first observed with Zeiss Axioskop 40
+The crystal (FITC-PTE.LM) was then first observed with Zeiss Axioskop 40
 Fluorescence Microscope (Peabody, MA).  Wavelength \SI{495}{\nm} was used for
-excitation, and \SI{525}{\nm} was used for emission. 4X object lens was used to
+excitation, and \SI{525}{\nm} was used for emission. The 4X object lens was used to
 collect images of F-PTE.LM.
 
 \subsection{Enzyme Kinetics}
@@ -491,7 +561,7 @@ BioTek, Winooski VT) at \SI{405}{\nm} for paraoxon (coefficient =
 \SI{17000}{\per\Molar\per\cm}).  Reactions for paraoxon
 (\SIrange{13}{104}{\micro\Molar}) was done in 0.4\% methanol.
 K\textsubscript{M} and V\textsubscript{max} values were determined by a
-Lineweaver-Burk plot.\cite{Baker2011b} The equation used is shown below
+Lineweaver-Burk plot \cite{Baker2011b}. The equation used is shown below
 (Eq.~\ref{eqn:MM-chap3}): 
 \begin{equation} 
     \frac{1}{v} =
@@ -508,48 +578,48 @@ error represents the standard deviation of those trials.
 
 \subsection{Biosynthesis of PTE And Crystallization of PTE.LM}
 
-Wild-type PTE was synthesized by using pQE30-PTE. After transformation into
-AFIQ \latin{E. coli}, expression was performed in LB media. After three hours
-of induction with \SI{1}{\milli\Molar} IPTG, pure PTE protein was isolated via
-FPLC (Chapter \ref{chap:uaa}), and the purity of protein was analyzed via
-SDS-PAGE. After dialysis in \SI{20}{\milli\Molar} phosphate buffer (pH 8.0,
+Wild-type PTE was biosynthesized from the pQE30-PTE plasmid \cite{Yang2014a}.
+After transformation into AFIQ \latin{E. coli} \cite{Baker2011b}, expression
+was performed in LB media. After three hours of induction with
+\SI{1}{\milli\Molar} IPTG, pure PTE protein was isolated via FPLC (Chapter
+\ref{chap:uaa}), and the purity of protein was analyzed via SDS-PAGE. After
+dialysis in \SI{20}{\milli\Molar} phosphate buffer (pH 8.0,
 \SI{100}{\micro\Molar} \ce{CoCl2}), the protein concentration was determined to
 be \SI{0.139}{\mg\per\mL} by using Nano-Drop.
 
-To prepare the lactose solution of crystallization, we then supersaturated
-solutions of LM, and incubated with PTE protein at \SI{40}{\celsius}. At the
-rate of \SI{0.5}{\celsius\per\minute}, the mixture was then cooled down to room
-temperature. The crystals measuring \SIrange{0.5}{3}{\mm} in length from the
-microscope scale were harvested after roughly 2.5 weeks incubation at
-\SI{4}{\celsius} (Figure \ref{fig:ptelm-bottle}). 
+To prepare the lactose solution for crystallization, supersaturated
+solutions of LM was incubated with PTE protein at \SI{40}{\celsius}. The
+mixture was then cooled down to room temperature at the rate of
+\SI{0.5}{\celsius\per\minute}. The resulting PTE.LM crystals were harvested
+after roughly 2.5 weeks incubation at \SI{4}{\celsius} (Figure
+\ref{fig:ptelm-bottle}). 
 % --------------------------ptelm-bottle
-\begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig3_07}
+\begin{figure}[htbp] \centering \includegraphics[width=0.35\textwidth]{fig3_07}
     \caption[The crystal of PTE.LM. (Left) A bottle contains
         \SI{79}{\mg} of PTE.LM after 2.5 weeks incubation at \SI{4}{\celsius}.
         \SI{0.2}mg PTE were crystallized in \SI{0.28}{\gram\per\mL} lactose
-        solution (\SI{20}{\milli\Molar} PBS buffer, pH 7.4); (Right)
-        Unsuccessful crystallization with aggregated PTE in the solution.]{The
+        solution (\SI{20}{\milli\Molar} PBS buffer, pH 7.4).]{The
             crystal of PTE.LM. (Left) A bottle contains \SI{79}{\mg} of PTE.LM
             after 2.5 weeks incubation at \SI{4}{\celsius}.  \SI{0.2}mg PTE
             were crystallized in \SI{0.28}{\gram\per\mL} lactose solution
-            (\SI{20}{\milli\Molar} PBS buffer, pH 7.4); (Right) Unsuccessful
-        crystallization with aggregated PTE in the solution.}
+            (\SI{20}{\milli\Molar} PBS buffer, pH 7.4).}
         \label{fig:ptelm-bottle} 
 \end{figure}
 % --------------------------*
 
-Using over-saturated lactose solution, purified PTE was successfully deposited
-into the lactose crystal. Using Zeiss microscope as described in the Materials
-and Methods section, the dimension of PTE.LM crystal was calculated at
-\SI{3.0}{\mm} (h) $\times$ \SI{1.0}{\mm} (w) $\times$ \SI{0.5}{\mm} (d) (Figure
-\ref{fig:ptelm-image}). While Kurimoto \latin{et al.} and Wang \latin{et al.}
+Using supersaturated lactose solution, purified PTE was successfully deposited
+onto the lactose crystals yielding PTE.LM crystals measuring
+\SIrange{0.5}{3}{\mm} in length. Using phase contrast microscope, the dimension
+of a PTE.LM crystal was calculated at \SI{3.0}{\mm} (h) $\times$ \SI{1.0}{\mm}
+(w) $\times$ \SI{0.5}{\mm} (d) (Figure \ref{fig:ptelm-image}). While Kurimoto
+\latin{et al.} \cite{Kurimoto1999} and Wang \latin{et al.} \cite{Wang2001a}
 reported the similar sizes of crystal, the shape of PTE.LM crystals did not
-exhibit tomahawk form. Previously, crystals were expected to display a hatchet
-morphology having a broad base (010) further bounded by (100), (110) and (011)
-\cite{Kurimoto1999}.  However, due to the fluctuations from factors of pH and
-drying process, the irregular shape of PTE.LM was expected. While Hourigan
-\latin{et al.} reported the amorphous crystal during the crystallization, the
-pH and drying process of PTE.LM should be adjusted. 
+exhibit tomahawk form. Previously, protein co-crystals were expected to display
+a hatchet morphology having a broad base (010) further bounded by (100), (110)
+and (011) \cite{Kurimoto1999}.  However, due to the fluctuations from factors,
+pH and the drying process, the irregular shape of PTE.LM was expected. Hourigan
+\latin{et al.} reported amorphous crystals during the crystallization, the pH
+and drying process of PTE.LM should be adjusted. 
 % --------------------------
 \begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig3_03} 
     \caption[Microscope image of PTE.LM. The estimated dimension of amorphous
@@ -563,18 +633,19 @@ pH and drying process of PTE.LM should be adjusted.
 
 \subsection{Reconstituted PTE.LM Hydrolysis Reaction}
 
-While PTE hydrolyzed organophosphates substrates \cite{Yang2014a,Baker2011b},
-it exhibited short half live, losing activity within one week (Chapter
-\ref{chap:uaa}, Figure \ref{fig:kinetics-fig}). Further evidences demonstrated
-that PTE required stabilization through embodiments, such as immobilization,
+While wild-type PTE in solution hydrolyzed OP substrates \cite{Yang2014a,Baker2011b},
+it exhibited short half life, losing activity within one week (Chapter
+\ref{chap:uaa}, Figure \ref{fig:kinetics-fig}). Further evidence demonstrated
+that PTE required stabilization through embodiments, such as immobilization and
 formulation discussed in introduction
-\cite{Chen1998,Gill2000,Havens1993,Masson2009a}. To further stabilize PTE, we
-crystallized the enzyme in the presence of LM and assessed its ability to
-hydrolyze paraoxon after storage. After the crystallization, PTE.LM was stored
-at room temperature or \SI{4}{\celsius}. One month old PTE.LM stored at
+\cite{Chen1998,Gill2000,Havens1993,Masson2009a}. To further stabilize PTE, it
+was further crystallized in the presence of LM, and its ability to hydrolyze
+paraoxon after storage was assessed. After the crystallization, PTE.LM was
+stored at room temperature or \SI{4}{\celsius}. One month old PTE.LM stored at
 \SI{4}{\celsius} revealed activity for paraoxon hydrolysis after reconstituted
-in \SI{20}{\milli\Molar} (pH 8, \SI{100}{\micro\Molar} \ce{CoCl2}) phosphate
-buffer (Figure \ref{fig:ptelm-one-month}). 
+in \SI{200}{\micro\liter} \SI{20}{\milli\Molar} (pH 8, \SI{100}{\micro\Molar}
+\ce{CoCl2}) phosphate buffer (Figure \ref{fig:ptelm-one-month}) at room
+temperature. 
 % --------------------------
 \begin{figure}[htbp] \centering \includegraphics[width=0.7\textwidth]{fig3_08}
     \caption[Reconstituted one month old PTE.LM hydrolysis of paraoxon.
@@ -593,7 +664,7 @@ buffer (Figure \ref{fig:ptelm-one-month}).
 
 The absorbance at \SI{405}{\nm} clearly demonstrated the
 increased hydrolysis of \emph{p}-nitrophenol by the one-month old PTE.LM
-(Figure \ref{fig:ptelm-one-month}). The data from crystals after 2 months
+(Figure \ref{fig:ptelm-one-month}). PTE.LM crystals after 2 months
 storage at \SI{4}{\celsius} also demonstrated hydrolysis of paraoxon when the
 protein stored in buffer is inactive (Figure \ref{fig:ptelm-two-month}). By
 contrast, paraoxon saturated in the absence of PTE revealed no hydrolysis,
@@ -625,26 +696,26 @@ LM provided stability.
 \end{figure}
 % --------------------------
 
-The crystallization process was scaled up to 10-fold. In the meanwhile, PTE.LM
-was stored at room temperature to investigate half life and stability of
-PTE.LM.  After storing at room temperature for ~3.5 months,
-\SI{0.08}{\gram\per\mL} PTE.LM crystals was then reconstituted in
+In the meanwhile, PTE.LM was stored at room temperature to investigate
+half-life and stability of PTE.LM.  After storing at room temperature for ~3.5
+months, \SI{0.08}{\gram\per\mL} PTE.LM crystals was then reconstituted in
 \SI{20}{\milli\Molar} phosphate buffer (pH 8, \SI{100}{\micro\Molar}
 \ce{CoCl2}). \SIrange{13}{104}{\micro\Molar} paraoxon was then used for assays.
 Within three minutes, reactions reached the maximum absorbance at
-\SI{405}{\nm}. (Figure \ref{fig:ptelm-hydrolysis}) Within the linear range
+\SI{405}{\nm} (Figure \ref{fig:ptelm-hydrolysis}). Within the linear range
 of the reaction, enzyme kinetics was calculated with V\textsubscript{max} and
-K\textsubscript{M}as 0.0043 $\pm$ \SI{0.0012}{\micro\Molar\per\second} and 1186
-$\pm$ \SI{336}{\micro\Molar}, respectively. (Table \ref{tab:ptelm-table})
-Compared to the soluble PTE, reconstituted PTE.LM demonstrated decreased
-activity on both K\textsubscript{M} and Vmax values. Due to the elevated
-temperature at \SI{40}{\celsius} during the crystallization process, the PTE
-activity may be partially impaired from heat inactivation as observed from
-Masson and Tawfik group \cite{Rochu2002b,Roodveldt2005}. However, this subtle
-changes in temperature was not the only factor. The dilution of \ce{Co^{2+}} in
-the active site also impacted the PTE catalytic efficiency. Raushel group
-demonstrated that the metal ions deprivation in the active site led to the loss
-of activity \cite{Benning1995,Samples2005}. 
+K\textsubscript{M} of 0.0043 $\pm$ \SI{0.0012}{\micro\Molar\per\second} and 1186
+$\pm$ \SI{336}{\micro\Molar}, respectively (Table \ref{tab:ptelm-table}).
+Compared to the frsshly prepared wild-type PTE in solution, reconstituted
+PTE.LM demonstrated decreased activity on both K\textsubscript{M} and Vmax
+values. Due to the elevated temperature at \SI{40}{\celsius} during the
+crystallization process, the PTE activity may be partially impaired from heat
+inactivation as observed from Masson and Tawfik group
+\cite{Rochu2002b,Roodveldt2005}. However, this subtle changes in temperature
+was not the only factor. The dilution of \ce{Co^{2+}} in the active site also
+impacted the PTE catalytic efficiency. Raushel group demonstrated that the
+metal ions deprivation in the active site led to the loss of activity
+\cite{Benning1995,Samples2005}. 
 % --------------------------
 \begin{figure}[htbp] \centering \includegraphics[width=0.8\textwidth]{fig3_05} 
     \caption[The hydrolysis of reconstituted PTE.LM after stored at room
@@ -713,6 +784,37 @@ is required in this study.
 Due to the limitation of detection methods that we previously used, we were not
 able to determine protein concentration via spectrophotometer or BCA. Further
 quantification is needed for k\textsubscript{cat}/K\textsubscript{M}.
+
+% removed content
+%\subsubsection{Other Methods}
+%
+%While there are limitations of uses of enzymes, other methodologies are
+%developed to stabilize enzymes, such as entrapment
+%\cite{Trelles2013,Bhosale1996,Etzel1996}. Entrapment is used in industrial
+%scale enzyme operations. As enzymes of interest are intracellular, it is easier
+%to use whole-cell entrapment where the enzyme is synthesized in bacteria.
+%\cite{Trelles2013} (Figure \ref{fig:enzyme-entrapment})
+%% --------------------------
+%\begin{figure}[h!] \centering \includegraphics[width=0.7\textwidth]{fig3_04}
+%    \caption[Schematic drawing of the agar or agarose entrapment
+%    procedure]{Schematic drawing of the agar or agarose entrapment
+%        procedure.\cite{Trelles2013}}
+%    \label{fig:enzyme-entrapment} 
+%\end{figure}
+%% --------------------------
+%
+%One of examples of this is glucose isomerase (GI), which has been used in the
+%commercial production of high fructose corn syrup (HFCS) \cite{Bhosale1996}.
+%There are reported more than 6 millions tons of HFCS per year produced by GI.
+%Compared with chemical isomerization, using enzyme not only increased the
+%purify of the product fructose \cite{Barker1975}, but also enhanced sweetness
+%\cite{Bhosale1996}. To save the cost of isolating GI, the whole-cell
+%entrapment was developed to adapt the increased demand of such enzyme
+%\cite{Trelles2013}. 
+%
+%The other application was developed for the decontamination of
+%organophosphates
+%\cite{Cheng1996,LeJeune1997a,Little1989,Chen1998,Gill2000,Havens1993,Masson2009a}.
 
 \printbibliography[heading=subbibliography]
 
