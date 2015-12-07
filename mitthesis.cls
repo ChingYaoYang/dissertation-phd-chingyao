@@ -485,7 +485,7 @@ reserved.\par\permission}}
 {\bf\uppercase\expandafter{\@degree} \choosecase{(\@degreetitle)}}
 \par
 at the
-{\Large\bf\par\NYU\\\POLY\par}
+{\Large\bf\par\NYU\\\TANDON\par}
 by\par
 {\bf\large\choosecase{\@author}}
 \par
@@ -546,9 +546,9 @@ the Degree of \@degree (\@degreetitle) \par
 \def\endtitlepage{\par\kern 0pt\egroup\vss\egroup\newpage}
 
 \def\NYU{NEW YORK UNIVERSITY}
-\def\POLY{POLYTECHNIC SCHOOL OF ENGINEERING}
+\def\TANDON{TANDON SCHOOL OF ENGINEERING}
 \def\Nyu{New York University}
-\def\Poly{Polytechnic School of Engineering}
+\def\Tandon{Tandon School of Engineering}
 
 \def\permission{\par\noindent{\centering
    The author hereby grants to MIT permission to reproduce and to
