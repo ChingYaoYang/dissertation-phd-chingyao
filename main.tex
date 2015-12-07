@@ -115,6 +115,9 @@
 \usepackage{multirow}
 % using multiple rows 
 
+\usepackage{seqsplit}
+% for DNA sequence
+
 \titleformat{\section}[block]
 {\LARGE\bfseries\raggedright}{\thesection}{1em}{}
 
@@ -133,6 +136,7 @@
 \fancyhead[R]{\thepage}
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\thetable}{\thechapter-\arabic{table}}
 \pagestyle{fancy}
 \doublespacing
 
@@ -146,9 +150,9 @@
 \include{chap1}
 \include{chap2}
 \include{chap3}
-%\appendix
+\appendix
 %\include{appc}
 %\singlespacing
-%\include{appa}
-%\include{appb}
+\include{appa}
+\include{appb}
 \end{document}
